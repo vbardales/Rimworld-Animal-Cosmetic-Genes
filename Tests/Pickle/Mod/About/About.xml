@@ -9,12 +9,17 @@
   <description>In-game captures for Animal Cosmetic Genes, run by Pickle. Holds the throwaway spike hediffs. Development only: never published.</description>
   <modDependencies>
     <li>
+      <packageId>nelim.animalcosmeticgenes</packageId>
+      <displayName>Animal Cosmetic Genes</displayName>
+    </li>
+    <li>
       <packageId>rimworks.pickle</packageId>
       <displayName>Pickle</displayName>
       <steamWorkshopUrl>steam://url/CommunityFilePage/3791648678</steamWorkshopUrl>
     </li>
   </modDependencies>
   <loadAfter>
+    <li>nelim.animalcosmeticgenes</li>
     <li>rimworks.pickle</li>
   </loadAfter>
 </ModMetaData>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Coat tints: Animal Traits System traits (HediffDef with AnimalTraitExtension). Cosmetic only.
+       The defName MUST start with "AnimalTrait_": the framework finds, counts and inherits traits by that prefix.
+       No stage, so Hediff.Visible stays true and the tint is drawn (a stage with becomeVisible false would hide it).
+       One tint per animal: each trait lists the others in exclusiveWithAnimalTrait (the first skinColorTint override wins otherwise). -->
+
+  <HediffDef Name="ACG_CoatTintBase" Abstract="True">
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>false</isBad>
+    <makesAlert>false</makesAlert>
+    <forceRenderTreeRecache>true</forceRenderTreeRecache>
+  </HediffDef>
+
+  <HediffDef ParentName="ACG_CoatTintBase">
+    <defName>AnimalTrait_CoatEmber</defName>
+    <label>ember coat</label>
+    <description>A warm, reddish tint runs through this animal's coat.</description>
+    <skinColorTint>(0.90, 0.45, 0.25, 1)</skinColorTint>
+    <skinColorTintStrength>0.35</skinColorTintStrength>
+    <modExtensions>
+      <li Class="AnimalTraitExtension.AnimalTraitExtension">
+        <isAnimalTrait>true</isAnimalTrait>
+        <traitName>CoatEmber</traitName>
+        <defaultWeight>3</defaultWeight>
+        <inheritChance>40</inheritChance>
+        <exclusiveWithAnimalTrait>
+          <li>AnimalTrait_CoatFrost</li>
+          <li>AnimalTrait_CoatAsh</li>
+        </exclusiveWithAnimalTrait>
+      </li>
+    </modExtensions>
+  </HediffDef>
+
+  <HediffDef ParentName="ACG_CoatTintBase">
+    <defName>AnimalTrait_CoatFrost</defName>
+    <label>frost coat</label>
+    <description>A cool, bluish tint runs through this animal's coat.</description>
+    <skinColorTint>(0.55, 0.75, 1.00, 1)</skinColorTint>
+    <skinColorTintStrength>0.35</skinColorTintStrength>
+    <modExtensions>
+      <li Class="AnimalTraitExtension.AnimalTraitExtension">
+        <isAnimalTrait>true</isAnimalTrait>
+        <traitName>CoatFrost</traitName>
+        <defaultWeight>3</defaultWeight>
+        <inheritChance>40</inheritChance>
+        <exclusiveWithAnimalTrait>
+          <li>AnimalTrait_CoatEmber</li>
+          <li>AnimalTrait_CoatAsh</li>
+        </exclusiveWithAnimalTrait>
+      </li>
+    </modExtensions>
+  </HediffDef>
+
+  <HediffDef ParentName="ACG_CoatTintBase">
+    <defName>AnimalTrait_CoatAsh</defName>
+    <label>ash coat</label>
+    <description>A grey, ashen tint runs through this animal's coat.</description>
+    <skinColorTint>(0.45, 0.45, 0.50, 1)</skinColorTint>
+    <skinColorTintStrength>0.40</skinColorTintStrength>
+    <modExtensions>
+      <li Class="AnimalTraitExtension.AnimalTraitExtension">
+        <isAnimalTrait>true</isAnimalTrait>
+        <traitName>CoatAsh</traitName>
+        <defaultWeight>3</defaultWeight>
+        <inheritChance>40</inheritChance>
+        <exclusiveWithAnimalTrait>
+          <li>AnimalTrait_CoatEmber</li>
+          <li>AnimalTrait_CoatFrost</li>
+        </exclusiveWithAnimalTrait>
+      </li>
+    </modExtensions>
+  </HediffDef>
+
+</Defs>
+
