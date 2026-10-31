@@ -1,0 +1,10 @@
+# ACG spike (2026-10-31): the Pickle tools, Animal Traits System (ACG's own dependency, staged with Mod/) and Harmony.
+#
+#   Submit-PickleRun.ps1 -Mod AnimalCosmeticGenes -DepMap wsl-deps.acg-spike.map -Filter "acg-spike" -EvidenceDir Tests/Pickle/Inbox/acg-spike
+nelim.pickletools.screenshotstudio path:PickleTools/ScreenshotStudio/Mod
+nelim.pickletools.camerazoom path:PickleTools/CameraZoom/Mod
+nelim.pickletools.clearscreen path:PickleTools/ClearScreen/Mod
+nelim.pickletools.colonistrace path:PickleTools/ColonistRace/Mod
+nelim.pickletools   path:PickleTools/Tests/Pickle/StandaloneBase/Mod
+brrainz.harmony 2009463077
+luved.animaltraits 3652630316

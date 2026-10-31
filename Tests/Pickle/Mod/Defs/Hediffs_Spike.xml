@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Spike (2026-10-31): does HediffDef.skinColorTint / skinColorOverride recolour an animal body in game?
+       Throwaway test defs, never shipped (Tests/ is not published). forceRenderTreeRecache so that the
+       hediff, added after the tree was built, is drawn at once. -->
+
+  <HediffDef>
+    <defName>ACGSpike_RedTint</defName>
+    <label>ACG spike red tint</label>
+    <description>Spike: tints the body red (strength 0.6).</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>false</isBad>
+    <makesAlert>false</makesAlert>
+    <skinColorTint>(1, 0, 0, 1)</skinColorTint>
+    <skinColorTintStrength>0.6</skinColorTintStrength>
+    <forceRenderTreeRecache>true</forceRenderTreeRecache>
+  </HediffDef>
+
+  <HediffDef>
+    <defName>ACGSpike_RedOverride</defName>
+    <label>ACG spike red override</label>
+    <description>Spike: replaces the body colour by red.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>false</isBad>
+    <makesAlert>false</makesAlert>
+    <skinColorOverride>(0.85, 0.1, 0.1, 1)</skinColorOverride>
+    <forceRenderTreeRecache>true</forceRenderTreeRecache>
+  </HediffDef>
+
+</Defs>
