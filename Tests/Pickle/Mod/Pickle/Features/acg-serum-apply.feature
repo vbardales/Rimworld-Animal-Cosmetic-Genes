@@ -12,6 +12,7 @@ Feature: ACG serum chain
 
   Scenario: acg-serum-apply
     Given the save "Nelims-tribe" is loaded
+    And Nelim's Pickle Tools: no error was logged while the game loaded
     And Nelim's Pickle Tools: the error log is marked
     And game speed is normal
     And Nelim's Pickle Tools: all humans but "Nelim" are removed
