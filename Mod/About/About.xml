@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Animal Cosmetic Genes</name>
+  <author>Nelim</author>
+  <packageId>nelim.animalcosmeticgenes</packageId>
+  <url>https://github.com/vbardales/Rimworld-Animal-Cosmetic-Genes</url>
+  <modVersion>0.0.1</modVersion>
+  <supportedVersions>
+    <li>1.6</li>
+  </supportedVersions>
+  <description>Ordinary animals, not only sapient ones, can look different from one another: eye colour, coat tint, markings. Work in progress: nothing is playable yet.
+
+Each look is an Animal Traits System trait, so the animals are drawn, weighted, restricted by species and inherited by the framework. A gene can give an animal one of these traits.
+
+Interface in English.
+
+Source code and issue tracker:
+https://github.com/vbardales/Rimworld-Animal-Cosmetic-Genes
+
+If I go quiet
+
+If I do not answer within a reasonable time after being contacted, anyone may freely update this or any other of my mods, including publishing a continuation of it. All credit must be preserved.
+
+AI-generated
+
+This mod's code was written with Claude Code (Anthropic) under human direction, review and testing. Stated openly: designing with these tools is my job.
+
+Thanks
+
+Luved for Animal Traits System (https://steamcommunity.com/sharedfiles/filedetails/?id=3652630316), which carries the traits. None of its code is used here.
+
+This mod is MIT licensed. Credits and licence details: ATTRIBUTION.md (https://github.com/vbardales/Rimworld-Animal-Cosmetic-Genes/blob/main/ATTRIBUTION.md).
+
+Source code on GitHub (https://github.com/vbardales/Rimworld-Animal-Cosmetic-Genes)</description>
+  <modDependencies>
+    <li>
+      <packageId>luved.animaltraits</packageId>
+      <displayName>Animal Traits System</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/3652630316</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>luved.animaltraits</li>
+    <li>Ludeon.RimWorld</li>
+    <li>Ludeon.RimWorld.Biotech</li>
+  </loadAfter>
+</ModMetaData>
