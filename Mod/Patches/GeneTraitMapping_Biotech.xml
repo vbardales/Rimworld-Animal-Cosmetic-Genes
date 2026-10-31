@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  <!-- Gene to trait table: the Biotech skin colour genes that read as a coat tint name the matching trait (GeneAnimalTraitExtension).
+       The genes are not redefined, only extended. Warm genes give ember, white and blue give frost, greys and black give ash.
+       Left out on purpose: yellow, green and purple skin (no trait of that hue yet); a genepack made only of those is refused by the serum recipe.
+       Genes of other mods go in their own patch file, guarded by PatchOperationFindMod. -->
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/GeneDef[defName="Skin_Orange"]</xpath>
+    <value>
+      <li Class="AnimalCosmeticGenes.GeneAnimalTraitExtension">
+        <trait>AnimalTrait_CoatEmber</trait>
+      </li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/GeneDef[defName="Skin_PaleRed"]</xpath>
+    <value>
+      <li Class="AnimalCosmeticGenes.GeneAnimalTraitExtension">
+        <trait>AnimalTrait_CoatEmber</trait>
+      </li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/GeneDef[defName="Skin_DeepRed"]</xpath>
+    <value>
+      <li Class="AnimalCosmeticGenes.GeneAnimalTraitExtension">
+        <trait>AnimalTrait_CoatEmber</trait>
+      </li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/GeneDef[defName="Skin_SheerWhite"]</xpath>
+    <value>
+      <li Class="AnimalCosmeticGenes.GeneAnimalTraitExtension">
+        <trait>AnimalTrait_CoatFrost</trait>
+      </li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/GeneDef[defName="Skin_Blue"]</xpath>
+    <value>
+      <li Class="AnimalCosmeticGenes.GeneAnimalTraitExtension">
+        <trait>AnimalTrait_CoatFrost</trait>
+      </li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/GeneDef[defName="Skin_LightGray"]</xpath>
+    <value>
+      <li Class="AnimalCosmeticGenes.GeneAnimalTraitExtension">
+        <trait>AnimalTrait_CoatAsh</trait>
+      </li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/GeneDef[defName="Skin_SlateGray"]</xpath>
+    <value>
+      <li Class="AnimalCosmeticGenes.GeneAnimalTraitExtension">
+        <trait>AnimalTrait_CoatAsh</trait>
+      </li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/GeneDef[defName="Skin_InkBlack"]</xpath>
+    <value>
+      <li Class="AnimalCosmeticGenes.GeneAnimalTraitExtension">
+        <trait>AnimalTrait_CoatAsh</trait>
+      </li>
+    </value>
+  </Operation>
+
+</Patch>
