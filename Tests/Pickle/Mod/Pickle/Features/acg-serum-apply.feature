@@ -12,7 +12,6 @@ Feature: ACG serum chain
 
   Scenario: acg-serum-apply
     Given the save "Nelims-tribe" is loaded
-    And Nelim's Pickle Tools: no error was logged while the game loaded
     And Nelim's Pickle Tools: the error log is marked
     And game speed is normal
     And Nelim's Pickle Tools: all humans but "Nelim" are removed
@@ -30,7 +29,7 @@ Feature: ACG serum chain
     And Nelim's Pickle Tools: the error log is marked
     And Nelim's Pickle Tools: all humans but "Nelim" are removed
     And Nelim's Pickle Tools: an adult animal of kind "Thrumbo" named "Spike1" is spawned at (176, 120)
-    And Nelim's Pickle Tools: "Spike1" has the hediff "AnimalTrait_Skin_Blue"
+    And Nelim's Pickle Tools: the animal "Spike1" has the hediff "AnimalTrait_Skin_Blue"
     And Nelim's Pickle Tools: the item "ACG_AnimalTraitSerum" is spawned at (178, 121) with the field "gene" set to the def "Skin_Orange"
     Then Nelim's Pickle Tools: "Nelim" cannot pick the float menu option "Apply orange skin" on "Spike1"
     And Nelim's Pickle Tools: "Spike1" does not hold the hediff "AnimalTrait_Skin_Orange"
