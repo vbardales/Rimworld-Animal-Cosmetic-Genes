@@ -16,7 +16,35 @@ namespace AnimalCosmeticGenes
     {
         private const string AtsExtensionTypeName = "AnimalTraitExtension.AnimalTraitExtension";
 
-        public static HediffDef TraitFor(GeneDef gene) => gene?.GetModExtension<GeneAnimalTraitExtension>()?.trait;
+        private static Dictionary<string, HediffDef> traitByGene;
+
+        public static HediffDef TraitFor(GeneDef gene)
+        {
+            if (gene == null)
+            {
+                return null;
+            }
+            if (traitByGene == null)
+            {
+                traitByGene = new Dictionary<string, HediffDef>();
+                foreach (GeneTraitMapDef map in DefDatabase<GeneTraitMapDef>.AllDefsListForReading)
+                {
+                    foreach (GeneTraitMapping mapping in map.mappings)
+                    {
+                        if (traitByGene.ContainsKey(mapping.gene))
+                        {
+                            Log.Warning("Animal Cosmetic Genes: gene " + mapping.gene + " is mapped twice, the first mapping is kept (" + map.defName + ")");
+                            continue;
+                        }
+                        traitByGene.Add(mapping.gene, mapping.trait);
+                    }
+                }
+            }
+            return traitByGene.TryGetValue(gene.defName, out HediffDef trait) ? trait : null;
+        }
+
+        // A coat tint is drawn through skinColorTint or skinColorOverride; the first one on the list wins, so an animal gets one.
+        private static bool IsCoatTint(HediffDef def) => def.skinColorTint.HasValue || def.skinColorOverride.HasValue;
 
         /// <summary>The genes of a gene set that name a trait, in the set's order.</summary>
         public static IEnumerable<GeneDef> MappedGenes(GeneSet geneSet) =>
@@ -39,6 +67,11 @@ namespace AnimalCosmeticGenes
             if (animal.health.hediffSet.HasHediff(trait))
             {
                 reason = "the animal already has this trait";
+                return false;
+            }
+            if (IsCoatTint(trait) && animal.health.hediffSet.hediffs.Any(h => IsCoatTint(h.def)))
+            {
+                reason = "the animal already has a coat tint";
                 return false;
             }
             ReadAtsLists(trait, out List<string> occurOnly, out List<string> exclusive);
