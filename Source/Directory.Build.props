@@ -1,0 +1,14 @@
+<Project>
+
+  <PropertyGroup>
+    <!--
+      Build intermediates are sent outside the published folder: the Workshop uploader sends Mod/ as it
+      stands (SteamUGC.SetItemContent, no exclusion possible), so an obj/ sitting there would ship the game's
+      reference assemblies to every subscriber. This must stay in a Directory.Build.props: NuGet restore
+      reads the property before the csproj.
+    -->
+    <BaseIntermediateOutputPath>$(MSBuildThisFileDirectory)..\Build\obj\</BaseIntermediateOutputPath>
+    <BaseOutputPath>$(MSBuildThisFileDirectory)..\Build\bin\</BaseOutputPath>
+  </PropertyGroup>
+
+</Project>
