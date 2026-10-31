@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net48</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <AssemblyName>AnimalCosmeticGenes.Tests</AssemblyName>
+    <!-- Read by scripts/Run-UnitTests.ps1, which always hands the game's Managed folder over. AtsRules is pure,
+         so nothing here references the game: the rule file is compiled in as it stands in Source/. -->
+    <RimWorldManaged Condition="'$(RimWorldManaged)' == ''">C:\Program Files (x86)\Steam\steamapps\common\RimWorld\RimWorldWin64_Data\Managed</RimWorldManaged>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="..\Source\AtsRules.cs" Link="AtsRules.cs" />
+    <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.3" PrivateAssets="all" />
+  </ItemGroup>
+</Project>

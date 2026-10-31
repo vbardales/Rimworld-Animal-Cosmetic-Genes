@@ -1,0 +1,9 @@
+<Project>
+
+  <PropertyGroup>
+    <!-- Same reason as Source/Directory.Build.props: intermediates stay under the ignored Build/ folder. -->
+    <BaseIntermediateOutputPath>$(MSBuildThisFileDirectory)..\Build\tests\obj\</BaseIntermediateOutputPath>
+    <BaseOutputPath>$(MSBuildThisFileDirectory)..\Build\tests\bin\</BaseOutputPath>
+  </PropertyGroup>
+
+</Project>
