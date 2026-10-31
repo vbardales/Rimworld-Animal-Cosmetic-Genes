@@ -4,6 +4,8 @@
   <!-- Coat tints: Animal Traits System traits (HediffDef with AnimalTraitExtension). Cosmetic only.
        The defName MUST start with "AnimalTrait_": the framework finds, counts and inherits traits by that prefix.
        No stage, so Hediff.Visible stays true and the tint is drawn (a stage with becomeVisible false would hide it).
+       defaultWeight 0: never drawn at random (a zero weight is never picked by the framework's weighted draw);
+       the trait reaches an animal by inheritance (inheritChance) or by the gene bridge only.
        One tint per animal: each trait lists the others in exclusiveWithAnimalTrait (the first skinColorTint override wins otherwise). -->
 
   <HediffDef Name="ACG_CoatTintBase" Abstract="True">
@@ -23,7 +25,7 @@
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
         <isAnimalTrait>true</isAnimalTrait>
         <traitName>CoatEmber</traitName>
-        <defaultWeight>3</defaultWeight>
+        <defaultWeight>0</defaultWeight>
         <inheritChance>40</inheritChance>
         <exclusiveWithAnimalTrait>
           <li>AnimalTrait_CoatFrost</li>
@@ -43,7 +45,7 @@
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
         <isAnimalTrait>true</isAnimalTrait>
         <traitName>CoatFrost</traitName>
-        <defaultWeight>3</defaultWeight>
+        <defaultWeight>0</defaultWeight>
         <inheritChance>40</inheritChance>
         <exclusiveWithAnimalTrait>
           <li>AnimalTrait_CoatEmber</li>
@@ -63,7 +65,7 @@
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
         <isAnimalTrait>true</isAnimalTrait>
         <traitName>CoatAsh</traitName>
-        <defaultWeight>3</defaultWeight>
+        <defaultWeight>0</defaultWeight>
         <inheritChance>40</inheritChance>
         <exclusiveWithAnimalTrait>
           <li>AnimalTrait_CoatEmber</li>
