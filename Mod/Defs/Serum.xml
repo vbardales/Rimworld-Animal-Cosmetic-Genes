@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Serum: carries one gene (AnimalTraitSerum stores it), named after the gene label like the genepack it came from.
+       Made at a workbench from a genepack by RecipeWorker_MakeAnimalTraitSerum, applied to an animal by a colonist.
+       The graphic is the game's xenogerm, a placeholder until the serum art exists.
+       No stack: two serums of different genes must not merge. -->
+
+  <ThingDef ParentName="GeneSetHolderBase">
+    <defName>ACG_AnimalTraitSerum</defName>
+    <label>animal trait serum</label>
+    <description>A serum prepared from a genepack. Applied to an animal, it gives the animal the cosmetic trait that the gene names.</description>
+    <thingClass>AnimalCosmeticGenes.AnimalTraitSerum</thingClass>
+    <tradeability>None</tradeability>
+    <graphicData>
+      <texPath>Things/Item/Special/Xenogerm</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(0.85, 0.85)</drawSize>
+    </graphicData>
+    <statBases>
+      <MarketValue>30</MarketValue>
+    </statBases>
+  </ThingDef>
+
+  <!-- A genepack with no gene that names a trait: kept out of the serum recipe so it is not destroyed for nothing.
+       Not configurable: it exists only for the recipe's specialFiltersToDisallow, no storage filter lists it. -->
+  <SpecialThingFilterDef>
+    <defName>ACG_UnmappedGenepack</defName>
+    <label>genepack without animal trait</label>
+    <parentCategory>ItemsMisc</parentCategory>
+    <saveKey>acgUnmappedGenepack</saveKey>
+    <allowedByDefault>true</allowedByDefault>
+    <configurable>false</configurable>
+    <workerClass>AnimalCosmeticGenes.UnmappedGenepackFilterWorker</workerClass>
+  </SpecialThingFilterDef>
+
+  <!-- No recipeUsers yet: the workbench does not exist (texture is the owner's art). Its ThingDef will list this recipe.
+       No product in XML: the worker makes the serums, their gene is only known from the genepack. -->
+  <RecipeDef>
+    <defName>ACG_MakeAnimalTraitSerum</defName>
+    <label>make animal trait serum</label>
+    <description>Break a genepack down into serums, one for each of its genes that gives an animal a cosmetic trait.</description>
+    <jobString>Making animal trait serum.</jobString>
+    <workerClass>AnimalCosmeticGenes.RecipeWorker_MakeAnimalTraitSerum</workerClass>
+    <workAmount>800</workAmount>
+    <workSkill>Intellectual</workSkill>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Genepack</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Genepack</li>
+      </thingDefs>
+      <specialFiltersToDisallow>
+        <li>ACG_UnmappedGenepack</li>
+      </specialFiltersToDisallow>
+    </fixedIngredientFilter>
+  </RecipeDef>
+
+</Defs>

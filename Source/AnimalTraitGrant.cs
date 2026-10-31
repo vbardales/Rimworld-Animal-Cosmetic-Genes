@@ -18,6 +18,10 @@ namespace AnimalCosmeticGenes
 
         public static HediffDef TraitFor(GeneDef gene) => gene?.GetModExtension<GeneAnimalTraitExtension>()?.trait;
 
+        /// <summary>The genes of a gene set that name a trait, in the set's order.</summary>
+        public static IEnumerable<GeneDef> MappedGenes(GeneSet geneSet) =>
+            geneSet == null ? Enumerable.Empty<GeneDef>() : geneSet.GenesListForReading.Where(g => TraitFor(g) != null);
+
         public static bool CanGrant(Pawn animal, GeneDef gene, out string reason)
         {
             reason = null;
