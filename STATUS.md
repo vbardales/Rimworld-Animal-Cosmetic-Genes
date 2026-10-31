@@ -32,7 +32,7 @@ remaining:
   - "2026-10-31: feature (owner, taken from the Sanctuary Backlot backlog line \"Masques de pelage animaux\", 2026-10-30): coat markings as masks, a reusable system for cats and furred or spotted animals. First need: Kuru, kind akaNEKO_kuroneko, black with a white tuxedo bib and yellow eyes. The installed mods give no such mask; no fake tuxedo species (tortie is a distinct species, not retained for Kuru). Plan, not tested: a marking trait = an ATS trait hediff with renderNodeProperties, a node under the Body tag drawing a per-breed, per-facing texture (white bib shaped on the breed's own sprite), restricted by occurOnlyInAnimals to the kind. Open: the node must match the body sprite's size and draw offset (PawnRenderNodeWorker_AnimalBody adds the graphic's DrawOffset; a plain node may not), possibly a small C# worker; which mod provides akaNEKO_kuroneko and its sprite (not read); the mask art per breed (owner's art)."
   - "2026-10-31: unverified a hediff render node on a Thrumbo in game; owner picks the first species to cover."
 updated: 2026-10-31
-protocols_read_sha: b43e1437744531612497ab0efe0a6fa0e2e127c7
+protocols_read_sha: 7fb78fd9e3344d46a904df6458038a34c7f8ff3d
 ---
 
 # Animal Cosmetic Genes: status
