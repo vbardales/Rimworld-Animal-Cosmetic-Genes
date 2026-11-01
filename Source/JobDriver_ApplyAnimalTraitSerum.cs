@@ -27,7 +27,8 @@ namespace AnimalCosmeticGenes
             this.FailOnDespawnedOrNull(TargetIndex.A);
             this.FailOnDestroyedOrNull(TargetIndex.B);
             // DIAGNOSTIC (2026-11-01, tickets 236d and 2b51 ended with no trait and no log): trace each step, remove once the chain is green.
-            yield return Toils_General.Do(() => Log.Message("[ACG] apply job started: " + pawn.LabelShort + " -> " + Animal.LabelShort));
+            AddFinishAction(delegate { Log.Message("[ACG] job finished at " + pawn.Position + ", serum " + job.GetTarget(TargetIndex.B).Thing + " at " + job.GetTarget(TargetIndex.B).Thing?.Position + ", animal at " + Animal?.Position); });
+            yield return Toils_General.Do(() => Log.Message("[ACG] apply job started: " + pawn.LabelShort + " at " + pawn.Position + " -> " + Animal.LabelShort + " at " + Animal.Position + ", serum " + job.GetTarget(TargetIndex.B).Thing + " at " + job.GetTarget(TargetIndex.B).Thing.Position));
             yield return Toils_Goto.GotoThing(TargetIndex.B, PathEndMode.ClosestTouch).FailOnDespawnedNullOrForbidden(TargetIndex.B);
             yield return Toils_Haul.StartCarryThing(TargetIndex.B);
             yield return Toils_General.Do(() => Log.Message("[ACG] serum carried: " + pawn.carryTracker.CarriedThing));
