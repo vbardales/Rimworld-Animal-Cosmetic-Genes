@@ -47,8 +47,7 @@ namespace AnimalCosmeticGenes
                 {
                     Job job = JobMaker.MakeJob(AcgJobDefOf.ACG_ApplyAnimalTraitSerum, clickedPawn, serum);
                     job.count = 1;
-                    bool taken = colonist.jobs.TryTakeOrderedJob(job, JobTag.Misc);
-                    Log.Message("[ACG] ordered job taken: " + taken + " by " + colonist.LabelShort); // DIAGNOSTIC, see JobDriver_ApplyAnimalTraitSerum
+                    colonist.jobs.TryTakeOrderedJob(job, JobTag.Misc);
                 }), colonist, clickedPawn);
             }
         }

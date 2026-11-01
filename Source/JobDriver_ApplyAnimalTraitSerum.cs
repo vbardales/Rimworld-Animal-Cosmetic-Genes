@@ -26,12 +26,8 @@ namespace AnimalCosmeticGenes
         {
             this.FailOnDespawnedOrNull(TargetIndex.A);
             this.FailOnDestroyedOrNull(TargetIndex.B);
-            // DIAGNOSTIC (2026-11-01, tickets 236d and 2b51 ended with no trait and no log): trace each step, remove once the chain is green.
-            AddFinishAction(delegate { Log.Message("[ACG] job finished at " + pawn.Position + ", serum " + job.GetTarget(TargetIndex.B).Thing + " at " + job.GetTarget(TargetIndex.B).Thing?.Position + ", animal at " + Animal?.Position); });
-            yield return Toils_General.Do(() => Log.Message("[ACG] apply job started: " + pawn.LabelShort + " at " + pawn.Position + " -> " + Animal.LabelShort + " at " + Animal.Position + ", serum " + job.GetTarget(TargetIndex.B).Thing + " at " + job.GetTarget(TargetIndex.B).Thing.Position));
             yield return Toils_Goto.GotoThing(TargetIndex.B, PathEndMode.ClosestTouch).FailOnDespawnedNullOrForbidden(TargetIndex.B);
             yield return Toils_Haul.StartCarryThing(TargetIndex.B);
-            yield return Toils_General.Do(() => Log.Message("[ACG] serum carried: " + pawn.carryTracker.CarriedThing));
             yield return Toils_Goto.GotoThing(TargetIndex.A, PathEndMode.Touch);
             yield return Toils_General.WaitWith(TargetIndex.A, ApplyTicks, useProgressBar: true, maintainPosture: true);
             yield return Toils_General.Do(Apply);
@@ -42,13 +38,10 @@ namespace AnimalCosmeticGenes
             var serum = pawn.carryTracker.CarriedThing as AnimalTraitSerum;
             if (serum == null)
             {
-                Log.Message("[ACG] apply: nothing carried, carrying " + pawn.carryTracker.CarriedThing);
                 return;
             }
             HediffDef trait = AnimalTraitGrant.TraitFor(serum.Gene);
-            bool granted = AnimalTraitGrant.TryGrant(Animal, serum.Gene, out string reason);
-            Log.Message("[ACG] apply: granted " + granted + ", reason " + reason);
-            if (granted)
+            if (AnimalTraitGrant.TryGrant(Animal, serum.Gene, out string reason))
             {
                 serum.Destroy();
                 Messages.Message("ACG_SerumApplied".Translate(Animal.LabelShort, trait.LabelCap), Animal, MessageTypeDefOf.PositiveEvent, historical: false);
