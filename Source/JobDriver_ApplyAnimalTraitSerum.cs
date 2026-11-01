@@ -26,8 +26,11 @@ namespace AnimalCosmeticGenes
         {
             this.FailOnDespawnedOrNull(TargetIndex.A);
             this.FailOnDestroyedOrNull(TargetIndex.B);
+            // DIAGNOSTIC (2026-11-01, tickets 236d and 2b51 ended with no trait and no log): trace each step, remove once the chain is green.
+            yield return Toils_General.Do(() => Log.Message("[ACG] apply job started: " + pawn.LabelShort + " -> " + Animal.LabelShort));
             yield return Toils_Goto.GotoThing(TargetIndex.B, PathEndMode.ClosestTouch).FailOnDespawnedNullOrForbidden(TargetIndex.B);
             yield return Toils_Haul.StartCarryThing(TargetIndex.B);
+            yield return Toils_General.Do(() => Log.Message("[ACG] serum carried: " + pawn.carryTracker.CarriedThing));
             yield return Toils_Goto.GotoThing(TargetIndex.A, PathEndMode.Touch);
             yield return Toils_General.WaitWith(TargetIndex.A, ApplyTicks, useProgressBar: true, maintainPosture: true);
             yield return Toils_General.Do(Apply);
@@ -38,10 +41,13 @@ namespace AnimalCosmeticGenes
             var serum = pawn.carryTracker.CarriedThing as AnimalTraitSerum;
             if (serum == null)
             {
+                Log.Message("[ACG] apply: nothing carried, carrying " + pawn.carryTracker.CarriedThing);
                 return;
             }
             HediffDef trait = AnimalTraitGrant.TraitFor(serum.Gene);
-            if (AnimalTraitGrant.TryGrant(Animal, serum.Gene, out string reason))
+            bool granted = AnimalTraitGrant.TryGrant(Animal, serum.Gene, out string reason);
+            Log.Message("[ACG] apply: granted " + granted + ", reason " + reason);
+            if (granted)
             {
                 serum.Destroy();
                 Messages.Message("ACG_SerumApplied".Translate(Animal.LabelShort, trait.LabelCap), Animal, MessageTypeDefOf.PositiveEvent, historical: false);
