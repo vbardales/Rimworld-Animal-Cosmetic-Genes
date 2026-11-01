@@ -34,7 +34,7 @@
     <workerClass>AnimalCosmeticGenes.UnmappedGenepackFilterWorker</workerClass>
   </SpecialThingFilterDef>
 
-  <!-- No recipeUsers yet: the workbench does not exist (texture is the owner's art). Its ThingDef will list this recipe.
+  <!-- Offered by the ACG_SerumBench ThingDef (Workbench.xml), which lists this recipe.
        No product in XML: the worker makes the serums, their gene is only known from the genepack. -->
   <RecipeDef>
     <defName>ACG_MakeAnimalTraitSerum</defName>
