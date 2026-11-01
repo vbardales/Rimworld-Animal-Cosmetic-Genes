@@ -1,0 +1,11 @@
+# ACG markings (2026-11-02): the dependencies of acg-spike plus Let's Have a Cat! Continued (3682940618), which holds akaNEKO_kuroneko (Kuru).
+#
+#   Submit-PickleRun.ps1 -Mod AnimalCosmeticGenes -DepMap wsl-deps.acg-marking.map -Filter "acg-chest-patch" -EvidenceDir Tests/Pickle/Inbox/acg-chest-patch
+nelim.pickletools.screenshotstudio path:PickleTools/ScreenshotStudio/Mod
+nelim.pickletools.camerazoom path:PickleTools/CameraZoom/Mod
+nelim.pickletools.clearscreen path:PickleTools/ClearScreen/Mod
+nelim.pickletools.colonistrace path:PickleTools/ColonistRace/Mod
+nelim.pickletools   path:PickleTools/Tests/Pickle/StandaloneBase/Mod
+brrainz.harmony 2009463077
+luved.animaltraits 3652630316
+akairo.LetsHaveaCat 3682940618

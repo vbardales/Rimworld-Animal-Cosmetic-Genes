@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Coat markings: a cosmetic gene, the Animal Traits System trait it gives, and the render node that draws it.
+       The defName of the trait MUST start with "AnimalTrait_" (the framework finds and inherits traits by that prefix).
+       No stage, so Hediff.Visible stays true and the marking is drawn.
+       defaultWeight 0: never drawn at random; the trait reaches an animal by the serum or by inheritance.
+       The art is one texture set per animal def: Textures/ACG/Markings/ChestPatch_<defName>_<south|east|north>.png,
+       a 64x64 canvas laid over the animal's own sprite. A def with no art draws nothing, so occurOnlyInAnimals lists
+       exactly the defs that have art. -->
+
+  <HediffDef Name="ACG_MarkingBase" Abstract="True">
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>false</isBad>
+    <makesAlert>false</makesAlert>
+    <forceRenderTreeRecache>true</forceRenderTreeRecache>
+  </HediffDef>
+
+  <HediffDef ParentName="ACG_MarkingBase">
+    <defName>AnimalTrait_ChestPatch</defName>
+    <label>chest patch</label>
+    <description>A white patch marks this animal's chest.</description>
+    <renderNodeProperties>
+      <li>
+        <debugLabel>Chest patch</debugLabel>
+        <nodeClass>AnimalCosmeticGenes.PawnRenderNode_CoatMarking</nodeClass>
+        <parentTagDef>Body</parentTagDef>
+        <pawnType>NonHumanlikeOnly</pawnType>
+        <rotDrawMode>Fresh</rotDrawMode>
+        <texPath>ACG/Markings/ChestPatch</texPath>
+        <baseLayer>2</baseLayer>
+      </li>
+    </renderNodeProperties>
+    <modExtensions>
+      <li Class="AnimalTraitExtension.AnimalTraitExtension">
+        <isAnimalTrait>true</isAnimalTrait>
+        <traitName>ChestPatch</traitName>
+        <defaultWeight>0</defaultWeight>
+        <inheritChance>40</inheritChance>
+        <occurOnlyInAnimals>
+          <li>akaNEKO_kuroneko</li>
+        </occurOnlyInAnimals>
+      </li>
+    </modExtensions>
+  </HediffDef>
+
+  <!-- The gene carries no look on a person. It exists so that a genepack can hold it and the serum can name its trait. -->
+  <GeneDef>
+    <defName>ACG_ChestPatch</defName>
+    <label>chest patch</label>
+    <labelShortAdj>patched</labelShortAdj>
+    <description>Carriers of this gene have a pale patch of fur or skin on the chest. People show no change. An animal that receives it through a serum shows the patch, if its kind has the art for it.</description>
+    <iconPath>UI/Icons/Genes/Gene_SkinColorOverride</iconPath>
+    <iconColor>(0.95, 0.95, 0.95)</iconColor>
+    <displayCategory>Cosmetic</displayCategory>
+    <displayOrderInCategory>900</displayOrderInCategory>
+    <biostatCpx>0</biostatCpx>
+    <selectionWeight>0.3</selectionWeight>
+  </GeneDef>
+
+  <AnimalCosmeticGenes.GeneTraitMapDef>
+    <defName>ACG_MarkingGenes</defName>
+    <mappings>
+      <li><gene>ACG_ChestPatch</gene><trait>AnimalTrait_ChestPatch</trait></li>
+    </mappings>
+  </AnimalCosmeticGenes.GeneTraitMapDef>
+
+</Defs>
