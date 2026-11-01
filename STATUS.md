@@ -37,7 +37,7 @@ remaining:
   - "2026-10-31: gene source for the generator, from NPT (read genes.md, 9.2 KB, not re-read against the mod folders): PickleTools/ColonistRace/docs/catalogues/genes.md, generated 2026-10-25 by docs/Generate-GeneGallery.js from the mods on disk, one table per kind, rows Mod | defName#RRGGBB (hex read from the gene's own def). Eye colours 34 (EyeGenes3, EyeColorDef, Eyes_*, hex is the def value, not compared with Roster.xlsx nor the render); skin colours 118 (Biotech Skin_* override 12, Biotech Skin_Melanin1..9, Genes Expanded - Skin 3214172563 GES_Skin_* 75, Cookie Genes LYN_Skin_*, Seren from Stardust OL_Skin*); hair colours 123 (Biotech Hair_* 18, Cookie Genes LYN_Hair_* 10, Genes Expanded - Hair GEH_Hair_* 76, Seren OL_Hair* 19). Not plain colours, left out: genes.md Look genes (SerenMarkings_*, SerenSensors_*, ears, body masks SerenOriginalMask_*). Fur and coat colour genes are not catalogued. Workshop id and packageId of EyeGenes3, Cookie Genes, Genes Expanded - Hair not known (NPT can read them from the mod folders). Plan note: skin and hair colours feed the coat tint trait (skinColorTint); eye colours need an eye render node per species (art, positions), not a tint. The generator can read the same defs as Generate-GeneGallery.js."
   - "2026-10-31: unverified a hediff render node on a Thrumbo in game; owner picks the first species to cover."
 updated: 2026-11-01
-protocols_read_sha: 2a66aafc6fcab208936820b9559c242c8c07fda3
+protocols_read_sha: b86bcdd296a18eba7dcce4d8d997e9723cfe38ad
 ---
 
 # Animal Cosmetic Genes: status
