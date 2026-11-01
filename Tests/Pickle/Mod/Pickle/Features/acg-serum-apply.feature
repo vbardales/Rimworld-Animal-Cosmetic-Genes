@@ -20,7 +20,7 @@ Feature: ACG serum chain
     Then Nelim's Pickle Tools: the float menu options of "Nelim" on "Spike1" are listed
     When Nelim's Pickle Tools: "Nelim" picks the float menu option "Apply blue skin" on "Spike1"
     And Nelim's Pickle Tools: I let 600 ticks pass
-    Then Nelim's Pickle Tools: "Spike1" holds the hediff "AnimalTrait_Skin_Blue"
+    Then Nelim's Pickle Tools: the animal "Spike1" holds the hediff "AnimalTrait_Skin_Blue"
     And Nelim's Pickle Tools: the thing "ACG_AnimalTraitSerum" is gone from (178, 121)
     And Nelim's Pickle Tools: no error was logged since the error log was marked
 
