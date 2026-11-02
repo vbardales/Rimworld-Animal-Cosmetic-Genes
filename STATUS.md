@@ -12,7 +12,7 @@ upstream_mod_remotes: N/A      # no source mod: Big and Small, Gene Freedom and 
 settings_audit: not_applicable
 localization: complete
 translation_en: complete
-translation_fr: partial
+translation_fr: complete
 dependencies: done
 workshop: none
 published: no
@@ -41,7 +41,6 @@ remaining:
   - "2026-11-02: BACKLOG (owner, after 1.0.0, not in 1.0.0): tint the serum item by the colour of its gene (today one turquoise vial for all 241 traits). Ground: AnimalTraitSerum already stores the gene, the item can carry a DrawColor; needs a small C# override of the item colour plus a grey-scale vial texture so the tint reads (the current vial is already turquoise). Check first: the tint on the generated colour genes only, markings keep the vial as is."
   - "2026-11-02: DEPENDENCIES (4.a to 4.g, owner: Biotech hard): required Animal Traits System luved.animaltraits (3652630316) and Biotech Ludeon.RimWorld.Biotech (genes, genepacks, Xenogermination), both in modDependencies and loadAfter with Core. Let's Have a Cat! Continued (akairo.LetsHaveaCat, 3682940618) is NOT declared: Markings.xml only lists akaNEKO_kuroneko as text in occurOnlyInAnimals, no def reference, so the chest patch just never applies without it; no MayRequire needed. No LoadFolders.xml, supportedVersions 1.6 only. Not an animal mod, 4.f n/a. sort-load-order.py not run (needs a staged Mods dir): the order is by reading, the mod only loads after ATS, Core and Biotech and nothing depends on it, so no cycle is possible. Revision: HEAD at commit of this line."
   - "2026-11-02: BACKLOG (owner, after 1.0.0, not in 1.0.0): chest patch for every cat mod, not only Kuru (akaNEKO_kuroneko). Method, as the breeding mods do (Dogs mate 2441132298 AnimalGroupDef Felidae.xml, Better Crossbreeding 3520675842 Example/Patches): (1) an explicit XML list of animal defs, a def of ours that other mods extend by patch, replacing the hard occurOnlyInAnimals of Kuru; vanilla Cat and the popular cat mods added by PatchOperationFindMod patches; optional read of the Dogs mate Cat group when installed. (2) the marking drawn from the animal sprite (silhouette measured per facing, bib at fixed proportions taken from the validated Kuru masks, clipped to the silhouette) instead of one texture set per def; a texture shipped by a mod stays first. Check first: how vanilla Cat and the other cat mods draw their sprites (same pose as Kuru?); test on two cats at least. Kuru's textures stay the reference."
-  - "2026-11-02: unverified: Virginie review of the French (FRENCH_REVIEW.md), before leaving writeTests. unverified: in game, no raw key and no clipped text in the apply menu entry, the message, the bench and the gene card in English and French (playTests)."
 updated: 2026-11-02
 protocols_read_sha: b0ff7db4b2ac0debbadd93e4eddf866b0516c74a
 ---
@@ -65,4 +64,4 @@ Moved to `makeSources` on 2026-10-31. Repository skeleton created on 2026-10-31 
 ## Translation audit
 
 2026-11-02, revision 8ee7636. English is the source text in the Defs and in Mod/Languages/English/Keyed/ACG_Keys.xml (2 keys: ACG_ApplySerum, ACG_SerumApplied, both used by the two C# calls, the only player-facing strings in Source/). French lives in Mod/Languages/French: Keyed (2 keys) and DefInjected for ThingDef (bench, serum), RecipeDef, WorkGiverDef, SpecialThingFilterDef, JobDef, GeneDef and HediffDef (3 hand coat tints, the chest patch, and the 241 generated tint traits from Tests/ColourNames.fr.json, 148 colour names, written by Tests/Generate-CoatTraits.ps1). Check-Translations: PASS (503 source texts, 2 Keyed calls), one WARN: GeneDef/ACG_ChestPatch.labelShortAdj is outside the tool's inventory (a valid field, kept). No agreement or counts: no text names a pawn's gender or a count. No tu, no vous. Serum and genepack names are the gene's own label (other mods' translations, not ours). FRENCH_REVIEW.md generated.
-- Not done: Virginie's review of the French (translation_fr stays partial), notably the 148 colour names written without a native check (bluegill, taxi cab, tin can, redfish, maui surf are the doubtful ones) and "pelage" as the noun for every tint.
+- Review (2026-11-02, revision 4248e05): ChatGPT review in three passes, corrections applied (tint sentence without agreement, adjective colours agreeing with couleur, "ses genes qui donnent" then "a raison d'un serum pour chaque gene conferant", graphisme, chestnut and rosy); third pass: no correction. Virginie validated the French on 2026-11-02 (reviewer: Virginie, review validated as is, no correction asked).
