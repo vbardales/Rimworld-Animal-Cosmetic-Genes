@@ -63,4 +63,24 @@
     </placeWorkers>
   </ThingDef>
 
+  <!-- Without a WorkGiverDef that lists the bench in fixedBillGiverDefs, no colonist is ever given its bills (found by the
+       Pickle run e159..ea6c: "the game gives Nelim no bill job"). Modelled on Biotech's DoBillsSubcoreEncoder; the recipe
+       trains Intellectual, the work type is Crafting. -->
+  <WorkGiverDef>
+    <defName>ACG_DoBillsSerumBench</defName>
+    <label>make serums at the serum bench</label>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Crafting</workType>
+    <priorityInType>230</priorityInType>
+    <fixedBillGiverDefs>
+      <li>ACG_SerumBench</li>
+    </fixedBillGiverDefs>
+    <verb>work at</verb>
+    <gerund>working at</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+    <prioritizeSustains>true</prioritizeSustains>
+  </WorkGiverDef>
+
 </Defs>
