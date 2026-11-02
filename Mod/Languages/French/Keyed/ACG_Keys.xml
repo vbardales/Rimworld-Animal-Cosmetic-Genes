@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- {0}: étiquette du sérum (celle du gène), {1}: animal -->
+  <ACG_ApplySerum>Appliquer {0} à {1}</ACG_ApplySerum>
+
+  <!-- {0}: animal, {1}: étiquette du trait -->
+  <ACG_SerumApplied>{0} a maintenant le trait : {1}.</ACG_SerumApplied>
+
+</LanguageData>

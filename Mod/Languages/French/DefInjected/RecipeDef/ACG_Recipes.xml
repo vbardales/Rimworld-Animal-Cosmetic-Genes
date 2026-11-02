@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ACG_MakeAnimalTraitSerum.label>fabriquer des sérums de trait animal</ACG_MakeAnimalTraitSerum.label>
+  <ACG_MakeAnimalTraitSerum.description>Décomposer un pack de gènes en sérums, un pour chacun de ses gènes qui donne un trait cosmétique à un animal.</ACG_MakeAnimalTraitSerum.description>
+  <ACG_MakeAnimalTraitSerum.jobString>Fabrication de sérums de trait animal.</ACG_MakeAnimalTraitSerum.jobString>
+
+</LanguageData>

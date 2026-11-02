@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AnimalTrait_CoatEmber.label>pelage de braise</AnimalTrait_CoatEmber.label>
+  <AnimalTrait_CoatEmber.description>Une teinte chaude, rougeâtre, traverse le pelage de cet animal.</AnimalTrait_CoatEmber.description>
+
+  <AnimalTrait_CoatFrost.label>pelage de givre</AnimalTrait_CoatFrost.label>
+  <AnimalTrait_CoatFrost.description>Une teinte froide, bleutée, traverse le pelage de cet animal.</AnimalTrait_CoatFrost.description>
+
+  <AnimalTrait_CoatAsh.label>pelage de cendre</AnimalTrait_CoatAsh.label>
+  <AnimalTrait_CoatAsh.description>Une teinte grise, cendrée, traverse le pelage de cet animal.</AnimalTrait_CoatAsh.description>
+
+</LanguageData>

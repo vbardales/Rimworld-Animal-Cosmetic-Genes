@@ -135,5 +135,27 @@ $utf8 = New-Object System.Text.UTF8Encoding($false)
 [IO.File]::WriteAllText((Join-Path $ModRoot 'Mod\Defs\Hediffs_GeneTints.xml'), $t.ToString().Replace("`r`n", "`n"), $utf8)
 [IO.File]::WriteAllText((Join-Path $ModRoot 'Mod\Defs\GeneTraitMap.xml'), $m.ToString().Replace("`r`n", "`n"), $utf8)
 
+# French DefInjected: label and description of every tint trait, from Tests/ColourNames.fr.json (colour name, English -> French)
+$fr = Get-Content -LiteralPath (Join-Path $PSScriptRoot 'ColourNames.fr.json') -Raw -Encoding UTF8 | ConvertFrom-Json
+$f = New-Object System.Text.StringBuilder
+[void]$f.AppendLine('<?xml version="1.0" encoding="utf-8"?>')
+[void]$f.AppendLine('<LanguageData>')
+[void]$f.AppendLine('')
+[void]$f.AppendLine("  $header")
+$missing = @()
+foreach ($g in $genes) {
+  $p = $fr.PSObject.Properties[$g.Name2]
+  if (-not $p) { $missing += $g.Name2; continue }
+  [void]$f.AppendLine('')
+  [void]$f.AppendLine("  <AnimalTrait_$($g.Name).label>pelage $($p.Value)</AnimalTrait_$($g.Name).label>")
+  [void]$f.AppendLine("  <AnimalTrait_$($g.Name).description>Une teinte $($p.Value) traverse le pelage de cet animal.</AnimalTrait_$($g.Name).description>")
+}
+[void]$f.AppendLine('')
+[void]$f.AppendLine('</LanguageData>')
+$frDir = Join-Path $ModRoot 'Mod\Languages\French\DefInjected\HediffDef'
+New-Item -ItemType Directory -Force -Path $frDir | Out-Null
+[IO.File]::WriteAllText((Join-Path $frDir 'Hediffs_GeneTints.xml'), $f.ToString().Replace("`r`n", "`n"), $utf8)
+if ($missing.Count) { Write-Warning ("No French name for: " + (($missing | Sort-Object -Unique) -join ', ')) }
+
 $genes | Group-Object Kind, Mod | ForEach-Object { '{0,4}  {1}' -f $_.Count, $_.Name }
 "Wrote $($genes.Count) traits and mappings under $ModRoot\Mod\Defs"
