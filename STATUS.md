@@ -5,7 +5,7 @@ repo: Rimworld-Animal-Cosmetic-Genes
 remote: https://github.com/vbardales/Rimworld-Animal-Cosmetic-Genes.git
 visibility: public             # original creation, nothing taken from another mod (PUBLISHING.md, "Nommage")
 detached: yes
-workflow_stage: writeTests[1.0.0]
+workflow_stage: playTests[1.0.0]
 licence: original
 licence_at: "2026-10-31: original work, MIT (LICENSE and Mod/LICENSE). No third-party code: Animal Traits System (Luved) is a dependency only, Gene Freedom (FarmerJoe) was disassembled to study, nothing copied."
 upstream_mod_remotes: N/A      # no source mod: Big and Small, Gene Freedom and Animal Traits System gave the idea or the framework only, none of their code is used
@@ -41,8 +41,9 @@ remaining:
   - "2026-11-02: BACKLOG (owner, after 1.0.0, not in 1.0.0): tint the serum item by the colour of its gene (today one turquoise vial for all 241 traits). Ground: AnimalTraitSerum already stores the gene, the item can carry a DrawColor; needs a small C# override of the item colour plus a grey-scale vial texture so the tint reads (the current vial is already turquoise). Check first: the tint on the generated colour genes only, markings keep the vial as is."
   - "2026-11-02: DEPENDENCIES (4.a to 4.g, owner: Biotech hard): required Animal Traits System luved.animaltraits (3652630316) and Biotech Ludeon.RimWorld.Biotech (genes, genepacks, Xenogermination), both in modDependencies and loadAfter with Core. Let's Have a Cat! Continued (akairo.LetsHaveaCat, 3682940618) is NOT declared: Markings.xml only lists akaNEKO_kuroneko as text in occurOnlyInAnimals, no def reference, so the chest patch just never applies without it; no MayRequire needed. No LoadFolders.xml, supportedVersions 1.6 only. Not an animal mod, 4.f n/a. sort-load-order.py not run (needs a staged Mods dir): the order is by reading, the mod only loads after ATS, Core and Biotech and nothing depends on it, so no cycle is possible. Revision: HEAD at commit of this line."
   - "2026-11-02: BACKLOG (owner, after 1.0.0, not in 1.0.0): chest patch for every cat mod, not only Kuru (akaNEKO_kuroneko). Method, as the breeding mods do (Dogs mate 2441132298 AnimalGroupDef Felidae.xml, Better Crossbreeding 3520675842 Example/Patches): (1) an explicit XML list of animal defs, a def of ours that other mods extend by patch, replacing the hard occurOnlyInAnimals of Kuru; vanilla Cat and the popular cat mods added by PatchOperationFindMod patches; optional read of the Dogs mate Cat group when installed. (2) the marking drawn from the animal sprite (silhouette measured per facing, bib at fixed proportions taken from the validated Kuru masks, clipped to the silhouette) instead of one texture set per def; a texture shipped by a mod stays first. Check first: how vanilla Cat and the other cat mods draw their sprites (same pose as Kuru?); test on two cats at least. Kuru's textures stay the reference."
+  - "2026-11-02: writeTests done (7.a to 7.h) at revision 1ad3f61: TESTING.md lists one scenario per behaviour; unit tests AtsRules pass, build 0 warnings and DLL SAME, XML parse and DefRefs clean (XmlFields: only the Animal Traits System noise), Check-Translations PASS, Check-Steps clean (16 scenarios). Pickle proofs in Tests/Pickle/Evidence are all green on the current C# (Source last changed in c622863); the Mod/ changes since (textures, French, labels) are covered by 6c3b and 6146 for the chest patch, the bench chain and the serum. Not run since the French and the generated labels: acg-coat-traits, acg-gene-tints (playTests, one small ticket when needed). Unverified in game: raw keys and clipped text in English and French, look of the bench, serum and gene icon."
 updated: 2026-11-02
-protocols_read_sha: b0ff7db4b2ac0debbadd93e4eddf866b0516c74a
+protocols_read_sha: ab65a69aa3da15217de8fbd6bca9e94e27b5c009
 ---
 
 # Animal Cosmetic Genes: status
