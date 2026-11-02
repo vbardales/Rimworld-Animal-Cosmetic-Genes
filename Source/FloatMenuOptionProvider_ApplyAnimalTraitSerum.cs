@@ -27,6 +27,10 @@ namespace AnimalCosmeticGenes
                 yield break;
             }
             Pawn colonist = context.FirstSelectedPawn;
+            if (!colonist.CanReserveAndReach(clickedPawn, PathEndMode.Touch, Danger.Deadly))
+            {
+                yield break;
+            }
             var offered = new HashSet<GeneDef>();
             foreach (Thing thing in context.map.listerThings.ThingsOfDef(AcgThingDefOf.ACG_AnimalTraitSerum))
             {

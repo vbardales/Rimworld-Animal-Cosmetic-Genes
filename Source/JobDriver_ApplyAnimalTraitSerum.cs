@@ -25,6 +25,7 @@ namespace AnimalCosmeticGenes
         protected override IEnumerable<Toil> MakeNewToils()
         {
             this.FailOnDespawnedOrNull(TargetIndex.A);
+            this.FailOn(() => Animal.Faction != Faction.OfPlayer);
             this.FailOnDestroyedOrNull(TargetIndex.B);
             yield return Toils_Goto.GotoThing(TargetIndex.B, PathEndMode.ClosestTouch).FailOnDespawnedNullOrForbidden(TargetIndex.B);
             yield return Toils_Haul.StartCarryThing(TargetIndex.B);

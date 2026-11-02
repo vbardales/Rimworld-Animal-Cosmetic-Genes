@@ -50,6 +50,9 @@
           <thingDefs>
             <li>Genepack</li>
           </thingDefs>
+          <specialFiltersToDisallow>
+            <li>ACG_UnmappedGenepack</li>
+          </specialFiltersToDisallow>
         </filter>
         <count>1</count>
       </li>
