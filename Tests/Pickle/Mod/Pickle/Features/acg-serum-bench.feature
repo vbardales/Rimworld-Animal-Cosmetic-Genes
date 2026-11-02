@@ -92,3 +92,19 @@ Feature: ACG serum bench
     When Nelim's Pickle Tools: I let 5 frames pass
     Then I take a screenshot "acgbench-look-serum"
     And Nelim's Pickle Tools: no error was logged since the error log was marked
+
+  # 2026-11-02, 8.i: the gene icon and the gene label in the Genes tab of a genepack, in the language of the run (set -Language French or English).
+  # Step names from PickleTools InspectTabs; the tab name ITab_Genes is a guess, a failure message goes to NPT.
+  @review @timeout:600 @requires:nelim.pickletools.screenshotstudio @requires:nelim.pickletools.camerazoom @requires:nelim.pickletools.inspecttabs
+  Scenario: acg-gene-ui
+    Given the save "Nelims-tribe" is loaded
+    And game speed is paused
+    And Nelim's Pickle Tools: the error log is marked
+    And Nelim's Pickle Tools: all humans but "Nelim" are removed
+    And Nelim's Pickle Tools: a genepack with the genes "ACG_ChestPatch" is spawned at (178, 119)
+    When Nelim's Pickle Tools: I select the thing of def "Genepack" at (178, 119)
+    And Nelim's Pickle Tools: I open the "ITab_Genes" inspect tab
+    Then Nelim's Pickle Tools: the "ITab_Genes" inspect tab is open
+    When Nelim's Pickle Tools: I let 5 frames pass
+    Then I take a screenshot "acggene-ui-genepack"
+    And Nelim's Pickle Tools: no error was logged since the error log was marked
