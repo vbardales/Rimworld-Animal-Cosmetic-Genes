@@ -1,6 +1,9 @@
 {
   "aegean": "bleu égéen",
-  "albino": "albinos",
+  "albino": {
+    "m": "albinos",
+    "f": "albinos"
+  },
   "almond": "amande",
   "amaranth": "amarante",
   "amethyst": "améthyste",
@@ -31,11 +34,20 @@
   "cool mint": "menthe fraîche",
   "copper": "cuivre",
   "cranberry": "canneberge",
-  "crimson": "cramoisi",
+  "crimson": {
+    "m": "cramoisi",
+    "f": "cramoisie"
+  },
   "dark black": "noir profond",
   "dark brown": "brun foncé",
-  "dark reddish": "rougeâtre foncé",
-  "dark saturated reddish": "rougeâtre foncé saturé",
+  "dark reddish": {
+    "m": "rougeâtre foncé",
+    "f": "rougeâtre foncée"
+  },
+  "dark saturated reddish": {
+    "m": "rougeâtre foncé saturé",
+    "f": "rougeâtre foncée saturée"
+  },
   "deep blue": "bleu profond",
   "deep red": "rouge profond",
   "deep sea": "bleu des abysses",
@@ -46,13 +58,19 @@
   "eggplant": "aubergine",
   "evergreen": "vert sapin",
   "fern": "fougère",
-  "fiery": "ardent",
+  "fiery": {
+    "m": "ardent",
+    "f": "ardente"
+  },
   "fire red": "rouge feu",
   "forged steel": "acier forgé",
   "fuchsia": "fuchsia",
   "ghost grey": "gris fantôme",
   "gold fish": "poisson rouge",
-  "golden": "doré",
+  "golden": {
+    "m": "doré",
+    "f": "dorée"
+  },
   "grape": "raisin",
   "gray": "gris",
   "green": "vert",
@@ -97,7 +115,10 @@
   "olive": "olive",
   "orange": "orange",
   "orchid": "orchidée",
-  "pale": "pâle",
+  "pale": {
+    "m": "pâle",
+    "f": "pâle"
+  },
   "pale lavender": "lavande pâle",
   "pale red": "rouge pâle",
   "pale yellow": "jaune pâle",
@@ -116,9 +137,15 @@
   "redfish": "poisson rouge sombre",
   "regal blue": "bleu royal",
   "rose": "rose",
-  "rosy": "rosé",
+  "rosy": {
+    "m": "rosé",
+    "f": "rosée"
+  },
   "rouge": "rouge",
-  "royal": "royal",
+  "royal": {
+    "m": "royal",
+    "f": "royale"
+  },
   "sage": "sauge",
   "sandy blonde": "blond sable",
   "sapphire": "saphir",
@@ -140,7 +167,10 @@
   "tidal pool": "mare de marée",
   "tin can": "boîte de conserve",
   "twilight": "crépuscule",
-  "verdant": "verdoyant",
+  "verdant": {
+    "m": "verdoyant",
+    "f": "verdoyante"
+  },
   "violet": "violet",
   "white": "blanc",
   "wild blueberry": "myrtille sauvage",

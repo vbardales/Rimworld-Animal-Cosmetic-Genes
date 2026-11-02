@@ -298,16 +298,16 @@
   <AnimalTrait_LYN_Skin_IceBlue.description>Le pelage de cet animal est teinté en bleu glacier.</AnimalTrait_LYN_Skin_IceBlue.description>
 
   <AnimalTrait_LYN_Skin_Pale.label>pelage pâle</AnimalTrait_LYN_Skin_Pale.label>
-  <AnimalTrait_LYN_Skin_Pale.description>Le pelage de cet animal est teinté en pâle.</AnimalTrait_LYN_Skin_Pale.description>
+  <AnimalTrait_LYN_Skin_Pale.description>Le pelage de cet animal a une couleur pâle.</AnimalTrait_LYN_Skin_Pale.description>
 
   <AnimalTrait_LYN_Skin_Bronze.label>pelage bronze</AnimalTrait_LYN_Skin_Bronze.label>
   <AnimalTrait_LYN_Skin_Bronze.description>Le pelage de cet animal est teinté en bronze.</AnimalTrait_LYN_Skin_Bronze.description>
 
   <AnimalTrait_LYN_Skin_Golden.label>pelage doré</AnimalTrait_LYN_Skin_Golden.label>
-  <AnimalTrait_LYN_Skin_Golden.description>Le pelage de cet animal est teinté en doré.</AnimalTrait_LYN_Skin_Golden.description>
+  <AnimalTrait_LYN_Skin_Golden.description>Le pelage de cet animal a une couleur dorée.</AnimalTrait_LYN_Skin_Golden.description>
 
   <AnimalTrait_LYN_Skin_Rosey.label>pelage rosé</AnimalTrait_LYN_Skin_Rosey.label>
-  <AnimalTrait_LYN_Skin_Rosey.description>Le pelage de cet animal est teinté en rosé.</AnimalTrait_LYN_Skin_Rosey.description>
+  <AnimalTrait_LYN_Skin_Rosey.description>Le pelage de cet animal a une couleur rosée.</AnimalTrait_LYN_Skin_Rosey.description>
 
   <AnimalTrait_LYN_Skin_Pink.label>pelage rose</AnimalTrait_LYN_Skin_Pink.label>
   <AnimalTrait_LYN_Skin_Pink.description>Le pelage de cet animal est teinté en rose.</AnimalTrait_LYN_Skin_Pink.description>
@@ -328,7 +328,7 @@
   <AnimalTrait_OL_SkinIndigo.description>Le pelage de cet animal est teinté en indigo.</AnimalTrait_OL_SkinIndigo.description>
 
   <AnimalTrait_OL_SkinRoyal.label>pelage royal</AnimalTrait_OL_SkinRoyal.label>
-  <AnimalTrait_OL_SkinRoyal.description>Le pelage de cet animal est teinté en royal.</AnimalTrait_OL_SkinRoyal.description>
+  <AnimalTrait_OL_SkinRoyal.description>Le pelage de cet animal a une couleur royale.</AnimalTrait_OL_SkinRoyal.description>
 
   <AnimalTrait_OL_SkinViolet.label>pelage violet</AnimalTrait_OL_SkinViolet.label>
   <AnimalTrait_OL_SkinViolet.description>Le pelage de cet animal est teinté en violet.</AnimalTrait_OL_SkinViolet.description>
@@ -346,7 +346,7 @@
   <AnimalTrait_OL_SkinRouge.description>Le pelage de cet animal est teinté en rouge.</AnimalTrait_OL_SkinRouge.description>
 
   <AnimalTrait_OL_SkinAlbino.label>pelage albinos</AnimalTrait_OL_SkinAlbino.label>
-  <AnimalTrait_OL_SkinAlbino.description>Le pelage de cet animal est teinté en albinos.</AnimalTrait_OL_SkinAlbino.description>
+  <AnimalTrait_OL_SkinAlbino.description>Le pelage de cet animal a une couleur albinos.</AnimalTrait_OL_SkinAlbino.description>
 
   <AnimalTrait_OL_SkinTwilight.label>pelage crépuscule</AnimalTrait_OL_SkinTwilight.label>
   <AnimalTrait_OL_SkinTwilight.description>Le pelage de cet animal est teinté en crépuscule.</AnimalTrait_OL_SkinTwilight.description>
@@ -373,10 +373,10 @@
   <AnimalTrait_Hair_MidBlack.description>Le pelage de cet animal est teinté en noir moyen.</AnimalTrait_Hair_MidBlack.description>
 
   <AnimalTrait_Hair_DarkReddish.label>pelage rougeâtre foncé</AnimalTrait_Hair_DarkReddish.label>
-  <AnimalTrait_Hair_DarkReddish.description>Le pelage de cet animal est teinté en rougeâtre foncé.</AnimalTrait_Hair_DarkReddish.description>
+  <AnimalTrait_Hair_DarkReddish.description>Le pelage de cet animal a une couleur rougeâtre foncée.</AnimalTrait_Hair_DarkReddish.description>
 
   <AnimalTrait_Hair_DarkSaturatedReddish.label>pelage rougeâtre foncé saturé</AnimalTrait_Hair_DarkSaturatedReddish.label>
-  <AnimalTrait_Hair_DarkSaturatedReddish.description>Le pelage de cet animal est teinté en rougeâtre foncé saturé.</AnimalTrait_Hair_DarkSaturatedReddish.description>
+  <AnimalTrait_Hair_DarkSaturatedReddish.description>Le pelage de cet animal a une couleur rougeâtre foncée saturée.</AnimalTrait_Hair_DarkSaturatedReddish.description>
 
   <AnimalTrait_Hair_DarkBrown.label>pelage brun foncé</AnimalTrait_Hair_DarkBrown.label>
   <AnimalTrait_Hair_DarkBrown.description>Le pelage de cet animal est teinté en brun foncé.</AnimalTrait_Hair_DarkBrown.description>
@@ -412,10 +412,10 @@
   <AnimalTrait_Hair_BrightRed.description>Le pelage de cet animal est teinté en rouge vif.</AnimalTrait_Hair_BrightRed.description>
 
   <AnimalTrait_LYN_Hair_Verdant.label>pelage verdoyant</AnimalTrait_LYN_Hair_Verdant.label>
-  <AnimalTrait_LYN_Hair_Verdant.description>Le pelage de cet animal est teinté en verdoyant.</AnimalTrait_LYN_Hair_Verdant.description>
+  <AnimalTrait_LYN_Hair_Verdant.description>Le pelage de cet animal a une couleur verdoyante.</AnimalTrait_LYN_Hair_Verdant.description>
 
   <AnimalTrait_LYN_Hair_Golden.label>pelage doré</AnimalTrait_LYN_Hair_Golden.label>
-  <AnimalTrait_LYN_Hair_Golden.description>Le pelage de cet animal est teinté en doré.</AnimalTrait_LYN_Hair_Golden.description>
+  <AnimalTrait_LYN_Hair_Golden.description>Le pelage de cet animal a une couleur dorée.</AnimalTrait_LYN_Hair_Golden.description>
 
   <AnimalTrait_LYN_Hair_Azure.label>pelage azur</AnimalTrait_LYN_Hair_Azure.label>
   <AnimalTrait_LYN_Hair_Azure.description>Le pelage de cet animal est teinté en azur.</AnimalTrait_LYN_Hair_Azure.description>
@@ -424,10 +424,10 @@
   <AnimalTrait_LYN_Hair_DeepBlue.description>Le pelage de cet animal est teinté en bleu profond.</AnimalTrait_LYN_Hair_DeepBlue.description>
 
   <AnimalTrait_LYN_Hair_Crimson.label>pelage cramoisi</AnimalTrait_LYN_Hair_Crimson.label>
-  <AnimalTrait_LYN_Hair_Crimson.description>Le pelage de cet animal est teinté en cramoisi.</AnimalTrait_LYN_Hair_Crimson.description>
+  <AnimalTrait_LYN_Hair_Crimson.description>Le pelage de cet animal a une couleur cramoisie.</AnimalTrait_LYN_Hair_Crimson.description>
 
   <AnimalTrait_LYN_Hair_Fiery.label>pelage ardent</AnimalTrait_LYN_Hair_Fiery.label>
-  <AnimalTrait_LYN_Hair_Fiery.description>Le pelage de cet animal est teinté en ardent.</AnimalTrait_LYN_Hair_Fiery.description>
+  <AnimalTrait_LYN_Hair_Fiery.description>Le pelage de cet animal a une couleur ardente.</AnimalTrait_LYN_Hair_Fiery.description>
 
   <AnimalTrait_LYN_Hair_Teal.label>pelage sarcelle</AnimalTrait_LYN_Hair_Teal.label>
   <AnimalTrait_LYN_Hair_Teal.description>Le pelage de cet animal est teinté en sarcelle.</AnimalTrait_LYN_Hair_Teal.description>
@@ -724,6 +724,6 @@
   <AnimalTrait_OL_HairAmaranth.description>Le pelage de cet animal est teinté en amarante.</AnimalTrait_OL_HairAmaranth.description>
 
   <AnimalTrait_OL_HairAlbino.label>pelage albinos</AnimalTrait_OL_HairAlbino.label>
-  <AnimalTrait_OL_HairAlbino.description>Le pelage de cet animal est teinté en albinos.</AnimalTrait_OL_HairAlbino.description>
+  <AnimalTrait_OL_HairAlbino.description>Le pelage de cet animal a une couleur albinos.</AnimalTrait_OL_HairAlbino.description>
 
 </LanguageData>

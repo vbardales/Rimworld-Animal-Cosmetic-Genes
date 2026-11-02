@@ -149,8 +149,16 @@ foreach ($g in $genes) {
   $p = $fr.PSObject.Properties[$g.Name2]
   if (-not $p) { $missing += $g.Name2; continue }
   [void]$f.AppendLine('')
-  [void]$f.AppendLine("  <AnimalTrait_$($g.Name).label>pelage $($p.Value)</AnimalTrait_$($g.Name).label>")
-  [void]$f.AppendLine("  <AnimalTrait_$($g.Name).description>Le pelage de cet animal est teint$([char]0x00E9) en $($p.Value).</AnimalTrait_$($g.Name).description>")
+  # A colour name is a noun ("teinte en noir") or, when the entry is {m, f}, an adjective that agrees with "couleur" (feminine)
+  if ($p.Value -is [string]) {
+    $lab = $p.Value
+    $desc = "Le pelage de cet animal est teint$([char]0x00E9) en $($p.Value)."
+  } else {
+    $lab = $p.Value.m
+    $desc = "Le pelage de cet animal a une couleur $($p.Value.f)."
+  }
+  [void]$f.AppendLine("  <AnimalTrait_$($g.Name).label>pelage $lab</AnimalTrait_$($g.Name).label>")
+  [void]$f.AppendLine("  <AnimalTrait_$($g.Name).description>$desc</AnimalTrait_$($g.Name).description>")
 }
 [void]$f.AppendLine('')
 [void]$f.AppendLine('</LanguageData>')
