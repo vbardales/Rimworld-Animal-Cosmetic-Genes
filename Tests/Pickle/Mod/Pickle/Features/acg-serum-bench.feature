@@ -70,3 +70,25 @@ Feature: ACG serum bench
     When Nelim's Pickle Tools: I let 5 frames pass
     Then I take a screenshot "acgbench-kuroneko-patch-south-fr"
     And Nelim's Pickle Tools: no error was logged since the error log was marked
+
+  # 2026-11-02: look of the bench and of a serum on the ground (the chain frames the cat, not the bench). The gene icon shows in the
+  # gene UI, not on the map: no scenario frames it yet.
+  @review @timeout:600 @requires:nelim.pickletools.screenshotstudio @requires:nelim.pickletools.camerazoom
+  Scenario: acg-serum-bench-look
+    Given the save "Nelims-tribe" is loaded
+    And game speed is paused
+    And Nelim's Pickle Tools: the error log is marked
+    And Nelim's Pickle Tools: the item and name labels are hidden
+    And Nelim's Pickle Tools: the tooltips are hidden
+    And Nelim's Pickle Tools: the colonist bar is hidden
+    And Nelim's Pickle Tools: the learning helper is hidden
+    And Nelim's Pickle Tools: all humans but "Nelim" are removed
+    And Nelim's Pickle Tools: the building "ACG_SerumBench" is spawned at (178, 120)
+    And Nelim's Pickle Tools: the item "ACG_AnimalTraitSerum" is spawned at (178, 122) with the field "gene" set to the def "ACG_ChestPatch"
+    And Nelim's Pickle Tools: I frame the area centred on (178, 121) at root size 4
+    When Nelim's Pickle Tools: I let 5 frames pass
+    Then I take a screenshot "acgbench-look-bench"
+    And Nelim's Pickle Tools: I frame the area centred on (178, 122) at root size 1.5
+    When Nelim's Pickle Tools: I let 5 frames pass
+    Then I take a screenshot "acgbench-look-serum"
+    And Nelim's Pickle Tools: no error was logged since the error log was marked
