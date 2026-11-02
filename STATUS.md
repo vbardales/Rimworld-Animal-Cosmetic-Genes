@@ -5,11 +5,11 @@ repo: Rimworld-Animal-Cosmetic-Genes
 remote: https://github.com/vbardales/Rimworld-Animal-Cosmetic-Genes.git
 visibility: public             # original creation, nothing taken from another mod (PUBLISHING.md, "Nommage")
 detached: yes
-workflow_stage: settings[1.0.0]
+workflow_stage: localize[1.0.0]
 licence: original
 licence_at: "2026-10-31: original work, MIT (LICENSE and Mod/LICENSE). No third-party code: Animal Traits System (Luved) is a dependency only, Gene Freedom (FarmerJoe) was disassembled to study, nothing copied."
 upstream_mod_remotes: N/A      # no source mod: Big and Small, Gene Freedom and Animal Traits System gave the idea or the framework only, none of their code is used
-settings_audit: unchecked
+settings_audit: not_applicable
 localization: unchecked
 translation_en: unchecked
 translation_fr: unchecked
@@ -53,3 +53,10 @@ Check it with `scripts/Check-Status.ps1 -Mod AnimalCosmeticGenes` (no ERROR) bef
 ## State
 
 Moved to `makeSources` on 2026-10-31. Repository skeleton created on 2026-10-31 on the owner's order (variant A of the study: depends on Animal Traits System, with a gene giving an animal a trait). No code, no art, no GitHub repository yet.
+
+## Settings audit
+
+2026-11-02, revision 8be6894, Source/ and Mod/Defs read.
+- Inventory: no `Mod` subclass, no `ModSettings`, no settings window, no MainButtonDef in Source/ or Mod/Defs (checked by reading both). Configurable behaviours considered and refused: tint strength (0.4 from the abstract ACG_GeneTintBase) and inheritChance (40) are design values of the look, not player needs; trait frequency and inheritance are already tuned in the Animal Traits System settings (the traits are its hediffs, defaultWeight 0 means never drawn at random); bench cost and work are XML values the game's own difficulty and mod tools already reach. No integration option: the only integration is the optional Let's Have a Cat! mod, which needs no switch.
+- Decision: no settings. No empty page and no MainButtons shortcut exist (verified above). Result: not_applicable.
+- Timing/scope: nothing to apply. Versions: RimWorld 1.6, Animal Traits System 3652630316. Commands: reading only, no scenario needed for absence.
