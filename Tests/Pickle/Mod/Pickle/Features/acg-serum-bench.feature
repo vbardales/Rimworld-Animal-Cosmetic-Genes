@@ -25,10 +25,10 @@ Feature: ACG serum bench
     And Nelim's Pickle Tools: the learning helper is hidden
     And Nelim's Pickle Tools: all humans but "Nelim" are removed
     And Nelim's Pickle Tools: an adult animal of kind "akaNEKO_kuroneko" named "Kuru1" is spawned at (176, 120)
-    And Nelim's Pickle Tools: the building "ACG_SerumBench" is spawned at (179, 119)
-    And Nelim's Pickle Tools: a genepack with the genes "ACG_ChestPatch" is spawned at (179, 118)
-    And Nelim's Pickle Tools: the building "ACG_SerumBench" at (179, 119) has the bill "ACG_MakeAnimalTraitSerum"
-    Given Nelim's Pickle Tools: "Nelim" is forced into the job "DoBill" on the building "ACG_SerumBench" at (179, 119)
+    And Nelim's Pickle Tools: the building "ACG_SerumBench" is spawned at (178, 120)
+    And Nelim's Pickle Tools: a genepack with the genes "ACG_ChestPatch" is spawned at (178, 119)
+    And Nelim's Pickle Tools: the building "ACG_SerumBench" at (178, 120) has the bill "ACG_MakeAnimalTraitSerum"
+    Given Nelim's Pickle Tools: "Nelim" is forced into the job "DoBill" on the building "ACG_SerumBench" at (178, 120)
     When Nelim's Pickle Tools: I wait up to 5000 ticks or 240 seconds until more "ACG_AnimalTraitSerum" exist
     Then Nelim's Pickle Tools: the float menu options of "Nelim" on "Kuru1" are listed
     When Nelim's Pickle Tools: "Nelim" picks the float menu option "Apply chest patch" on "Kuru1"
