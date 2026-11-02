@@ -38,6 +38,10 @@ Source code on GitHub (https://github.com/vbardales/Rimworld-Animal-Cosmetic-Gen
       <displayName>Animal Traits System</displayName>
       <steamWorkshopUrl>steam://url/CommunityFilePage/3652630316</steamWorkshopUrl>
     </li>
+    <li>
+      <packageId>Ludeon.RimWorld.Biotech</packageId>
+      <displayName>Biotech</displayName>
+    </li>
   </modDependencies>
   <loadAfter>
     <li>luved.animaltraits</li>

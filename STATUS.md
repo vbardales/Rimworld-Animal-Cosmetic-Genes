@@ -13,7 +13,7 @@ settings_audit: unchecked
 localization: unchecked
 translation_en: unchecked
 translation_fr: unchecked
-dependencies: unchecked
+dependencies: done
 workshop: none
 published: no
 tested_on: never
@@ -39,6 +39,7 @@ remaining:
   - "2026-10-31: gene source for the generator, from NPT (read genes.md, 9.2 KB, not re-read against the mod folders): PickleTools/ColonistRace/docs/catalogues/genes.md, generated 2026-10-25 by docs/Generate-GeneGallery.js from the mods on disk, one table per kind, rows Mod | defName#RRGGBB (hex read from the gene's own def). Eye colours 34 (EyeGenes3, EyeColorDef, Eyes_*, hex is the def value, not compared with Roster.xlsx nor the render); skin colours 118 (Biotech Skin_* override 12, Biotech Skin_Melanin1..9, Genes Expanded - Skin 3214172563 GES_Skin_* 75, Cookie Genes LYN_Skin_*, Seren from Stardust OL_Skin*); hair colours 123 (Biotech Hair_* 18, Cookie Genes LYN_Hair_* 10, Genes Expanded - Hair GEH_Hair_* 76, Seren OL_Hair* 19). Not plain colours, left out: genes.md Look genes (SerenMarkings_*, SerenSensors_*, ears, body masks SerenOriginalMask_*). Fur and coat colour genes are not catalogued. Workshop id and packageId of EyeGenes3, Cookie Genes, Genes Expanded - Hair not known (NPT can read them from the mod folders). Plan note: skin and hair colours feed the coat tint trait (skinColorTint); eye colours need an eye render node per species (art, positions), not a tint. The generator can read the same defs as Generate-GeneGallery.js."
   - "2026-10-31: unverified a hediff render node on a Thrumbo in game; owner picks the first species to cover."
   - "2026-11-02: BACKLOG (owner, after 1.0.0, not in 1.0.0): tint the serum item by the colour of its gene (today one turquoise vial for all 241 traits). Ground: AnimalTraitSerum already stores the gene, the item can carry a DrawColor; needs a small C# override of the item colour plus a grey-scale vial texture so the tint reads (the current vial is already turquoise). Check first: the tint on the generated colour genes only, markings keep the vial as is."
+  - "2026-11-02: DEPENDENCIES (4.a to 4.g, owner: Biotech hard): required Animal Traits System luved.animaltraits (3652630316) and Biotech Ludeon.RimWorld.Biotech (genes, genepacks, Xenogermination), both in modDependencies and loadAfter with Core. Let's Have a Cat! Continued (akairo.LetsHaveaCat, 3682940618) is NOT declared: Markings.xml only lists akaNEKO_kuroneko as text in occurOnlyInAnimals, no def reference, so the chest patch just never applies without it; no MayRequire needed. No LoadFolders.xml, supportedVersions 1.6 only. Not an animal mod, 4.f n/a. sort-load-order.py not run. Revision: HEAD at commit of this line."
 updated: 2026-11-02
 protocols_read_sha: b0ff7db4b2ac0debbadd93e4eddf866b0516c74a
 ---
