@@ -103,7 +103,7 @@ Feature: ACG serum bench
     And Nelim's Pickle Tools: all humans but "Nelim" are removed
     And Nelim's Pickle Tools: a genepack with the genes "ACG_ChestPatch" is spawned at (178, 119)
     When Nelim's Pickle Tools: I select the thing of def "Genepack" at (178, 119)
-    And Nelim's Pickle Tools: I open the "ITab_Genes" inspect tab
+    And Nelim's Pickle Tools: I open the hidden "ITab_Genes" inspect tab
     Then Nelim's Pickle Tools: the "ITab_Genes" inspect tab is open
     When Nelim's Pickle Tools: I let 5 frames pass
     Then I take a screenshot "acggene-ui-genepack"
