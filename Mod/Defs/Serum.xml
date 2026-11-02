@@ -3,7 +3,7 @@
 
   <!-- Serum: carries one gene (AnimalTraitSerum stores it), named after the gene label like the genepack it came from.
        Made at a workbench from a genepack by RecipeWorker_MakeAnimalTraitSerum, applied to an animal by a colonist.
-       The graphic is the game's xenogerm, a placeholder until the serum art exists.
+       The graphic is one serum vial, the same for every gene.
        No stack: two serums of different genes must not merge. -->
 
   <ThingDef ParentName="GeneSetHolderBase">
@@ -13,7 +13,7 @@
     <thingClass>AnimalCosmeticGenes.AnimalTraitSerum</thingClass>
     <tradeability>None</tradeability>
     <graphicData>
-      <texPath>Things/Item/Special/Xenogerm</texPath>
+      <texPath>ACG/Items/ACG_Serum</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(0.85, 0.85)</drawSize>
     </graphicData>
