@@ -32,10 +32,11 @@ Feature: ACG serum bench
     When Nelim's Pickle Tools: I wait up to 5000 ticks or 240 seconds until more "ACG_AnimalTraitSerum" exist
     Then Nelim's Pickle Tools: the float menu options of "Nelim" on "Kuru1" are listed
     When Nelim's Pickle Tools: "Nelim" picks the float menu option "Apply chest patch" on "Kuru1"
-    And Nelim's Pickle Tools: I let 5000 ticks pass
+    And Nelim's Pickle Tools: I let 1500 ticks pass
     Then Nelim's Pickle Tools: the animal "Kuru1" holds the hediff "AnimalTrait_ChestPatch"
     Given game speed is paused
     And Nelim's Pickle Tools: the animal "Kuru1" faces south
+    And Nelim's Pickle Tools: I frame the area centred on (177, 121) at root size 6.5
     And Nelim's Pickle Tools: I frame the animal "Kuru1" at zoom 2
     When Nelim's Pickle Tools: I let 5 frames pass
     Then I take a screenshot "acgbench-kuroneko-patch-south"
