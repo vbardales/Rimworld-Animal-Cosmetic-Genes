@@ -5,14 +5,14 @@ repo: Rimworld-Animal-Cosmetic-Genes
 remote: https://github.com/vbardales/Rimworld-Animal-Cosmetic-Genes.git
 visibility: public             # original creation, nothing taken from another mod (PUBLISHING.md, "Nommage")
 detached: yes
-workflow_stage: localize[1.0.0]
+workflow_stage: writeTests[1.0.0]
 licence: original
 licence_at: "2026-10-31: original work, MIT (LICENSE and Mod/LICENSE). No third-party code: Animal Traits System (Luved) is a dependency only, Gene Freedom (FarmerJoe) was disassembled to study, nothing copied."
 upstream_mod_remotes: N/A      # no source mod: Big and Small, Gene Freedom and Animal Traits System gave the idea or the framework only, none of their code is used
 settings_audit: not_applicable
-localization: unchecked
-translation_en: unchecked
-translation_fr: unchecked
+localization: complete
+translation_en: complete
+translation_fr: partial
 dependencies: done
 workshop: none
 published: no
@@ -41,6 +41,7 @@ remaining:
   - "2026-11-02: BACKLOG (owner, after 1.0.0, not in 1.0.0): tint the serum item by the colour of its gene (today one turquoise vial for all 241 traits). Ground: AnimalTraitSerum already stores the gene, the item can carry a DrawColor; needs a small C# override of the item colour plus a grey-scale vial texture so the tint reads (the current vial is already turquoise). Check first: the tint on the generated colour genes only, markings keep the vial as is."
   - "2026-11-02: DEPENDENCIES (4.a to 4.g, owner: Biotech hard): required Animal Traits System luved.animaltraits (3652630316) and Biotech Ludeon.RimWorld.Biotech (genes, genepacks, Xenogermination), both in modDependencies and loadAfter with Core. Let's Have a Cat! Continued (akairo.LetsHaveaCat, 3682940618) is NOT declared: Markings.xml only lists akaNEKO_kuroneko as text in occurOnlyInAnimals, no def reference, so the chest patch just never applies without it; no MayRequire needed. No LoadFolders.xml, supportedVersions 1.6 only. Not an animal mod, 4.f n/a. sort-load-order.py not run (needs a staged Mods dir): the order is by reading, the mod only loads after ATS, Core and Biotech and nothing depends on it, so no cycle is possible. Revision: HEAD at commit of this line."
   - "2026-11-02: BACKLOG (owner, after 1.0.0, not in 1.0.0): chest patch for every cat mod, not only Kuru (akaNEKO_kuroneko). Method, as the breeding mods do (Dogs mate 2441132298 AnimalGroupDef Felidae.xml, Better Crossbreeding 3520675842 Example/Patches): (1) an explicit XML list of animal defs, a def of ours that other mods extend by patch, replacing the hard occurOnlyInAnimals of Kuru; vanilla Cat and the popular cat mods added by PatchOperationFindMod patches; optional read of the Dogs mate Cat group when installed. (2) the marking drawn from the animal sprite (silhouette measured per facing, bib at fixed proportions taken from the validated Kuru masks, clipped to the silhouette) instead of one texture set per def; a texture shipped by a mod stays first. Check first: how vanilla Cat and the other cat mods draw their sprites (same pose as Kuru?); test on two cats at least. Kuru's textures stay the reference."
+  - "2026-11-02: unverified: Virginie review of the French (FRENCH_REVIEW.md), before leaving writeTests. unverified: in game, no raw key and no clipped text in the apply menu entry, the message, the bench and the gene card in English and French (playTests)."
 updated: 2026-11-02
 protocols_read_sha: b0ff7db4b2ac0debbadd93e4eddf866b0516c74a
 ---
@@ -60,3 +61,8 @@ Moved to `makeSources` on 2026-10-31. Repository skeleton created on 2026-10-31 
 - Inventory: no `Mod` subclass, no `ModSettings`, no settings window, no MainButtonDef in Source/ or Mod/Defs (checked by reading both). Configurable behaviours considered and refused: tint strength (0.4 from the abstract ACG_GeneTintBase) and inheritChance (40) are design values of the look, not player needs; trait frequency and inheritance are already tuned in the Animal Traits System settings (the traits are its hediffs, defaultWeight 0 means never drawn at random); bench cost and work are XML values the game's own difficulty and mod tools already reach. No integration option: the only integration is the optional Let's Have a Cat! mod, which needs no switch.
 - Decision: no settings. No empty page and no MainButtons shortcut exist (verified above). Result: not_applicable.
 - Timing/scope: nothing to apply. Versions: RimWorld 1.6, Animal Traits System 3652630316. Commands: reading only, no scenario needed for absence.
+
+## Translation audit
+
+2026-11-02, revision 8ee7636. English is the source text in the Defs and in Mod/Languages/English/Keyed/ACG_Keys.xml (2 keys: ACG_ApplySerum, ACG_SerumApplied, both used by the two C# calls, the only player-facing strings in Source/). French lives in Mod/Languages/French: Keyed (2 keys) and DefInjected for ThingDef (bench, serum), RecipeDef, WorkGiverDef, SpecialThingFilterDef, JobDef, GeneDef and HediffDef (3 hand coat tints, the chest patch, and the 241 generated tint traits from Tests/ColourNames.fr.json, 148 colour names, written by Tests/Generate-CoatTraits.ps1). Check-Translations: PASS (503 source texts, 2 Keyed calls), one WARN: GeneDef/ACG_ChestPatch.labelShortAdj is outside the tool's inventory (a valid field, kept). No agreement or counts: no text names a pawn's gender or a count. No tu, no vous. Serum and genepack names are the gene's own label (other mods' translations, not ours). FRENCH_REVIEW.md generated.
+- Not done: Virginie's review of the French (translation_fr stays partial), notably the 148 colour names written without a native check (bluegill, taxi cab, tin can, redfish, maui surf are the doubtful ones) and "pelage" as the noun for every tint.
