@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
   <!-- The serum workbench: the only place where a genepack is turned into serums (recipe ACG_MakeAnimalTraitSerum).
-       The graphic is the game's butcher table, a placeholder until the bench art exists. Research and room follow
+       The graphic is one top-down image (Graphic_Single, the game rotates it). Research and room follow
        the gene extractor (Xenogermination, Laboratory), so the bench arrives with the genetics the genepacks come from. -->
 
   <ThingDef ParentName="BenchBase">
@@ -11,9 +10,9 @@
     <description>A bench where a genepack is broken down into serums, one for each of its genes that gives an animal a cosmetic trait. A colonist then applies a serum to an animal.</description>
     <thingClass>Building_WorkTable</thingClass>
     <graphicData>
-      <texPath>Things/Building/Production/TableButcher</texPath>
-      <graphicClass>Graphic_Multi</graphicClass>
-      <drawSize>(3.5,1.5)</drawSize>
+      <texPath>ACG/Buildings/ACG_SerumBench</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(3,1)</drawSize>
       <damageData>
         <cornerTL>Damage/Corner</cornerTL>
         <cornerTR>Damage/Corner</cornerTR>
