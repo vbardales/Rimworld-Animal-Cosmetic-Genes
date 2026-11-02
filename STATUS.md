@@ -16,7 +16,7 @@ translation_fr: complete
 dependencies: done
 workshop: none
 published: no
-tested_on: never
+tested_on: "2026-11-02 (Pickle, English and French, Mod/ and Source/ unchanged since 26b83d1; green tickets 6184, 7f31, 6146, 6c3b, ba7f, 0f31, 989d, 8805; still unverified: clipped French text beyond the float menu, gene icon)"
 remaining:
   - "2026-11-02: history of remaining (spikes, decisions, ATS findings, gene source, runs 2026-10-31 to 2026-11-02) moved to Docs/runs/2026-11-02-status-journal.md; the open items are the lines below."
   - "2026-11-02: DONE, 1.0.0 features closed (owner art in, tickets green): coat tint traits by gene colour (generated), serum bench, serum and apply chain (6184, 7f31, 6146), chest patch marking (6c3b, three facings read). Eye render nodes and per-breed marking art for other animals are NOT in 1.0.0 (eyes stay phase 2, owner 2026-11-02). Unjudged and not blocking: bench cost, WorkToBuild 3000, workAmount 800. Open for later stages: Biotech as a declared dependency (declareDependencies), French texts (localize)."
