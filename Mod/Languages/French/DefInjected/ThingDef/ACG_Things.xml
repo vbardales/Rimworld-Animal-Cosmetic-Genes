@@ -2,7 +2,7 @@
 <LanguageData>
 
   <ACG_SerumBench.label>établi à sérums</ACG_SerumBench.label>
-  <ACG_SerumBench.description>Un établi où un pack de gènes est décomposé en sérums, un pour chacun de ses gènes qui donne un trait cosmétique à un animal. Un colon applique ensuite un sérum à un animal.</ACG_SerumBench.description>
+  <ACG_SerumBench.description>Un établi où un pack de gènes est décomposé en sérums, un pour chacun de ses gènes qui donnent un trait cosmétique à un animal. Un colon applique ensuite un sérum à un animal.</ACG_SerumBench.description>
 
   <ACG_AnimalTraitSerum.label>sérum de trait animal</ACG_AnimalTraitSerum.label>
   <ACG_AnimalTraitSerum.description>Un sérum préparé à partir d'un pack de gènes. Appliqué à un animal, il lui donne le trait cosmétique que le gène désigne.</ACG_AnimalTraitSerum.description>

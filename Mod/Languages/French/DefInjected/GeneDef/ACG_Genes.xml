@@ -3,6 +3,6 @@
 
   <ACG_ChestPatch.label>plastron blanc</ACG_ChestPatch.label>
   <ACG_ChestPatch.labelShortAdj>à plastron</ACG_ChestPatch.labelShortAdj>
-  <ACG_ChestPatch.description>Les porteurs de ce gène ont une tache claire de poil ou de peau sur la poitrine. Les personnes ne montrent aucun changement. Un animal qui le reçoit par un sérum montre la tache, si son espèce dispose de l'illustration.</ACG_ChestPatch.description>
+  <ACG_ChestPatch.description>Les porteurs de ce gène ont une tache claire de poil ou de peau sur la poitrine. Les personnes ne montrent aucun changement. Un animal qui le reçoit par un sérum montre la tache, si son espèce dispose du graphisme correspondant.</ACG_ChestPatch.description>
 
 </LanguageData>

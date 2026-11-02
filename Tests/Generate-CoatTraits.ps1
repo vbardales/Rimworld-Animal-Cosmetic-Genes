@@ -39,7 +39,9 @@ function Format-Channel([int]$byte) { ($byte / 255.0).ToString('0.###', $inv) }
 function Get-ColourName([string]$defName) {
   $s = $defName -replace '^(GES|GEH|LYN|OL)_', '' -replace '^(Skin|Hair)_?', ''
   $s = ($s -creplace '([a-z])([A-Z])', '$1 $2') -creplace '([A-Za-z])([0-9])', '$1 $2'
-  $s.Replace('_', ' ').ToLowerInvariant().Trim()
+  $s = $s.Replace('_', ' ').ToLowerInvariant().Trim()
+  # Misspellings in the other mods' gene names, corrected in the displayed name only
+  $s -replace 'chesnut', 'chestnut' -replace 'rosey', 'rosy'
 }
 
 if (-not (Test-Path $Catalogue)) { throw "Catalogue not found: $Catalogue" }
@@ -148,7 +150,7 @@ foreach ($g in $genes) {
   if (-not $p) { $missing += $g.Name2; continue }
   [void]$f.AppendLine('')
   [void]$f.AppendLine("  <AnimalTrait_$($g.Name).label>pelage $($p.Value)</AnimalTrait_$($g.Name).label>")
-  [void]$f.AppendLine("  <AnimalTrait_$($g.Name).description>Une teinte $($p.Value) traverse le pelage de cet animal.</AnimalTrait_$($g.Name).description>")
+  [void]$f.AppendLine("  <AnimalTrait_$($g.Name).description>Le pelage de cet animal est teint$([char]0x00E9) en $($p.Value).</AnimalTrait_$($g.Name).description>")
 }
 [void]$f.AppendLine('')
 [void]$f.AppendLine('</LanguageData>')

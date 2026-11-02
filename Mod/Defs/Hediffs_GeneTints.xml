@@ -1006,8 +1006,8 @@
 
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GES_Skin_Chesnut</defName>
-    <label>chesnut coat</label>
-    <description>A tint of chesnut runs through this animal's coat.</description>
+    <label>chestnut coat</label>
+    <description>A tint of chestnut runs through this animal's coat.</description>
     <skinColorTint>(0.663, 0.298, 0.059, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -1531,8 +1531,8 @@
 
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_LYN_Skin_Rosey</defName>
-    <label>rosey coat</label>
-    <description>A tint of rosey runs through this animal's coat.</description>
+    <label>rosy coat</label>
+    <description>A tint of rosy runs through this animal's coat.</description>
     <skinColorTint>(0.969, 0.855, 0.729, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -2881,8 +2881,8 @@
 
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GEH_Hair_Chesnut</defName>
-    <label>chesnut coat</label>
-    <description>A tint of chesnut runs through this animal's coat.</description>
+    <label>chestnut coat</label>
+    <description>A tint of chestnut runs through this animal's coat.</description>
     <skinColorTint>(0.663, 0.298, 0.059, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
