@@ -7,4 +7,15 @@
   <!-- {0}: animal, {1}: étiquette du trait -->
   <ACG_SerumApplied>{0} a maintenant le trait : {1}.</ACG_SerumApplied>
 
+  <ACG_RefuseNotAnimal>pas un animal vivant</ACG_RefuseNotAnimal>
+  <ACG_RefuseNoTrait>aucun trait n'est associé à ce gène</ACG_RefuseNoTrait>
+  <ACG_RefuseHasTrait>l'animal a déjà ce trait</ACG_RefuseHasTrait>
+  <ACG_RefuseHasTint>l'animal a déjà une teinte de pelage</ACG_RefuseHasTint>
+
+  <!-- {0}: espèce de l'animal -->
+  <ACG_RefuseSpecies>ce trait n'existe pas chez {0}</ACG_RefuseSpecies>
+
+  <!-- {0}: étiquette du trait déjà porté par l'animal -->
+  <ACG_RefuseExclusive>l'animal a déjà {0}, incompatible avec ce trait</ACG_RefuseExclusive>
+
 </LanguageData>

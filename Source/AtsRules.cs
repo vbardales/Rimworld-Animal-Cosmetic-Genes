@@ -10,20 +10,25 @@ namespace AnimalCosmeticGenes
     /// </summary>
     public static class AtsRules
     {
-        public static bool Allows(IList<string> occurOnlyInAnimals, IList<string> exclusiveWithAnimalTrait, string animalDefName, IEnumerable<string> heldDefNames, out string reason)
+        // Keyed translation keys of the two refusals: this file stays free of the game, the caller translates (clash = defName held, for KeyExclusive).
+        public const string KeySpecies = "ACG_RefuseSpecies";
+        public const string KeyExclusive = "ACG_RefuseExclusive";
+
+        public static bool Allows(IList<string> occurOnlyInAnimals, IList<string> exclusiveWithAnimalTrait, string animalDefName, IEnumerable<string> heldDefNames, out string reasonKey, out string clash)
         {
-            reason = null;
+            reasonKey = null;
+            clash = null;
             if (occurOnlyInAnimals != null && occurOnlyInAnimals.Count > 0 && !occurOnlyInAnimals.Contains(animalDefName))
             {
-                reason = "this trait does not occur in " + animalDefName;
+                reasonKey = KeySpecies;
                 return false;
             }
             if (exclusiveWithAnimalTrait != null && exclusiveWithAnimalTrait.Count > 0)
             {
-                string clash = heldDefNames.FirstOrDefault(exclusiveWithAnimalTrait.Contains);
+                clash = heldDefNames.FirstOrDefault(exclusiveWithAnimalTrait.Contains);
                 if (clash != null)
                 {
-                    reason = "the animal already holds " + clash + ", exclusive with this trait";
+                    reasonKey = KeyExclusive;
                     return false;
                 }
             }

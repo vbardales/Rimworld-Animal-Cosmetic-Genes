@@ -55,28 +55,35 @@ namespace AnimalCosmeticGenes
             reason = null;
             if (animal == null || animal.Dead || animal.RaceProps == null || !animal.RaceProps.Animal || animal.health?.hediffSet == null)
             {
-                reason = "not a living animal";
+                reason = "ACG_RefuseNotAnimal".Translate();
                 return false;
             }
             HediffDef trait = TraitFor(gene);
             if (trait == null)
             {
-                reason = "no trait is mapped to this gene";
+                reason = "ACG_RefuseNoTrait".Translate();
                 return false;
             }
             if (animal.health.hediffSet.HasHediff(trait))
             {
-                reason = "the animal already has this trait";
+                reason = "ACG_RefuseHasTrait".Translate();
                 return false;
             }
             if (IsCoatTint(trait) && animal.health.hediffSet.hediffs.Any(h => IsCoatTint(h.def)))
             {
-                reason = "the animal already has a coat tint";
+                reason = "ACG_RefuseHasTint".Translate();
                 return false;
             }
             ReadAtsLists(trait, out List<string> occurOnly, out List<string> exclusive);
             IEnumerable<string> held = animal.health.hediffSet.hediffs.Select(h => h.def.defName);
-            return AtsRules.Allows(occurOnly, exclusive, animal.def.defName, held, out reason);
+            if (AtsRules.Allows(occurOnly, exclusive, animal.def.defName, held, out string key, out string clash))
+            {
+                return true;
+            }
+            reason = key == AtsRules.KeySpecies
+                ? key.Translate(animal.def.label)
+                : key.Translate(DefDatabase<HediffDef>.GetNamedSilentFail(clash)?.label ?? clash);
+            return false;
         }
 
         public static bool TryGrant(Pawn animal, GeneDef gene, out string reason)

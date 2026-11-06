@@ -17,16 +17,16 @@ internal static class AtsRulesTests
 
         // Species list: empty means every species, otherwise the animal's defName must be on it.
         Check("species on the list", true, new List<string> { "Cat", "Thrumbo" }, null, "Thrumbo", None);
-        Check("species off the list", false, new List<string> { "Cat" }, null, "Thrumbo", None, "this trait does not occur in Thrumbo");
-        Check("species compare is exact case", false, new List<string> { "cat" }, null, "Cat", None, "this trait does not occur in Cat");
+        Check("species off the list", false, new List<string> { "Cat" }, null, "Thrumbo", None, AtsRules.KeySpecies);
+        Check("species compare is exact case", false, new List<string> { "cat" }, null, "Cat", None, AtsRules.KeySpecies);
 
         // Exclusivity list: one held defName on it blocks, the first one found is named.
         var exclusive = new List<string> { "AnimalTrait_CoatEmber", "AnimalTrait_CoatAsh" };
-        Check("held trait is exclusive", false, null, exclusive, "Cat", new[] { "AnimalTrait_Fast", "AnimalTrait_CoatAsh" }, "the animal already holds AnimalTrait_CoatAsh, exclusive with this trait");
+        Check("held trait is exclusive", false, null, exclusive, "Cat", new[] { "AnimalTrait_Fast", "AnimalTrait_CoatAsh" }, AtsRules.KeyExclusive, "AnimalTrait_CoatAsh");
         Check("held traits not exclusive", true, null, exclusive, "Cat", new[] { "AnimalTrait_Fast", "Malnutrition" });
 
         // Species is checked first: a wrong species reports the species, not the clash.
-        Check("species reported before clash", false, new List<string> { "Cat" }, exclusive, "Dog", new[] { "AnimalTrait_CoatAsh" }, "this trait does not occur in Dog");
+        Check("species reported before clash", false, new List<string> { "Cat" }, exclusive, "Dog", new[] { "AnimalTrait_CoatAsh" }, AtsRules.KeySpecies);
 
         if (failures == 0)
         {
@@ -35,10 +35,10 @@ internal static class AtsRulesTests
         return failures == 0 ? 0 : 1;
     }
 
-    private static void Check(string name, bool expected, IList<string> species, IList<string> exclusive, string animal, IEnumerable<string> held, string expectedReason = null)
+    private static void Check(string name, bool expected, IList<string> species, IList<string> exclusive, string animal, IEnumerable<string> held, string expectedReason = null, string expectedClash = null)
     {
-        bool actual = AtsRules.Allows(species, exclusive, animal, held, out string reason);
-        bool ok = actual == expected && reason == expectedReason;
+        bool actual = AtsRules.Allows(species, exclusive, animal, held, out string reason, out string clash);
+        bool ok = actual == expected && reason == expectedReason && clash == expectedClash;
         if (!ok)
         {
             failures++;
