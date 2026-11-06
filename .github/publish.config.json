@@ -1,0 +1,12 @@
+{
+  "templateStamp": "cd2d5bac5474",
+  "workshopId": "9999999999",
+  "packageId": "nelim.animalcosmeticgenes",
+  "releaseTitle": "Animal Cosmetic Genes {version}",
+  "requirePaths": [
+    "Defs",
+    "Assemblies/AnimalCosmeticGenes.dll"
+  ],
+  "forbidPaths": [],
+  "previewFile": "About/Preview.png"
+}

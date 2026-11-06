@@ -1,0 +1,12 @@
+name: Mod regression tests
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  mod-tests:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check XML and the mod's own values
+        shell: powershell
+        run: ./Tests/Test-Mod.ps1
