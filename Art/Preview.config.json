@@ -7,7 +7,7 @@
     "description": "Cosmetic coat traits for animals, drawn from the colour of a gene. Turn a genepack into a serum at the bench, then apply it to an animal."
   },
   "background": { "file": "Preview-source.png" },
-  "icon": { "file": "ModIcon-badge.png" },
+  "icon": { "file": "ModIcon-source.png" },
   "palette": {
     "veil": "#2B1F15",
     "inkPrimary": "#F2ECE1",
