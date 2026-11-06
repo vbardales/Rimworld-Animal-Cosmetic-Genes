@@ -15,13 +15,14 @@ One scenario per promised behaviour. Pickle scenarios are in `Tests/Pickle/Mod/P
 | A second coat tint is refused | acg-serum-second-tint-refused (acg-serum-apply) | the float menu offers no second tint |
 | The chest patch is drawn on the cat Kuru | acg-chest-patch-kuroneko (acg-chest-patch) | white patch on the chest, south, east and west, paws free |
 
-## Automated checks, replayed 2026-11-02
+## Automated checks, replayed 2026-11-06 at 2a3846c (Source last changed 1c5278d)
 
-- Unit tests (`Run-UnitTests.ps1`): AtsRules, all passed, 0 warnings.
+- Unit tests (`Run-UnitTests.ps1`): AtsRules, all passed, 0 warnings (refusal reasons are Keyed keys: the tests check the key and the clash).
 - Build (`Build-Mod.ps1 -Check`): 0 warnings, 0 errors, DLL same as sources.
 - XML: every file of `Mod/` parses; `Check-DefRefs.ps1` resolves every ParentName; `Check-XmlFields.ps1` reports only the Animal Traits System fields (known noise, its DLL is not loaded by the checker).
-- `Check-Translations.ps1`: PASS (503 source texts). `Check-ModBasics.ps1`: only `Mod/About/Preview.png` missing, rendered at `mountPreview`.
-- `Check-Steps.ps1`: 6 feature files parse, 323 step lines resolve, none declared twice.
+- `Check-Translations.ps1`: PASS (503 source texts, 6 Keyed calls). `Check-ModBasics.ps1`: 0 errors, one WARN (About description must end with the GitHub source link, `writeDocs`).
+- `Tests/Test-Mod.ps1` (shared checks, then `Tests/Rule-OwnValues.ps1`, 9 rules): 6 of 6 pass.
+- `Check-Steps.ps1`: 6 feature files parse (19 scenarios), 376 step lines resolve, none declared twice. Every suite carries its `@requires` tags.
 
 ## Not applicable
 
@@ -30,5 +31,6 @@ One scenario per promised behaviour. Pickle scenarios are in `Tests/Pickle/Mod/P
 
 ## Not tested
 
-- The look of the bench, the serum and the gene icon in game: seen in a capture only for the chest patch and the cat (playTests).
+- Scenarios older than the last Source change (1c5278d) need a small replay at playTests: acg-serum-bench-recipe, acg-serum-second-tint-refused, acg-coat-thrumbo, acg-coat-labrador, acg-coat-panther, acg-gene-tint-thrumbo, acg-chest-patch-kuroneko, acg-serum-bench-look.
+- The refusal texts in French (float menu, message) in game: playTests.
 - Raw keys and clipped text in French: playTests.
