@@ -96,13 +96,13 @@ Tribe read: 2026-11-07 (CATALOGUE-ANIMAUX, ATTICUS, SHOGUN, KURU, TAMA sheets, V
 
 ## Shotlist
 
-2026-11-07, plan in `Tests/Pickle/Mod/Pickle/Features/acg-gallery.feature` header (director pass: Opus sub-agent). Story: one clear day, Nelim (researcher outfit) gives colour to the animals. Plan rating (rate-gallery, plan only, no capture): criterion b is `weak` on every scene until the cells of each place are confirmed (no empty-place photo read), so 4.5 per scene; gate 1 (5 on every scene) is OPEN, no scenario, no ticket yet.
+2026-11-07, plan in `Tests/Pickle/Mod/Pickle/Features/acg-gallery.feature` header (director pass: Opus sub-agent). Story: one clear day, Nelim (researcher outfit) gives colour to the animals. Plan rating (rate-gallery, plan only, no capture) 2026-11-07 after the director fixes (foreground, background, instant per shot; bench shot at root size 4 for criterion j): 5 on shots 1 to 5, k ok on the series (opening 1, closing 5, wide, medium, close). Gate 1 passed, scenarios written (6 incl. the genepack window), Check-ShotlistVsScenario OK, Check-Steps OK. Cells are place centres, unconfirmed on a photo: a bad cell fails the first run and is fixed then.
 
 | Shot | a time frame | b decor | c living | d pawns | e action (instant) | f composition | g subject | j mod | plan |
 |---|---|---|---|---|---|---|---|---|---|
-| 1 bench-1-dawn | preindustrial-workshop 07:00 clear | torches, stool, daylily pot, sculpture, genepack container (cells to confirm) | Shogun sits, head up | Nelim researcher outfit, smirk | DoBill paused tick ~2000, vial about to come out | wide-medium, opening | a serum is nearly done | bench + genepack | 4.5 |
-| 2 kuru-2-patch | hut 09:00 | table, cushions, andon, lantern | Kuru facing camera | same outfit | just after ApplySerum | close, zoom 2.5 | Kuru gets his patch | chest patch | 4.5 |
-| 3 labradors-3-coats | flower-garden 11:00 | daylilies, beds | tinted labrador, Shogun | same | labrador stands up, Nelim mid-stride | medium | same breed, two coats | teal tint | 4.5 |
-| 4 horse-4-serum | barn 14:00 | hay, lantern, trough | horse, alpaca violet | same | Nelim near the horse with serum | medium | next in line | serum, tint | 4.5 |
-| 5 bridge-5-dusk | river-bridge 17:30 | lantern, bridge | Shogun, labrador, horse | same | walking home mid-stride | wide, closing | home at dusk | tinted coats | 4.5 |
+| 1 bench-1-dawn | preindustrial-workshop 07:00 clear | torches, stool, daylily pot, sculpture, genepack container (cells to confirm) | Shogun sits, head up | Nelim researcher outfit, smirk | DoBill paused tick ~2000, vial about to come out | wide-medium, opening | a serum is nearly done | bench + genepack | 5 |
+| 2 kuru-2-patch | hut 09:00 | table, cushions, andon, lantern | Kuru facing camera | same outfit | just after ApplySerum | close, zoom 2.5 | Kuru gets his patch | chest patch | 5 |
+| 3 labradors-3-coats | flower-garden 11:00 | daylilies, beds | tinted labrador, Shogun | same | labrador stands up, Nelim mid-stride | medium | same breed, two coats | teal tint | 5 |
+| 4 horse-4-serum | barn 14:00 | hay, lantern, trough | horse, alpaca violet | same | Nelim near the horse with serum | medium | next in line | serum, tint | 5 |
+| 5 bridge-5-dusk | river-bridge 17:30 | lantern, bridge | Shogun, labrador, horse | same | walking home mid-stride | wide, closing | home at dusk | tinted coats | 5 |
 k (series): one story day, opening 1, closing 5, wide/medium/close present: ok. Main risks: cells unconfirmed, tinted anonymous labrador/horse/alpaca must exist in the save (ask NPT), pause mid-stride needs a goto job.

@@ -1,32 +1,258 @@
-# ACG gallery shotlist, 2026-11-07 (write-shotlist, director pass by an Opus sub-agent). No scenario written yet: gate 1 (rate-gallery to 5) is open.
+# ACG gallery shotlist, 2026-11-07 (write-shotlist, director pass by an Opus sub-agent; scenarios written, drift check pending the first run).
 #
 # MOD: a serum bench (ACG_SerumBench) turns a genepack into a serum (ACG_AnimalTraitSerum); a colonist applies it to an ordinary animal through the
 # float menu; the animal gets an Animal Traits System trait that recolours its coat (241 colour tints) or draws a marking (chest patch, Kuru only).
 # The mod adds no animal. NSB animals with a mod effect: Kuru only (chest patch is his canon, KURU-PROFIL.md). Shogun, Atticus, Rain keep their coat.
 #
-# STORY: one clear day at the Sanctuary. Nelim, researcher outfit all day (LisaWork shirt beige, skirt deep blue #1F3A5F, horn-rimmed glasses, gold
-# earrings, hair Roo_HD_Hair_Highpony, own face with MouthLipsSmirk as her smile, no sweat), gives colour to the animals. Morning: she makes a serum at
-# the bench. Then she gives Kuru his white chest patch, tints a young labrador beside Shogun, a horse in the barn, and walks home at dusk with her dogs.
-# Time: one `I set the hour to N` per image, 2,500 ticks per game hour. Weather clear.
+# STORY: one clear day at the Sanctuary. Nelim, researcher outfit all day (LisaWork_ApparelShirtButtoned rgb (222, 203, 164), LisaWork_ApparelSkirt
+# rgb (31, 58, 95), LisaWork_ApparelHornRimmedGlasses, Apparel_PAESmallEarrings, hair Roo_HD_Hair_Highpony, her own face with MouthLipsSmirk as her
+# smile, no sweat, map at 20 degrees), gives colour to the animals. Morning: she makes a serum at the bench. Then she gives Kuru his white chest
+# patch, stands with a blue labrador beside Shogun, treats a horse in the barn, and walks home at dusk with her dogs. Clear weather; one
+# `I set the hour to N` per image, 2,500 ticks per game hour.
 #
-# SHOTS (index, place, hour, type; every cell of the place is confirmed at review-gallery before the scenario is written)
-# 1 bench-1-dawn      preindustrial-workshop (x 218-228, z 230-244) 07:00 wide-medium, opening. Nelim at ACG_SerumBench, bill almost done (DoBill forced,
-#                     paused around tick 2000), vial about to come out. Shogun sits at the bench head turned up to her (collar Apparel_leatherdogcollar,
-#                     brown #3B2F2F). Genepack container and genepack on the bench. Decor: TorchLamp x2 lit, Stool, PlantPot + Plant_Daylily fully grown,
-#                     SculptureSmall. Subtitle: "A serum is nearly done at the bench."
-# 2 kuru-2-patch      hut (tea room) 09:00 close, zoom 2.5. Just after ApplySerum ends (first tick after), Nelim standing, empty vial, looking at Kuru.
-#                     Kuru (akaNEKO_kuroneko) faces the camera, white chest patch on black fur. Decor: low table, cushions, lit andon, tatami,
-#                     DR_StickLantern. Subtitle: "Kuru gets his white chest patch."
-# 3 labradors-3-coats flower-garden 11:00 medium. A young anonymous labrador just tinted teal stands up, Shogun (sand) turns his head to it, both toward the
-#                     camera; Nelim walks away with the empty vial (goto job, paused mid-stride). Decor: Plant_Daylily fully grown, flower beds of the place.
-#                     Subtitle: "Same breed, two coats."
-# 4 horse-4-serum     barn 14:00 medium. Nelim crosses the last two cells toward a horse holding the serum (ApplySerum paused before the apply), an
-#                     alpaca already tinted violet behind. Unnatural tint on purpose. Decor: hay, DR_StickLantern lit, feed trough. No brazier, no bed.
-#                     Subtitle: "Next in line: the barn horse."
-# 5 bridge-5-dusk     river-bridge 17:30 wide, closing. Nelim walks home across the bridge, Shogun and the teal labrador follow (mid-stride), a tinted
-#                     horse grazes far away, DR_StickLantern lit, golden light. Subtitle: "Home at dusk, with a few new colours."
-# 6 ui-6-genepack     interface window (not rated), window-backdrop-for-height, cropped, no subtitle: genepack Genes tab, "Chest patch" with its icon.
-# Mods for the -DepMap: wsl-deps.acg-marking.map + outfit mods from NSB wsl-deps.sanctuary-daily.map (LisaWork, earrings) + Mlie.StickLantern 2024351846.
-# Director remarks: kept all but two. Shot 2 (vial close) cut, the Kuru shot became the close shot. Not taken: asking validation for Kuru (his chest
-# patch is NSB canon, rule 3 covers colonist properties only); Tama dropped as a second subject.
+# SHOTS (index, place, hour, type)
+#   1. bench-1-dawn   preindustrial-workshop 7h (centre 223, 237) wide-medium, opening. ACG_SerumBench at (222, 236), genepack at (222, 235), Nelim in the DoBill
+#                     job paused after 1500 ticks, the vial about to come out. Shogun stands at (220, 236) facing east toward her in his own collar from the save.
+#                     GeneBank near (225, 238), TorchLamp near (221, 239) and (226, 239) lit, Stool, PlantPot with Plant_Daylily
+#                     at (227, 238), SculptureSmall. Root size 4 at (222, 237) so the bench reads at 268 px. Subtitle: "A serum is nearly done at the bench."
+#                     Instant: the bill is almost done, the vial comes out next. Foreground the genepack and the bench edge, background the torches and the GeneBank, Nelim off-centre left, warm torch light against the dawn.
+#   2. kuru-2-patch   hut 9h (centre 140, 73) close, root size 2.5. Just after the apply: Nelim at (140, 73) facing east, serum used, Kuru
+#                     (akaNEKO_kuroneko) at (141, 73) facing south with AnimalTrait_ChestPatch (white patch on black fur). DR_StickLantern lit near (143, 75).
+#                     Subtitle: "Kuru gets his white chest patch."
+#                     Instant: the serum has just gone in, Kuru has not moved yet. Foreground Kuru and the patch, background the lit lantern and the tatami, Nelim off-centre right, soft morning light.
+#   3. labradors-3-coats flower-garden 11h (centre 154, 110) medium, root size 5. Shogun at (154, 110) and an anonymous labrador "Lab1" at (156, 110) with
+#                     AnimalTrait_Skin_Blue, both facing south toward the camera. Nelim at (150, 109) walks to (148, 109), paused mid-stride. Plant_Daylily
+#                     at (151, 108) and (157, 108), PlantPot with Plant_Daylily at (159, 112), DR_StickLantern near (150, 112) lit. Subtitle: "Same breed, two coats."
+#                     Instant: Nelim has just walked off after the tint, the two dogs hold their pose. Foreground the two labradors, background the daylilies and the lantern, dogs off-centre, midday light.
+#   4. horse-4-serum   barn 14h (centre 196, 237) medium, root size 5. Nelim at (190, 237) walks to the horse "Mare1" at (198, 237) holding the serum (gene
+#                     Skin_Orange), the apply not yet done after 120 ticks. Alpaca "Alpa1" at (200, 240) with AnimalTrait_Skin_Purple behind. Hay at (194, 238),
+#                     DR_StickLantern near (190, 233) and (202, 233) lit. Subtitle: "Next in line: the barn horse."
+#                     Instant: Nelim has picked up the serum and crosses the last cells to the horse. Foreground the purple alpaca, background the lit lanterns and the hay, afternoon light in the barn.
+#   5. bridge-5-dusk   river-bridge 17h (centre 135, 124) wide, closing, root size 8. Nelim walks from (137, 124) to (131, 124), Shogun at (135, 124) and
+#                     the blue labrador "Lab2" (AnimalTrait_Skin_Blue) follow, horse "Mare2" grazes at (128, 130) with AnimalTrait_Skin_PaleRed, DR_StickLantern
+#                     near (132, 126) lit. Subtitle: "Home at dusk, with a few new colours."
+#                     Instant: the walk home has just begun over the bridge. Foreground the blue labrador and Shogun, background the grazing horse and the lit lantern, low golden light from the west.
+#   6. genepack-window interface window (not rated), window-backdrop-for-height, cropped, no subtitle: genepack at (90, 140), ITab_Genes, "Chest patch".
+# Mods for the -DepMap: wsl-deps.acg-gallery.map (NSB wsl-deps.sanctuary-nelim.map + luved.animaltraits + akairo.LetsHaveaCat + Mlie.StickLantern 2024351846).
+# Director remarks kept: vial close cut, Kuru shot is the close shot, Tama dropped, mid-action instants, unnatural tints, no brazier or bed in the barn,
+# Kuru dropped from the bridge. Not taken: asking validation for Kuru (his chest patch is NSB canon, rule 3 covers colonist properties only).
+# Cells: place centres of SanctuarySteps.cs; decor goes through "near" so the game picks a legal cell; a bad pawn cell fails the first run and is fixed then.
+@review @timeout:900 @requires:nelim.pickletools.screenshotstudio @requires:nelim.pickletools.camerazoom @requires:nelim.pickletools.stagedecor @requires:nelim.pickletools.coatsteps @requires:nelim.pickletools.colonistrace @requires:nelim.pickletools.clearscreen @requires:nelim.pickletools.clickdiagnostics @requires:nelim.pickletools.inspecttabs
 Feature: ACG gallery
+
+  Scenario: acg-gallery-1-bench-dawn
+    Given I set the hour to 7
+    And Nelim's Sanctuary: the animals are kept out of the sanctuary "preindustrial-workshop"
+    And Nelim's Sanctuary: I am at the sanctuary "preindustrial-workshop"
+    And Nelim's Pickle Tools: the temperature of the map is 20 degrees
+    And Nelim's Pickle Tools: studio presentation mode is enabled
+    And Nelim's Pickle Tools: the colonist bar is hidden
+    And Nelim's Pickle Tools: the learning helper is hidden
+    And Nelim's Pickle Tools: the tooltips are hidden
+    And Nelim's Pickle Tools: the resource readout is hidden
+    And Nelim's Pickle Tools: the selection brackets are hidden
+    And Nelim's Pickle Tools: I move the mouse to (10, 10)
+    And Nelim's Pickle Tools: "Nelim" hairstyle is "Roo_HD_Hair_Highpony"
+    And Nelim's Pickle Tools: "Nelim" is undressed
+    And Nelim's Pickle Tools: "Nelim" wears "LisaWork_ApparelShirtButtoned" made of "Cloth"
+    And Nelim's Pickle Tools: the "LisaWork_ApparelShirtButtoned" worn by "Nelim" is dyed rgb (222, 203, 164)
+    And Nelim's Pickle Tools: "Nelim" wears "LisaWork_ApparelSkirt" made of "Cloth"
+    And Nelim's Pickle Tools: the "LisaWork_ApparelSkirt" worn by "Nelim" is dyed rgb (31, 58, 95)
+    And Nelim's Pickle Tools: "Nelim" wears "Apparel_PAESmallEarrings" made of "Gold"
+    And Nelim's Pickle Tools: "Nelim" wears "LisaWork_ApparelHornRimmedGlasses" made of "Gold"
+    And Nelim's Pickle Tools: I place the decor "TorchLamp" near (221, 239)
+    And Nelim's Pickle Tools: I place the decor "TorchLamp" near (226, 239)
+    And Nelim's Pickle Tools: the decor "TorchLamp" at (221, 239) is lit
+    And Nelim's Pickle Tools: the decor "TorchLamp" at (226, 239) is lit
+    And Nelim's Pickle Tools: I place the decor "Stool" near (225, 235)
+    And Nelim's Pickle Tools: I place the decor "PlantPot" holding "Plant_Daylily" fully grown at (227, 238)
+    And Nelim's Pickle Tools: I place the decor "SculptureSmall" near (219, 238)
+    And Nelim's Pickle Tools: I place the decor "GeneBank" near (225, 238)
+    And Nelim's Pickle Tools: the building "ACG_SerumBench" is spawned at (222, 236)
+    And Nelim's Pickle Tools: a genepack with the genes "ACG_ChestPatch" is spawned at (222, 235)
+    And Nelim's Pickle Tools: the building "ACG_SerumBench" at (222, 236) has the bill "ACG_MakeAnimalTraitSerum"
+    And game speed is normal
+    Given Nelim's Pickle Tools: "Nelim" is forced into the job "DoBill" on the building "ACG_SerumBench" at (222, 236)
+    And Nelim's Pickle Tools: I let 1500 ticks pass
+    And game speed is paused
+    And Nelim's Pickle Tools: the animal "Shogun" stands at (220, 236)
+    And Nelim's Pickle Tools: the animal "Shogun" faces east
+    And Nelim's Sanctuary: Nelim has her own face
+    And Nelim's Pickle Tools: I frame the area centred on (222, 237) at root size 4
+    When Nelim's Pickle Tools: I let 5 frames pass
+    Then I take a screenshot "acggallery-1-bench-dawn"
+    And Nelim's Pickle Tools: the decor is removed
+
+  Scenario: acg-gallery-2-kuru-patch
+    Given I set the hour to 9
+    And Nelim's Sanctuary: the animals are kept out of the sanctuary "hut"
+    And Nelim's Sanctuary: I am at the sanctuary "hut"
+    And Nelim's Pickle Tools: the temperature of the map is 20 degrees
+    And Nelim's Pickle Tools: studio presentation mode is enabled
+    And Nelim's Pickle Tools: the colonist bar is hidden
+    And Nelim's Pickle Tools: the learning helper is hidden
+    And Nelim's Pickle Tools: the tooltips are hidden
+    And Nelim's Pickle Tools: the resource readout is hidden
+    And Nelim's Pickle Tools: the selection brackets are hidden
+    And Nelim's Pickle Tools: I move the mouse to (10, 10)
+    And Nelim's Pickle Tools: "Nelim" hairstyle is "Roo_HD_Hair_Highpony"
+    And Nelim's Pickle Tools: "Nelim" is undressed
+    And Nelim's Pickle Tools: "Nelim" wears "LisaWork_ApparelShirtButtoned" made of "Cloth"
+    And Nelim's Pickle Tools: the "LisaWork_ApparelShirtButtoned" worn by "Nelim" is dyed rgb (222, 203, 164)
+    And Nelim's Pickle Tools: "Nelim" wears "LisaWork_ApparelSkirt" made of "Cloth"
+    And Nelim's Pickle Tools: the "LisaWork_ApparelSkirt" worn by "Nelim" is dyed rgb (31, 58, 95)
+    And Nelim's Pickle Tools: "Nelim" wears "Apparel_PAESmallEarrings" made of "Gold"
+    And Nelim's Pickle Tools: "Nelim" wears "LisaWork_ApparelHornRimmedGlasses" made of "Gold"
+    And Nelim's Pickle Tools: I place the decor "DR_StickLantern" near (143, 75)
+    And Nelim's Pickle Tools: the decor "DR_StickLantern" at (143, 75) is lit
+    And Nelim's Pickle Tools: "Nelim" stands at (140, 73) facing East
+    And Nelim's Pickle Tools: an adult animal of kind "akaNEKO_kuroneko" named "Kuru" is spawned at (141, 73)
+    And Nelim's Pickle Tools: the item "ACG_AnimalTraitSerum" is spawned at (139, 73) with the field "gene" set to the def "ACG_ChestPatch"
+    And game speed is normal
+    When Nelim's Pickle Tools: "Nelim" picks the float menu option "Apply chest patch" on "Kuru"
+    And Nelim's Pickle Tools: I let 1500 ticks pass
+    And game speed is paused
+    Then Nelim's Pickle Tools: the animal "Kuru" holds the hediff "AnimalTrait_ChestPatch"
+    And Nelim's Pickle Tools: the animal "Kuru" faces south
+    And Nelim's Sanctuary: Nelim has her own face
+    And Nelim's Pickle Tools: I frame the area centred on (140, 73) at root size 2.5
+    When Nelim's Pickle Tools: I let 5 frames pass
+    Then I take a screenshot "acggallery-2-kuru-patch"
+    And Nelim's Pickle Tools: the decor is removed
+
+  Scenario: acg-gallery-3-labradors
+    Given I set the hour to 11
+    And Nelim's Sanctuary: the animals are kept out of the sanctuary "flower-garden"
+    And Nelim's Sanctuary: I am at the sanctuary "flower-garden"
+    And Nelim's Pickle Tools: the temperature of the map is 20 degrees
+    And Nelim's Pickle Tools: studio presentation mode is enabled
+    And Nelim's Pickle Tools: the colonist bar is hidden
+    And Nelim's Pickle Tools: the learning helper is hidden
+    And Nelim's Pickle Tools: the tooltips are hidden
+    And Nelim's Pickle Tools: the resource readout is hidden
+    And Nelim's Pickle Tools: the selection brackets are hidden
+    And Nelim's Pickle Tools: I move the mouse to (10, 10)
+    And Nelim's Pickle Tools: "Nelim" hairstyle is "Roo_HD_Hair_Highpony"
+    And Nelim's Pickle Tools: "Nelim" is undressed
+    And Nelim's Pickle Tools: "Nelim" wears "LisaWork_ApparelShirtButtoned" made of "Cloth"
+    And Nelim's Pickle Tools: the "LisaWork_ApparelShirtButtoned" worn by "Nelim" is dyed rgb (222, 203, 164)
+    And Nelim's Pickle Tools: "Nelim" wears "LisaWork_ApparelSkirt" made of "Cloth"
+    And Nelim's Pickle Tools: the "LisaWork_ApparelSkirt" worn by "Nelim" is dyed rgb (31, 58, 95)
+    And Nelim's Pickle Tools: "Nelim" wears "Apparel_PAESmallEarrings" made of "Gold"
+    And Nelim's Pickle Tools: "Nelim" wears "LisaWork_ApparelHornRimmedGlasses" made of "Gold"
+    And Nelim's Pickle Tools: I place the decor "Plant_Daylily" at (151, 108) fully grown
+    And Nelim's Pickle Tools: I place the decor "Plant_Daylily" at (157, 108) fully grown
+    And Nelim's Pickle Tools: I place the decor "PlantPot" holding "Plant_Daylily" fully grown at (159, 112)
+    And Nelim's Pickle Tools: I place the decor "DR_StickLantern" near (150, 112)
+    And Nelim's Pickle Tools: the decor "DR_StickLantern" at (150, 112) is lit
+    And Nelim's Pickle Tools: the animal "Shogun" stands at (154, 110)
+    And Nelim's Pickle Tools: an adult animal of kind "LabradorRetriever" named "Lab1" is spawned at (156, 110)
+    And Nelim's Pickle Tools: the animal "Lab1" has the hediff "AnimalTrait_Skin_Blue"
+    And Nelim's Pickle Tools: the animal "Shogun" faces south
+    And Nelim's Pickle Tools: the animal "Lab1" faces south
+    And Nelim's Pickle Tools: "Nelim" stands at (150, 109) facing East
+    And game speed is normal
+    Given Nelim's Pickle Tools: "Nelim" is forced to walk to (148, 109)
+    And Nelim's Pickle Tools: I let 40 ticks pass
+    And game speed is paused
+    And Nelim's Sanctuary: Nelim has her own face
+    And Nelim's Pickle Tools: I frame the area centred on (153, 110) at root size 5
+    When Nelim's Pickle Tools: I let 5 frames pass
+    Then I take a screenshot "acggallery-3-labradors"
+    And Nelim's Pickle Tools: the decor is removed
+
+  Scenario: acg-gallery-4-horse
+    Given I set the hour to 14
+    And Nelim's Sanctuary: the animals are kept out of the sanctuary "barn"
+    And Nelim's Sanctuary: I am at the sanctuary "barn"
+    And Nelim's Pickle Tools: the temperature of the map is 20 degrees
+    And Nelim's Pickle Tools: studio presentation mode is enabled
+    And Nelim's Pickle Tools: the colonist bar is hidden
+    And Nelim's Pickle Tools: the learning helper is hidden
+    And Nelim's Pickle Tools: the tooltips are hidden
+    And Nelim's Pickle Tools: the resource readout is hidden
+    And Nelim's Pickle Tools: the selection brackets are hidden
+    And Nelim's Pickle Tools: I move the mouse to (10, 10)
+    And Nelim's Pickle Tools: "Nelim" hairstyle is "Roo_HD_Hair_Highpony"
+    And Nelim's Pickle Tools: "Nelim" is undressed
+    And Nelim's Pickle Tools: "Nelim" wears "LisaWork_ApparelShirtButtoned" made of "Cloth"
+    And Nelim's Pickle Tools: the "LisaWork_ApparelShirtButtoned" worn by "Nelim" is dyed rgb (222, 203, 164)
+    And Nelim's Pickle Tools: "Nelim" wears "LisaWork_ApparelSkirt" made of "Cloth"
+    And Nelim's Pickle Tools: the "LisaWork_ApparelSkirt" worn by "Nelim" is dyed rgb (31, 58, 95)
+    And Nelim's Pickle Tools: "Nelim" wears "Apparel_PAESmallEarrings" made of "Gold"
+    And Nelim's Pickle Tools: "Nelim" wears "LisaWork_ApparelHornRimmedGlasses" made of "Gold"
+    And Nelim's Pickle Tools: I place the decor "Hay" at (194, 238)
+    And Nelim's Pickle Tools: I place the decor "DR_StickLantern" near (190, 233)
+    And Nelim's Pickle Tools: the decor "DR_StickLantern" at (190, 233) is lit
+    And Nelim's Pickle Tools: I place the decor "DR_StickLantern" near (202, 233)
+    And Nelim's Pickle Tools: the decor "DR_StickLantern" at (202, 233) is lit
+    And Nelim's Pickle Tools: an adult animal of kind "Horse" named "Mare1" is spawned at (198, 237)
+    And Nelim's Pickle Tools: an adult animal of kind "Alpaca" named "Alpa1" is spawned at (200, 240)
+    And Nelim's Pickle Tools: the animal "Alpa1" has the hediff "AnimalTrait_Skin_Purple"
+    And Nelim's Pickle Tools: the animal "Mare1" faces west
+    And Nelim's Pickle Tools: "Nelim" stands at (190, 237) facing East
+    And Nelim's Pickle Tools: the item "ACG_AnimalTraitSerum" is spawned at (191, 237) with the field "gene" set to the def "Skin_Orange"
+    And game speed is normal
+    When Nelim's Pickle Tools: "Nelim" picks the float menu option "Apply orange skin" on "Mare1"
+    And Nelim's Pickle Tools: I let 120 ticks pass
+    And game speed is paused
+    And Nelim's Sanctuary: Nelim has her own face
+    And Nelim's Pickle Tools: I frame the area centred on (195, 237) at root size 5
+    When Nelim's Pickle Tools: I let 5 frames pass
+    Then I take a screenshot "acggallery-4-horse"
+    And Nelim's Pickle Tools: the decor is removed
+
+  Scenario: acg-gallery-5-bridge-dusk
+    Given I set the hour to 17
+    And Nelim's Sanctuary: the animals are kept out of the sanctuary "river-bridge"
+    And Nelim's Sanctuary: I am at the sanctuary "river-bridge"
+    And Nelim's Pickle Tools: the temperature of the map is 20 degrees
+    And Nelim's Pickle Tools: studio presentation mode is enabled
+    And Nelim's Pickle Tools: the colonist bar is hidden
+    And Nelim's Pickle Tools: the learning helper is hidden
+    And Nelim's Pickle Tools: the tooltips are hidden
+    And Nelim's Pickle Tools: the resource readout is hidden
+    And Nelim's Pickle Tools: the selection brackets are hidden
+    And Nelim's Pickle Tools: I move the mouse to (10, 10)
+    And Nelim's Pickle Tools: "Nelim" hairstyle is "Roo_HD_Hair_Highpony"
+    And Nelim's Pickle Tools: "Nelim" is undressed
+    And Nelim's Pickle Tools: "Nelim" wears "LisaWork_ApparelShirtButtoned" made of "Cloth"
+    And Nelim's Pickle Tools: the "LisaWork_ApparelShirtButtoned" worn by "Nelim" is dyed rgb (222, 203, 164)
+    And Nelim's Pickle Tools: "Nelim" wears "LisaWork_ApparelSkirt" made of "Cloth"
+    And Nelim's Pickle Tools: the "LisaWork_ApparelSkirt" worn by "Nelim" is dyed rgb (31, 58, 95)
+    And Nelim's Pickle Tools: "Nelim" wears "Apparel_PAESmallEarrings" made of "Gold"
+    And Nelim's Pickle Tools: "Nelim" wears "LisaWork_ApparelHornRimmedGlasses" made of "Gold"
+    And Nelim's Pickle Tools: I place the decor "DR_StickLantern" near (132, 126)
+    And Nelim's Pickle Tools: the decor "DR_StickLantern" at (132, 126) is lit
+    And Nelim's Pickle Tools: an adult animal of kind "Horse" named "Mare2" is spawned at (128, 130)
+    And Nelim's Pickle Tools: the animal "Mare2" has the hediff "AnimalTrait_Skin_PaleRed"
+    And Nelim's Pickle Tools: an adult animal of kind "LabradorRetriever" named "Lab2" is spawned at (136, 124)
+    And Nelim's Pickle Tools: the animal "Lab2" has the hediff "AnimalTrait_Skin_Blue"
+    And Nelim's Pickle Tools: the animal "Shogun" stands at (135, 124)
+    And Nelim's Pickle Tools: "Nelim" stands at (137, 124) facing West
+    And game speed is normal
+    Given Nelim's Pickle Tools: "Nelim" is forced to walk to (131, 124)
+    And Nelim's Pickle Tools: "Shogun" follows "Nelim"
+    And Nelim's Pickle Tools: "Lab2" follows "Nelim"
+    And Nelim's Pickle Tools: I let 45 ticks pass
+    And game speed is paused
+    And Nelim's Sanctuary: Nelim has her own face
+    And Nelim's Pickle Tools: I frame the area centred on (134, 125) at root size 8
+    When Nelim's Pickle Tools: I let 5 frames pass
+    Then I take a screenshot "acggallery-5-bridge-dusk"
+    And Nelim's Pickle Tools: the decor is removed
+
+  Scenario: acg-gallery-6-genepack-window
+    Given Nelim's Sanctuary: the animals are kept out of the sanctuary "window-backdrop-for-height"
+    And Nelim's Sanctuary: I am at the sanctuary "window-backdrop-for-height"
+    And game speed is paused
+    And Nelim's Pickle Tools: the colonist bar is hidden
+    And Nelim's Pickle Tools: the learning helper is hidden
+    And Nelim's Pickle Tools: the tooltips are hidden
+    And Nelim's Pickle Tools: the resource readout is hidden
+    And Nelim's Pickle Tools: a genepack with the genes "ACG_ChestPatch" is spawned at (90, 140)
+    When Nelim's Pickle Tools: I select the thing of def "Genepack" at (90, 140)
+    And Nelim's Pickle Tools: I open the hidden "ITab_Genes" inspect tab
+    Then Nelim's Pickle Tools: the "ITab_Genes" inspect tab is open
+    When Nelim's Pickle Tools: I let 5 frames pass
+    Then I take a screenshot "acggallery-6-genepack-window"
