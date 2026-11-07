@@ -168,6 +168,7 @@ Feature: ACG gallery
     And Nelim's Pickle Tools: I let 40 ticks pass
     And game speed is paused
     And Nelim's Sanctuary: Nelim has her own face
+    And Nelim's Pickle Tools: the loose things within 12 cells of "Nelim" are removed
     And Nelim's Pickle Tools: I frame the area centred on (153, 110) at root size 5
     When Nelim's Pickle Tools: I let 5 frames pass
     Then I take a screenshot "acggallery-3-labradors"
