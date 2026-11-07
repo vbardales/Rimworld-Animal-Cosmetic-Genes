@@ -12,9 +12,9 @@
 #
 # SHOTS (index, place, hour, type)
 #   1. bench-1-dawn   preindustrial-workshop 7h (centre 223, 237) wide-medium, opening. ACG_SerumBench at (222, 236), genepack at (222, 235), Nelim in the DoBill
-#                     job paused after 1500 ticks, the vial about to come out. Shogun stands at (220, 236) facing east toward her in his own collar from the save.
-#                     GeneBank near (225, 238), TorchLamp near (221, 239) and (226, 239) lit, Stool, PlantPot with Plant_Daylily
-#                     at (227, 238), SculptureSmall. Root size 4 at (222, 237) so the bench reads at 268 px. Subtitle: "A serum is nearly done at the bench."
+#                     job paused after 300 ticks (1500 let the bill finish and the vial lie on the floor, run f4b7), the vial about to come out. Shogun stands at (220, 236) facing east toward her in his own collar from the save.
+#                     GeneBank near (225, 238), TorchLamp at (221, 239) and (226, 239) lit, Stool, PlantPot with Plant_Daylily
+#                     at (227, 238), SculptureSmall. The workshop is emptied first (power cells and a dining set stood on the cells of runs 03ec, 0c94, e318). Root size 4 at (222, 237) so the bench reads at 268 px. Subtitle: "A serum is nearly done at the bench."
 #                     Instant: the bill is almost done, the vial comes out next. Foreground the genepack and the bench edge, background the torches and the GeneBank, Nelim off-centre left, warm torch light against the dawn.
 #   2. kuru-2-patch   hut 9h (centre 140, 73) close, root size 2.5. Just after the apply: Nelim at (140, 73) facing east, serum used, Kuru
 #                     (akaNEKO_kuroneko) at (141, 73) facing south with AnimalTrait_ChestPatch (white patch on black fur). DR_StickLantern lit near (143, 75).
@@ -44,6 +44,7 @@ Feature: ACG gallery
     Given the save "Nelims-tribe" is loaded
     And I set the hour to 7
     And Nelim's Sanctuary: the animals are removed from the sanctuary "preindustrial-workshop"
+    And Nelim's Sanctuary: the sanctuary "preindustrial-workshop" is emptied
     And Nelim's Sanctuary: I am at the sanctuary "preindustrial-workshop"
     And Nelim's Pickle Tools: the temperature of the map is 20 degrees
     And Nelim's Pickle Tools: studio presentation mode is enabled
@@ -54,6 +55,7 @@ Feature: ACG gallery
     And Nelim's Pickle Tools: the selection brackets are hidden
     And Nelim's Pickle Tools: I move the mouse to (10, 10)
     And Nelim's Pickle Tools: "Nelim" hairstyle is "Roo_HD_Hair_Highpony"
+    And Nelim's Pickle Tools: the colonist "Nelim" follows an apparel policy that allows everything
     And Nelim's Pickle Tools: "Nelim" is undressed
     And Nelim's Pickle Tools: "Nelim" wears "LisaWork_ApparelShirtButtoned" made of "Cloth"
     And Nelim's Pickle Tools: the "LisaWork_ApparelShirtButtoned" worn by "Nelim" is dyed rgb (222, 203, 164)
@@ -68,13 +70,16 @@ Feature: ACG gallery
     And Nelim's Pickle Tools: I place the decor "Stool" near (225, 235)
     And Nelim's Pickle Tools: I place the decor "PlantPot" holding "Plant_Daylily" fully grown at (227, 238)
     And Nelim's Pickle Tools: I place the decor "SculptureSmall" near (219, 238)
+    And Nelim's Pickle Tools: a decor that finds no cell is skipped and logged
+    And Nelim's Pickle Tools: I place the decor "Shelf" near (219, 233)
+    And Nelim's Pickle Tools: I place the decor "Table1x2c" near (226, 234)
     And Nelim's Pickle Tools: I place the decor "GeneBank" near (225, 238)
     And Nelim's Pickle Tools: the building "ACG_SerumBench" is spawned at (222, 236)
     And Nelim's Pickle Tools: a genepack with the genes "ACG_ChestPatch" is spawned at (222, 235)
     And Nelim's Pickle Tools: the building "ACG_SerumBench" at (222, 236) has the bill "ACG_MakeAnimalTraitSerum"
     And game speed is normal
     Given Nelim's Pickle Tools: "Nelim" is forced into the job "DoBill" on the building "ACG_SerumBench" at (222, 236)
-    And Nelim's Pickle Tools: I let 1500 ticks pass
+    And Nelim's Pickle Tools: I let 300 ticks pass
     And game speed is paused
     And Nelim's Pickle Tools: the animal "Shogun" stands at (220, 236)
     And Nelim's Pickle Tools: the animal "Shogun" faces east
@@ -98,6 +103,7 @@ Feature: ACG gallery
     And Nelim's Pickle Tools: the selection brackets are hidden
     And Nelim's Pickle Tools: I move the mouse to (10, 10)
     And Nelim's Pickle Tools: "Nelim" hairstyle is "Roo_HD_Hair_Highpony"
+    And Nelim's Pickle Tools: the colonist "Nelim" follows an apparel policy that allows everything
     And Nelim's Pickle Tools: "Nelim" is undressed
     And Nelim's Pickle Tools: "Nelim" wears "LisaWork_ApparelShirtButtoned" made of "Cloth"
     And Nelim's Pickle Tools: the "LisaWork_ApparelShirtButtoned" worn by "Nelim" is dyed rgb (222, 203, 164)
@@ -115,6 +121,8 @@ Feature: ACG gallery
     And Nelim's Pickle Tools: I let 1500 ticks pass
     And game speed is paused
     Then Nelim's Pickle Tools: the animal "Kuru" holds the hediff "AnimalTrait_ChestPatch"
+    And Nelim's Pickle Tools: "Nelim" stands at (140, 73) facing East
+    And Nelim's Pickle Tools: the animal "Kuru" stands at (141, 73)
     And Nelim's Pickle Tools: the animal "Kuru" faces south
     And Nelim's Sanctuary: Nelim has her own face
     And Nelim's Pickle Tools: I frame the area centred on (140, 73) at root size 2.5
@@ -136,6 +144,7 @@ Feature: ACG gallery
     And Nelim's Pickle Tools: the selection brackets are hidden
     And Nelim's Pickle Tools: I move the mouse to (10, 10)
     And Nelim's Pickle Tools: "Nelim" hairstyle is "Roo_HD_Hair_Highpony"
+    And Nelim's Pickle Tools: the colonist "Nelim" follows an apparel policy that allows everything
     And Nelim's Pickle Tools: "Nelim" is undressed
     And Nelim's Pickle Tools: "Nelim" wears "LisaWork_ApparelShirtButtoned" made of "Cloth"
     And Nelim's Pickle Tools: the "LisaWork_ApparelShirtButtoned" worn by "Nelim" is dyed rgb (222, 203, 164)
@@ -178,6 +187,7 @@ Feature: ACG gallery
     And Nelim's Pickle Tools: the selection brackets are hidden
     And Nelim's Pickle Tools: I move the mouse to (10, 10)
     And Nelim's Pickle Tools: "Nelim" hairstyle is "Roo_HD_Hair_Highpony"
+    And Nelim's Pickle Tools: the colonist "Nelim" follows an apparel policy that allows everything
     And Nelim's Pickle Tools: "Nelim" is undressed
     And Nelim's Pickle Tools: "Nelim" wears "LisaWork_ApparelShirtButtoned" made of "Cloth"
     And Nelim's Pickle Tools: the "LisaWork_ApparelShirtButtoned" worn by "Nelim" is dyed rgb (222, 203, 164)
@@ -220,6 +230,7 @@ Feature: ACG gallery
     And Nelim's Pickle Tools: the selection brackets are hidden
     And Nelim's Pickle Tools: I move the mouse to (10, 10)
     And Nelim's Pickle Tools: "Nelim" hairstyle is "Roo_HD_Hair_Highpony"
+    And Nelim's Pickle Tools: the colonist "Nelim" follows an apparel policy that allows everything
     And Nelim's Pickle Tools: "Nelim" is undressed
     And Nelim's Pickle Tools: "Nelim" wears "LisaWork_ApparelShirtButtoned" made of "Cloth"
     And Nelim's Pickle Tools: the "LisaWork_ApparelShirtButtoned" worn by "Nelim" is dyed rgb (222, 203, 164)
