@@ -110,3 +110,5 @@ k (series): one story day, opening 1, closing 5, wide/medium/close present: ok. 
 Gallery tickets filed 2026-11-07 at 365e402 (map wsl-deps.acg-gallery.map): 20261107-225248-553-1a93 (shots 1 to 3, Tests/Pickle/Inbox/gallery-1) and 20261107-225254-077-b107 (shots 4 to 6, Tests/Pickle/Inbox/gallery-2). Keep Source/ and Mod/ and the feature frozen until RUN_DONE. At RUN_DONE: read summary.json and junit.xml, open every capture, rate-gallery for REDO or candidate.
 
 Subtitles (review-gallery step 10): PUBLICATION.md does not exist yet (writeDocs), so the five lines live in the header of acg-gallery.feature and move to PUBLICATION.md "Gallery subtitles" when it is written. Shot 6 (genepack window) gets none.
+
+2026-11-07: ticket 1a93 failed 3 of 3 ("no current map is loaded"): the gallery scenarios had no `the save "Nelims-tribe" is loaded` step. Added as the first step of each scenario (879e864), failed report deleted, b107 cancelled. Refiled at 879e864: 20261107-230230-087-ee43 (shots 1 to 3, Tests/Pickle/Inbox/gallery-a) and 20261107-230235-676-2fbe (shots 4 to 6, gallery-b). Tree frozen until RUN_DONE.
