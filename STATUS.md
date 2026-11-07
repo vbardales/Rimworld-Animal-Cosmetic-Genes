@@ -106,3 +106,5 @@ Tribe read: 2026-11-07 (CATALOGUE-ANIMAUX, ATTICUS, SHOGUN, KURU, TAMA sheets, V
 | 4 horse-4-serum | barn 14:00 | hay, lantern, trough | horse, alpaca violet | same | Nelim near the horse with serum | medium | next in line | serum, tint | 5 |
 | 5 bridge-5-dusk | river-bridge 17:30 | lantern, bridge | Shogun, labrador, horse | same | walking home mid-stride | wide, closing | home at dusk | tinted coats | 5 |
 k (series): one story day, opening 1, closing 5, wide/medium/close present: ok. Main risks: cells unconfirmed, tinted anonymous labrador/horse/alpaca must exist in the save (ask NPT), pause mid-stride needs a goto job.
+
+Gallery tickets filed 2026-11-07 at 365e402 (map wsl-deps.acg-gallery.map): 20261107-225248-553-1a93 (shots 1 to 3, Tests/Pickle/Inbox/gallery-1) and 20261107-225254-077-b107 (shots 4 to 6, Tests/Pickle/Inbox/gallery-2). Keep Source/ and Mod/ and the feature frozen until RUN_DONE. At RUN_DONE: read summary.json and junit.xml, open every capture, rate-gallery for REDO or candidate.
