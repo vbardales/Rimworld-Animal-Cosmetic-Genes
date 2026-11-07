@@ -17,7 +17,7 @@
 #                     at (227, 238), SculptureSmall. The workshop is emptied first (power cells and a dining set stood on the cells of runs 03ec, 0c94, e318). Root size 3.5 at (222, 237) so the bench reads at 268 px. Subtitle: "The serum is ready at the bench."
 #                     Instant: the vial has just come out, she looks up at the camera with it before the pick-up. Foreground the genepack and the bench edge, background the torches and the GeneBank, Nelim at the centre facing the camera, Shogun and the torches around her, warm torch light against the dawn.
 #   2. kuru-2-patch   hut 9h (centre 140, 73) close, root size 2.5. Just after the apply: Nelim at (140, 73) facing east, serum used, Kuru
-#                     (akaNEKO_kuroneko) at (141, 73) facing south with AnimalTrait_ChestPatch (white patch on black fur). DR_StickLantern lit near (143, 75).
+#                     (akaNEKO_kuroneko) at (141, 73) facing south with AnimalTrait_ChestPatch (white patch on black fur). DR_StickLantern lit near (143, 75), Shelf near (137, 76), SculptureSmall near (144, 71), Stool near (137, 71) (run 5fa2 showed a bare wooden floor).
 #                     Subtitle: "Kuru gets his white chest patch."
 #                     Instant: the serum has just gone in, Kuru has not moved yet. Foreground Kuru and the patch, background the lit lantern and the tatami, Nelim off-centre right, soft morning light.
 #   3. labradors-3-coats flower-garden 11h (centre 154, 110) medium, root size 5. Shogun at (154, 110) and an anonymous labrador "Lab1" at (156, 110) with
@@ -117,6 +117,10 @@ Feature: ACG gallery
     And Nelim's Pickle Tools: "Nelim" wears "LisaWork_ApparelHornRimmedGlasses" made of "Gold"
     And Nelim's Pickle Tools: I place the decor "DR_StickLantern" at (143, 75)
     And Nelim's Pickle Tools: the decor "DR_StickLantern" at (143, 75) is lit
+    And Nelim's Pickle Tools: a decor that finds no cell is skipped and logged
+    And Nelim's Pickle Tools: I place the decor "Shelf" near (137, 76)
+    And Nelim's Pickle Tools: I place the decor "SculptureSmall" near (144, 71)
+    And Nelim's Pickle Tools: I place the decor "Stool" near (137, 71)
     And Nelim's Pickle Tools: "Nelim" stands at (140, 73) facing East
     And Nelim's Pickle Tools: an adult animal of kind "akaNEKO_kuroneko" named "Kuru" is spawned at (141, 73)
     And Nelim's Pickle Tools: the item "ACG_AnimalTraitSerum" is spawned at (139, 73) with the field "gene" set to the def "ACG_ChestPatch"
@@ -172,7 +176,7 @@ Feature: ACG gallery
     And Nelim's Pickle Tools: I let 40 ticks pass
     And game speed is paused
     And Nelim's Sanctuary: Nelim has her own face
-    And Nelim's Pickle Tools: the loose things within 12 cells of "Nelim" are removed
+    And Nelim's Pickle Tools: the loose things within 10 cells of "Nelim" are removed
     And Nelim's Pickle Tools: I frame the area centred on (153, 110) at root size 5
     When Nelim's Pickle Tools: I let 5 frames pass
     Then I take a screenshot "acggallery-3-labradors"
