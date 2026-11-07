@@ -32,7 +32,7 @@ remaining:
   - "2026-11-02: writeTests done (7.a to 7.h) at revision 1ad3f61: TESTING.md lists one scenario per behaviour; unit tests AtsRules pass, build 0 warnings and DLL SAME, XML parse and DefRefs clean (XmlFields: only the Animal Traits System noise), Check-Translations PASS, Check-Steps clean (16 scenarios). Pickle proofs in Tests/Pickle/Evidence are all green on the current C# (Source last changed in c622863); the Mod/ changes since (textures, French, labels) are covered by 6c3b and 6146 for the chest patch, the bench chain and the serum. 2026-11-02 playTests: tickets ba7f (English) and 0f31 + 989d (French) at 900f204: coat-cat, gene-tint-cat and the bench chain pass in both languages, no raw key on the captures, no ACG error in the log (proofs acg-labels-en, acg-labels-fr, acg-serum-bench-chain-fr). Scenario acg-serum-bench-chain-fr added: the float menu step matches the label of the game language. Still unverified: clipped text in the French UI beyond the float menu; gene icon (no step frames it). Ticket 8805 green (scenario acg-serum-bench-look, 1 of 1, 106 s): captures acgbench-look-bench and acgbench-look-serum read (bench with its parts, turquoise vial on the bed, no raw key), minified in Evidence/acg-serum-bench-look. Virginie validated the look of the bench and the serum on 2026-11-02 (validated as is, one turquoise vial for all traits accepted for 1.0.0)."
 code_review_sha: 4616d5fb86c239438b6ffb2e342fdedba7d53d47
 updated: 2026-11-06
-protocols_read_sha: f19f4980859a25c39295dfc37761de0f552b36da
+protocols_read_sha: 611c34587974a0b8f04c37a33eba91aa6911f252
 ---
 
 # Animal Cosmetic Genes: status
