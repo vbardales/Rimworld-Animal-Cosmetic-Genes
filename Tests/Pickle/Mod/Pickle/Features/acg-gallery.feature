@@ -22,7 +22,7 @@
 #                     Instant: the serum has just gone in, Kuru has not moved yet. Foreground Kuru and the patch, background the lit lantern and the tatami, Nelim off-centre right, soft morning light.
 #   3. labradors-3-coats flower-garden 11h (centre 154, 110) medium, root size 5. Shogun at (154, 110) and an anonymous labrador "Lab1" at (156, 110) with
 #                     AnimalTrait_Skin_Blue, both facing south toward the camera. Nelim at (150, 109) walks to (148, 109), paused mid-stride. Plant_Daylily
-#                     at (151, 108) and (157, 108), PlantPot with Plant_Daylily at (159, 112), DR_StickLantern near (150, 112) lit. Subtitle: "Same breed, two coats."
+#                     at (151, 108) and (157, 108), PlantPot with Plant_Daylily at (159, 112), DR_StickLantern at (150, 112) lit. Subtitle: "Same breed, two coats."
 #                     Instant: Nelim has just walked off after the tint, the two dogs hold their pose. Foreground the two labradors, background the daylilies and the lantern, dogs off-centre, midday light.
 #   4. horse-4-serum   barn 14h (centre 196, 237) medium, root size 5. Nelim at (190, 237) walks to the horse "Mare1" at (198, 237) holding the serum (gene
 #                     Skin_Orange), the apply not yet done after 120 ticks. Alpaca "Alpa1" at (200, 240) with AnimalTrait_Skin_Purple behind. Hay at (194, 238),
@@ -30,7 +30,7 @@
 #                     Instant: Nelim has picked up the serum and crosses the last cells to the horse. Foreground the purple alpaca, background the lit lanterns and the hay, afternoon light in the barn.
 #   5. bridge-5-dusk   river-bridge 17h (centre 135, 124) wide, closing, root size 8. Nelim walks from (137, 124) to (131, 124), Shogun at (135, 124) and
 #                     the blue labrador "Lab2" (AnimalTrait_Skin_Blue) follow, horse "Mare2" grazes at (128, 130) with AnimalTrait_Skin_PaleRed, DR_StickLantern
-#                     near (132, 126) lit. Subtitle: "Home at dusk, with a few new colours."
+#                     at (132, 126) lit. Subtitle: "Home at dusk, with a few new colours."
 #                     Instant: the walk home has just begun over the bridge. Foreground the blue labrador and Shogun, background the grazing horse and the lit lantern, low golden light from the west.
 #   6. genepack-window interface window (not rated), window-backdrop-for-height, cropped, no subtitle: genepack at (90, 140), ITab_Genes, "Chest patch".
 # Mods for the -DepMap: wsl-deps.acg-gallery.map (NSB wsl-deps.sanctuary-nelim.map + luved.animaltraits + akairo.LetsHaveaCat + Mlie.StickLantern 2024351846).
@@ -43,7 +43,7 @@ Feature: ACG gallery
   Scenario: acg-gallery-1-bench-dawn
     Given the save "Nelims-tribe" is loaded
     And I set the hour to 7
-    And Nelim's Sanctuary: the animals are kept out of the sanctuary "preindustrial-workshop"
+    And Nelim's Sanctuary: the animals are removed from the sanctuary "preindustrial-workshop"
     And Nelim's Sanctuary: I am at the sanctuary "preindustrial-workshop"
     And Nelim's Pickle Tools: the temperature of the map is 20 degrees
     And Nelim's Pickle Tools: studio presentation mode is enabled
@@ -61,8 +61,8 @@ Feature: ACG gallery
     And Nelim's Pickle Tools: the "LisaWork_ApparelSkirt" worn by "Nelim" is dyed rgb (31, 58, 95)
     And Nelim's Pickle Tools: "Nelim" wears "Apparel_PAESmallEarrings" made of "Gold"
     And Nelim's Pickle Tools: "Nelim" wears "LisaWork_ApparelHornRimmedGlasses" made of "Gold"
-    And Nelim's Pickle Tools: I place the decor "TorchLamp" near (221, 239)
-    And Nelim's Pickle Tools: I place the decor "TorchLamp" near (226, 239)
+    And Nelim's Pickle Tools: I place the decor "TorchLamp" at (221, 239)
+    And Nelim's Pickle Tools: I place the decor "TorchLamp" at (226, 239)
     And Nelim's Pickle Tools: the decor "TorchLamp" at (221, 239) is lit
     And Nelim's Pickle Tools: the decor "TorchLamp" at (226, 239) is lit
     And Nelim's Pickle Tools: I place the decor "Stool" near (225, 235)
@@ -87,7 +87,7 @@ Feature: ACG gallery
   Scenario: acg-gallery-2-kuru-patch
     Given the save "Nelims-tribe" is loaded
     And I set the hour to 9
-    And Nelim's Sanctuary: the animals are kept out of the sanctuary "hut"
+    And Nelim's Sanctuary: the animals are removed from the sanctuary "hut"
     And Nelim's Sanctuary: I am at the sanctuary "hut"
     And Nelim's Pickle Tools: the temperature of the map is 20 degrees
     And Nelim's Pickle Tools: studio presentation mode is enabled
@@ -105,7 +105,7 @@ Feature: ACG gallery
     And Nelim's Pickle Tools: the "LisaWork_ApparelSkirt" worn by "Nelim" is dyed rgb (31, 58, 95)
     And Nelim's Pickle Tools: "Nelim" wears "Apparel_PAESmallEarrings" made of "Gold"
     And Nelim's Pickle Tools: "Nelim" wears "LisaWork_ApparelHornRimmedGlasses" made of "Gold"
-    And Nelim's Pickle Tools: I place the decor "DR_StickLantern" near (143, 75)
+    And Nelim's Pickle Tools: I place the decor "DR_StickLantern" at (143, 75)
     And Nelim's Pickle Tools: the decor "DR_StickLantern" at (143, 75) is lit
     And Nelim's Pickle Tools: "Nelim" stands at (140, 73) facing East
     And Nelim's Pickle Tools: an adult animal of kind "akaNEKO_kuroneko" named "Kuru" is spawned at (141, 73)
@@ -125,7 +125,7 @@ Feature: ACG gallery
   Scenario: acg-gallery-3-labradors
     Given the save "Nelims-tribe" is loaded
     And I set the hour to 11
-    And Nelim's Sanctuary: the animals are kept out of the sanctuary "flower-garden"
+    And Nelim's Sanctuary: the animals are removed from the sanctuary "flower-garden"
     And Nelim's Sanctuary: I am at the sanctuary "flower-garden"
     And Nelim's Pickle Tools: the temperature of the map is 20 degrees
     And Nelim's Pickle Tools: studio presentation mode is enabled
@@ -146,7 +146,7 @@ Feature: ACG gallery
     And Nelim's Pickle Tools: I place the decor "Plant_Daylily" at (151, 108) fully grown
     And Nelim's Pickle Tools: I place the decor "Plant_Daylily" at (157, 108) fully grown
     And Nelim's Pickle Tools: I place the decor "PlantPot" holding "Plant_Daylily" fully grown at (159, 112)
-    And Nelim's Pickle Tools: I place the decor "DR_StickLantern" near (150, 112)
+    And Nelim's Pickle Tools: I place the decor "DR_StickLantern" at (150, 112)
     And Nelim's Pickle Tools: the decor "DR_StickLantern" at (150, 112) is lit
     And Nelim's Pickle Tools: the animal "Shogun" stands at (154, 110)
     And Nelim's Pickle Tools: an adult animal of kind "LabradorRetriever" named "Lab1" is spawned at (156, 110)
@@ -167,7 +167,7 @@ Feature: ACG gallery
   Scenario: acg-gallery-4-horse
     Given the save "Nelims-tribe" is loaded
     And I set the hour to 14
-    And Nelim's Sanctuary: the animals are kept out of the sanctuary "barn"
+    And Nelim's Sanctuary: the animals are removed from the sanctuary "barn"
     And Nelim's Sanctuary: I am at the sanctuary "barn"
     And Nelim's Pickle Tools: the temperature of the map is 20 degrees
     And Nelim's Pickle Tools: studio presentation mode is enabled
@@ -186,9 +186,9 @@ Feature: ACG gallery
     And Nelim's Pickle Tools: "Nelim" wears "Apparel_PAESmallEarrings" made of "Gold"
     And Nelim's Pickle Tools: "Nelim" wears "LisaWork_ApparelHornRimmedGlasses" made of "Gold"
     And Nelim's Pickle Tools: I place the decor "Hay" at (194, 238)
-    And Nelim's Pickle Tools: I place the decor "DR_StickLantern" near (190, 233)
+    And Nelim's Pickle Tools: I place the decor "DR_StickLantern" at (190, 233)
     And Nelim's Pickle Tools: the decor "DR_StickLantern" at (190, 233) is lit
-    And Nelim's Pickle Tools: I place the decor "DR_StickLantern" near (202, 233)
+    And Nelim's Pickle Tools: I place the decor "DR_StickLantern" at (202, 233)
     And Nelim's Pickle Tools: the decor "DR_StickLantern" at (202, 233) is lit
     And Nelim's Pickle Tools: an adult animal of kind "Horse" named "Mare1" is spawned at (198, 237)
     And Nelim's Pickle Tools: an adult animal of kind "Alpaca" named "Alpa1" is spawned at (200, 240)
@@ -209,7 +209,7 @@ Feature: ACG gallery
   Scenario: acg-gallery-5-bridge-dusk
     Given the save "Nelims-tribe" is loaded
     And I set the hour to 17
-    And Nelim's Sanctuary: the animals are kept out of the sanctuary "river-bridge"
+    And Nelim's Sanctuary: the animals are removed from the sanctuary "river-bridge"
     And Nelim's Sanctuary: I am at the sanctuary "river-bridge"
     And Nelim's Pickle Tools: the temperature of the map is 20 degrees
     And Nelim's Pickle Tools: studio presentation mode is enabled
@@ -227,7 +227,7 @@ Feature: ACG gallery
     And Nelim's Pickle Tools: the "LisaWork_ApparelSkirt" worn by "Nelim" is dyed rgb (31, 58, 95)
     And Nelim's Pickle Tools: "Nelim" wears "Apparel_PAESmallEarrings" made of "Gold"
     And Nelim's Pickle Tools: "Nelim" wears "LisaWork_ApparelHornRimmedGlasses" made of "Gold"
-    And Nelim's Pickle Tools: I place the decor "DR_StickLantern" near (132, 126)
+    And Nelim's Pickle Tools: I place the decor "DR_StickLantern" at (132, 126)
     And Nelim's Pickle Tools: the decor "DR_StickLantern" at (132, 126) is lit
     And Nelim's Pickle Tools: an adult animal of kind "Horse" named "Mare2" is spawned at (128, 130)
     And Nelim's Pickle Tools: the animal "Mare2" has the hediff "AnimalTrait_Skin_PaleRed"
@@ -249,7 +249,7 @@ Feature: ACG gallery
 
   Scenario: acg-gallery-6-genepack-window
     Given the save "Nelims-tribe" is loaded
-    And Nelim's Sanctuary: the animals are kept out of the sanctuary "window-backdrop-for-height"
+    And Nelim's Sanctuary: the animals are removed from the sanctuary "window-backdrop-for-height"
     And Nelim's Sanctuary: I am at the sanctuary "window-backdrop-for-height"
     And game speed is paused
     And Nelim's Pickle Tools: the colonist bar is hidden
