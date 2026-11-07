@@ -13,6 +13,7 @@ One scenario per promised behaviour. Pickle scenarios are in `Tests/Pickle/Mod/P
 | A genepack goes in a bill, a serum comes out, a colonist applies it | acg-serum-bench-chain (acg-serum-bench) | bench built, serum made, "Apply chest patch" picked on Kuru1, the trait is held |
 | A colonist applies a serum to an animal | acg-serum-apply (acg-serum-apply) | the animal holds the trait, the serum is gone |
 | A second coat tint is refused | acg-serum-second-tint-refused (acg-serum-apply) | the float menu offers no second tint |
+| A second coat tint is refused, French menu | acg-serum-second-tint-refused-fr (acg-serum-apply) | French copy, the step matches the French float menu label |
 | The chest patch is drawn on the cat Kuru | acg-chest-patch-kuroneko (acg-chest-patch) | white patch on the chest, south, east and west, paws free |
 
 ## Automated checks, replayed 2026-11-06 at 2a3846c (Source last changed 1c5278d)
