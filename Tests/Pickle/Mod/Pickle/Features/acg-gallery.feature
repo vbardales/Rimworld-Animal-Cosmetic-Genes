@@ -22,14 +22,14 @@
 #                     Instant: the serum has just gone in, Kuru has not moved yet. Foreground Kuru and the patch, background the lit lantern and the tatami, Nelim off-centre right, soft morning light.
 #   3. labradors-3-coats flower-garden 11h (centre 154, 110) medium, root size 5. Shogun at (154, 110) and an anonymous labrador "Lab1" at (156, 110) with
 #                     AnimalTrait_Skin_PaleRed (tints multiply the coat: blue on yellow read grey in runs 5ea8 and be78), both facing south toward the camera. Nelim at (150, 109) walks to (148, 109), paused mid-stride. Plant_Daylily
-#                     at (151, 108) and (157, 108), PlantPot with Plant_Daylily at (159, 112), DR_StickLantern at (150, 112) lit. Subtitle: "Same breed, two coats."
+#                     at (151, 108) and (157, 108), DR_StickLantern at (150, 112) lit (the flower pot is dropped: its rim under the plant read as a smiley in run 54eb). Subtitle: "Same breed, two coats."
 #                     Instant: Nelim has just walked off after the tint, the two dogs hold their pose. Foreground the two labradors, background the daylilies and the lantern, dogs off-centre, midday light.
-#   4. horse-4-serum   barn 14h (centre 196, 237) medium, root size 5. Nelim at (190, 237) walks to the horse "Mare1" at (198, 237) holding the serum (gene
-#                     Skin_Orange), the apply not yet done after 120 ticks. Alpaca "Alpa1" at (200, 240) with AnimalTrait_Skin_Purple behind. Hay at (194, 238),
-#                     DR_StickLantern near (190, 233) and (202, 233) lit. Subtitle: "Next in line: the barn horse."
+#   4. horse-4-serum   barn 14h (centre 196, 238) medium, root size 4. Nelim at (192, 237) walks to the horse "Mare1" at (198, 237) holding the serum (gene
+#                     Skin_Orange), the apply not yet done after 120 ticks. Alpaca "Alpa1" at (197, 240) with AnimalTrait_Skin_Purple in the foreground (run 54eb: cut off at the top, a cow and a piglet at the west edge: frame moved east, root size 4). Hay at (194, 238),
+#                     DR_StickLantern at (192, 233) and (201, 233) lit, two more Hay at (196, 235) and (200, 238). Subtitle: "Next in line: the barn horse."
 #                     Instant: Nelim has picked up the serum and crosses the last cells to the horse. Foreground the purple alpaca, background the lit lanterns and the hay, afternoon light in the barn.
 #   5. bridge-5-dusk   river-bridge 17h (centre 135, 124) wide, closing, root size 5. Nelim walks from (137, 124) to (131, 124), Shogun at (135, 124) and
-#                     the red-coat labrador "Lab2" (AnimalTrait_Skin_PaleRed) follow, alpaca "Alpa2" grazes at (128, 130) with AnimalTrait_Skin_Purple (the brown horse showed no tint), DR_StickLantern
+#                     the red-coat labrador "Lab2" (AnimalTrait_Skin_PaleRed) follow, alpaca "Alpa2" grazes at (128, 127) (run 54eb: cut off at the corner) with AnimalTrait_Skin_Purple (the brown horse showed no tint), DR_StickLantern
 #                     at (132, 126) lit. Subtitle: "Home at dusk, with a few new colours."
 #                     Instant: the walk home has just begun over the bridge. Foreground the blue labrador and Shogun, background the grazing horse and the lit lantern, low golden light from the west.
 #   6. genepack-window interface window (not rated), window-backdrop-for-height, cropped, no subtitle: genepack at (90, 140), ITab_Genes, "Chest patch".
@@ -123,6 +123,8 @@ Feature: ACG gallery
     And Nelim's Pickle Tools: I place the decor "Shelf" near (137, 76)
     And Nelim's Pickle Tools: I place the decor "SculptureSmall" near (144, 71)
     And Nelim's Pickle Tools: I place the decor "Stool" near (137, 71)
+    And Nelim's Pickle Tools: I place the decor "Stool" near (144, 73)
+    And Nelim's Pickle Tools: I place the decor "Shelf" near (145, 76)
     And Nelim's Pickle Tools: "Nelim" stands at (140, 73) facing East
     And Nelim's Pickle Tools: an adult animal of kind "akaNEKO_kuroneko" named "Kuru" is spawned at (141, 73)
     And Nelim's Pickle Tools: the item "ACG_AnimalTraitSerum" is spawned at (139, 73) with the field "gene" set to the def "ACG_ChestPatch"
@@ -164,7 +166,6 @@ Feature: ACG gallery
     And Nelim's Pickle Tools: "Nelim" wears "LisaWork_ApparelHornRimmedGlasses" made of "Gold"
     And Nelim's Pickle Tools: I place the decor "Plant_Daylily" at (151, 108) fully grown
     And Nelim's Pickle Tools: I place the decor "Plant_Daylily" at (157, 108) fully grown
-    And Nelim's Pickle Tools: I place the decor "PlantPot" holding "Plant_Daylily" fully grown at (159, 112)
     And Nelim's Pickle Tools: I place the decor "DR_StickLantern" at (150, 112)
     And Nelim's Pickle Tools: the decor "DR_StickLantern" at (150, 112) is lit
     And Nelim's Pickle Tools: the animal "Shogun" stands at (154, 110)
@@ -208,22 +209,24 @@ Feature: ACG gallery
     And Nelim's Pickle Tools: "Nelim" wears "Apparel_PAESmallEarrings" made of "Gold"
     And Nelim's Pickle Tools: "Nelim" wears "LisaWork_ApparelHornRimmedGlasses" made of "Gold"
     And Nelim's Pickle Tools: I place the decor "Hay" at (194, 238)
-    And Nelim's Pickle Tools: I place the decor "DR_StickLantern" at (190, 233)
-    And Nelim's Pickle Tools: the decor "DR_StickLantern" at (190, 233) is lit
-    And Nelim's Pickle Tools: I place the decor "DR_StickLantern" at (202, 233)
-    And Nelim's Pickle Tools: the decor "DR_StickLantern" at (202, 233) is lit
+    And Nelim's Pickle Tools: I place the decor "DR_StickLantern" at (192, 233)
+    And Nelim's Pickle Tools: the decor "DR_StickLantern" at (192, 233) is lit
+    And Nelim's Pickle Tools: I place the decor "DR_StickLantern" at (201, 233)
+    And Nelim's Pickle Tools: the decor "DR_StickLantern" at (201, 233) is lit
+    And Nelim's Pickle Tools: I place the decor "Hay" at (196, 235)
+    And Nelim's Pickle Tools: I place the decor "Hay" at (200, 238)
     And Nelim's Pickle Tools: an adult animal of kind "Horse" named "Mare1" is spawned at (198, 237)
-    And Nelim's Pickle Tools: an adult animal of kind "Alpaca" named "Alpa1" is spawned at (200, 240)
+    And Nelim's Pickle Tools: an adult animal of kind "Alpaca" named "Alpa1" is spawned at (197, 240)
     And Nelim's Pickle Tools: the animal "Alpa1" has the hediff "AnimalTrait_Skin_Purple"
     And Nelim's Pickle Tools: the animal "Mare1" faces west
-    And Nelim's Pickle Tools: "Nelim" stands at (190, 237) facing East
-    And Nelim's Pickle Tools: the item "ACG_AnimalTraitSerum" is spawned at (191, 237) with the field "gene" set to the def "Skin_Orange"
+    And Nelim's Pickle Tools: "Nelim" stands at (192, 237) facing East
+    And Nelim's Pickle Tools: the item "ACG_AnimalTraitSerum" is spawned at (193, 237) with the field "gene" set to the def "Skin_Orange"
     And game speed is normal
     When Nelim's Pickle Tools: "Nelim" picks the float menu option "Apply orange skin" on "Mare1"
     And Nelim's Pickle Tools: I let 120 ticks pass
     And game speed is paused
     And Nelim's Sanctuary: Nelim has her own face
-    And Nelim's Pickle Tools: I frame the area centred on (195, 237) at root size 5
+    And Nelim's Pickle Tools: I frame the area centred on (196, 238) at root size 4
     When Nelim's Pickle Tools: I let 5 frames pass
     Then I take a screenshot "acggallery-4-horse"
     And Nelim's Pickle Tools: the decor is removed
@@ -255,7 +258,7 @@ Feature: ACG gallery
     And Nelim's Pickle Tools: I place the decor "TorchLamp" near (137, 126)
     And Nelim's Pickle Tools: I place the decor "Plant_Daylily" at (130, 128) fully grown
     And Nelim's Pickle Tools: I place the decor "Plant_Daylily" at (138, 122) fully grown
-    And Nelim's Pickle Tools: an adult animal of kind "Alpaca" named "Alpa2" is spawned at (128, 130)
+    And Nelim's Pickle Tools: an adult animal of kind "Alpaca" named "Alpa2" is spawned at (128, 127)
     And Nelim's Pickle Tools: the animal "Alpa2" has the hediff "AnimalTrait_Skin_Purple"
     And Nelim's Pickle Tools: an adult animal of kind "LabradorRetriever" named "Lab2" is spawned at (136, 124)
     And Nelim's Pickle Tools: the animal "Lab2" has the hediff "AnimalTrait_Skin_PaleRed"
