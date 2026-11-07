@@ -41,7 +41,8 @@
 Feature: ACG gallery
 
   Scenario: acg-gallery-1-bench-dawn
-    Given I set the hour to 7
+    Given the save "Nelims-tribe" is loaded
+    And I set the hour to 7
     And Nelim's Sanctuary: the animals are kept out of the sanctuary "preindustrial-workshop"
     And Nelim's Sanctuary: I am at the sanctuary "preindustrial-workshop"
     And Nelim's Pickle Tools: the temperature of the map is 20 degrees
@@ -84,7 +85,8 @@ Feature: ACG gallery
     And Nelim's Pickle Tools: the decor is removed
 
   Scenario: acg-gallery-2-kuru-patch
-    Given I set the hour to 9
+    Given the save "Nelims-tribe" is loaded
+    And I set the hour to 9
     And Nelim's Sanctuary: the animals are kept out of the sanctuary "hut"
     And Nelim's Sanctuary: I am at the sanctuary "hut"
     And Nelim's Pickle Tools: the temperature of the map is 20 degrees
@@ -121,7 +123,8 @@ Feature: ACG gallery
     And Nelim's Pickle Tools: the decor is removed
 
   Scenario: acg-gallery-3-labradors
-    Given I set the hour to 11
+    Given the save "Nelims-tribe" is loaded
+    And I set the hour to 11
     And Nelim's Sanctuary: the animals are kept out of the sanctuary "flower-garden"
     And Nelim's Sanctuary: I am at the sanctuary "flower-garden"
     And Nelim's Pickle Tools: the temperature of the map is 20 degrees
@@ -162,7 +165,8 @@ Feature: ACG gallery
     And Nelim's Pickle Tools: the decor is removed
 
   Scenario: acg-gallery-4-horse
-    Given I set the hour to 14
+    Given the save "Nelims-tribe" is loaded
+    And I set the hour to 14
     And Nelim's Sanctuary: the animals are kept out of the sanctuary "barn"
     And Nelim's Sanctuary: I am at the sanctuary "barn"
     And Nelim's Pickle Tools: the temperature of the map is 20 degrees
@@ -203,7 +207,8 @@ Feature: ACG gallery
     And Nelim's Pickle Tools: the decor is removed
 
   Scenario: acg-gallery-5-bridge-dusk
-    Given I set the hour to 17
+    Given the save "Nelims-tribe" is loaded
+    And I set the hour to 17
     And Nelim's Sanctuary: the animals are kept out of the sanctuary "river-bridge"
     And Nelim's Sanctuary: I am at the sanctuary "river-bridge"
     And Nelim's Pickle Tools: the temperature of the map is 20 degrees
@@ -243,7 +248,8 @@ Feature: ACG gallery
     And Nelim's Pickle Tools: the decor is removed
 
   Scenario: acg-gallery-6-genepack-window
-    Given Nelim's Sanctuary: the animals are kept out of the sanctuary "window-backdrop-for-height"
+    Given the save "Nelims-tribe" is loaded
+    And Nelim's Sanctuary: the animals are kept out of the sanctuary "window-backdrop-for-height"
     And Nelim's Sanctuary: I am at the sanctuary "window-backdrop-for-height"
     And game speed is paused
     And Nelim's Pickle Tools: the colonist bar is hidden
