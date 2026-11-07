@@ -112,3 +112,5 @@ Gallery tickets filed 2026-11-07 at 365e402 (map wsl-deps.acg-gallery.map): 2026
 Subtitles (review-gallery step 10): PUBLICATION.md does not exist yet (writeDocs), so the five lines live in the header of acg-gallery.feature and move to PUBLICATION.md "Gallery subtitles" when it is written. Shot 6 (genepack window) gets none.
 
 2026-11-07: ticket 1a93 failed 3 of 3 ("no current map is loaded"): the gallery scenarios had no `the save "Nelims-tribe" is loaded` step. Added as the first step of each scenario (879e864), failed report deleted, b107 cancelled. Refiled at 879e864: 20261107-230230-087-ee43 (shots 1 to 3, Tests/Pickle/Inbox/gallery-a) and 20261107-230235-676-2fbe (shots 4 to 6, gallery-b). Tree frozen until RUN_DONE.
+
+2026-11-07: ticket ee43 failed 3 of 3 (TorchLamp not at (221, 239) after "near"; named animals Kuru and Lab1 not on the map: the "kept out of" hook despawns spawned animals). Fixed at 1085c36 (animals removed once, torches and lanterns placed at exact cells), refiled shots 1 to 3 as gallery-c; 2fbe (shots 4 to 6, gallery-b) still queued and stages the fixed tree.
