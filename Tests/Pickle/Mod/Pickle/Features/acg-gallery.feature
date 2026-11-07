@@ -11,11 +11,11 @@
 # `I set the hour to N` per image, 2,500 ticks per game hour.
 #
 # SHOTS (index, place, hour, type)
-#   1. bench-1-dawn   preindustrial-workshop 7h (centre 223, 237) wide-medium, opening. ACG_SerumBench at (222, 236), genepack at (222, 235), Nelim in the DoBill
-#                     job paused after 300 ticks (1500 let the bill finish and the vial lie on the floor, run f4b7), the vial about to come out. Shogun stands at (220, 236) facing east toward her in his own collar from the save.
+#   1. bench-1-dawn   preindustrial-workshop 7h (centre 223, 237) wide-medium, opening. ACG_SerumBench at (222, 236), genepack at (222, 235), Nelim, after the DoBill
+#                     job (300 ticks, then she is put at (222, 237) north of the bench facing south, toward the camera, smiling, the vial lying on the bench cell (222, 236); run 4e81 showed her back). Shogun stands at (220, 236) facing east toward her in his own collar from the save.
 #                     GeneBank near (225, 238), TorchLamp at (221, 239) and (226, 239) lit, Stool, PlantPot with Plant_Daylily
-#                     at (227, 238), SculptureSmall. The workshop is emptied first (power cells and a dining set stood on the cells of runs 03ec, 0c94, e318). Root size 4 at (222, 237) so the bench reads at 268 px. Subtitle: "A serum is nearly done at the bench."
-#                     Instant: the bill is almost done, the vial comes out next. Foreground the genepack and the bench edge, background the torches and the GeneBank, Nelim off-centre left, warm torch light against the dawn.
+#                     at (227, 238), SculptureSmall. The workshop is emptied first (power cells and a dining set stood on the cells of runs 03ec, 0c94, e318). Root size 3.5 at (222, 237) so the bench reads at 268 px. Subtitle: "The serum is ready at the bench."
+#                     Instant: the vial has just come out, she looks up at the camera with it before the pick-up. Foreground the genepack and the bench edge, background the torches and the GeneBank, Nelim at the centre facing the camera, Shogun and the torches around her, warm torch light against the dawn.
 #   2. kuru-2-patch   hut 9h (centre 140, 73) close, root size 2.5. Just after the apply: Nelim at (140, 73) facing east, serum used, Kuru
 #                     (akaNEKO_kuroneko) at (141, 73) facing south with AnimalTrait_ChestPatch (white patch on black fur). DR_StickLantern lit near (143, 75).
 #                     Subtitle: "Kuru gets his white chest patch."
@@ -73,6 +73,8 @@ Feature: ACG gallery
     And Nelim's Pickle Tools: a decor that finds no cell is skipped and logged
     And Nelim's Pickle Tools: I place the decor "Shelf" near (219, 233)
     And Nelim's Pickle Tools: I place the decor "Table1x2c" near (226, 234)
+    And Nelim's Pickle Tools: I place the decor "Shelf" near (226, 232)
+    And Nelim's Pickle Tools: I place the decor "Stool" near (221, 233)
     And Nelim's Pickle Tools: I place the decor "GeneBank" near (225, 238)
     And Nelim's Pickle Tools: the building "ACG_SerumBench" is spawned at (222, 236)
     And Nelim's Pickle Tools: a genepack with the genes "ACG_ChestPatch" is spawned at (222, 235)
@@ -83,8 +85,10 @@ Feature: ACG gallery
     And game speed is paused
     And Nelim's Pickle Tools: the animal "Shogun" stands at (220, 236)
     And Nelim's Pickle Tools: the animal "Shogun" faces east
+    And Nelim's Pickle Tools: "Nelim" stands at (222, 237) facing South
+    And Nelim's Pickle Tools: the item "ACG_AnimalTraitSerum" is spawned at (222, 236) with the field "gene" set to the def "ACG_ChestPatch"
     And Nelim's Sanctuary: Nelim has her own face
-    And Nelim's Pickle Tools: I frame the area centred on (222, 237) at root size 4
+    And Nelim's Pickle Tools: I frame the area centred on (222, 237) at root size 3.5
     When Nelim's Pickle Tools: I let 5 frames pass
     Then I take a screenshot "acggallery-1-bench-dawn"
     And Nelim's Pickle Tools: the decor is removed
