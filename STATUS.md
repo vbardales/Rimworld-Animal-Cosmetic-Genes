@@ -61,3 +61,35 @@ Moved to `makeSources` on 2026-10-31. Repository skeleton created on 2026-10-31 
 - Review (2026-11-02, revision 4248e05): ChatGPT review in three passes, corrections applied (tint sentence without agreement, adjective colours agreeing with couleur, "ses genes qui donnent" then "a raison d'un serum pour chaque gene conferant", graphisme, chestnut and rosy); third pass: no correction. Virginie validated the French on 2026-11-02 (reviewer: Virginie, review validated as is, no correction asked).
 
 - Review 2026-11-06 (revision 771efea): six refusal keys ACG_Refuse* added, ChatGPT review passes 4 (applied: blanc pur, Gulf Stream, albacore, two CHANGELOG wordings; kept plastron blanc), last pass no correction. Virginie validated the review on 2026-11-06 (reviewer: Virginie, validated as is, no further correction asked).
+
+## NSB
+
+2026-11-07 sync (first, no earlier shotlist). NSB changed since 2026-11-05 only in places and validations (4b places, workshops, play area, infirmaries validated; all animals validated front, side, back; Kuru chest patch seen in NSB ticket 2aea and 1e4b). Nothing to repoint: the mod has no gallery file yet. Shotlist, scenarios and shots are written next (`write-shotlist`); the tables below are the NSB candidates it may use, not shots.
+
+Rules said back (owner, 2026-11-05 and 2026-11-07): everything in NSB is free (places, colonists, domestic animals); a colonist or domestic animal outside NSB needs the owner's express validation, except an animal the mod adds or its items address; a colonist's properties change only with express validation; every outfit is free; every animal the mod includes must be in the gallery.
+
+Places read: 2026-11-07 (SANCTUAIRE-LIEUX.md sections 4, 8, 11)
+Tribe read: 2026-11-07 (CATALOGUE-ANIMAUX, ATTICUS, SHOGUN, KURU, TAMA sheets, VALIDE.md animals; NSB-ROSTER, APPARENCES-CANON, NELIM and MIEL profiles NOT opened)
+
+| Place | Shots | Changes made for the gallery | Last read |
+|---|---|---|---|
+| postindustrial-workshop or preindustrial-workshop (serum bench candidate) | TBD | none | 2026-11-07 |
+| barn / enclosure-south (animals, serum applied) candidate | TBD | none | 2026-11-07 |
+| cloister or gravel-yard (Atticus portrait) candidate | TBD | none | 2026-11-07 |
+
+| Colonist | Shots | Outfit per shot | Last read of profile | Exceptions |
+|---|---|---|---|---|
+| Nelim (only colonist in the save, owner of Atticus and Shogun) | TBD | TBD, from her wardrobe | not read | none |
+| Miel (Tama's owner) candidate | TBD | TBD | not read | none |
+
+| Animal | Shots | Outfit | Last read of sheet | Exceptions |
+|---|---|---|---|---|
+| Kuru (akaNEKO_kuroneko, chest patch target, absent from save: NSB supplies steps) | TBD | none (no apparel for cats) | 2026-11-07 | none |
+| Atticus (thrumbo, tint) | TBD | none daily, peach LargeAnimalScarf for ceremony | 2026-11-07 | none |
+| Shogun (labrador, tint) | TBD | leather dog collar daily, others validated 2026-11-06 | 2026-11-07 | none |
+| Tama (Forest Cat, control without trait) candidate | TBD | none | 2026-11-07 | none |
+| Panther (used in tests, wild/decor, not covered by rule 2) | TBD | none | n/a | none |
+
+| Included animal (rule 5) | Shot(s) | |
+|---|---|---|
+| none: the mod ships no PawnKindDef, race or patched animal (checked in Mod/Defs 2026-11-07). The chest patch is limited to akaNEKO_kuroneko (Kuru), the 241 tint traits apply to any animal. | n/a | no gap |
