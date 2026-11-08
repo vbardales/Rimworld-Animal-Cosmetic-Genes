@@ -65,16 +65,17 @@ Moved to `makeSources` on 2026-10-31. Repository skeleton created on 2026-10-31 
 
 ## NSB
 
-2026-11-07 sync (first, no earlier shotlist). NSB changed since 2026-11-05 only in places and validations (4b places, workshops, play area, infirmaries validated; all animals validated front, side, back; Kuru chest patch seen in NSB ticket 2aea and 1e4b). Nothing to repoint: the mod has no gallery file yet. Shotlist, scenarios and shots are written next (`write-shotlist`); the tables below are the NSB candidates it may use, not shots.
+2026-11-08 sync (second). NSB changed since 2026-11-07 in places only: preindustrial-workshop validated by Virginie 2026-11-07 ("je les valide", cell (223, 237) unchanged), play-area, 4b places, infirmary, sofa-corner, dining-nook, plant-garden, sleeping-nook validated; enclosure-south text edited (our barn unaffected); no change to roster, appearances, animals catalogue or validated animals. NPT steps since 2026-11-07: new `the building X at (x, z) is put out` (empties fuel, unused here), `lies asleep in the bed`, StageDecor made-of placement: none serves a shot, nothing repointed. Rules said back (owner, 2026-11-05 and 2026-11-07): everything in NSB is free (places, colonists, domestic animals); a colonist or domestic animal outside NSB needs the owner express validation, except an animal the mod adds or its items address; a colonist properties change only with express validation; every outfit is free; every animal the mod includes must be in the gallery.
 
 Rules said back (owner, 2026-11-05 and 2026-11-07): everything in NSB is free (places, colonists, domestic animals); a colonist or domestic animal outside NSB needs the owner's express validation, except an animal the mod adds or its items address; a colonist's properties change only with express validation; every outfit is free; every animal the mod includes must be in the gallery.
 
-Places read: 2026-11-07 (SANCTUAIRE-LIEUX.md sections 4, 8, 11)
-Tribe read: 2026-11-07 (CATALOGUE-ANIMAUX, ATTICUS, SHOGUN, KURU, TAMA sheets, VALIDE.md animals; NSB-ROSTER, APPARENCES-CANON, NELIM and MIEL profiles NOT opened)
+Places read: 2026-11-08 (SANCTUAIRE-LIEUX and VALIDE diffs since 2026-11-07, workshop row)
+Tribe read: 2026-11-08 (VALIDE.md diffs since 2026-11-07: places only, no animal or colonist row changed; roster, appearances, animals catalogue unchanged in git; sheets of Kuru, Atticus, Shogun, Tama last opened 2026-11-07)
+Steps read: 2026-11-08 (PickleTools docs/steps.md log since 2026-11-07)
 
 | Place | Shots | Changes made for the gallery | Last read |
 |---|---|---|---|
-| postindustrial-workshop or preindustrial-workshop (serum bench candidate) | TBD | none | 2026-11-07 |
+| preindustrial-workshop (shot 1, validated 2026-11-07) | 1 | emptied, decor within 3 cells | 2026-11-08 |
 | barn / enclosure-south (animals, serum applied) candidate | TBD | none | 2026-11-07 |
 | cloister or gravel-yard (Atticus portrait) candidate | TBD | none | 2026-11-07 |
 
