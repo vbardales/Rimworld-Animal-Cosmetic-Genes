@@ -24,8 +24,8 @@
 #                     AnimalTrait_Skin_PaleRed (tints multiply the coat: blue on yellow read grey in runs 5ea8 and be78), both facing south toward the camera. Nelim at (150, 109) walks to (148, 109), paused mid-stride. Plant_Daylily
 #                     at (151, 108) and (157, 108), DR_StickLantern at (150, 112) lit (the flower pot is dropped: its rim under the plant read as a smiley in run 54eb). Subtitle: "Same breed, two coats."
 #                     Instant: Nelim has just walked off after the tint, the two dogs hold their pose. Foreground the two labradors, background the daylilies and the lantern, dogs off-centre, midday light.
-#   4. horse-4-serum   barn 14h (centre 197, 237) medium, root size 3 (run gallery-s: hay field bare, decoration 3.5; two stools, shelf, sculpture, two daylilies added), Nelim re-placed at (195, 237), more Hay at (195, 240) (198, 235) (195, 234) (200, 241), TorchLamp near (192, 239) and (202, 238) (run 9852 at root size 4 cut the alpaca and lanterns off). Nelim at (193, 237) walks to the horse "Mare1" at (198, 237) holding the serum (gene
-#                     Skin_Orange), the apply not yet done after 120 ticks. Alpaca "Alpa1" at (197, 235) south of the horse (run gallery-t: at 239 it sat at the top, background) with AnimalTrait_Skin_Purple in the foreground (run 54eb: cut off at the top, a cow and a piglet at the west edge: frame moved east, root size 4). Hay at (194, 239),
+#   4. horse-4-serum   barn 14h (centre 197, 237) medium, root size 3 (run gallery-s: hay field bare, decoration 3.5; two stools, shelf, sculpture, two daylilies added), Nelim re-placed at (195, 237), more Hay at (195, 240) (198, 235) (195, 234) (200, 241), TorchLamp near (192, 239) and (202, 238) (run 9852 at root size 4 cut the alpaca and lanterns off). Nelim at (195, 237) faces the horse "Mare1" at (198, 237) holding the serum (gene
+#                     Skin_Orange), the serum held in hand by the step "holds in hand" (no job, NPT 2026-11-08, never played), the apply not yet done. Alpaca "Alpa1" at (197, 235) south of the horse (run gallery-t: at 239 it sat at the top, background) with AnimalTrait_Skin_Purple in the foreground (run 54eb: cut off at the top, a cow and a piglet at the west edge: frame moved east, root size 4). Hay at (194, 239),
 #                     DR_StickLantern at (194, 235) and (200, 235) lit, two more Hay at (196, 236) and (199, 239). Subtitle: "Next in line: the barn horse."
 #                     Instant: Nelim has picked up the serum and crosses the last cells to the horse. Foreground the purple alpaca, background the lit lanterns and the hay, afternoon light in the barn.
 #   5. bridge-5-dusk   river-bridge 17h (centre 135, 124) wide, closing, root size 4. Nelim walks from (137, 124) to (131, 124), Shogun at (133, 125) and
@@ -233,16 +233,11 @@ Feature: ACG gallery
     And Nelim's Pickle Tools: the animal "Alpa1" has the hediff "AnimalTrait_Skin_Purple"
     And Nelim's Pickle Tools: the animal "Mare1" faces west
     And Nelim's Pickle Tools: "Nelim" stands at (193, 237) facing East
-    And Nelim's Pickle Tools: the item "ACG_AnimalTraitSerum" is spawned at (193, 237) with the field "gene" set to the def "Skin_Orange"
-    And game speed is normal
-    When Nelim's Pickle Tools: "Nelim" picks the float menu option "Apply orange skin" on "Mare1"
-    And Nelim's Pickle Tools: I let 120 ticks pass
-    And game speed is paused
-    And Nelim's Sanctuary: Nelim has her own face
     And Nelim's Pickle Tools: the animal "Mare1" stands at (198, 237)
     And Nelim's Pickle Tools: the animal "Alpa1" stands at (197, 235)
     And Nelim's Pickle Tools: the animal "Alpa1" faces south
     And Nelim's Pickle Tools: "Nelim" stands at (195, 237) facing East
+    And Nelim's Pickle Tools: the colonist "Nelim" holds "ACG_AnimalTraitSerum" in hand set with the field "gene" to "Skin_Orange"
     And Nelim's Pickle Tools: I frame the area centred on (197, 237) at root size 3
     When Nelim's Pickle Tools: I let 5 frames pass
     Then I take a screenshot "acggallery-4-horse"
