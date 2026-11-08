@@ -16,7 +16,7 @@
 #                     GeneBank near (225, 238), TorchLamp at (221, 239) and (226, 239) lit, Stool, PlantPot with Plant_Daylily
 #                     at (227, 238), SculptureSmall. The workshop is emptied first (power cells and a dining set stood on the cells of runs 03ec, 0c94, e318). Root size 3.2 at (222, 237) (3.5 in run b051 left a bare tiled floor with the decor far out, 2.5 in run 06f3 hid the decor off frame; decor now within 3 cells) so the bench reads at 268 px. Subtitle: "The serum is ready at the bench."
 #                     Instant: the vial has just come out, she looks up at the camera with it before the pick-up. Foreground the genepack and the bench edge, background the torches and the GeneBank, Nelim at the centre facing the camera, Shogun and the torches around her, warm torch light against the dawn.
-#   2. kuru-2-patch   hut 9h (centre 144, 73) close, root size 3 (run 27cc at 5.5 gave about 98 px per cell, Kuru 55 px tall: px per cell is about 1080 / (2 x root size), so 3 gives about 180 px per cell and Kuru about 110 px, NPT 2026-11-08; the framing step lifts the game floor of 11 by itself, SimpleCameraSetting not needed; second lantern and stool added). Just after the apply: Nelim at (143, 73) facing east, serum used, Kuru
+#   2. kuru-2-patch   hut 9h (centre 144, 73) close, root size 3 centred (144, 74) to cut the two hut items at the bottom edge (run 27cc at 5.5 gave about 98 px per cell, Kuru 55 px tall: px per cell is about 1080 / (2 x root size), so 3 gives about 180 px per cell and Kuru about 110 px, NPT 2026-11-08; the framing step lifts the game floor of 11 by itself, SimpleCameraSetting not needed; second lantern and stool added). Just after the apply: Nelim at (143, 73) facing east, serum used, Kuru
 #                     (akaNEKO_kuroneko) at (144, 73) facing south with AnimalTrait_ChestPatch (white patch on black fur). DR_StickLantern lit near (141, 74), Shelf near (139, 74), SculptureSmall near (146, 71), Stool near (141, 72) (run 5fa2 showed a bare wooden floor).
 #                     Subtitle: "Kuru gets his white chest patch."
 #                     Instant: the serum has just gone in, Kuru has not moved yet. Foreground Kuru and the patch, background the lit lantern and the tatami, Nelim off-centre right, soft morning light.
@@ -24,7 +24,7 @@
 #                     AnimalTrait_Skin_PaleRed (tints multiply the coat: blue on yellow read grey in runs 5ea8 and be78), both facing south toward the camera. Nelim at (150, 109) walks to (148, 109), paused mid-stride. Plant_Daylily
 #                     at (151, 108) and (157, 108), DR_StickLantern at (150, 112) lit (the flower pot is dropped: its rim under the plant read as a smiley in run 54eb). Subtitle: "Same breed, two coats."
 #                     Instant: Nelim has just walked off after the tint, the two dogs hold their pose. Foreground the two labradors, background the daylilies and the lantern, dogs off-centre, midday light.
-#   4. horse-4-serum   barn 14h (centre 197, 237) medium, root size 3 (run gallery-s: hay field bare, decoration 3.5; two stools, shelf, sculpture, two daylilies added), Nelim re-placed at (195, 237), more Hay at (195, 240) (198, 235) (195, 234) (200, 241), TorchLamp near (192, 239) and (202, 238) (run 9852 at root size 4 cut the alpaca and lanterns off). Nelim at (195, 237) faces the horse "Mare1" at (198, 237) (the serum in her hand is dropped for now: the NPT step "holds in hand" hid her in runs de1d and ecbe, under test)
+#   4. horse-4-serum   barn 14h (centre 197, 237) medium, root size 3 (run gallery-s: hay field bare, decoration 3.5; two stools, shelf, sculpture, two daylilies added), Nelim re-placed at (195, 237), more Hay at (195, 240) (198, 235) (200, 241), TorchLamp near (192, 239) and (202, 238) (run 9852 at root size 4 cut the alpaca and lanterns off). Nelim at (195, 237) faces the horse "Mare1" at (198, 237) (the serum lies at (196, 237) between her and the horse, gene Skin_Orange; the NPT step "holds in hand" draws nothing in her hand, run 09ef)
 #                     the apply not yet done (60 ticks pass before the placement so she is drawn, test T1 of NPT). Alpaca "Alpa1" at (197, 235) south of the horse (run gallery-t: at 239 it sat at the top, background) with AnimalTrait_Skin_Purple in the foreground (run 54eb: cut off at the top, a cow and a piglet at the west edge: frame moved east, root size 4). Hay at (194, 239),
 #                     DR_StickLantern at (194, 235) and (200, 235) lit, two more Hay at (196, 236) and (199, 239). Subtitle: "Next in line: the barn horse."
 #                     Instant: Nelim has picked up the serum and crosses the last cells to the horse. Foreground the purple alpaca, background the lit lanterns and the hay, afternoon light in the barn.
@@ -138,7 +138,7 @@ Feature: ACG gallery
     And Nelim's Pickle Tools: the animal "Kuru" stands at (144, 73)
     And Nelim's Pickle Tools: the animal "Kuru" faces south
     And Nelim's Sanctuary: Nelim has her own face
-    And Nelim's Pickle Tools: I frame the area centred on (144, 73) at root size 3
+    And Nelim's Pickle Tools: I frame the area centred on (144, 74) at root size 3
     When Nelim's Pickle Tools: I let 5 frames pass
     Then I take a screenshot "acggallery-2-kuru-patch"
     And Nelim's Pickle Tools: the decor is removed
@@ -218,7 +218,6 @@ Feature: ACG gallery
     And Nelim's Pickle Tools: I place the decor "Hay" at (199, 239)
     And Nelim's Pickle Tools: I place the decor "Hay" at (195, 240)
     And Nelim's Pickle Tools: I place the decor "Hay" at (198, 235)
-    And Nelim's Pickle Tools: I place the decor "Hay" at (195, 234)
     And Nelim's Pickle Tools: I place the decor "Hay" at (200, 241)
     And Nelim's Pickle Tools: I place the decor "Stool" near (194, 240)
     And Nelim's Pickle Tools: I place the decor "Stool" near (201, 236)
@@ -233,7 +232,6 @@ Feature: ACG gallery
     And Nelim's Pickle Tools: the animal "Alpa1" has the hediff "AnimalTrait_Skin_Purple"
     And Nelim's Pickle Tools: the animal "Mare1" faces west
     And Nelim's Pickle Tools: "Nelim" stands at (193, 237) facing East
-    And Nelim's Pickle Tools: the colonist "Nelim" holds "ACG_AnimalTraitSerum" in hand set with the field "gene" to "Skin_Orange"
     And game speed is normal
     And Nelim's Pickle Tools: I let 60 ticks pass
     And game speed is paused
@@ -241,6 +239,7 @@ Feature: ACG gallery
     And Nelim's Pickle Tools: the animal "Alpa1" stands at (197, 235)
     And Nelim's Pickle Tools: the animal "Alpa1" faces south
     And Nelim's Pickle Tools: "Nelim" stands at (195, 237) facing East
+    And Nelim's Pickle Tools: the item "ACG_AnimalTraitSerum" is spawned at (196, 237) with the field "gene" set to the def "Skin_Orange"
     And Nelim's Pickle Tools: I frame the area centred on (197, 237) at root size 3
     When Nelim's Pickle Tools: I let 5 frames pass
     Then I take a screenshot "acggallery-4-horse"
