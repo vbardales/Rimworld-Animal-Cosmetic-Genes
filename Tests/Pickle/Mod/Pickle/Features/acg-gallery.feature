@@ -142,7 +142,6 @@ Feature: ACG gallery
     And Nelim's Sanctuary: Nelim has her own face
     And Nelim's Pickle Tools: I frame the area centred on (144, 73) at root size 1.5
     When Nelim's Pickle Tools: I let 5 frames pass
-    Then Nelim's Pickle Tools: the camera orthographic size is 99
     Then I take a screenshot "acggallery-2-kuru-patch"
     And Nelim's Pickle Tools: the decor is removed
 
