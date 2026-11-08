@@ -17,7 +17,7 @@
 #                     at (227, 238), SculptureSmall. The workshop is emptied first (power cells and a dining set stood on the cells of runs 03ec, 0c94, e318). Root size 3.2 at (222, 237) (3.5 in run b051 left a bare tiled floor with the decor far out, 2.5 in run 06f3 hid the decor off frame; decor now within 3 cells) so the bench reads at 268 px. Subtitle: "The serum is ready at the bench."
 #                     Instant: the vial has just come out, she looks up at the camera with it before the pick-up. Foreground the genepack and the bench edge, background the torches and the GeneBank, Nelim at the centre facing the camera, Shogun and the torches around her, warm torch light against the dawn.
 #   2. kuru-2-patch   hut 9h (centre 144, 73) close, root size 2 centred (144, 73) (run ba18 at root 3: Kuru 80 px wide, patch 12 px at 268 px, unreadable: 2 gives about 270 px per cell and Kuru about 120 px, the game bounds the camera near 2; earlier: run 27cc at 5.5 gave about 98 px per cell, Kuru 55 px tall: px per cell is about 1080 / (2 x root size), so 3 gives about 180 px per cell and Kuru about 110 px, NPT 2026-11-08; the framing step lifts the game floor of 11 by itself, SimpleCameraSetting not needed; second lantern and stool added). Just after the apply: Nelim at (143, 73) facing east, serum used, Kuru
-#                     (akaNEKO_kuroneko) at (144, 73) facing south with AnimalTrait_ChestPatch (white patch on black fur). DR_StickLantern lit near (141, 74), Shelf near (139, 74), SculptureSmall near (146, 71), Stool near (141, 72) (run 5fa2 showed a bare wooden floor).
+#                     (akaNEKO_kuroneko) at (144, 73) facing south with AnimalTrait_ChestPatch (white patch on black fur). DR_StickLantern lit near (141, 74), Shelf near (139, 74), SculptureSmall near (146, 72), TorchLamp near (143, 75) (run 1428: floor bare at root 2), Stool near (141, 72) (run 5fa2 showed a bare wooden floor).
 #                     Subtitle: "Kuru gets his white chest patch."
 #                     Instant: the serum has just gone in, Kuru has not moved yet. Foreground Kuru and the patch, background the lit lantern and the tatami, Nelim off-centre right, soft morning light.
 #   3. labradors-3-coats flower-garden 11h (centre 154, 110) medium, root size 5. Shogun at (154, 110) and an anonymous labrador "Lab1" at (156, 110) with
@@ -27,6 +27,7 @@
 #   4. horse-4-serum   barn 14h (centre 197, 237) medium, root size 3 (run gallery-s: hay field bare, decoration 3.5; two stools, shelf, sculpture, two daylilies added), Nelim re-placed at (195, 237), more Hay at (195, 240) (198, 235) (200, 241), TorchLamp near (192, 239) and (202, 238) (run 9852 at root size 4 cut the alpaca and lanterns off). Nelim at (195, 237) faces the horse "Mare1" at (198, 237) (the serum lies at (196, 237) between her and the horse, gene Skin_Orange; the NPT step "holds in hand" draws nothing in her hand, run 09ef)
 #                     the apply not yet done (60 ticks pass before the placement so she is drawn, test T1 of NPT). Alpaca "Alpa1" at (197, 235) south of the horse (run gallery-t: at 239 it sat at the top, background) with AnimalTrait_Skin_Purple in the foreground (run 54eb: cut off at the top, a cow and a piglet at the west edge: frame moved east, root size 4). Hay at (194, 239),
 #                     DR_StickLantern at (194, 235) and (200, 235) lit, two more Hay at (196, 236) and (199, 239). Animals kept out of cells (190, 231) to (204, 234) so the brown chicken of run ba18 stays out of the bottom edge. Subtitle: "Next in line: the barn horse."
+#                     Sculpture near (196, 239): the sculpture placed on the bottom row was the brown coil cut at the bottom edge in run 1428.
 #                     Instant: Nelim has picked up the serum and crosses the last cells to the horse. Foreground the purple alpaca, background the lit lanterns and the hay, afternoon light in the barn.
 #   5. bridge-5-dusk   river-bridge 17h (centre 135, 124) wide, closing, root size 4. Nelim walks from (137, 124) to (131, 124), Shogun at (133, 125) and
 #                     the red-coat labrador "Lab2" (AnimalTrait_Skin_PaleRed) follow, alpaca "Alpa2" grazes at (130, 127) (run 54eb: cut off at the corner) with AnimalTrait_Skin_Purple (the brown horse showed no tint), DR_StickLantern
@@ -121,7 +122,8 @@ Feature: ACG gallery
     And Nelim's Pickle Tools: the decor "DR_StickLantern" at (141, 74) is lit
     And Nelim's Pickle Tools: a decor that finds no cell is skipped and logged
     And Nelim's Pickle Tools: I place the decor "Stool" near (141, 72)
-    And Nelim's Pickle Tools: I place the decor "SculptureSmall" near (146, 71)
+    And Nelim's Pickle Tools: I place the decor "SculptureSmall" near (146, 72)
+    And Nelim's Pickle Tools: I place the decor "TorchLamp" near (143, 75)
     And Nelim's Pickle Tools: I place the decor "Shelf" near (139, 74)
     And Nelim's Pickle Tools: I place the decor "Shelf" near (145, 76)
     And Nelim's Pickle Tools: I place the decor "DR_StickLantern" near (146, 74)
@@ -222,7 +224,7 @@ Feature: ACG gallery
     And Nelim's Pickle Tools: I place the decor "Stool" near (194, 240)
     And Nelim's Pickle Tools: I place the decor "Stool" near (201, 236)
     And Nelim's Pickle Tools: I place the decor "Shelf" near (199, 240)
-    And Nelim's Pickle Tools: I place the decor "SculptureSmall" near (195, 234)
+    And Nelim's Pickle Tools: I place the decor "SculptureSmall" near (196, 239)
     And Nelim's Pickle Tools: I place the decor "Plant_Daylily" near (200, 239)
     And Nelim's Pickle Tools: I place the decor "Plant_Daylily" near (194, 236)
     And Nelim's Pickle Tools: I place the decor "TorchLamp" near (192, 239)
