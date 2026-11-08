@@ -233,6 +233,7 @@ Feature: ACG gallery
     And Nelim's Pickle Tools: the animal "Alpa1" has the hediff "AnimalTrait_Skin_Purple"
     And Nelim's Pickle Tools: the animal "Mare1" faces west
     And Nelim's Pickle Tools: "Nelim" stands at (193, 237) facing East
+    And Nelim's Pickle Tools: the colonist "Nelim" holds "ACG_AnimalTraitSerum" in hand set with the field "gene" to "Skin_Orange"
     And game speed is normal
     And Nelim's Pickle Tools: I let 60 ticks pass
     And game speed is paused
