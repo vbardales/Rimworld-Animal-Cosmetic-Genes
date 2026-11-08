@@ -16,7 +16,7 @@
 #                     GeneBank near (225, 238), TorchLamp at (221, 239) and (226, 239) lit, Stool, PlantPot with Plant_Daylily
 #                     at (227, 238), SculptureSmall. The workshop is emptied first (power cells and a dining set stood on the cells of runs 03ec, 0c94, e318). Root size 3.2 at (222, 237) (3.5 in run b051 left a bare tiled floor with the decor far out, 2.5 in run 06f3 hid the decor off frame; decor now within 3 cells) so the bench reads at 268 px. Subtitle: "The serum is ready at the bench."
 #                     Instant: the vial has just come out, she looks up at the camera with it before the pick-up. Foreground the genepack and the bench edge, background the torches and the GeneBank, Nelim at the centre facing the camera, Shogun and the torches around her, warm torch light against the dawn.
-#   2. kuru-2-patch   hut 9h (centre 144, 73) close, root size 5.5 with SimpleCameraSetting in wsl-deps.acg-gallery-close.map (the game floor is 11: 1.6 and 1.1 both gave Kuru about 115 px, NPT 2026-11-08; second lantern and stool added). Just after the apply: Nelim at (143, 73) facing east, serum used, Kuru
+#   2. kuru-2-patch   hut 9h (centre 144, 73) close, root size 3 (run 27cc at 5.5 gave about 98 px per cell, Kuru 55 px tall: px per cell is about 1080 / (2 x root size), so 3 gives about 180 px per cell and Kuru about 110 px, NPT 2026-11-08; the framing step lifts the game floor of 11 by itself, SimpleCameraSetting not needed; second lantern and stool added). Just after the apply: Nelim at (143, 73) facing east, serum used, Kuru
 #                     (akaNEKO_kuroneko) at (144, 73) facing south with AnimalTrait_ChestPatch (white patch on black fur). DR_StickLantern lit near (141, 74), Shelf near (139, 74), SculptureSmall near (146, 71), Stool near (141, 72) (run 5fa2 showed a bare wooden floor).
 #                     Subtitle: "Kuru gets his white chest patch."
 #                     Instant: the serum has just gone in, Kuru has not moved yet. Foreground Kuru and the patch, background the lit lantern and the tatami, Nelim off-centre right, soft morning light.
@@ -138,7 +138,7 @@ Feature: ACG gallery
     And Nelim's Pickle Tools: the animal "Kuru" stands at (144, 73)
     And Nelim's Pickle Tools: the animal "Kuru" faces south
     And Nelim's Sanctuary: Nelim has her own face
-    And Nelim's Pickle Tools: I frame the area centred on (144, 73) at root size 5.5
+    And Nelim's Pickle Tools: I frame the area centred on (144, 73) at root size 3
     When Nelim's Pickle Tools: I let 5 frames pass
     Then I take a screenshot "acggallery-2-kuru-patch"
     And Nelim's Pickle Tools: the decor is removed
