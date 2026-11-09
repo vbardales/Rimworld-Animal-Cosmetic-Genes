@@ -146,6 +146,7 @@ Feature: ACG gallery
     And Nelim's Pickle Tools: I place the decor "DR_StickLantern" at (145, 73)
     And Nelim's Pickle Tools: the decor "DR_StickLantern" at (145, 73) is lit
     And Nelim's Pickle Tools: the colonist "Nelim" holds "ACG_AnimalTraitSerum" in hand set with the field "gene" to "ACG_ChestPatch"
+    And Nelim's Pickle Tools: the light of the map is lifted to at least 0.9
     And Nelim's Pickle Tools: I frame the area centred on the point (143.5, 73.0) at root size 0.75
     And Nelim's Pickle Tools: the camera orthographic size is held at 0.75
     When Nelim's Pickle Tools: I let 10 frames pass
