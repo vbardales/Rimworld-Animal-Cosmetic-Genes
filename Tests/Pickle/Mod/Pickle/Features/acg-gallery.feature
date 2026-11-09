@@ -7,7 +7,7 @@
 # STORY: one clear day at the Sanctuary. Nelim, researcher outfit all day (LisaWork_ApparelShirtButtoned rgb (222, 203, 164), LisaWork_ApparelSkirt
 # rgb (31, 58, 95), LisaWork_ApparelHornRimmedGlasses, Apparel_PAESmallEarrings, hair Roo_HD_Hair_Highpony, her own face with MouthLipsSmirk as her
 # smile, no sweat, map at 20 degrees), gives colour to the animals. Morning: she makes a serum at the bench. Then she gives Kuru his white chest
-# patch, stands with a blue labrador beside Shogun, treats a horse in the barn, and walks home at dusk with her dogs. Clear weather; one
+# patch, stands with a pale-red labrador beside Shogun, treats a horse in the barn, and walks home at dusk with her dogs. Clear weather; one
 # `I set the hour to N` per image, 2,500 ticks per game hour.
 #
 # SHOTS (index, place, hour, type)
@@ -16,7 +16,7 @@
 #                     GeneBank near (225, 238), TorchLamp at (221, 239) and (226, 239) lit, Stool, PlantPot with Plant_Daylily
 #                     at (227, 238), SculptureSmall. The workshop is emptied first (power cells and a dining set stood on the cells of runs 03ec, 0c94, e318). Root size 3.2 at (222, 237) (3.5 in run b051 left a bare tiled floor with the decor far out, 2.5 in run 06f3 hid the decor off frame; decor now within 3 cells) so the bench reads at 268 px. Subtitle: "The serum is ready at the bench."
 #                     Instant: the vial has just come out, she looks up at the camera with it before the pick-up. Foreground the genepack and the bench edge, background the torches and the GeneBank, Nelim at the centre facing the camera, Shogun and the torches around her, warm torch light against the dawn.
-#   2. kuru-2-patch   [2026-11-09 shots 2 to 5: Nelim faces South (front) so the profile mouth overshoot is not drawn, NPT advice, step "Nelim faces South"; in 3 and 5 she faces south after the paused stride] hut 9h (centre 144, 73) macro, root size 1 centred (144, 73) held at orthographic size 0.8 (2026-11-09 Audit arbitration: decoration under 4 is REDO, hold 0.8, bib about 18 px at 268 px, Nelim whole at (143, 73) holding a serum vial toward Kuru, Stool moved to (143, 74); earlier: 2026-11-09 j rule: at 1.3 the bib was about 63 px at full size, 9 px at 268 px, REDO; 0.6 gives about 900 px per cell, the bib about 28 px at 268 px; frame about 2.1 x 1.2 cells: Kuru centre, Nelim half in frame at the left, DR_StickLantern (145, 73) lit at the right; the old decor stays but is outside the frame; decoration may rate low, to read on the capture) (run 8823 at root 2: bib about 35 px at full size, 5 px at 268 px, 1.5 gives about 360 px per cell; run ba18 at root 3: Kuru 80 px wide, patch 12 px at 268 px, unreadable: 2 gives about 270 px per cell and Kuru about 120 px, the game bounds the camera near 2; earlier: run 27cc at 5.5 gave about 98 px per cell, Kuru 55 px tall: px per cell is about 1080 / (2 x root size), so 3 gives about 180 px per cell and Kuru about 110 px, NPT 2026-11-08; the framing step lifts the game floor of 11 by itself, SimpleCameraSetting not needed; second lantern and stool added). Just after the apply: Nelim at (143, 73) facing east, serum used, Kuru
+#   2. kuru-2-patch   [2026-11-09 shots 2 to 5: Nelim faces South (front) so the profile mouth overshoot is not drawn, NPT advice, step "Nelim faces South"; in 3 and 5 she faces south after the paused stride] hut 10h (centre 144, 73) macro, root size 1 centred (144, 73) held at orthographic size 0.8 (2026-11-09 Audit arbitration: decoration under 4 is REDO, hold 0.8, bib about 18 px at 268 px, Nelim whole at (143, 73) holding a serum vial toward Kuru, Stool moved to (143, 74); earlier: 2026-11-09 j rule: at 1.3 the bib was about 63 px at full size, 9 px at 268 px, REDO; 0.6 gives about 900 px per cell, the bib about 28 px at 268 px; frame about 2.1 x 1.2 cells: Kuru centre, Nelim half in frame at the left, DR_StickLantern (145, 73) lit at the right; the old decor stays but is outside the frame; decoration may rate low, to read on the capture) (run 8823 at root 2: bib about 35 px at full size, 5 px at 268 px, 1.5 gives about 360 px per cell; run ba18 at root 3: Kuru 80 px wide, patch 12 px at 268 px, unreadable: 2 gives about 270 px per cell and Kuru about 120 px, the game bounds the camera near 2; earlier: run 27cc at 5.5 gave about 98 px per cell, Kuru 55 px tall: px per cell is about 1080 / (2 x root size), so 3 gives about 180 px per cell and Kuru about 110 px, NPT 2026-11-08; the framing step lifts the game floor of 11 by itself, SimpleCameraSetting not needed; second lantern and stool added). Just after the apply: Nelim at (143, 73) facing east, serum used, Kuru
 #                     (akaNEKO_kuroneko) at (144, 73) facing south with AnimalTrait_ChestPatch (white patch on black fur). DR_StickLantern lit at (142, 72) and (145, 73), DR_StickLantern at (145, 72), Stool at (143, 74), SculptureSmall at (145, 74), TorchLamp at (142, 74), Shelf near (139, 74) and (145, 76) (run 8823: the torch stood right behind Nelim and looked planted in her head, moved west), Stool at the old stool cell (run 5fa2 showed a bare wooden floor).
 #                     Subtitle: "Kuru gets his white chest patch."
 #                     Instant: the serum has just gone in, Kuru has not moved yet. Foreground Kuru and the patch, background the lit lantern and the tatami, Nelim off-centre right, soft morning light.
@@ -28,12 +28,13 @@
 #                     the apply not yet done (60 ticks pass before the placement so she is drawn, test T1 of NPT). Alpaca "Alpa1" at (197, 236) south of the horse (run gallery-t: at 239 it sat at the top, background) with AnimalTrait_Skin_Purple in the foreground (run 54eb: cut off at the top, a cow and a piglet at the west edge: frame moved east, root size 4). Hay at (194, 239),
 #                     DR_StickLantern at (195, 238) and (200, 238) lit, two more Hay at (196, 236) and (199, 239). Animals kept out of cells (190, 231) to (204, 234) so the brown chicken of run ba18 stays out of the bottom edge. Subtitle: "Next in line: the barn horse."
 #                     [2026-11-09 recompose after run ff28: shot 2 hold 0.9; shot 4 alpaca and lanterns moved inside the frame; shot 5 frame on the bridge planks, animals re-placed after the pause]
+#                     [2026-11-09 shot 2 recompose after run 6e7d: decoration 3.5 (torch flame and lamp cut at the edges): hour 10 (warm), hold 0.85 so the two torches and the lantern fall whole in frame, bib expected about 16 px at 268 px, to measure; z3 save not used (needs Audit/NSB word)]
 #                     Sculpture near (196, 239): the sculpture placed on the bottom row was the brown coil cut at the bottom edge in run 1428.
 #                     Instant: Nelim has picked up the serum and crosses the last cells to the horse. Foreground the purple alpaca, background the lit lanterns and the hay, afternoon light in the barn.
 #   5. bridge-5-dusk   river-bridge 17h (centre 135, 124) wide, closing, root size 4. Nelim walks from (137, 123) to (134, 123), Shogun at (134, 124) and
 #                     the red-coat labrador "Lab2" (AnimalTrait_Skin_PaleRed) follow, alpaca "Alpa2" grazes at (130, 123) (run 54eb: cut off at the corner) with AnimalTrait_Skin_Purple (the brown horse showed no tint), DR_StickLantern
 #                     at (132, 121) lit. Subtitle: "Home at dusk, with a few new colours."
-#                     Instant: the walk home has just begun over the bridge. Foreground the blue labrador and Shogun, background the grazing horse and the lit lantern, low golden light from the west.
+#                     Instant: the walk home has just begun over the bridge. Foreground the pale-red labrador and Shogun, background the grazing horse and the lit lantern, low golden light from the west.
 #   6. genepack-window interface window (not rated), window-backdrop-for-height, cropped, no subtitle: genepack at (90, 140), ITab_Genes, "Chest patch".
 # Mods for the -DepMap: wsl-deps.acg-gallery.map (NSB wsl-deps.sanctuary-nelim.map + luved.animaltraits + akairo.LetsHaveaCat + Mlie.StickLantern 2024351846).
 # Director remarks kept: vial close cut, Kuru shot is the close shot, Tama dropped, mid-action instants, unnatural tints, no brazier or bed in the barn,
@@ -99,7 +100,7 @@ Feature: ACG gallery
 
   Scenario: acg-gallery-2-kuru-patch
     Given the save "Nelims-tribe" is loaded
-    And I set the hour to 9
+    And I set the hour to 10
     And Nelim's Sanctuary: the animals are removed from the sanctuary "hut"
     And Nelim's Sanctuary: I am at the sanctuary "hut"
     And Nelim's Pickle Tools: the temperature of the map is 20 degrees
@@ -150,10 +151,10 @@ Feature: ACG gallery
     And Nelim's Pickle Tools: the decor "DR_StickLantern" at (145, 73) is lit
     And Nelim's Pickle Tools: the colonist "Nelim" holds "ACG_AnimalTraitSerum" in hand set with the field "gene" to "ACG_ChestPatch"
     And Nelim's Pickle Tools: the light of the map is lifted to at least 0.9
-    And Nelim's Pickle Tools: I frame the area centred on the point (143.5, 73.0) at root size 0.75
-    And Nelim's Pickle Tools: the camera orthographic size is held at 0.75
+    And Nelim's Pickle Tools: I frame the area centred on the point (143.5, 73.0) at root size 0.85
+    And Nelim's Pickle Tools: the camera orthographic size is held at 0.85
     When Nelim's Pickle Tools: I let 10 frames pass
-    Then Nelim's Pickle Tools: the camera orthographic size is 0.75
+    Then Nelim's Pickle Tools: the camera orthographic size is 0.85
     And I take a screenshot "acggallery-2-kuru-patch"
     And Nelim's Pickle Tools: the decor is removed
 
