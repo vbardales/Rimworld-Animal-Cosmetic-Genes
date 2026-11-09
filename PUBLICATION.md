@@ -41,7 +41,7 @@ akairo, who made the cats of Let's Have a Cat!, and Bernau31, who keeps them ali
 
 FarmerJoe, for [Sapient Animal - Gene Freedom](https://steamcommunity.com/sharedfiles/filedetails/?id=3825033251): reading how it makes gene visuals reach animals showed me that coats on ordinary animals were possible. Nothing of it is used.
 
-Lazy Friday Studio, for [Genes Expanded - Skin Colors](https://steamcommunity.com/sharedfiles/filedetails/?id=3214172563) and [Genes Expanded - Hair](https://steamcommunity.com/sharedfiles/filedetails/?id=3221946756), OdysseyLotus and Lucius, for [Seren, from Stardust](https://steamcommunity.com/sharedfiles/filedetails/?id=3726565301), and the authors of Cookie Genes: their gene colours are the ones the serums give. Nothing of theirs is copied; the colours are read from the game when it runs.
+Lazy Friday Studio, for [Genes Expanded - Skin Colors](https://steamcommunity.com/sharedfiles/filedetails/?id=3214172563) and [Genes Expanded - Hair](https://steamcommunity.com/sharedfiles/filedetails/?id=3221946756), OdysseyLotus and Lucius, for [Seren, from Stardust](https://steamcommunity.com/sharedfiles/filedetails/?id=3726565301), and Lyn the Cookie, for [Cookie Genes (Skin and Hair Colors)](https://steamcommunity.com/sharedfiles/filedetails/?id=2879072525): their gene colours are the ones the serums give. Nothing of theirs is copied; the colours are read from the game when it runs.
 
 Ludeon Studios, for Biotech and its genes.
 
@@ -72,7 +72,7 @@ The table matches the gallery table of `STATUS.md` (all six accepted by Virginie
 - Animal Traits System, `luved.animaltraits`, 3652630316: required (`modDependencies`, `loadAfter`).
 - Biotech, `Ludeon.RimWorld.Biotech`: required (`modDependencies`, `loadAfter`).
 - Let's Have a Cat! Continued, `akairo.LetsHaveaCat`, 3682940618: optional, not declared (the chest patch only applies to its cat `akaNEKO_kuroneko`).
-- Optional gene mods, not declared (their genes are looked up by name): Genes Expanded - Skin Colors 3214172563, Genes Expanded - Hair 3221946756, Seren, from Stardust 3726565301, Cookie Genes.
+- Optional gene mods, not declared (their genes are looked up by name): Genes Expanded - Skin Colors 3214172563, Genes Expanded - Hair 3221946756, Seren, from Stardust 3726565301, Cookie Genes (Skin and Hair Colors) 2879072525.
 - Supported version: the latest RimWorld version only.
 
 ## Adult content
@@ -88,10 +88,10 @@ Registry: `../docs/WORKSHOP_COMMENTS.md`. Post only once the item is visible. Re
 | Luved, Animal Traits System | 3652630316 | drafted | new row in the registry |
 | akairo and Bernau31, Let's Have a Cat! Continued | 3682940618 | drafted | one message on the Continued page, both credited; no row for the original page |
 | FarmerJoe, Gene Freedom | 3825033251 | drafted | new row in the registry |
-| Lazy Friday Studio, Genes Expanded - Skin Colors | 3214172563 | to draft | optional integration, tinted genes; registry row to add |
-| Lazy Friday Studio, Genes Expanded - Hair | 3221946756 | to draft | same author, one message may cover both pages if the registry allows |
-| OdysseyLotus and Lucius, Seren, from Stardust | 3726565301 | to draft | registry row to add |
-| Cookie Genes | unresolved | to resolve | Workshop id and author not found in the catalogue docs, ask NPT (genes catalogue) before drafting |
+| Lazy Friday Studio, Genes Expanded - Skin Colors | 3214172563 | drafted | optional integration, tinted genes; registry row to add |
+| Lazy Friday Studio, Genes Expanded - Hair | 3221946756 | drafted | same author, own page, own comment |
+| OdysseyLotus and Lucius, Seren, from Stardust | 3726565301 | drafted | registry row to add |
+| Lyn the Cookie, Cookie Genes (Skin and Hair Colors) | 2879072525 | drafted | id and author read on the Workshop page and in the local About.xml, 2026-11-09 |
 | Pickle | 3791648678 | posted | already covered, ACG added to `Covers` |
 | Nelim's Pickle Tools | 3806142401 | not_applicable | private page, no external recipient |
 | Ludeon Studios | none | not_applicable | no page to comment on |
@@ -106,6 +106,30 @@ Let's Have a Cat! Continued:
 
 ```
 Kuru, the tuxedo cat, was my test subject for a white chest bib: akairo for the cats, Bernau31 for keeping them alive in 1.6, thank you both! Serums are the way to get that bib in [url=https://steamcommunity.com/sharedfiles/filedetails/?id=<ID>]Animal Cosmetic Genes[/url]
+```
+
+Genes Expanded - Skin Colors:
+
+```
+Seventy-five skin colours were a gift for dye-happy me: a few of them now end up in a vial and then on a pony's coat :) Thank you, Lazy Friday Studio! [url=https://steamcommunity.com/sharedfiles/filedetails/?id=<ID>]Animal Cosmetic Genes[/url]
+```
+
+Genes Expanded - Hair:
+
+```
+Your seventy-six hair colours have good names, and the serum bench lists them as they are, "Blue Marlin" and all. Thanks for the palette, Lazy Friday Studio! [url=https://steamcommunity.com/sharedfiles/filedetails/?id=<ID>]Animal Cosmetic Genes[/url]
+```
+
+Seren, from Stardust:
+
+```
+Seren's teals and twilights were the first colours I wanted to see on an animal, so thank you OdysseyLotus and Lucius :) A serum carries them over in [url=https://steamcommunity.com/sharedfiles/filedetails/?id=<ID>]Animal Cosmetic Genes[/url]
+```
+
+Cookie Genes (Skin and Hair Colors):
+
+```
+Jade, Sapphire, Rosey: your skin colours read well on fur too, which I did not expect. Thanks Lyn the Cookie, they are all in the serum bench of [url=https://steamcommunity.com/sharedfiles/filedetails/?id=<ID>]Animal Cosmetic Genes[/url] xD
 ```
 
 Gene Freedom:
