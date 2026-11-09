@@ -16,7 +16,7 @@
 #                     GeneBank near (225, 238), TorchLamp at (221, 239) and (226, 239) lit, Stool, PlantPot with Plant_Daylily
 #                     at (227, 238), SculptureSmall. The workshop is emptied first (power cells and a dining set stood on the cells of runs 03ec, 0c94, e318). Root size 3.2 at (222, 237) (3.5 in run b051 left a bare tiled floor with the decor far out, 2.5 in run 06f3 hid the decor off frame; decor now within 3 cells) so the bench reads at 268 px. Subtitle: "The serum is ready at the bench."
 #                     Instant: the vial has just come out, she looks up at the camera with it before the pick-up. Foreground the genepack and the bench edge, background the torches and the GeneBank, Nelim at the centre facing the camera, Shogun and the torches around her, warm torch light against the dawn.
-#   2. kuru-2-patch   hut 9h (centre 144, 73) macro, root size 1 centred (144, 73) held at orthographic size 0.8 (2026-11-09 Audit arbitration: decoration under 4 is REDO, hold 0.8, bib about 18 px at 268 px, Nelim whole at (143, 73) holding a serum vial toward Kuru, Stool moved to (143, 74); earlier: 2026-11-09 j rule: at 1.3 the bib was about 63 px at full size, 9 px at 268 px, REDO; 0.6 gives about 900 px per cell, the bib about 28 px at 268 px; frame about 2.1 x 1.2 cells: Kuru centre, Nelim half in frame at the left, DR_StickLantern (145, 73) lit at the right; the old decor stays but is outside the frame; decoration may rate low, to read on the capture) (run 8823 at root 2: bib about 35 px at full size, 5 px at 268 px, 1.5 gives about 360 px per cell; run ba18 at root 3: Kuru 80 px wide, patch 12 px at 268 px, unreadable: 2 gives about 270 px per cell and Kuru about 120 px, the game bounds the camera near 2; earlier: run 27cc at 5.5 gave about 98 px per cell, Kuru 55 px tall: px per cell is about 1080 / (2 x root size), so 3 gives about 180 px per cell and Kuru about 110 px, NPT 2026-11-08; the framing step lifts the game floor of 11 by itself, SimpleCameraSetting not needed; second lantern and stool added). Just after the apply: Nelim at (143, 73) facing east, serum used, Kuru
+#   2. kuru-2-patch   [2026-11-09 shots 2 to 5: Nelim faces South (front) so the profile mouth overshoot is not drawn, NPT advice, step "Nelim faces South"; in 3 and 5 she faces south after the paused stride] hut 9h (centre 144, 73) macro, root size 1 centred (144, 73) held at orthographic size 0.8 (2026-11-09 Audit arbitration: decoration under 4 is REDO, hold 0.8, bib about 18 px at 268 px, Nelim whole at (143, 73) holding a serum vial toward Kuru, Stool moved to (143, 74); earlier: 2026-11-09 j rule: at 1.3 the bib was about 63 px at full size, 9 px at 268 px, REDO; 0.6 gives about 900 px per cell, the bib about 28 px at 268 px; frame about 2.1 x 1.2 cells: Kuru centre, Nelim half in frame at the left, DR_StickLantern (145, 73) lit at the right; the old decor stays but is outside the frame; decoration may rate low, to read on the capture) (run 8823 at root 2: bib about 35 px at full size, 5 px at 268 px, 1.5 gives about 360 px per cell; run ba18 at root 3: Kuru 80 px wide, patch 12 px at 268 px, unreadable: 2 gives about 270 px per cell and Kuru about 120 px, the game bounds the camera near 2; earlier: run 27cc at 5.5 gave about 98 px per cell, Kuru 55 px tall: px per cell is about 1080 / (2 x root size), so 3 gives about 180 px per cell and Kuru about 110 px, NPT 2026-11-08; the framing step lifts the game floor of 11 by itself, SimpleCameraSetting not needed; second lantern and stool added). Just after the apply: Nelim at (143, 73) facing east, serum used, Kuru
 #                     (akaNEKO_kuroneko) at (144, 73) facing south with AnimalTrait_ChestPatch (white patch on black fur). DR_StickLantern lit at (142, 72) and (145, 73), DR_StickLantern at (145, 72), Stool at (143, 74), SculptureSmall at (145, 74), TorchLamp at (142, 74), Shelf near (139, 74) and (145, 76) (run 8823: the torch stood right behind Nelim and looked planted in her head, moved west), Stool at the old stool cell (run 5fa2 showed a bare wooden floor).
 #                     Subtitle: "Kuru gets his white chest patch."
 #                     Instant: the serum has just gone in, Kuru has not moved yet. Foreground Kuru and the patch, background the lit lantern and the tatami, Nelim off-centre right, soft morning light.
@@ -127,7 +127,7 @@ Feature: ACG gallery
     And Nelim's Pickle Tools: I place the decor "Shelf" near (139, 74)
     And Nelim's Pickle Tools: I place the decor "Shelf" near (145, 76)
     And Nelim's Pickle Tools: I place the decor "DR_StickLantern" at (145, 72)
-    And Nelim's Pickle Tools: "Nelim" stands at (143, 73) facing East
+    And Nelim's Pickle Tools: "Nelim" stands at (143, 73) facing South
     And Nelim's Pickle Tools: an adult animal of kind "akaNEKO_kuroneko" named "Kuru" is spawned at (144, 73)
     And Nelim's Pickle Tools: the item "ACG_AnimalTraitSerum" is spawned at (142, 73) with the field "gene" set to the def "ACG_ChestPatch"
     And game speed is normal
@@ -135,7 +135,7 @@ Feature: ACG gallery
     And Nelim's Pickle Tools: I let 1500 ticks pass
     And game speed is paused
     Then Nelim's Pickle Tools: the animal "Kuru" holds the hediff "AnimalTrait_ChestPatch"
-    And Nelim's Pickle Tools: "Nelim" stands at (143, 73) facing East
+    And Nelim's Pickle Tools: "Nelim" stands at (143, 73) facing South
     And Nelim's Pickle Tools: the animal "Kuru" stands at (144, 73)
     And Nelim's Pickle Tools: the animal "Kuru" faces south
     And Nelim's Sanctuary: Nelim has her own face
@@ -185,6 +185,7 @@ Feature: ACG gallery
     Given Nelim's Pickle Tools: "Nelim" is forced to walk to (152, 109)
     And Nelim's Pickle Tools: I let 8 ticks pass
     And game speed is paused
+    And Nelim's Pickle Tools: "Nelim" faces South
     And Nelim's Sanctuary: Nelim has her own face
     And Nelim's Pickle Tools: the loose things within 10 cells of "Nelim" are removed
     And Nelim's Pickle Tools: I frame the area centred on (155, 110) at root size 2.2
@@ -240,14 +241,14 @@ Feature: ACG gallery
     And Nelim's Pickle Tools: an adult animal of kind "Alpaca" named "Alpa1" is spawned at (197, 235)
     And Nelim's Pickle Tools: the animal "Alpa1" has the hediff "AnimalTrait_Skin_Purple"
     And Nelim's Pickle Tools: the animal "Mare1" faces west
-    And Nelim's Pickle Tools: "Nelim" stands at (193, 237) facing East
+    And Nelim's Pickle Tools: "Nelim" stands at (193, 237) facing South
     And game speed is normal
     And Nelim's Pickle Tools: I let 60 ticks pass
     And game speed is paused
     And Nelim's Pickle Tools: the animal "Mare1" stands at (198, 237)
     And Nelim's Pickle Tools: the animal "Alpa1" stands at (197, 235)
     And Nelim's Pickle Tools: the animal "Alpa1" faces south
-    And Nelim's Pickle Tools: "Nelim" stands at (195, 237) facing East
+    And Nelim's Pickle Tools: "Nelim" stands at (195, 237) facing South
     And Nelim's Pickle Tools: the item "ACG_AnimalTraitSerum" is spawned at (196, 237) with the field "gene" set to the def "Skin_Orange"
     And Nelim's Pickle Tools: I frame the area centred on (197, 237) at root size 3
     When Nelim's Pickle Tools: I let 5 frames pass
@@ -295,6 +296,7 @@ Feature: ACG gallery
     Given Nelim's Pickle Tools: "Nelim" is forced to walk to (131, 124)
     And Nelim's Pickle Tools: I let 45 ticks pass
     And game speed is paused
+    And Nelim's Pickle Tools: "Nelim" faces South
     And Nelim's Sanctuary: Nelim has her own face
     And Nelim's Pickle Tools: the animal "Shogun" stands at (133, 125)
     And Nelim's Pickle Tools: the animal "Shogun" faces west
