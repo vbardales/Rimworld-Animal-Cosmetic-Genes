@@ -125,7 +125,10 @@ Feature: ACG gallery
     And Nelim's Pickle Tools: I place the decor "DR_StickLantern" at (142, 72)
     And Nelim's Pickle Tools: the decor "DR_StickLantern" at (142, 72) is lit
     And Nelim's Pickle Tools: a decor that finds no cell is skipped and logged
-    And Nelim's Pickle Tools: I place the decor "Stool" at (143, 74)
+    And Nelim's Pickle Tools: I place the decor "TorchLamp" at (143, 74)
+    And Nelim's Pickle Tools: the decor "TorchLamp" at (143, 74) is lit
+    And Nelim's Pickle Tools: I place the decor "TorchLamp" at (143, 72)
+    And Nelim's Pickle Tools: the decor "TorchLamp" at (143, 72) is lit
     And Nelim's Pickle Tools: I place the decor "SculptureSmall" at (145, 74)
     And Nelim's Pickle Tools: I place the decor "TorchLamp" at (142, 74)
     And Nelim's Pickle Tools: I place the decor "Shelf" near (139, 74)
