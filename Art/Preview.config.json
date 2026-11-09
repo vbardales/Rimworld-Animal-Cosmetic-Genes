@@ -2,21 +2,13 @@
   "panel": {
     "title": "Animal Cosmetic Genes",
     "titleParts": [
-      {
-        "text": "Animal Cosmetic Genes"
-      }
+      { "text": "Animal Cosmetic Genes" }
     ],
     "description": "Cosmetic coat traits for animals, drawn from the colour of a gene. Turn a genepack into a serum at the bench, then apply it to an animal."
   },
-  "background": {
-    "file": "Preview-source.png"
-  },
-  "echo": {
-    "file": "echo-source.png"
-  },
-  "icon": {
-    "file": "ModIcon-source.png"
-  },
+  "background": { "file": "Preview-source.png" },
+  "echo": { "file": "echo-source.png" },
+  "icon": { "file": "ModIcon-source.png" },
   "palette": {
     "veil": "#2B1F15",
     "inkPrimary": "#F2ECE1",
