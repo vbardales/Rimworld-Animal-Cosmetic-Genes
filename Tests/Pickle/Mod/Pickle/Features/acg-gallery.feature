@@ -118,12 +118,12 @@ Feature: ACG gallery
     And Nelim's Pickle Tools: the "LisaWork_ApparelSkirt" worn by "Nelim" is dyed rgb (31, 58, 95)
     And Nelim's Pickle Tools: "Nelim" wears "Apparel_PAESmallEarrings" made of "Gold"
     And Nelim's Pickle Tools: "Nelim" wears "LisaWork_ApparelHornRimmedGlasses" made of "Gold"
-    And Nelim's Pickle Tools: I place the decor "DR_StickLantern" at (141, 74)
-    And Nelim's Pickle Tools: the decor "DR_StickLantern" at (141, 74) is lit
+    And Nelim's Pickle Tools: I place the decor "DR_StickLantern" at (142, 74)
+    And Nelim's Pickle Tools: the decor "DR_StickLantern" at (142, 74) is lit
     And Nelim's Pickle Tools: a decor that finds no cell is skipped and logged
-    And Nelim's Pickle Tools: I place the decor "Stool" near (141, 72)
+    And Nelim's Pickle Tools: I place the decor "Stool" near (145, 72)
     And Nelim's Pickle Tools: I place the decor "SculptureSmall" near (142, 72)
-    And Nelim's Pickle Tools: I place the decor "TorchLamp" near (142, 74)
+    And Nelim's Pickle Tools: I place the decor "TorchLamp" near (145, 74)
     And Nelim's Pickle Tools: I place the decor "Shelf" near (139, 74)
     And Nelim's Pickle Tools: I place the decor "Shelf" near (145, 76)
     And Nelim's Pickle Tools: I place the decor "DR_StickLantern" near (146, 74)
