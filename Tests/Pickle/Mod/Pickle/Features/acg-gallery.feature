@@ -119,6 +119,9 @@ Feature: ACG gallery
     And Nelim's Pickle Tools: the "LisaWork_ApparelSkirt" worn by "Nelim" is dyed rgb (31, 58, 95)
     And Nelim's Pickle Tools: "Nelim" wears "Apparel_PAESmallEarrings" made of "Gold"
     And Nelim's Pickle Tools: "Nelim" wears "LisaWork_ApparelHornRimmedGlasses" made of "Gold"
+    And Nelim's Pickle Tools: I lay the floor "StrawMatting" from (142, 72) to (145, 74)
+    And Nelim's Pickle Tools: I place the decor "PlantPot" holding "Plant_Daylily" fully grown at (144, 72)
+    And Nelim's Pickle Tools: I place the decor "PlantPot" holding "Plant_Daylily" fully grown at (144, 74)
     And Nelim's Pickle Tools: I place the decor "DR_StickLantern" at (142, 72)
     And Nelim's Pickle Tools: the decor "DR_StickLantern" at (142, 72) is lit
     And Nelim's Pickle Tools: a decor that finds no cell is skipped and logged
@@ -143,10 +146,10 @@ Feature: ACG gallery
     And Nelim's Pickle Tools: I place the decor "DR_StickLantern" at (145, 73)
     And Nelim's Pickle Tools: the decor "DR_StickLantern" at (145, 73) is lit
     And Nelim's Pickle Tools: the colonist "Nelim" holds "ACG_AnimalTraitSerum" in hand set with the field "gene" to "ACG_ChestPatch"
-    And Nelim's Pickle Tools: I frame the area centred on (144, 73) at root size 1
-    And Nelim's Pickle Tools: the camera orthographic size is held at 0.9
+    And Nelim's Pickle Tools: I frame the area centred on the point (143.5, 73.0) at root size 0.75
+    And Nelim's Pickle Tools: the camera orthographic size is held at 0.75
     When Nelim's Pickle Tools: I let 10 frames pass
-    Then Nelim's Pickle Tools: the camera orthographic size is 0.9
+    Then Nelim's Pickle Tools: the camera orthographic size is 0.75
     And I take a screenshot "acggallery-2-kuru-patch"
     And Nelim's Pickle Tools: the decor is removed
 
@@ -252,6 +255,7 @@ Feature: ACG gallery
     And Nelim's Pickle Tools: "Nelim" stands at (195, 237) facing South
     And Nelim's Pickle Tools: the item "ACG_AnimalTraitSerum" is spawned at (196, 237) with the field "gene" set to the def "Skin_Orange"
     And Nelim's Pickle Tools: I frame the area centred on (197, 237) at root size 3
+    And Nelim's Pickle Tools: the camera orthographic size is held at 3
     When Nelim's Pickle Tools: I let 5 frames pass
     Then I take a screenshot "acggallery-4-horse"
     And Nelim's Pickle Tools: the decor is removed
@@ -304,6 +308,7 @@ Feature: ACG gallery
     And Nelim's Pickle Tools: the animal "Alpa2" faces south
     And Nelim's Pickle Tools: the interaction bubbles are cleared
     And Nelim's Pickle Tools: I frame the area centred on (133, 123) at root size 3.5
+    And Nelim's Pickle Tools: the camera orthographic size is held at 3.5
     When Nelim's Pickle Tools: I let 5 frames pass
     Then I take a screenshot "acggallery-5-bridge-dusk"
     And Nelim's Pickle Tools: the decor is removed
