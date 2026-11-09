@@ -49,7 +49,7 @@
     <defName>ACG_ChestPatch</defName>
     <label>chest patch</label>
     <labelShortAdj>patched</labelShortAdj>
-    <description>Carriers of this gene have a pale patch of fur or skin on the chest. People show no change. An animal that receives it through a serum shows the patch, if its kind has the art for it.</description>
+    <description>Carriers of this gene have a white patch of fur or skin on the chest. People show no change. An animal that receives it through a serum shows the patch, if its kind has the art for it.</description>
     <iconPath>ACG/Genes/ChestPatch</iconPath>
     <iconColor>(0.95, 0.95, 0.95)</iconColor>
     <displayCategory>Cosmetic</displayCategory>

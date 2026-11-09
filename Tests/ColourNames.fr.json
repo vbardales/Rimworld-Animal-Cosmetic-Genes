@@ -130,7 +130,10 @@
     "f": "planétaire"
   },
   "plum": "prune",
-  "powder": "poudre",
+  "powder": {
+    "m": "poudré",
+    "f": "poudrée"
+  },
   "purple": "violet",
   "purple heart": "cœur pourpre",
   "rainforest": "forêt tropicale",
