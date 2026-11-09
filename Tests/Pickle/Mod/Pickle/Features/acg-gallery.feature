@@ -25,13 +25,14 @@
 #                     at (153, 111) and (156, 111), DR_StickLantern at (152, 111) lit (the flower pot is dropped: its rim under the plant read as a smiley in run 54eb). Subtitle: "Same breed, two coats."
 #                     Instant: Nelim has just walked off after the tint, the two dogs hold their pose. Foreground the two labradors, background the daylilies and the lantern, dogs off-centre, midday light.
 #   4. horse-4-serum   barn 14h (centre 197, 237) medium, root size 3 (run gallery-s: hay field bare, decoration 3.5; two stools, shelf, sculpture, two daylilies added), Nelim re-placed at (195, 237), more Hay at (195, 240) (198, 235) (200, 241), TorchLamp near (192, 239) and (202, 238) (run 9852 at root size 4 cut the alpaca and lanterns off). Nelim at (195, 237) faces the horse "Mare1" at (198, 237) (the serum lies at (196, 237) between her and the horse, gene Skin_Orange; the NPT step "holds in hand" draws nothing in her hand, run 09ef)
-#                     the apply not yet done (60 ticks pass before the placement so she is drawn, test T1 of NPT). Alpaca "Alpa1" at (197, 235) south of the horse (run gallery-t: at 239 it sat at the top, background) with AnimalTrait_Skin_Purple in the foreground (run 54eb: cut off at the top, a cow and a piglet at the west edge: frame moved east, root size 4). Hay at (194, 239),
-#                     DR_StickLantern at (194, 235) and (200, 235) lit, two more Hay at (196, 236) and (199, 239). Animals kept out of cells (190, 231) to (204, 234) so the brown chicken of run ba18 stays out of the bottom edge. Subtitle: "Next in line: the barn horse."
+#                     the apply not yet done (60 ticks pass before the placement so she is drawn, test T1 of NPT). Alpaca "Alpa1" at (197, 236) south of the horse (run gallery-t: at 239 it sat at the top, background) with AnimalTrait_Skin_Purple in the foreground (run 54eb: cut off at the top, a cow and a piglet at the west edge: frame moved east, root size 4). Hay at (194, 239),
+#                     DR_StickLantern at (195, 238) and (200, 238) lit, two more Hay at (196, 236) and (199, 239). Animals kept out of cells (190, 231) to (204, 234) so the brown chicken of run ba18 stays out of the bottom edge. Subtitle: "Next in line: the barn horse."
+#                     [2026-11-09 recompose after run ff28: shot 2 hold 0.9; shot 4 alpaca and lanterns moved inside the frame; shot 5 frame on the bridge planks, animals re-placed after the pause]
 #                     Sculpture near (196, 239): the sculpture placed on the bottom row was the brown coil cut at the bottom edge in run 1428.
 #                     Instant: Nelim has picked up the serum and crosses the last cells to the horse. Foreground the purple alpaca, background the lit lanterns and the hay, afternoon light in the barn.
-#   5. bridge-5-dusk   river-bridge 17h (centre 135, 124) wide, closing, root size 4. Nelim walks from (137, 124) to (131, 124), Shogun at (133, 125) and
-#                     the red-coat labrador "Lab2" (AnimalTrait_Skin_PaleRed) follow, alpaca "Alpa2" grazes at (130, 127) (run 54eb: cut off at the corner) with AnimalTrait_Skin_Purple (the brown horse showed no tint), DR_StickLantern
-#                     at (132, 126) lit. Subtitle: "Home at dusk, with a few new colours."
+#   5. bridge-5-dusk   river-bridge 17h (centre 135, 124) wide, closing, root size 4. Nelim walks from (137, 123) to (134, 123), Shogun at (134, 124) and
+#                     the red-coat labrador "Lab2" (AnimalTrait_Skin_PaleRed) follow, alpaca "Alpa2" grazes at (130, 123) (run 54eb: cut off at the corner) with AnimalTrait_Skin_Purple (the brown horse showed no tint), DR_StickLantern
+#                     at (132, 121) lit. Subtitle: "Home at dusk, with a few new colours."
 #                     Instant: the walk home has just begun over the bridge. Foreground the blue labrador and Shogun, background the grazing horse and the lit lantern, low golden light from the west.
 #   6. genepack-window interface window (not rated), window-backdrop-for-height, cropped, no subtitle: genepack at (90, 140), ITab_Genes, "Chest patch".
 # Mods for the -DepMap: wsl-deps.acg-gallery.map (NSB wsl-deps.sanctuary-nelim.map + luved.animaltraits + akairo.LetsHaveaCat + Mlie.StickLantern 2024351846).
@@ -143,9 +144,9 @@ Feature: ACG gallery
     And Nelim's Pickle Tools: the decor "DR_StickLantern" at (145, 73) is lit
     And Nelim's Pickle Tools: the colonist "Nelim" holds "ACG_AnimalTraitSerum" in hand set with the field "gene" to "ACG_ChestPatch"
     And Nelim's Pickle Tools: I frame the area centred on (144, 73) at root size 1
-    And Nelim's Pickle Tools: the camera orthographic size is held at 0.8
+    And Nelim's Pickle Tools: the camera orthographic size is held at 0.9
     When Nelim's Pickle Tools: I let 10 frames pass
-    Then Nelim's Pickle Tools: the camera orthographic size is 0.8
+    Then Nelim's Pickle Tools: the camera orthographic size is 0.9
     And I take a screenshot "acggallery-2-kuru-patch"
     And Nelim's Pickle Tools: the decor is removed
 
@@ -219,10 +220,10 @@ Feature: ACG gallery
     And Nelim's Pickle Tools: "Nelim" wears "Apparel_PAESmallEarrings" made of "Gold"
     And Nelim's Pickle Tools: "Nelim" wears "LisaWork_ApparelHornRimmedGlasses" made of "Gold"
     And Nelim's Pickle Tools: I place the decor "Hay" at (194, 239)
-    And Nelim's Pickle Tools: I place the decor "DR_StickLantern" at (194, 235)
-    And Nelim's Pickle Tools: the decor "DR_StickLantern" at (194, 235) is lit
-    And Nelim's Pickle Tools: I place the decor "DR_StickLantern" at (200, 235)
-    And Nelim's Pickle Tools: the decor "DR_StickLantern" at (200, 235) is lit
+    And Nelim's Pickle Tools: I place the decor "DR_StickLantern" at (195, 238)
+    And Nelim's Pickle Tools: the decor "DR_StickLantern" at (195, 238) is lit
+    And Nelim's Pickle Tools: I place the decor "DR_StickLantern" at (200, 238)
+    And Nelim's Pickle Tools: the decor "DR_StickLantern" at (200, 238) is lit
     And Nelim's Pickle Tools: I place the decor "Hay" at (196, 236)
     And Nelim's Pickle Tools: I place the decor "Hay" at (199, 239)
     And Nelim's Pickle Tools: I place the decor "Hay" at (195, 240)
@@ -238,7 +239,7 @@ Feature: ACG gallery
     And Nelim's Pickle Tools: I place the decor "TorchLamp" near (202, 238)
     And Nelim's Pickle Tools: the animals are kept out of the area from (190, 231) to (204, 234)
     And Nelim's Pickle Tools: an adult animal of kind "Horse" named "Mare1" is spawned at (198, 237)
-    And Nelim's Pickle Tools: an adult animal of kind "Alpaca" named "Alpa1" is spawned at (197, 235)
+    And Nelim's Pickle Tools: an adult animal of kind "Alpaca" named "Alpa1" is spawned at (197, 236)
     And Nelim's Pickle Tools: the animal "Alpa1" has the hediff "AnimalTrait_Skin_Purple"
     And Nelim's Pickle Tools: the animal "Mare1" faces west
     And Nelim's Pickle Tools: "Nelim" stands at (193, 237) facing South
@@ -246,7 +247,7 @@ Feature: ACG gallery
     And Nelim's Pickle Tools: I let 60 ticks pass
     And game speed is paused
     And Nelim's Pickle Tools: the animal "Mare1" stands at (198, 237)
-    And Nelim's Pickle Tools: the animal "Alpa1" stands at (197, 235)
+    And Nelim's Pickle Tools: the animal "Alpa1" stands at (197, 236)
     And Nelim's Pickle Tools: the animal "Alpa1" faces south
     And Nelim's Pickle Tools: "Nelim" stands at (195, 237) facing South
     And Nelim's Pickle Tools: the item "ACG_AnimalTraitSerum" is spawned at (196, 237) with the field "gene" set to the def "Skin_Orange"
@@ -277,33 +278,32 @@ Feature: ACG gallery
     And Nelim's Pickle Tools: the "LisaWork_ApparelSkirt" worn by "Nelim" is dyed rgb (31, 58, 95)
     And Nelim's Pickle Tools: "Nelim" wears "Apparel_PAESmallEarrings" made of "Gold"
     And Nelim's Pickle Tools: "Nelim" wears "LisaWork_ApparelHornRimmedGlasses" made of "Gold"
-    And Nelim's Pickle Tools: I place the decor "DR_StickLantern" at (132, 126)
-    And Nelim's Pickle Tools: the decor "DR_StickLantern" at (132, 126) is lit
-    And Nelim's Pickle Tools: I place the decor "TorchLamp" near (137, 126)
-    And Nelim's Pickle Tools: I place the decor "Plant_Daylily" at (130, 128) fully grown
-    And Nelim's Pickle Tools: I place the decor "Plant_Daylily" at (138, 122) fully grown
-    And Nelim's Pickle Tools: I place the decor "DR_StickLantern" at (136, 122)
-    And Nelim's Pickle Tools: the decor "DR_StickLantern" at (136, 122) is lit
-    And Nelim's Pickle Tools: I place the decor "Plant_Daylily" at (131, 121) fully grown
-    And Nelim's Pickle Tools: I place the decor "TorchLamp" near (130, 123)
-    And Nelim's Pickle Tools: an adult animal of kind "Alpaca" named "Alpa2" is spawned at (130, 127)
+    And Nelim's Pickle Tools: I place the decor "DR_StickLantern" at (132, 121)
+    And Nelim's Pickle Tools: the decor "DR_StickLantern" at (132, 121) is lit
+    And Nelim's Pickle Tools: I place the decor "DR_StickLantern" at (137, 121)
+    And Nelim's Pickle Tools: the decor "DR_StickLantern" at (137, 121) is lit
+    And Nelim's Pickle Tools: I place the decor "TorchLamp" near (129, 122)
+    And Nelim's Pickle Tools: I place the decor "TorchLamp" near (139, 122)
+    And Nelim's Pickle Tools: an adult animal of kind "Alpaca" named "Alpa2" is spawned at (130, 123)
     And Nelim's Pickle Tools: the animal "Alpa2" has the hediff "AnimalTrait_Skin_Purple"
-    And Nelim's Pickle Tools: an adult animal of kind "LabradorRetriever" named "Lab2" is spawned at (132, 123)
+    And Nelim's Pickle Tools: an adult animal of kind "LabradorRetriever" named "Lab2" is spawned at (133, 122)
     And Nelim's Pickle Tools: the animal "Lab2" has the hediff "AnimalTrait_Skin_PaleRed"
-    And Nelim's Pickle Tools: the animal "Shogun" stands at (133, 125)
-    And Nelim's Pickle Tools: "Nelim" stands at (137, 124) facing West
+    And Nelim's Pickle Tools: the animal "Shogun" stands at (134, 124)
+    And Nelim's Pickle Tools: "Nelim" stands at (137, 123) facing West
     And game speed is normal
-    Given Nelim's Pickle Tools: "Nelim" is forced to walk to (131, 124)
+    Given Nelim's Pickle Tools: "Nelim" is forced to walk to (134, 123)
     And Nelim's Pickle Tools: I let 45 ticks pass
     And game speed is paused
-    And Nelim's Pickle Tools: "Nelim" faces South
+    And Nelim's Pickle Tools: "Nelim" stands at (136, 123) facing South
     And Nelim's Sanctuary: Nelim has her own face
-    And Nelim's Pickle Tools: the animal "Shogun" stands at (133, 125)
+    And Nelim's Pickle Tools: the animal "Shogun" stands at (134, 124)
     And Nelim's Pickle Tools: the animal "Shogun" faces west
-    And Nelim's Pickle Tools: the animal "Lab2" stands at (132, 123)
+    And Nelim's Pickle Tools: the animal "Lab2" stands at (133, 122)
     And Nelim's Pickle Tools: the animal "Lab2" faces west
+    And Nelim's Pickle Tools: the animal "Alpa2" stands at (130, 123)
+    And Nelim's Pickle Tools: the animal "Alpa2" faces south
     And Nelim's Pickle Tools: the interaction bubbles are cleared
-    And Nelim's Pickle Tools: I frame the area centred on (132, 125) at root size 4
+    And Nelim's Pickle Tools: I frame the area centred on (133, 123) at root size 3.5
     When Nelim's Pickle Tools: I let 5 frames pass
     Then I take a screenshot "acggallery-5-bridge-dusk"
     And Nelim's Pickle Tools: the decor is removed
