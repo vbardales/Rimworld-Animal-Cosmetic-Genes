@@ -16,13 +16,13 @@
 #                     GeneBank near (225, 238), TorchLamp at (221, 239) and (226, 239) lit, Stool, PlantPot with Plant_Daylily
 #                     at (227, 238), SculptureSmall. The workshop is emptied first (power cells and a dining set stood on the cells of runs 03ec, 0c94, e318). Root size 3.2 at (222, 237) (3.5 in run b051 left a bare tiled floor with the decor far out, 2.5 in run 06f3 hid the decor off frame; decor now within 3 cells) so the bench reads at 268 px. Subtitle: "The serum is ready at the bench."
 #                     Instant: the vial has just come out, she looks up at the camera with it before the pick-up. Foreground the genepack and the bench edge, background the torches and the GeneBank, Nelim at the centre facing the camera, Shogun and the torches around her, warm torch light against the dawn.
-#   2. kuru-2-patch   hut 9h (centre 144, 73) close, root size 1.5 centred (144, 73) (run 8823 at root 2: bib about 35 px at full size, 5 px at 268 px, 1.5 gives about 360 px per cell; run ba18 at root 3: Kuru 80 px wide, patch 12 px at 268 px, unreadable: 2 gives about 270 px per cell and Kuru about 120 px, the game bounds the camera near 2; earlier: run 27cc at 5.5 gave about 98 px per cell, Kuru 55 px tall: px per cell is about 1080 / (2 x root size), so 3 gives about 180 px per cell and Kuru about 110 px, NPT 2026-11-08; the framing step lifts the game floor of 11 by itself, SimpleCameraSetting not needed; second lantern and stool added). Just after the apply: Nelim at (143, 73) facing east, serum used, Kuru
-#                     (akaNEKO_kuroneko) at (144, 73) facing south with AnimalTrait_ChestPatch (white patch on black fur). DR_StickLantern lit near (141, 74), Shelf near (139, 74), SculptureSmall near (142, 72), TorchLamp near (142, 74) (run 8823: the torch stood right behind Nelim and looked planted in her head, moved west), Stool near (141, 72) (run 5fa2 showed a bare wooden floor).
+#   2. kuru-2-patch   hut 9h (centre 144, 73) macro, root size 1 centred (144, 73) held at orthographic size 0.6 (2026-11-09 j rule: at 1.3 the bib was about 63 px at full size, 9 px at 268 px, REDO; 0.6 gives about 900 px per cell, the bib about 28 px at 268 px; frame about 2.1 x 1.2 cells: Kuru centre, Nelim half in frame at the left, DR_StickLantern (145, 73) lit at the right; the old decor stays but is outside the frame; decoration may rate low, to read on the capture) (run 8823 at root 2: bib about 35 px at full size, 5 px at 268 px, 1.5 gives about 360 px per cell; run ba18 at root 3: Kuru 80 px wide, patch 12 px at 268 px, unreadable: 2 gives about 270 px per cell and Kuru about 120 px, the game bounds the camera near 2; earlier: run 27cc at 5.5 gave about 98 px per cell, Kuru 55 px tall: px per cell is about 1080 / (2 x root size), so 3 gives about 180 px per cell and Kuru about 110 px, NPT 2026-11-08; the framing step lifts the game floor of 11 by itself, SimpleCameraSetting not needed; second lantern and stool added). Just after the apply: Nelim at (143, 73) facing east, serum used, Kuru
+#                     (akaNEKO_kuroneko) at (144, 73) facing south with AnimalTrait_ChestPatch (white patch on black fur). DR_StickLantern lit at (142, 72) and (145, 73), DR_StickLantern at (145, 72), Stool at (143, 72), SculptureSmall at (145, 74), TorchLamp at (142, 74), Shelf near (139, 74) and (145, 76), Stool near (146, 75) (run 8823: the torch stood right behind Nelim and looked planted in her head, moved west), Stool at (143, 72) (run 5fa2 showed a bare wooden floor).
 #                     Subtitle: "Kuru gets his white chest patch."
 #                     Instant: the serum has just gone in, Kuru has not moved yet. Foreground Kuru and the patch, background the lit lantern and the tatami, Nelim off-centre right, soft morning light.
-#   3. labradors-3-coats flower-garden 11h (centre 154, 110) medium, root size 5. Shogun at (154, 110) and an anonymous labrador "Lab1" at (156, 110) with
-#                     AnimalTrait_Skin_PaleRed (tints multiply the coat: blue on yellow read grey in runs 5ea8 and be78), both facing south toward the camera. Nelim at (150, 109) walks to (148, 109), paused mid-stride. Plant_Daylily
-#                     at (151, 108) and (157, 108), DR_StickLantern at (150, 112) lit (the flower pot is dropped: its rim under the plant read as a smiley in run 54eb). Subtitle: "Same breed, two coats."
+#   3. labradors-3-coats flower-garden 11h (centre 155, 110) medium-close, root size 2.2 held at orthographic size 1.8 (run 9852 at root 5: the dogs were 55 px wide, 7 px at 268 px, the two coats unreadable in the thumbnail, REDO by the j rule of 2026-11-09; 1.8 gives about 300 px per cell). Shogun at (154, 110) and an anonymous labrador "Lab1" at (156, 110) with
+#                     AnimalTrait_Skin_PaleRed (tints multiply the coat: blue on yellow read grey in runs 5ea8 and be78), both facing south toward the camera. Nelim at (153, 109) facing west walks to (152, 109), paused mid-stride (8 ticks). Plant_Daylily
+#                     at (153, 111) and (156, 111), DR_StickLantern at (152, 111) lit (the flower pot is dropped: its rim under the plant read as a smiley in run 54eb). Subtitle: "Same breed, two coats."
 #                     Instant: Nelim has just walked off after the tint, the two dogs hold their pose. Foreground the two labradors, background the daylilies and the lantern, dogs off-centre, midday light.
 #   4. horse-4-serum   barn 14h (centre 197, 237) medium, root size 3 (run gallery-s: hay field bare, decoration 3.5; two stools, shelf, sculpture, two daylilies added), Nelim re-placed at (195, 237), more Hay at (195, 240) (198, 235) (200, 241), TorchLamp near (192, 239) and (202, 238) (run 9852 at root size 4 cut the alpaca and lanterns off). Nelim at (195, 237) faces the horse "Mare1" at (198, 237) (the serum lies at (196, 237) between her and the horse, gene Skin_Orange; the NPT step "holds in hand" draws nothing in her hand, run 09ef)
 #                     the apply not yet done (60 ticks pass before the placement so she is drawn, test T1 of NPT). Alpaca "Alpa1" at (197, 235) south of the horse (run gallery-t: at 239 it sat at the top, background) with AnimalTrait_Skin_Purple in the foreground (run 54eb: cut off at the top, a cow and a piglet at the west edge: frame moved east, root size 4). Hay at (194, 239),
@@ -140,10 +140,12 @@ Feature: ACG gallery
     And Nelim's Pickle Tools: the animal "Kuru" stands at (144, 73)
     And Nelim's Pickle Tools: the animal "Kuru" faces south
     And Nelim's Sanctuary: Nelim has her own face
-    And Nelim's Pickle Tools: I frame the area centred on (144, 73) at root size 1.5
-    And Nelim's Pickle Tools: the camera orthographic size is held at 1.3
+    And Nelim's Pickle Tools: I place the decor "DR_StickLantern" at (145, 73)
+    And Nelim's Pickle Tools: the decor "DR_StickLantern" at (145, 73) is lit
+    And Nelim's Pickle Tools: I frame the area centred on (144, 73) at root size 1
+    And Nelim's Pickle Tools: the camera orthographic size is held at 0.6
     When Nelim's Pickle Tools: I let 10 frames pass
-    Then Nelim's Pickle Tools: the camera orthographic size is 1.3
+    Then Nelim's Pickle Tools: the camera orthographic size is 0.6
     And I take a screenshot "acggallery-2-kuru-patch"
     And Nelim's Pickle Tools: the decor is removed
 
@@ -169,25 +171,27 @@ Feature: ACG gallery
     And Nelim's Pickle Tools: the "LisaWork_ApparelSkirt" worn by "Nelim" is dyed rgb (31, 58, 95)
     And Nelim's Pickle Tools: "Nelim" wears "Apparel_PAESmallEarrings" made of "Gold"
     And Nelim's Pickle Tools: "Nelim" wears "LisaWork_ApparelHornRimmedGlasses" made of "Gold"
-    And Nelim's Pickle Tools: I place the decor "Plant_Daylily" at (151, 108) fully grown
-    And Nelim's Pickle Tools: I place the decor "Plant_Daylily" at (157, 108) fully grown
-    And Nelim's Pickle Tools: I place the decor "DR_StickLantern" at (150, 112)
-    And Nelim's Pickle Tools: the decor "DR_StickLantern" at (150, 112) is lit
+    And Nelim's Pickle Tools: I place the decor "Plant_Daylily" at (153, 111) fully grown
+    And Nelim's Pickle Tools: I place the decor "Plant_Daylily" at (156, 111) fully grown
+    And Nelim's Pickle Tools: I place the decor "DR_StickLantern" at (152, 111)
+    And Nelim's Pickle Tools: the decor "DR_StickLantern" at (152, 111) is lit
     And Nelim's Pickle Tools: the animal "Shogun" stands at (154, 110)
     And Nelim's Pickle Tools: an adult animal of kind "LabradorRetriever" named "Lab1" is spawned at (156, 110)
     And Nelim's Pickle Tools: the animal "Lab1" has the hediff "AnimalTrait_Skin_PaleRed"
     And Nelim's Pickle Tools: the animal "Shogun" faces south
     And Nelim's Pickle Tools: the animal "Lab1" faces south
-    And Nelim's Pickle Tools: "Nelim" stands at (150, 109) facing East
+    And Nelim's Pickle Tools: "Nelim" stands at (153, 109) facing West
     And game speed is normal
-    Given Nelim's Pickle Tools: "Nelim" is forced to walk to (148, 109)
-    And Nelim's Pickle Tools: I let 40 ticks pass
+    Given Nelim's Pickle Tools: "Nelim" is forced to walk to (152, 109)
+    And Nelim's Pickle Tools: I let 8 ticks pass
     And game speed is paused
     And Nelim's Sanctuary: Nelim has her own face
     And Nelim's Pickle Tools: the loose things within 10 cells of "Nelim" are removed
-    And Nelim's Pickle Tools: I frame the area centred on (153, 110) at root size 5
-    When Nelim's Pickle Tools: I let 5 frames pass
-    Then I take a screenshot "acggallery-3-labradors"
+    And Nelim's Pickle Tools: I frame the area centred on (155, 110) at root size 2.2
+    And Nelim's Pickle Tools: the camera orthographic size is held at 1.8
+    When Nelim's Pickle Tools: I let 10 frames pass
+    Then Nelim's Pickle Tools: the camera orthographic size is 1.8
+    And I take a screenshot "acggallery-3-labradors"
     And Nelim's Pickle Tools: the decor is removed
 
   Scenario: acg-gallery-4-horse
