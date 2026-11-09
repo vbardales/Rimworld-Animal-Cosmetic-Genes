@@ -1,6 +1,6 @@
 # Animal Cosmetic Genes: publication
 
-The sheet of what the Workshop page asks for and the repository holds nowhere else. The mod is not published yet (`STATUS.md`: `published: no`, version 1.0.0, public repository, mode: the CI, `PUBLISHING.md`, "Deux modes de publication").
+This is the record of everything the Workshop page requires and that the repository stores nowhere else. The mod is not published yet (`STATUS.md`: `published: no`, version 1.0.0, public repository, mode: the CI, `PUBLISHING.md`, "Deux modes de publication").
 
 ## Steam description
 
@@ -39,7 +39,7 @@ Luved, for [Animal Traits System](https://steamcommunity.com/sharedfiles/filedet
 
 akairo, who made the cats of Let's Have a Cat!, and Bernau31, who keeps them alive in [Let's Have a Cat! Continued](https://steamcommunity.com/sharedfiles/filedetails/?id=3682940618): Kuru, their tuxedo cat, wears the chest patch.
 
-FarmerJoe, for [Sapient Animal - Gene Freedom](https://steamcommunity.com/sharedfiles/filedetails/?id=3825033251): reading how it makes gene visuals reach animals showed me that coats on ordinary animals were possible. Nothing of it is used.
+FarmerJoe, for [Sapient Animal - Gene Freedom](https://steamcommunity.com/sharedfiles/filedetails/?id=3825033251): reading how it makes gene visuals reach animals showed me that coats on ordinary animals were possible. Nothing from it is used.
 
 Lazy Friday Studio, for [Genes Expanded - Skin Colors](https://steamcommunity.com/sharedfiles/filedetails/?id=3214172563) and [Genes Expanded - Hair](https://steamcommunity.com/sharedfiles/filedetails/?id=3221946756), OdysseyLotus and Lucius, for [Seren, from Stardust](https://steamcommunity.com/sharedfiles/filedetails/?id=3726565301), and Lyn the Cookie, for [Cookie Genes (Skin and Hair Colors)](https://steamcommunity.com/sharedfiles/filedetails/?id=2879072525): their gene colours are the ones the serums give. Nothing of theirs is copied; the colours are read from the game when it runs.
 

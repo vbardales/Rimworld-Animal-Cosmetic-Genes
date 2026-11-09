@@ -17,7 +17,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_Skin_InkBlack</defName>
     <label>ink black coat</label>
-    <description>A tint of ink black runs through this animal's coat.</description>
+    <description>An ink black tint runs through this animal's coat.</description>
     <skinColorTint>(0.216, 0.216, 0.216, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -32,7 +32,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_Skin_SlateGray</defName>
     <label>slate gray coat</label>
-    <description>A tint of slate gray runs through this animal's coat.</description>
+    <description>A slate gray tint runs through this animal's coat.</description>
     <skinColorTint>(0.353, 0.353, 0.353, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -47,7 +47,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_Skin_LightGray</defName>
     <label>light gray coat</label>
-    <description>A tint of light gray runs through this animal's coat.</description>
+    <description>A light gray tint runs through this animal's coat.</description>
     <skinColorTint>(0.784, 0.784, 0.784, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -62,7 +62,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_Skin_SheerWhite</defName>
     <label>sheer white coat</label>
-    <description>A tint of sheer white runs through this animal's coat.</description>
+    <description>A sheer white tint runs through this animal's coat.</description>
     <skinColorTint>(0.98, 0.941, 0.941, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -77,7 +77,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_Skin_Blue</defName>
     <label>blue coat</label>
-    <description>A tint of blue runs through this animal's coat.</description>
+    <description>A blue tint runs through this animal's coat.</description>
     <skinColorTint>(0.392, 0.647, 0.757, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -92,7 +92,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_Skin_Purple</defName>
     <label>purple coat</label>
-    <description>A tint of purple runs through this animal's coat.</description>
+    <description>A purple tint runs through this animal's coat.</description>
     <skinColorTint>(0.38, 0.341, 0.765, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -107,7 +107,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_Skin_PaleRed</defName>
     <label>pale red coat</label>
-    <description>A tint of pale red runs through this animal's coat.</description>
+    <description>A pale red tint runs through this animal's coat.</description>
     <skinColorTint>(0.871, 0.416, 0.416, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -122,7 +122,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_Skin_DeepRed</defName>
     <label>deep red coat</label>
-    <description>A tint of deep red runs through this animal's coat.</description>
+    <description>A deep red tint runs through this animal's coat.</description>
     <skinColorTint>(0.588, 0.243, 0.243, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -137,7 +137,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_Skin_PaleYellow</defName>
     <label>pale yellow coat</label>
-    <description>A tint of pale yellow runs through this animal's coat.</description>
+    <description>A pale yellow tint runs through this animal's coat.</description>
     <skinColorTint>(0.757, 0.647, 0.388, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -152,7 +152,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_Skin_DeepYellow</defName>
     <label>deep yellow coat</label>
-    <description>A tint of deep yellow runs through this animal's coat.</description>
+    <description>A deep yellow tint runs through this animal's coat.</description>
     <skinColorTint>(0.8, 0.78, 0.255, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -167,7 +167,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_Skin_Orange</defName>
     <label>orange coat</label>
-    <description>A tint of orange runs through this animal's coat.</description>
+    <description>An orange tint runs through this animal's coat.</description>
     <skinColorTint>(0.824, 0.447, 0.247, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -182,7 +182,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_Skin_Green</defName>
     <label>green coat</label>
-    <description>A tint of green runs through this animal's coat.</description>
+    <description>A green tint runs through this animal's coat.</description>
     <skinColorTint>(0.663, 0.714, 0.424, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -197,7 +197,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_Skin_Melanin1</defName>
     <label>melanin 1 coat</label>
-    <description>A tint of melanin 1 runs through this animal's coat.</description>
+    <description>A melanin 1 tint runs through this animal's coat.</description>
     <skinColorTint>(0.949, 0.929, 0.878, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -212,7 +212,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_Skin_Melanin2</defName>
     <label>melanin 2 coat</label>
-    <description>A tint of melanin 2 runs through this animal's coat.</description>
+    <description>A melanin 2 tint runs through this animal's coat.</description>
     <skinColorTint>(1, 0.937, 0.835, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -227,7 +227,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_Skin_Melanin3</defName>
     <label>melanin 3 coat</label>
-    <description>A tint of melanin 3 runs through this animal's coat.</description>
+    <description>A melanin 3 tint runs through this animal's coat.</description>
     <skinColorTint>(1, 0.937, 0.788, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -242,7 +242,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_Skin_Melanin4</defName>
     <label>melanin 4 coat</label>
-    <description>A tint of melanin 4 runs through this animal's coat.</description>
+    <description>A melanin 4 tint runs through this animal's coat.</description>
     <skinColorTint>(1, 0.937, 0.741, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -257,7 +257,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_Skin_Melanin5</defName>
     <label>melanin 5 coat</label>
-    <description>A tint of melanin 5 runs through this animal's coat.</description>
+    <description>A melanin 5 tint runs through this animal's coat.</description>
     <skinColorTint>(0.976, 0.859, 0.647, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -272,7 +272,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_Skin_Melanin6</defName>
     <label>melanin 6 coat</label>
-    <description>A tint of melanin 6 runs through this animal's coat.</description>
+    <description>A melanin 6 tint runs through this animal's coat.</description>
     <skinColorTint>(0.949, 0.78, 0.549, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -287,7 +287,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_Skin_Melanin7</defName>
     <label>melanin 7 coat</label>
-    <description>A tint of melanin 7 runs through this animal's coat.</description>
+    <description>A melanin 7 tint runs through this animal's coat.</description>
     <skinColorTint>(0.894, 0.62, 0.353, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -302,7 +302,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_Skin_Melanin8</defName>
     <label>melanin 8 coat</label>
-    <description>A tint of melanin 8 runs through this animal's coat.</description>
+    <description>A melanin 8 tint runs through this animal's coat.</description>
     <skinColorTint>(0.51, 0.357, 0.188, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -317,7 +317,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_Skin_Melanin9</defName>
     <label>melanin 9 coat</label>
-    <description>A tint of melanin 9 runs through this animal's coat.</description>
+    <description>A melanin 9 tint runs through this animal's coat.</description>
     <skinColorTint>(0.388, 0.275, 0.141, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -332,7 +332,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GES_Skin_Yellowfin</defName>
     <label>yellowfin coat</label>
-    <description>A tint of yellowfin runs through this animal's coat.</description>
+    <description>A yellowfin tint runs through this animal's coat.</description>
     <skinColorTint>(0.953, 0.941, 0.561, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -347,7 +347,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GES_Skin_BananaSplit</defName>
     <label>banana split coat</label>
-    <description>A tint of banana split runs through this animal's coat.</description>
+    <description>A banana split tint runs through this animal's coat.</description>
     <skinColorTint>(0.996, 0.894, 0.514, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -362,7 +362,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GES_Skin_TaxiCab</defName>
     <label>taxi cab coat</label>
-    <description>A tint of taxi cab runs through this animal's coat.</description>
+    <description>A taxi cab tint runs through this animal's coat.</description>
     <skinColorTint>(1, 0.827, 0.314, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -377,7 +377,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GES_Skin_GoldFish</defName>
     <label>gold fish coat</label>
-    <description>A tint of gold fish runs through this animal's coat.</description>
+    <description>A gold fish tint runs through this animal's coat.</description>
     <skinColorTint>(0.973, 0.596, 0.114, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -392,7 +392,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GES_Skin_BurntOrange</defName>
     <label>burnt orange coat</label>
-    <description>A tint of burnt orange runs through this animal's coat.</description>
+    <description>A burnt orange tint runs through this animal's coat.</description>
     <skinColorTint>(0.816, 0.439, 0.11, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -407,7 +407,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GES_Skin_Clay</defName>
     <label>clay coat</label>
-    <description>A tint of clay runs through this animal's coat.</description>
+    <description>A clay tint runs through this animal's coat.</description>
     <skinColorTint>(0.898, 0.443, 0.118, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -422,7 +422,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GES_Skin_Tangerine</defName>
     <label>tangerine coat</label>
-    <description>A tint of tangerine runs through this animal's coat.</description>
+    <description>A tangerine tint runs through this animal's coat.</description>
     <skinColorTint>(0.961, 0.455, 0.129, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -437,7 +437,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GES_Skin_PaleLavender</defName>
     <label>pale lavender coat</label>
-    <description>A tint of pale lavender runs through this animal's coat.</description>
+    <description>A pale lavender tint runs through this animal's coat.</description>
     <skinColorTint>(0.89, 0.796, 0.882, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -452,7 +452,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GES_Skin_Lilac</defName>
     <label>lilac coat</label>
-    <description>A tint of lilac runs through this animal's coat.</description>
+    <description>A lilac tint runs through this animal's coat.</description>
     <skinColorTint>(0.6, 0.424, 0.647, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -467,7 +467,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GES_Skin_Orchid</defName>
     <label>orchid coat</label>
-    <description>A tint of orchid runs through this animal's coat.</description>
+    <description>An orchid tint runs through this animal's coat.</description>
     <skinColorTint>(0.753, 0.506, 0.722, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -482,7 +482,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GES_Skin_Plum</defName>
     <label>plum coat</label>
-    <description>A tint of plum runs through this animal's coat.</description>
+    <description>A plum tint runs through this animal's coat.</description>
     <skinColorTint>(0.529, 0.129, 0.459, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -497,7 +497,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GES_Skin_Violet</defName>
     <label>violet coat</label>
-    <description>A tint of violet runs through this animal's coat.</description>
+    <description>A violet tint runs through this animal's coat.</description>
     <skinColorTint>(0.573, 0.153, 0.561, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -512,7 +512,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GES_Skin_Grape</defName>
     <label>grape coat</label>
-    <description>A tint of grape runs through this animal's coat.</description>
+    <description>A grape tint runs through this animal's coat.</description>
     <skinColorTint>(0.322, 0.137, 0.498, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -527,7 +527,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GES_Skin_Purple</defName>
     <label>purple coat</label>
-    <description>A tint of purple runs through this animal's coat.</description>
+    <description>A purple tint runs through this animal's coat.</description>
     <skinColorTint>(0.212, 0.169, 0.439, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -542,7 +542,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GES_Skin_Amethyst</defName>
     <label>amethyst coat</label>
-    <description>A tint of amethyst runs through this animal's coat.</description>
+    <description>An amethyst tint runs through this animal's coat.</description>
     <skinColorTint>(0.443, 0.439, 0.698, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -557,7 +557,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GES_Skin_PurpleHeart</defName>
     <label>purple heart coat</label>
-    <description>A tint of purple heart runs through this animal's coat.</description>
+    <description>A purple heart tint runs through this animal's coat.</description>
     <skinColorTint>(0.227, 0.208, 0.471, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -572,7 +572,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GES_Skin_Bubblegum</defName>
     <label>bubblegum coat</label>
-    <description>A tint of bubblegum runs through this animal's coat.</description>
+    <description>A bubblegum tint runs through this animal's coat.</description>
     <skinColorTint>(0.953, 0.58, 0.745, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -587,7 +587,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GES_Skin_Fuchsia</defName>
     <label>fuchsia coat</label>
-    <description>A tint of fuchsia runs through this animal's coat.</description>
+    <description>A fuchsia tint runs through this animal's coat.</description>
     <skinColorTint>(0.925, 0.024, 0.553, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -602,7 +602,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GES_Skin_Rose</defName>
     <label>rose coat</label>
-    <description>A tint of rose runs through this animal's coat.</description>
+    <description>A rose tint runs through this animal's coat.</description>
     <skinColorTint>(0.831, 0.125, 0.169, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -617,7 +617,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GES_Skin_Raspberry</defName>
     <label>raspberry coat</label>
-    <description>A tint of raspberry runs through this animal's coat.</description>
+    <description>A raspberry tint runs through this animal's coat.</description>
     <skinColorTint>(0.788, 0.004, 0.424, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -632,7 +632,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GES_Skin_Redfish</defName>
     <label>redfish coat</label>
-    <description>A tint of redfish runs through this animal's coat.</description>
+    <description>A redfish tint runs through this animal's coat.</description>
     <skinColorTint>(0.937, 0.192, 0.145, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -647,7 +647,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GES_Skin_FireRed</defName>
     <label>fire red coat</label>
-    <description>A tint of fire red runs through this animal's coat.</description>
+    <description>A fire red tint runs through this animal's coat.</description>
     <skinColorTint>(0.902, 0.098, 0.22, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -662,7 +662,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GES_Skin_MarsRed</defName>
     <label>mars red coat</label>
-    <description>A tint of mars red runs through this animal's coat.</description>
+    <description>A mars red tint runs through this animal's coat.</description>
     <skinColorTint>(0.761, 0.173, 0.114, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -677,7 +677,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GES_Skin_Cranberry</defName>
     <label>cranberry coat</label>
-    <description>A tint of cranberry runs through this animal's coat.</description>
+    <description>A cranberry tint runs through this animal's coat.</description>
     <skinColorTint>(0.776, 0.031, 0.314, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -692,7 +692,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GES_Skin_Burgundy</defName>
     <label>burgundy coat</label>
-    <description>A tint of burgundy runs through this animal's coat.</description>
+    <description>A burgundy tint runs through this animal's coat.</description>
     <skinColorTint>(0.596, 0.004, 0.18, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -707,7 +707,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GES_Skin_Merlot</defName>
     <label>merlot coat</label>
-    <description>A tint of merlot runs through this animal's coat.</description>
+    <description>A merlot tint runs through this animal's coat.</description>
     <skinColorTint>(0.549, 0.047, 0.012, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -722,7 +722,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GES_Skin_White</defName>
     <label>white coat</label>
-    <description>A tint of white runs through this animal's coat.</description>
+    <description>A white tint runs through this animal's coat.</description>
     <skinColorTint>(0.871, 0.871, 0.871, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -737,7 +737,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GES_Skin_SilverShiner</defName>
     <label>silver shiner coat</label>
-    <description>A tint of silver shiner runs through this animal's coat.</description>
+    <description>A silver shiner tint runs through this animal's coat.</description>
     <skinColorTint>(0.698, 0.718, 0.733, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -752,7 +752,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GES_Skin_GhostGrey</defName>
     <label>ghost grey coat</label>
-    <description>A tint of ghost grey runs through this animal's coat.</description>
+    <description>A ghost grey tint runs through this animal's coat.</description>
     <skinColorTint>(0.549, 0.608, 0.58, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -767,7 +767,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GES_Skin_SilverSmoke</defName>
     <label>silver smoke coat</label>
-    <description>A tint of silver smoke runs through this animal's coat.</description>
+    <description>A silver smoke tint runs through this animal's coat.</description>
     <skinColorTint>(0.58, 0.608, 0.631, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -782,7 +782,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GES_Skin_TinCan</defName>
     <label>tin can coat</label>
-    <description>A tint of tin can runs through this animal's coat.</description>
+    <description>A tin can tint runs through this animal's coat.</description>
     <skinColorTint>(0.761, 0.718, 0.694, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -797,7 +797,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GES_Skin_SmokeScreen</defName>
     <label>smoke screen coat</label>
-    <description>A tint of smoke screen runs through this animal's coat.</description>
+    <description>A smoke screen tint runs through this animal's coat.</description>
     <skinColorTint>(0.373, 0.376, 0.384, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -812,7 +812,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GES_Skin_ForgedSteel</defName>
     <label>forged steel coat</label>
-    <description>A tint of forged steel runs through this animal's coat.</description>
+    <description>A forged steel tint runs through this animal's coat.</description>
     <skinColorTint>(0.502, 0.639, 0.718, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -827,7 +827,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GES_Skin_IronOre</defName>
     <label>iron ore coat</label>
-    <description>A tint of iron ore runs through this animal's coat.</description>
+    <description>An iron ore tint runs through this animal's coat.</description>
     <skinColorTint>(0.416, 0.455, 0.49, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -842,7 +842,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GES_Skin_StormCloud</defName>
     <label>storm cloud coat</label>
-    <description>A tint of storm cloud runs through this animal's coat.</description>
+    <description>A storm cloud tint runs through this animal's coat.</description>
     <skinColorTint>(0.271, 0.337, 0.376, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -857,7 +857,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GES_Skin_Black</defName>
     <label>black coat</label>
-    <description>A tint of black runs through this animal's coat.</description>
+    <description>A black tint runs through this animal's coat.</description>
     <skinColorTint>(0.173, 0.173, 0.173, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -872,7 +872,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GES_Skin_Rattan</defName>
     <label>rattan coat</label>
-    <description>A tint of rattan runs through this animal's coat.</description>
+    <description>A rattan tint runs through this animal's coat.</description>
     <skinColorTint>(0.773, 0.588, 0.047, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -887,7 +887,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GES_Skin_MidasGold</defName>
     <label>midas gold coat</label>
-    <description>A tint of midas gold runs through this animal's coat.</description>
+    <description>A midas gold tint runs through this animal's coat.</description>
     <skinColorTint>(0.945, 0.702, 0.063, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -902,7 +902,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GES_Skin_BeesWax</defName>
     <label>bees wax coat</label>
-    <description>A tint of bees wax runs through this animal's coat.</description>
+    <description>A bees wax tint runs through this animal's coat.</description>
     <skinColorTint>(0.784, 0.549, 0.071, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -917,7 +917,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GES_Skin_Sunset</defName>
     <label>sunset coat</label>
-    <description>A tint of sunset runs through this animal's coat.</description>
+    <description>A sunset tint runs through this animal's coat.</description>
     <skinColorTint>(0.965, 0.502, 0.149, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -932,7 +932,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GES_Skin_Teak</defName>
     <label>teak coat</label>
-    <description>A tint of teak runs through this animal's coat.</description>
+    <description>A teak tint runs through this animal's coat.</description>
     <skinColorTint>(0.682, 0.439, 0.043, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -947,7 +947,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GES_Skin_Almond</defName>
     <label>almond coat</label>
-    <description>A tint of almond runs through this animal's coat.</description>
+    <description>An almond tint runs through this animal's coat.</description>
     <skinColorTint>(0.812, 0.671, 0.475, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -962,7 +962,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GES_Skin_DesertSand</defName>
     <label>desert sand coat</label>
-    <description>A tint of desert sand runs through this animal's coat.</description>
+    <description>A desert sand tint runs through this animal's coat.</description>
     <skinColorTint>(0.569, 0.427, 0, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -977,7 +977,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GES_Skin_Copper</defName>
     <label>copper coat</label>
-    <description>A tint of copper runs through this animal's coat.</description>
+    <description>A copper tint runs through this animal's coat.</description>
     <skinColorTint>(0.871, 0.478, 0.11, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -992,7 +992,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GES_Skin_Brown</defName>
     <label>brown coat</label>
-    <description>A tint of brown runs through this animal's coat.</description>
+    <description>A brown tint runs through this animal's coat.</description>
     <skinColorTint>(0.6, 0.282, 0.035, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -1007,7 +1007,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GES_Skin_Chesnut</defName>
     <label>chestnut coat</label>
-    <description>A tint of chestnut runs through this animal's coat.</description>
+    <description>A chestnut tint runs through this animal's coat.</description>
     <skinColorTint>(0.663, 0.298, 0.059, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -1022,7 +1022,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GES_Skin_Chocolate</defName>
     <label>chocolate coat</label>
-    <description>A tint of chocolate runs through this animal's coat.</description>
+    <description>A chocolate tint runs through this animal's coat.</description>
     <skinColorTint>(0.263, 0.102, 0.086, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -1037,7 +1037,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GES_Skin_Kiwi</defName>
     <label>kiwi coat</label>
-    <description>A tint of kiwi runs through this animal's coat.</description>
+    <description>A kiwi tint runs through this animal's coat.</description>
     <skinColorTint>(0.714, 0.859, 0.647, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -1052,7 +1052,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GES_Skin_PeaSoup</defName>
     <label>pea soup coat</label>
-    <description>A tint of pea soup runs through this animal's coat.</description>
+    <description>A pea soup tint runs through this animal's coat.</description>
     <skinColorTint>(0.557, 0.776, 0.255, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -1067,7 +1067,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GES_Skin_Sage</defName>
     <label>sage coat</label>
-    <description>A tint of sage runs through this animal's coat.</description>
+    <description>A sage tint runs through this animal's coat.</description>
     <skinColorTint>(0.216, 0.486, 0.169, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -1082,7 +1082,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GES_Skin_Guacamole</defName>
     <label>guacamole coat</label>
-    <description>A tint of guacamole runs through this animal's coat.</description>
+    <description>A guacamole tint runs through this animal's coat.</description>
     <skinColorTint>(0.282, 0.667, 0.263, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -1097,7 +1097,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GES_Skin_Rainforest</defName>
     <label>rainforest coat</label>
-    <description>A tint of rainforest runs through this animal's coat.</description>
+    <description>A rainforest tint runs through this animal's coat.</description>
     <skinColorTint>(0.102, 0.702, 0.451, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -1112,7 +1112,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GES_Skin_OakLeaf</defName>
     <label>oak leaf coat</label>
-    <description>A tint of oak leaf runs through this animal's coat.</description>
+    <description>An oak leaf tint runs through this animal's coat.</description>
     <skinColorTint>(0, 0.396, 0.231, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -1127,7 +1127,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GES_Skin_Jade</defName>
     <label>jade coat</label>
-    <description>A tint of jade runs through this animal's coat.</description>
+    <description>A jade tint runs through this animal's coat.</description>
     <skinColorTint>(0.008, 0.584, 0.561, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -1142,7 +1142,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GES_Skin_Fern</defName>
     <label>fern coat</label>
-    <description>A tint of fern runs through this animal's coat.</description>
+    <description>A fern tint runs through this animal's coat.</description>
     <skinColorTint>(0, 0.514, 0.392, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -1157,7 +1157,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GES_Skin_Evergreen</defName>
     <label>evergreen coat</label>
-    <description>A tint of evergreen runs through this animal's coat.</description>
+    <description>An evergreen tint runs through this animal's coat.</description>
     <skinColorTint>(0.004, 0.341, 0.243, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -1172,7 +1172,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GES_Skin_Olive</defName>
     <label>olive coat</label>
-    <description>A tint of olive runs through this animal's coat.</description>
+    <description>An olive tint runs through this animal's coat.</description>
     <skinColorTint>(0.408, 0.467, 0.094, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -1187,7 +1187,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GES_Skin_DesertCamo</defName>
     <label>desert camo coat</label>
-    <description>A tint of desert camo runs through this animal's coat.</description>
+    <description>A desert camo tint runs through this animal's coat.</description>
     <skinColorTint>(0.522, 0.486, 0.09, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -1202,7 +1202,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GES_Skin_Taupe</defName>
     <label>taupe coat</label>
-    <description>A tint of taupe runs through this animal's coat.</description>
+    <description>A taupe tint runs through this animal's coat.</description>
     <skinColorTint>(0.357, 0.329, 0.012, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -1217,7 +1217,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GES_Skin_Teal</defName>
     <label>teal coat</label>
-    <description>A tint of teal runs through this animal's coat.</description>
+    <description>A teal tint runs through this animal's coat.</description>
     <skinColorTint>(0.275, 0.769, 0.827, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -1232,7 +1232,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GES_Skin_Denim</defName>
     <label>denim coat</label>
-    <description>A tint of denim runs through this animal's coat.</description>
+    <description>A denim tint runs through this animal's coat.</description>
     <skinColorTint>(0.31, 0.569, 0.804, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -1247,7 +1247,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GES_Skin_CoolMint</defName>
     <label>cool mint coat</label>
-    <description>A tint of cool mint runs through this animal's coat.</description>
+    <description>A cool mint tint runs through this animal's coat.</description>
     <skinColorTint>(0.004, 0.698, 0.584, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -1262,7 +1262,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GES_Skin_IslandLagoon</defName>
     <label>island lagoon coat</label>
-    <description>A tint of island lagoon runs through this animal's coat.</description>
+    <description>An island lagoon tint runs through this animal's coat.</description>
     <skinColorTint>(0.004, 0.694, 0.686, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -1277,7 +1277,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GES_Skin_Bluegill</defName>
     <label>bluegill coat</label>
-    <description>A tint of bluegill runs through this animal's coat.</description>
+    <description>A bluegill tint runs through this animal's coat.</description>
     <skinColorTint>(0, 0.412, 0.667, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -1292,7 +1292,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GES_Skin_BlueSuede</defName>
     <label>blue suede coat</label>
-    <description>A tint of blue suede runs through this animal's coat.</description>
+    <description>A blue suede tint runs through this animal's coat.</description>
     <skinColorTint>(0.075, 0.282, 0.549, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -1307,7 +1307,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GES_Skin_SummerSky</defName>
     <label>summer sky coat</label>
-    <description>A tint of summer sky runs through this animal's coat.</description>
+    <description>A summer sky tint runs through this animal's coat.</description>
     <skinColorTint>(0, 0.62, 0.867, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -1322,7 +1322,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GES_Skin_TidalPool</defName>
     <label>tidal pool coat</label>
-    <description>A tint of tidal pool runs through this animal's coat.</description>
+    <description>A tidal pool tint runs through this animal's coat.</description>
     <skinColorTint>(0.004, 0.353, 0.518, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -1337,7 +1337,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GES_Skin_MauiSurf</defName>
     <label>maui surf coat</label>
-    <description>A tint of maui surf runs through this animal's coat.</description>
+    <description>A maui surf tint runs through this animal's coat.</description>
     <skinColorTint>(0.004, 0.71, 0.8, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -1352,7 +1352,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GES_Skin_CoolAzul</defName>
     <label>cool azul coat</label>
-    <description>A tint of cool azul runs through this animal's coat.</description>
+    <description>A cool azul tint runs through this animal's coat.</description>
     <skinColorTint>(0, 0.443, 0.561, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -1367,7 +1367,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GES_Skin_RegalBlue</defName>
     <label>regal blue coat</label>
-    <description>A tint of regal blue runs through this animal's coat.</description>
+    <description>A regal blue tint runs through this animal's coat.</description>
     <skinColorTint>(0.122, 0.263, 0.541, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -1382,7 +1382,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GES_Skin_WildBlueberry</defName>
     <label>wild blueberry coat</label>
-    <description>A tint of wild blueberry runs through this animal's coat.</description>
+    <description>A wild blueberry tint runs through this animal's coat.</description>
     <skinColorTint>(0.004, 0.408, 0.702, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -1397,7 +1397,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GES_Skin_Cobalt</defName>
     <label>cobalt coat</label>
-    <description>A tint of cobalt runs through this animal's coat.</description>
+    <description>A cobalt tint runs through this animal's coat.</description>
     <skinColorTint>(0, 0.282, 0.565, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -1412,7 +1412,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GES_Skin_BlueMarlin</defName>
     <label>blue marlin coat</label>
-    <description>A tint of blue marlin runs through this animal's coat.</description>
+    <description>A blue marlin tint runs through this animal's coat.</description>
     <skinColorTint>(0, 0.318, 0.533, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -1427,7 +1427,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GES_Skin_Gulfstream</defName>
     <label>gulfstream coat</label>
-    <description>A tint of gulfstream runs through this animal's coat.</description>
+    <description>A gulfstream tint runs through this animal's coat.</description>
     <skinColorTint>(0, 0.29, 0.396, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -1442,7 +1442,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GES_Skin_DeepSea</defName>
     <label>deep sea coat</label>
-    <description>A tint of deep sea runs through this animal's coat.</description>
+    <description>A deep sea tint runs through this animal's coat.</description>
     <skinColorTint>(0.004, 0.333, 0.506, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -1457,7 +1457,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_LYN_Skin_LightPurple</defName>
     <label>light purple coat</label>
-    <description>A tint of light purple runs through this animal's coat.</description>
+    <description>A light purple tint runs through this animal's coat.</description>
     <skinColorTint>(0.69, 0.494, 0.839, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -1472,7 +1472,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_LYN_Skin_IceBlue</defName>
     <label>ice blue coat</label>
-    <description>A tint of ice blue runs through this animal's coat.</description>
+    <description>An ice blue tint runs through this animal's coat.</description>
     <skinColorTint>(0.737, 0.78, 0.922, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -1487,7 +1487,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_LYN_Skin_Pale</defName>
     <label>pale coat</label>
-    <description>A tint of pale runs through this animal's coat.</description>
+    <description>A pale tint runs through this animal's coat.</description>
     <skinColorTint>(0.988, 0.961, 0.91, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -1502,7 +1502,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_LYN_Skin_Bronze</defName>
     <label>bronze coat</label>
-    <description>A tint of bronze runs through this animal's coat.</description>
+    <description>A bronze tint runs through this animal's coat.</description>
     <skinColorTint>(0.51, 0.357, 0.239, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -1517,7 +1517,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_LYN_Skin_Golden</defName>
     <label>golden coat</label>
-    <description>A tint of golden runs through this animal's coat.</description>
+    <description>A golden tint runs through this animal's coat.</description>
     <skinColorTint>(0.831, 0.737, 0.314, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -1532,7 +1532,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_LYN_Skin_Rosey</defName>
     <label>rosy coat</label>
-    <description>A tint of rosy runs through this animal's coat.</description>
+    <description>A rosy tint runs through this animal's coat.</description>
     <skinColorTint>(0.969, 0.855, 0.729, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -1547,7 +1547,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_LYN_Skin_Pink</defName>
     <label>pink coat</label>
-    <description>A tint of pink runs through this animal's coat.</description>
+    <description>A pink tint runs through this animal's coat.</description>
     <skinColorTint>(0.929, 0.604, 0.875, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -1562,7 +1562,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_LYN_Skin_Jade</defName>
     <label>jade coat</label>
-    <description>A tint of jade runs through this animal's coat.</description>
+    <description>A jade tint runs through this animal's coat.</description>
     <skinColorTint>(0.361, 0.631, 0.361, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -1577,7 +1577,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_LYN_Skin_Sapphire</defName>
     <label>sapphire coat</label>
-    <description>A tint of sapphire runs through this animal's coat.</description>
+    <description>A sapphire tint runs through this animal's coat.</description>
     <skinColorTint>(0.365, 0.424, 0.78, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -1592,7 +1592,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_OL_SkinTeal</defName>
     <label>teal coat</label>
-    <description>A tint of teal runs through this animal's coat.</description>
+    <description>A teal tint runs through this animal's coat.</description>
     <skinColorTint>(0.251, 0.439, 0.502, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -1607,7 +1607,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_OL_SkinCobalt</defName>
     <label>cobalt coat</label>
-    <description>A tint of cobalt runs through this animal's coat.</description>
+    <description>A cobalt tint runs through this animal's coat.</description>
     <skinColorTint>(0.251, 0.345, 0.502, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -1622,7 +1622,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_OL_SkinIndigo</defName>
     <label>indigo coat</label>
-    <description>A tint of indigo runs through this animal's coat.</description>
+    <description>An indigo tint runs through this animal's coat.</description>
     <skinColorTint>(0.251, 0.251, 0.502, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -1637,7 +1637,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_OL_SkinRoyal</defName>
     <label>royal coat</label>
-    <description>A tint of royal runs through this animal's coat.</description>
+    <description>A royal tint runs through this animal's coat.</description>
     <skinColorTint>(0.314, 0.251, 0.502, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -1652,7 +1652,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_OL_SkinViolet</defName>
     <label>violet coat</label>
-    <description>A tint of violet runs through this animal's coat.</description>
+    <description>A violet tint runs through this animal's coat.</description>
     <skinColorTint>(0.376, 0.251, 0.502, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -1667,7 +1667,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_OL_SkinPlum</defName>
     <label>plum coat</label>
-    <description>A tint of plum runs through this animal's coat.</description>
+    <description>A plum tint runs through this animal's coat.</description>
     <skinColorTint>(0.439, 0.251, 0.502, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -1682,7 +1682,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_OL_SkinOrchid</defName>
     <label>orchid coat</label>
-    <description>A tint of orchid runs through this animal's coat.</description>
+    <description>An orchid tint runs through this animal's coat.</description>
     <skinColorTint>(0.502, 0.251, 0.502, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -1697,7 +1697,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_OL_SkinMagenta</defName>
     <label>magenta coat</label>
-    <description>A tint of magenta runs through this animal's coat.</description>
+    <description>A magenta tint runs through this animal's coat.</description>
     <skinColorTint>(0.502, 0.251, 0.439, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -1712,7 +1712,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_OL_SkinRouge</defName>
     <label>rouge coat</label>
-    <description>A tint of rouge runs through this animal's coat.</description>
+    <description>A rouge tint runs through this animal's coat.</description>
     <skinColorTint>(0.502, 0.251, 0.376, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -1727,7 +1727,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_OL_SkinAlbino</defName>
     <label>albino coat</label>
-    <description>A tint of albino runs through this animal's coat.</description>
+    <description>An albino tint runs through this animal's coat.</description>
     <skinColorTint>(0.941, 0.941, 0.941, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -1742,7 +1742,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_OL_SkinTwilight</defName>
     <label>twilight coat</label>
-    <description>A tint of twilight runs through this animal's coat.</description>
+    <description>A twilight tint runs through this animal's coat.</description>
     <skinColorTint>(0.125, 0.188, 0.251, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -1757,7 +1757,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_OL_SkinNebula</defName>
     <label>nebula coat</label>
-    <description>A tint of nebula runs through this animal's coat.</description>
+    <description>A nebula tint runs through this animal's coat.</description>
     <skinColorTint>(0.188, 0.125, 0.251, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -1772,7 +1772,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_OL_SkinPlanetary</defName>
     <label>planetary coat</label>
-    <description>A tint of planetary runs through this animal's coat.</description>
+    <description>A planetary tint runs through this animal's coat.</description>
     <skinColorTint>(0.251, 0.125, 0.188, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -1787,7 +1787,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_Hair_SnowWhite</defName>
     <label>snow white coat</label>
-    <description>A tint of snow white runs through this animal's coat.</description>
+    <description>A snow white tint runs through this animal's coat.</description>
     <skinColorTint>(0.98, 0.98, 0.98, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -1802,7 +1802,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_Hair_InkBlack</defName>
     <label>ink black coat</label>
-    <description>A tint of ink black runs through this animal's coat.</description>
+    <description>An ink black tint runs through this animal's coat.</description>
     <skinColorTint>(0.098, 0.098, 0.098, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -1817,7 +1817,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_Hair_Gray</defName>
     <label>gray coat</label>
-    <description>A tint of gray runs through this animal's coat.</description>
+    <description>A gray tint runs through this animal's coat.</description>
     <skinColorTint>(0.651, 0.651, 0.651, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -1832,7 +1832,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_Hair_DarkBlack</defName>
     <label>dark black coat</label>
-    <description>A tint of dark black runs through this animal's coat.</description>
+    <description>A dark black tint runs through this animal's coat.</description>
     <skinColorTint>(0.2, 0.2, 0.2, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -1847,7 +1847,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_Hair_MidBlack</defName>
     <label>mid black coat</label>
-    <description>A tint of mid black runs through this animal's coat.</description>
+    <description>A mid black tint runs through this animal's coat.</description>
     <skinColorTint>(0.31, 0.278, 0.259, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -1862,7 +1862,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_Hair_DarkReddish</defName>
     <label>dark reddish coat</label>
-    <description>A tint of dark reddish runs through this animal's coat.</description>
+    <description>A dark reddish tint runs through this animal's coat.</description>
     <skinColorTint>(0.251, 0.2, 0.149, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -1877,7 +1877,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_Hair_DarkSaturatedReddish</defName>
     <label>dark saturated reddish coat</label>
-    <description>A tint of dark saturated reddish runs through this animal's coat.</description>
+    <description>A dark saturated reddish tint runs through this animal's coat.</description>
     <skinColorTint>(0.22, 0.141, 0.071, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -1892,7 +1892,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_Hair_DarkBrown</defName>
     <label>dark brown coat</label>
-    <description>A tint of dark brown runs through this animal's coat.</description>
+    <description>A dark brown tint runs through this animal's coat.</description>
     <skinColorTint>(0.353, 0.227, 0.125, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -1907,7 +1907,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_Hair_ReddishBrown</defName>
     <label>reddish brown coat</label>
-    <description>A tint of reddish brown runs through this animal's coat.</description>
+    <description>A reddish brown tint runs through this animal's coat.</description>
     <skinColorTint>(0.518, 0.325, 0.184, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -1922,7 +1922,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_Hair_SandyBlonde</defName>
     <label>sandy blonde coat</label>
-    <description>A tint of sandy blonde runs through this animal's coat.</description>
+    <description>A sandy blonde tint runs through this animal's coat.</description>
     <skinColorTint>(0.757, 0.573, 0.333, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -1937,7 +1937,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_Hair_Blonde</defName>
     <label>blonde coat</label>
-    <description>A tint of blonde runs through this animal's coat.</description>
+    <description>A blonde tint runs through this animal's coat.</description>
     <skinColorTint>(0.929, 0.792, 0.612, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -1952,7 +1952,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_Hair_Pink</defName>
     <label>pink coat</label>
-    <description>A tint of pink runs through this animal's coat.</description>
+    <description>A pink tint runs through this animal's coat.</description>
     <skinColorTint>(0.749, 0.337, 0.584, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -1967,7 +1967,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_Hair_LightPurple</defName>
     <label>light purple coat</label>
-    <description>A tint of light purple runs through this animal's coat.</description>
+    <description>A light purple tint runs through this animal's coat.</description>
     <skinColorTint>(0.89, 0.451, 1, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -1982,7 +1982,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_Hair_LightBlue</defName>
     <label>light blue coat</label>
-    <description>A tint of light blue runs through this animal's coat.</description>
+    <description>A light blue tint runs through this animal's coat.</description>
     <skinColorTint>(0.133, 0.247, 0.89, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -1997,7 +1997,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_Hair_LightTeal</defName>
     <label>light teal coat</label>
-    <description>A tint of light teal runs through this animal's coat.</description>
+    <description>A light teal tint runs through this animal's coat.</description>
     <skinColorTint>(0.204, 0.749, 0.714, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -2012,7 +2012,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_Hair_LightGreen</defName>
     <label>light green coat</label>
-    <description>A tint of light green runs through this animal's coat.</description>
+    <description>A light green tint runs through this animal's coat.</description>
     <skinColorTint>(0.282, 0.788, 0.157, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -2027,7 +2027,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_Hair_LightOrange</defName>
     <label>light orange coat</label>
-    <description>A tint of light orange runs through this animal's coat.</description>
+    <description>A light orange tint runs through this animal's coat.</description>
     <skinColorTint>(0.741, 0.522, 0.192, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -2042,7 +2042,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_Hair_BrightRed</defName>
     <label>bright red coat</label>
-    <description>A tint of bright red runs through this animal's coat.</description>
+    <description>A bright red tint runs through this animal's coat.</description>
     <skinColorTint>(0.749, 0.337, 0.337, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -2057,7 +2057,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_LYN_Hair_Verdant</defName>
     <label>verdant coat</label>
-    <description>A tint of verdant runs through this animal's coat.</description>
+    <description>A verdant tint runs through this animal's coat.</description>
     <skinColorTint>(0.271, 0.639, 0.314, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -2072,7 +2072,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_LYN_Hair_Golden</defName>
     <label>golden coat</label>
-    <description>A tint of golden runs through this animal's coat.</description>
+    <description>A golden tint runs through this animal's coat.</description>
     <skinColorTint>(0.902, 0.812, 0.306, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -2087,7 +2087,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_LYN_Hair_Azure</defName>
     <label>azure coat</label>
-    <description>A tint of azure runs through this animal's coat.</description>
+    <description>An azure tint runs through this animal's coat.</description>
     <skinColorTint>(0.427, 0.671, 0.788, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -2102,7 +2102,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_LYN_Hair_DeepBlue</defName>
     <label>deep blue coat</label>
-    <description>A tint of deep blue runs through this animal's coat.</description>
+    <description>A deep blue tint runs through this animal's coat.</description>
     <skinColorTint>(0.243, 0.275, 0.478, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -2117,7 +2117,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_LYN_Hair_Crimson</defName>
     <label>crimson coat</label>
-    <description>A tint of crimson runs through this animal's coat.</description>
+    <description>A crimson tint runs through this animal's coat.</description>
     <skinColorTint>(0.741, 0.2, 0.2, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -2132,7 +2132,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_LYN_Hair_Fiery</defName>
     <label>fiery coat</label>
-    <description>A tint of fiery runs through this animal's coat.</description>
+    <description>A fiery tint runs through this animal's coat.</description>
     <skinColorTint>(0.929, 0.529, 0.176, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -2147,7 +2147,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_LYN_Hair_Teal</defName>
     <label>teal coat</label>
-    <description>A tint of teal runs through this animal's coat.</description>
+    <description>A teal tint runs through this animal's coat.</description>
     <skinColorTint>(0.494, 0.769, 0.667, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -2162,7 +2162,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_LYN_Hair_Maroon</defName>
     <label>maroon coat</label>
-    <description>A tint of maroon runs through this animal's coat.</description>
+    <description>A maroon tint runs through this animal's coat.</description>
     <skinColorTint>(0.541, 0.239, 0.2, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -2177,7 +2177,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_LYN_Hair_Cherry</defName>
     <label>cherry coat</label>
-    <description>A tint of cherry runs through this animal's coat.</description>
+    <description>A cherry tint runs through this animal's coat.</description>
     <skinColorTint>(0.929, 0.659, 0.859, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -2192,7 +2192,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_LYN_Hair_Violet</defName>
     <label>violet coat</label>
-    <description>A tint of violet runs through this animal's coat.</description>
+    <description>A violet tint runs through this animal's coat.</description>
     <skinColorTint>(0.522, 0.224, 0.749, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -2207,7 +2207,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GEH_Hair_Yellowfin</defName>
     <label>yellowfin coat</label>
-    <description>A tint of yellowfin runs through this animal's coat.</description>
+    <description>A yellowfin tint runs through this animal's coat.</description>
     <skinColorTint>(0.953, 0.941, 0.561, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -2222,7 +2222,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GEH_Hair_BananaSplit</defName>
     <label>banana split coat</label>
-    <description>A tint of banana split runs through this animal's coat.</description>
+    <description>A banana split tint runs through this animal's coat.</description>
     <skinColorTint>(0.996, 0.894, 0.514, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -2237,7 +2237,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GEH_Hair_TaxiCab</defName>
     <label>taxi cab coat</label>
-    <description>A tint of taxi cab runs through this animal's coat.</description>
+    <description>A taxi cab tint runs through this animal's coat.</description>
     <skinColorTint>(1, 0.827, 0.314, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -2252,7 +2252,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GEH_Hair_GoldFish</defName>
     <label>gold fish coat</label>
-    <description>A tint of gold fish runs through this animal's coat.</description>
+    <description>A gold fish tint runs through this animal's coat.</description>
     <skinColorTint>(0.973, 0.596, 0.114, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -2267,7 +2267,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GEH_Hair_BurntOrange</defName>
     <label>burnt orange coat</label>
-    <description>A tint of burnt orange runs through this animal's coat.</description>
+    <description>A burnt orange tint runs through this animal's coat.</description>
     <skinColorTint>(0.816, 0.439, 0.11, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -2282,7 +2282,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GEH_Hair_Clay</defName>
     <label>clay coat</label>
-    <description>A tint of clay runs through this animal's coat.</description>
+    <description>A clay tint runs through this animal's coat.</description>
     <skinColorTint>(0.898, 0.443, 0.118, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -2297,7 +2297,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GEH_Hair_Tangerine</defName>
     <label>tangerine coat</label>
-    <description>A tint of tangerine runs through this animal's coat.</description>
+    <description>A tangerine tint runs through this animal's coat.</description>
     <skinColorTint>(0.961, 0.455, 0.129, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -2312,7 +2312,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GEH_Hair_PaleLavender</defName>
     <label>pale lavender coat</label>
-    <description>A tint of pale lavender runs through this animal's coat.</description>
+    <description>A pale lavender tint runs through this animal's coat.</description>
     <skinColorTint>(0.89, 0.796, 0.882, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -2327,7 +2327,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GEH_Hair_Lilac</defName>
     <label>lilac coat</label>
-    <description>A tint of lilac runs through this animal's coat.</description>
+    <description>A lilac tint runs through this animal's coat.</description>
     <skinColorTint>(0.6, 0.424, 0.647, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -2342,7 +2342,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GEH_Hair_Orchid</defName>
     <label>orchid coat</label>
-    <description>A tint of orchid runs through this animal's coat.</description>
+    <description>An orchid tint runs through this animal's coat.</description>
     <skinColorTint>(0.753, 0.506, 0.722, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -2357,7 +2357,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GEH_Hair_Plum</defName>
     <label>plum coat</label>
-    <description>A tint of plum runs through this animal's coat.</description>
+    <description>A plum tint runs through this animal's coat.</description>
     <skinColorTint>(0.529, 0.129, 0.459, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -2372,7 +2372,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GEH_Hair_Violet</defName>
     <label>violet coat</label>
-    <description>A tint of violet runs through this animal's coat.</description>
+    <description>A violet tint runs through this animal's coat.</description>
     <skinColorTint>(0.573, 0.153, 0.561, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -2387,7 +2387,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GEH_Hair_Grape</defName>
     <label>grape coat</label>
-    <description>A tint of grape runs through this animal's coat.</description>
+    <description>A grape tint runs through this animal's coat.</description>
     <skinColorTint>(0.322, 0.137, 0.498, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -2402,7 +2402,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GEH_Hair_Purple</defName>
     <label>purple coat</label>
-    <description>A tint of purple runs through this animal's coat.</description>
+    <description>A purple tint runs through this animal's coat.</description>
     <skinColorTint>(0.212, 0.169, 0.439, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -2417,7 +2417,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GEH_Hair_Amethyst</defName>
     <label>amethyst coat</label>
-    <description>A tint of amethyst runs through this animal's coat.</description>
+    <description>An amethyst tint runs through this animal's coat.</description>
     <skinColorTint>(0.443, 0.439, 0.698, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -2432,7 +2432,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GEH_Hair_PurpleHeart</defName>
     <label>purple heart coat</label>
-    <description>A tint of purple heart runs through this animal's coat.</description>
+    <description>A purple heart tint runs through this animal's coat.</description>
     <skinColorTint>(0.227, 0.208, 0.471, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -2447,7 +2447,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GEH_Hair_Bubblegum</defName>
     <label>bubblegum coat</label>
-    <description>A tint of bubblegum runs through this animal's coat.</description>
+    <description>A bubblegum tint runs through this animal's coat.</description>
     <skinColorTint>(0.953, 0.58, 0.745, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -2462,7 +2462,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GEH_Hair_Fuchsia</defName>
     <label>fuchsia coat</label>
-    <description>A tint of fuchsia runs through this animal's coat.</description>
+    <description>A fuchsia tint runs through this animal's coat.</description>
     <skinColorTint>(0.925, 0.024, 0.553, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -2477,7 +2477,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GEH_Hair_Rose</defName>
     <label>rose coat</label>
-    <description>A tint of rose runs through this animal's coat.</description>
+    <description>A rose tint runs through this animal's coat.</description>
     <skinColorTint>(0.831, 0.125, 0.169, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -2492,7 +2492,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GEH_Hair_Raspberry</defName>
     <label>raspberry coat</label>
-    <description>A tint of raspberry runs through this animal's coat.</description>
+    <description>A raspberry tint runs through this animal's coat.</description>
     <skinColorTint>(0.788, 0.004, 0.424, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -2507,7 +2507,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GEH_Hair_Redfish</defName>
     <label>redfish coat</label>
-    <description>A tint of redfish runs through this animal's coat.</description>
+    <description>A redfish tint runs through this animal's coat.</description>
     <skinColorTint>(0.937, 0.192, 0.145, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -2522,7 +2522,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GEH_Hair_FireRed</defName>
     <label>fire red coat</label>
-    <description>A tint of fire red runs through this animal's coat.</description>
+    <description>A fire red tint runs through this animal's coat.</description>
     <skinColorTint>(0.937, 0.192, 0.145, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -2537,7 +2537,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GEH_Hair_MarsRed</defName>
     <label>mars red coat</label>
-    <description>A tint of mars red runs through this animal's coat.</description>
+    <description>A mars red tint runs through this animal's coat.</description>
     <skinColorTint>(0.761, 0.173, 0.114, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -2552,7 +2552,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GEH_Hair_Cranberry</defName>
     <label>cranberry coat</label>
-    <description>A tint of cranberry runs through this animal's coat.</description>
+    <description>A cranberry tint runs through this animal's coat.</description>
     <skinColorTint>(0.776, 0.031, 0.314, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -2567,7 +2567,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GEH_Hair_Burgundy</defName>
     <label>burgundy coat</label>
-    <description>A tint of burgundy runs through this animal's coat.</description>
+    <description>A burgundy tint runs through this animal's coat.</description>
     <skinColorTint>(0.596, 0.004, 0.18, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -2582,7 +2582,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GEH_Hair_Merlot</defName>
     <label>merlot coat</label>
-    <description>A tint of merlot runs through this animal's coat.</description>
+    <description>A merlot tint runs through this animal's coat.</description>
     <skinColorTint>(0.549, 0.047, 0.012, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -2597,7 +2597,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GEH_Hair_White</defName>
     <label>white coat</label>
-    <description>A tint of white runs through this animal's coat.</description>
+    <description>A white tint runs through this animal's coat.</description>
     <skinColorTint>(0.871, 0.871, 0.871, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -2612,7 +2612,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GEH_Hair_SilverShiner</defName>
     <label>silver shiner coat</label>
-    <description>A tint of silver shiner runs through this animal's coat.</description>
+    <description>A silver shiner tint runs through this animal's coat.</description>
     <skinColorTint>(0.698, 0.718, 0.733, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -2627,7 +2627,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GEH_Hair_GhostGrey</defName>
     <label>ghost grey coat</label>
-    <description>A tint of ghost grey runs through this animal's coat.</description>
+    <description>A ghost grey tint runs through this animal's coat.</description>
     <skinColorTint>(0.549, 0.608, 0.58, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -2642,7 +2642,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GEH_Hair_SilverSmoke</defName>
     <label>silver smoke coat</label>
-    <description>A tint of silver smoke runs through this animal's coat.</description>
+    <description>A silver smoke tint runs through this animal's coat.</description>
     <skinColorTint>(0.58, 0.608, 0.631, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -2657,7 +2657,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GEH_Hair_TinCan</defName>
     <label>tin can coat</label>
-    <description>A tint of tin can runs through this animal's coat.</description>
+    <description>A tin can tint runs through this animal's coat.</description>
     <skinColorTint>(0.761, 0.718, 0.694, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -2672,7 +2672,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GEH_Hair_SmokeScreen</defName>
     <label>smoke screen coat</label>
-    <description>A tint of smoke screen runs through this animal's coat.</description>
+    <description>A smoke screen tint runs through this animal's coat.</description>
     <skinColorTint>(0.373, 0.376, 0.384, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -2687,7 +2687,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GEH_Hair_ForgedSteel</defName>
     <label>forged steel coat</label>
-    <description>A tint of forged steel runs through this animal's coat.</description>
+    <description>A forged steel tint runs through this animal's coat.</description>
     <skinColorTint>(0.502, 0.639, 0.718, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -2702,7 +2702,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GEH_Hair_IronOre</defName>
     <label>iron ore coat</label>
-    <description>A tint of iron ore runs through this animal's coat.</description>
+    <description>An iron ore tint runs through this animal's coat.</description>
     <skinColorTint>(0.416, 0.455, 0.49, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -2717,7 +2717,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GEH_Hair_StormCloud</defName>
     <label>storm cloud coat</label>
-    <description>A tint of storm cloud runs through this animal's coat.</description>
+    <description>A storm cloud tint runs through this animal's coat.</description>
     <skinColorTint>(0.271, 0.337, 0.376, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -2732,7 +2732,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GEH_Hair_Black</defName>
     <label>black coat</label>
-    <description>A tint of black runs through this animal's coat.</description>
+    <description>A black tint runs through this animal's coat.</description>
     <skinColorTint>(0.173, 0.173, 0.173, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -2747,7 +2747,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GEH_Hair_Rattan</defName>
     <label>rattan coat</label>
-    <description>A tint of rattan runs through this animal's coat.</description>
+    <description>A rattan tint runs through this animal's coat.</description>
     <skinColorTint>(0.773, 0.588, 0.047, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -2762,7 +2762,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GEH_Hair_MidasGold</defName>
     <label>midas gold coat</label>
-    <description>A tint of midas gold runs through this animal's coat.</description>
+    <description>A midas gold tint runs through this animal's coat.</description>
     <skinColorTint>(0.945, 0.702, 0.063, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -2777,7 +2777,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GEH_Hair_BeesWax</defName>
     <label>bees wax coat</label>
-    <description>A tint of bees wax runs through this animal's coat.</description>
+    <description>A bees wax tint runs through this animal's coat.</description>
     <skinColorTint>(0.784, 0.549, 0.071, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -2792,7 +2792,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GEH_Hair_Sunset</defName>
     <label>sunset coat</label>
-    <description>A tint of sunset runs through this animal's coat.</description>
+    <description>A sunset tint runs through this animal's coat.</description>
     <skinColorTint>(0.965, 0.502, 0.149, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -2807,7 +2807,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GEH_Hair_Teak</defName>
     <label>teak coat</label>
-    <description>A tint of teak runs through this animal's coat.</description>
+    <description>A teak tint runs through this animal's coat.</description>
     <skinColorTint>(0.682, 0.439, 0.043, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -2822,7 +2822,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GEH_Hair_Almond</defName>
     <label>almond coat</label>
-    <description>A tint of almond runs through this animal's coat.</description>
+    <description>An almond tint runs through this animal's coat.</description>
     <skinColorTint>(0.812, 0.671, 0.475, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -2837,7 +2837,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GEH_Hair_DesertSand</defName>
     <label>desert sand coat</label>
-    <description>A tint of desert sand runs through this animal's coat.</description>
+    <description>A desert sand tint runs through this animal's coat.</description>
     <skinColorTint>(0.569, 0.427, 0, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -2852,7 +2852,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GEH_Hair_Copper</defName>
     <label>copper coat</label>
-    <description>A tint of copper runs through this animal's coat.</description>
+    <description>A copper tint runs through this animal's coat.</description>
     <skinColorTint>(0.871, 0.478, 0.11, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -2867,7 +2867,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GEH_Hair_Brown</defName>
     <label>brown coat</label>
-    <description>A tint of brown runs through this animal's coat.</description>
+    <description>A brown tint runs through this animal's coat.</description>
     <skinColorTint>(0.6, 0.282, 0.035, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -2882,7 +2882,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GEH_Hair_Chesnut</defName>
     <label>chestnut coat</label>
-    <description>A tint of chestnut runs through this animal's coat.</description>
+    <description>A chestnut tint runs through this animal's coat.</description>
     <skinColorTint>(0.663, 0.298, 0.059, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -2897,7 +2897,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GEH_Hair_Chocolate</defName>
     <label>chocolate coat</label>
-    <description>A tint of chocolate runs through this animal's coat.</description>
+    <description>A chocolate tint runs through this animal's coat.</description>
     <skinColorTint>(0.263, 0.102, 0.086, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -2912,7 +2912,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GEH_Hair_Kiwi</defName>
     <label>kiwi coat</label>
-    <description>A tint of kiwi runs through this animal's coat.</description>
+    <description>A kiwi tint runs through this animal's coat.</description>
     <skinColorTint>(0.714, 0.859, 0.647, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -2927,7 +2927,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GEH_Hair_PeaSoup</defName>
     <label>pea soup coat</label>
-    <description>A tint of pea soup runs through this animal's coat.</description>
+    <description>A pea soup tint runs through this animal's coat.</description>
     <skinColorTint>(0.557, 0.776, 0.255, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -2942,7 +2942,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GEH_Hair_Sage</defName>
     <label>sage coat</label>
-    <description>A tint of sage runs through this animal's coat.</description>
+    <description>A sage tint runs through this animal's coat.</description>
     <skinColorTint>(0.216, 0.486, 0.169, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -2957,7 +2957,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GEH_Hair_Guacamole</defName>
     <label>guacamole coat</label>
-    <description>A tint of guacamole runs through this animal's coat.</description>
+    <description>A guacamole tint runs through this animal's coat.</description>
     <skinColorTint>(0.282, 0.667, 0.263, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -2972,7 +2972,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GEH_Hair_Rainforest</defName>
     <label>rainforest coat</label>
-    <description>A tint of rainforest runs through this animal's coat.</description>
+    <description>A rainforest tint runs through this animal's coat.</description>
     <skinColorTint>(0.102, 0.702, 0.451, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -2987,7 +2987,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GEH_Hair_OakLeaf</defName>
     <label>oak leaf coat</label>
-    <description>A tint of oak leaf runs through this animal's coat.</description>
+    <description>An oak leaf tint runs through this animal's coat.</description>
     <skinColorTint>(0, 0.396, 0.231, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -3002,7 +3002,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GEH_Hair_Jade</defName>
     <label>jade coat</label>
-    <description>A tint of jade runs through this animal's coat.</description>
+    <description>A jade tint runs through this animal's coat.</description>
     <skinColorTint>(0.008, 0.584, 0.561, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -3017,7 +3017,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GEH_Hair_Fern</defName>
     <label>fern coat</label>
-    <description>A tint of fern runs through this animal's coat.</description>
+    <description>A fern tint runs through this animal's coat.</description>
     <skinColorTint>(0, 0.514, 0.392, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -3032,7 +3032,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GEH_Hair_Evergreen</defName>
     <label>evergreen coat</label>
-    <description>A tint of evergreen runs through this animal's coat.</description>
+    <description>An evergreen tint runs through this animal's coat.</description>
     <skinColorTint>(0.004, 0.341, 0.243, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -3047,7 +3047,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GEH_Hair_Olive</defName>
     <label>olive coat</label>
-    <description>A tint of olive runs through this animal's coat.</description>
+    <description>An olive tint runs through this animal's coat.</description>
     <skinColorTint>(0.408, 0.467, 0.094, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -3062,7 +3062,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GEH_Hair_DesertCamo</defName>
     <label>desert camo coat</label>
-    <description>A tint of desert camo runs through this animal's coat.</description>
+    <description>A desert camo tint runs through this animal's coat.</description>
     <skinColorTint>(0.522, 0.486, 0.09, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -3077,7 +3077,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GEH_Hair_Taupe</defName>
     <label>taupe coat</label>
-    <description>A tint of taupe runs through this animal's coat.</description>
+    <description>A taupe tint runs through this animal's coat.</description>
     <skinColorTint>(0.357, 0.329, 0.012, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -3092,7 +3092,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GEH_Hair_Teal</defName>
     <label>teal coat</label>
-    <description>A tint of teal runs through this animal's coat.</description>
+    <description>A teal tint runs through this animal's coat.</description>
     <skinColorTint>(0.275, 0.769, 0.827, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -3107,7 +3107,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GEH_Hair_Denim</defName>
     <label>denim coat</label>
-    <description>A tint of denim runs through this animal's coat.</description>
+    <description>A denim tint runs through this animal's coat.</description>
     <skinColorTint>(0.31, 0.569, 0.804, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -3122,7 +3122,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GEH_Hair_CoolMint</defName>
     <label>cool mint coat</label>
-    <description>A tint of cool mint runs through this animal's coat.</description>
+    <description>A cool mint tint runs through this animal's coat.</description>
     <skinColorTint>(0.004, 0.698, 0.584, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -3137,7 +3137,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GEH_Hair_IslandLagoon</defName>
     <label>island lagoon coat</label>
-    <description>A tint of island lagoon runs through this animal's coat.</description>
+    <description>An island lagoon tint runs through this animal's coat.</description>
     <skinColorTint>(0.004, 0.694, 0.686, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -3152,7 +3152,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GEH_Hair_Bluegill</defName>
     <label>bluegill coat</label>
-    <description>A tint of bluegill runs through this animal's coat.</description>
+    <description>A bluegill tint runs through this animal's coat.</description>
     <skinColorTint>(0, 0.412, 0.667, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -3167,7 +3167,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GEH_Hair_BlueSuede</defName>
     <label>blue suede coat</label>
-    <description>A tint of blue suede runs through this animal's coat.</description>
+    <description>A blue suede tint runs through this animal's coat.</description>
     <skinColorTint>(0.075, 0.282, 0.549, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -3182,7 +3182,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GEH_Hair_SummerSky</defName>
     <label>summer sky coat</label>
-    <description>A tint of summer sky runs through this animal's coat.</description>
+    <description>A summer sky tint runs through this animal's coat.</description>
     <skinColorTint>(0, 0.62, 0.867, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -3197,7 +3197,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GEH_Hair_TidalPool</defName>
     <label>tidal pool coat</label>
-    <description>A tint of tidal pool runs through this animal's coat.</description>
+    <description>A tidal pool tint runs through this animal's coat.</description>
     <skinColorTint>(0.004, 0.353, 0.518, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -3212,7 +3212,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GEH_Hair_MauiSurf</defName>
     <label>maui surf coat</label>
-    <description>A tint of maui surf runs through this animal's coat.</description>
+    <description>A maui surf tint runs through this animal's coat.</description>
     <skinColorTint>(0.004, 0.71, 0.8, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -3227,7 +3227,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GEH_Hair_CoolAzul</defName>
     <label>cool azul coat</label>
-    <description>A tint of cool azul runs through this animal's coat.</description>
+    <description>A cool azul tint runs through this animal's coat.</description>
     <skinColorTint>(0, 0.443, 0.561, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -3242,7 +3242,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GEH_Hair_RegalBlue</defName>
     <label>regal blue coat</label>
-    <description>A tint of regal blue runs through this animal's coat.</description>
+    <description>A regal blue tint runs through this animal's coat.</description>
     <skinColorTint>(0.122, 0.263, 0.541, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -3257,7 +3257,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GEH_Hair_WildBlueberry</defName>
     <label>wild blueberry coat</label>
-    <description>A tint of wild blueberry runs through this animal's coat.</description>
+    <description>A wild blueberry tint runs through this animal's coat.</description>
     <skinColorTint>(0.004, 0.408, 0.702, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -3272,7 +3272,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GEH_Hair_Cobalt</defName>
     <label>cobalt coat</label>
-    <description>A tint of cobalt runs through this animal's coat.</description>
+    <description>A cobalt tint runs through this animal's coat.</description>
     <skinColorTint>(0, 0.282, 0.565, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -3287,7 +3287,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GEH_Hair_BlueMarlin</defName>
     <label>blue marlin coat</label>
-    <description>A tint of blue marlin runs through this animal's coat.</description>
+    <description>A blue marlin tint runs through this animal's coat.</description>
     <skinColorTint>(0, 0.318, 0.533, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -3302,7 +3302,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GEH_Hair_Blurple</defName>
     <label>blurple coat</label>
-    <description>A tint of blurple runs through this animal's coat.</description>
+    <description>A blurple tint runs through this animal's coat.</description>
     <skinColorTint>(0.153, 0.212, 0.576, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -3317,7 +3317,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GEH_Hair_Gulfstream</defName>
     <label>gulfstream coat</label>
-    <description>A tint of gulfstream runs through this animal's coat.</description>
+    <description>A gulfstream tint runs through this animal's coat.</description>
     <skinColorTint>(0, 0.29, 0.396, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -3332,7 +3332,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GEH_Hair_DeepSea</defName>
     <label>deep sea coat</label>
-    <description>A tint of deep sea runs through this animal's coat.</description>
+    <description>A deep sea tint runs through this animal's coat.</description>
     <skinColorTint>(0.004, 0.333, 0.506, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -3346,8 +3346,8 @@
 
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_OL_HairSky</defName>
-    <label>sky coat</label>
-    <description>A tint of sky runs through this animal's coat.</description>
+    <label>sky-blue coat</label>
+    <description>A sky-blue tint runs through this animal's coat.</description>
     <skinColorTint>(0.502, 0.69, 0.753, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -3362,7 +3362,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_OL_HairPowder</defName>
     <label>powder coat</label>
-    <description>A tint of powder runs through this animal's coat.</description>
+    <description>A powder tint runs through this animal's coat.</description>
     <skinColorTint>(0.502, 0.627, 0.753, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -3377,7 +3377,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_OL_HairPeriwinkle</defName>
     <label>periwinkle coat</label>
-    <description>A tint of periwinkle runs through this animal's coat.</description>
+    <description>A periwinkle tint runs through this animal's coat.</description>
     <skinColorTint>(0.502, 0.565, 0.753, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -3392,7 +3392,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_OL_HairAegean</defName>
     <label>aegean coat</label>
-    <description>A tint of aegean runs through this animal's coat.</description>
+    <description>An aegean tint runs through this animal's coat.</description>
     <skinColorTint>(0.125, 0.251, 0.314, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -3407,7 +3407,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_OL_HairNavy</defName>
     <label>navy coat</label>
-    <description>A tint of navy runs through this animal's coat.</description>
+    <description>A navy tint runs through this animal's coat.</description>
     <skinColorTint>(0.125, 0.188, 0.314, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -3422,7 +3422,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_OL_HairLapis</defName>
     <label>lapis coat</label>
-    <description>A tint of lapis runs through this animal's coat.</description>
+    <description>A lapis tint runs through this animal's coat.</description>
     <skinColorTint>(0.125, 0.125, 0.314, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -3437,7 +3437,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_OL_HairLilac</defName>
     <label>lilac coat</label>
-    <description>A tint of lilac runs through this animal's coat.</description>
+    <description>A lilac tint runs through this animal's coat.</description>
     <skinColorTint>(0.565, 0.502, 0.753, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -3452,7 +3452,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_OL_HairLavender</defName>
     <label>lavender coat</label>
-    <description>A tint of lavender runs through this animal's coat.</description>
+    <description>A lavender tint runs through this animal's coat.</description>
     <skinColorTint>(0.627, 0.502, 0.753, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -3467,7 +3467,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_OL_HairMauve</defName>
     <label>mauve coat</label>
-    <description>A tint of mauve runs through this animal's coat.</description>
+    <description>A mauve tint runs through this animal's coat.</description>
     <skinColorTint>(0.69, 0.502, 0.753, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -3482,7 +3482,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_OL_HairIndigo</defName>
     <label>indigo coat</label>
-    <description>A tint of indigo runs through this animal's coat.</description>
+    <description>An indigo tint runs through this animal's coat.</description>
     <skinColorTint>(0.188, 0.125, 0.314, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -3497,7 +3497,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_OL_HairEggplant</defName>
     <label>eggplant coat</label>
-    <description>A tint of eggplant runs through this animal's coat.</description>
+    <description>An eggplant tint runs through this animal's coat.</description>
     <skinColorTint>(0.251, 0.125, 0.314, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -3512,7 +3512,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_OL_HairPlum</defName>
     <label>plum coat</label>
-    <description>A tint of plum runs through this animal's coat.</description>
+    <description>A plum tint runs through this animal's coat.</description>
     <skinColorTint>(0.314, 0.125, 0.314, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -3527,7 +3527,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_OL_HairWisteria</defName>
     <label>wisteria coat</label>
-    <description>A tint of wisteria runs through this animal's coat.</description>
+    <description>A wisteria tint runs through this animal's coat.</description>
     <skinColorTint>(0.753, 0.502, 0.753, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -3542,7 +3542,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_OL_HairBlush</defName>
     <label>blush coat</label>
-    <description>A tint of blush runs through this animal's coat.</description>
+    <description>A blush tint runs through this animal's coat.</description>
     <skinColorTint>(0.753, 0.502, 0.69, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -3557,7 +3557,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_OL_HairRose</defName>
     <label>rose coat</label>
-    <description>A tint of rose runs through this animal's coat.</description>
+    <description>A rose tint runs through this animal's coat.</description>
     <skinColorTint>(0.753, 0.502, 0.627, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -3572,7 +3572,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_OL_HairBerry</defName>
     <label>berry coat</label>
-    <description>A tint of berry runs through this animal's coat.</description>
+    <description>A berry tint runs through this animal's coat.</description>
     <skinColorTint>(0.314, 0.125, 0.251, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -3587,7 +3587,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_OL_HairWine</defName>
     <label>wine coat</label>
-    <description>A tint of wine runs through this animal's coat.</description>
+    <description>A wine tint runs through this animal's coat.</description>
     <skinColorTint>(0.314, 0.125, 0.188, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -3602,7 +3602,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_OL_HairAmaranth</defName>
     <label>amaranth coat</label>
-    <description>A tint of amaranth runs through this animal's coat.</description>
+    <description>An amaranth tint runs through this animal's coat.</description>
     <skinColorTint>(0.376, 0.125, 0.188, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -3617,7 +3617,7 @@
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_OL_HairAlbino</defName>
     <label>albino coat</label>
-    <description>A tint of albino runs through this animal's coat.</description>
+    <description>An albino tint runs through this animal's coat.</description>
     <skinColorTint>(0.941, 0.941, 0.941, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
