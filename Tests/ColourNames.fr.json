@@ -125,7 +125,10 @@
   "pea soup": "soupe de pois",
   "periwinkle": "pervenche",
   "pink": "rose",
-  "planetary": "planétaire",
+  "planetary": {
+    "m": "planétaire",
+    "f": "planétaire"
+  },
   "plum": "prune",
   "powder": "poudre",
   "purple": "violet",
