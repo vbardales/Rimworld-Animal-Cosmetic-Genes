@@ -43,6 +43,8 @@ FarmerJoe, for [Sapient Animal - Gene Freedom](https://steamcommunity.com/shared
 
 Lazy Friday Studio, for [Genes Expanded - Skin Colors](https://steamcommunity.com/sharedfiles/filedetails/?id=3214172563) and [Genes Expanded - Hair](https://steamcommunity.com/sharedfiles/filedetails/?id=3221946756), OdysseyLotus and Lucius, for [Seren, from Stardust](https://steamcommunity.com/sharedfiles/filedetails/?id=3726565301), and Lyn the Cookie, for [Cookie Genes (Skin and Hair Colors)](https://steamcommunity.com/sharedfiles/filedetails/?id=2879072525): their gene colours are the ones the serums give. Nothing of theirs is copied; the colours are read from the game when it runs.
 
+Dalrae, who made Stick Lantern, and Mlie, who continues it: [Stick Lantern (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=2024351846) lights the scenes of the gallery. It is not part of the mod and not a dependency.
+
 Ludeon Studios, for Biotech and its genes.
 
 [Pickle](https://steamcommunity.com/sharedfiles/filedetails/?id=3791648678) and [Nelim's Pickle Tools](https://steamcommunity.com/sharedfiles/filedetails/?id=3806142401) were used for development and testing only; neither is a dependency of the distributed mod.
@@ -92,6 +94,7 @@ Registry: `../docs/WORKSHOP_COMMENTS.md`. Post only once the item is visible. Th
 | Lazy Friday Studio, Genes Expanded - Hair | 3221946756 | drafted | same author, own page, own comment |
 | OdysseyLotus and Lucius, Seren, from Stardust | 3726565301 | drafted | registry row to add |
 | Lyn the Cookie, Cookie Genes (Skin and Hair Colors) | 2879072525 | drafted | id and author read on the Workshop page and in the local About.xml, 2026-11-09 |
+| Stick Lantern (Continued), Mlie after Dalrae | 2024351846 | posted (covered) | gallery props, already thanked on that page; ACG added to Covers, no new comment |
 | Pickle | 3791648678 | posted | already covered, ACG added to `Covers` |
 | Nelim's Pickle Tools | 3806142401 | not_applicable | private page, no external recipient |
 | Ludeon Studios | none | not_applicable | no page to comment on |
