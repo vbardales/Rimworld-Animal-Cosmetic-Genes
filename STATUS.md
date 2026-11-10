@@ -5,7 +5,7 @@ repo: Rimworld-Animal-Cosmetic-Genes
 remote: https://github.com/vbardales/Rimworld-Animal-Cosmetic-Genes.git
 visibility: public             # original creation, nothing taken from another mod (PUBLISHING.md, "Nommage")
 detached: yes
-workflow_stage: publish[1.1.0]
+workflow_stage: followUp[1.1.0]
 licence: original
 licence_at: "2026-10-31: original work, MIT (LICENSE and Mod/LICENSE). No third-party code: Animal Traits System (Luved) is a dependency only, Gene Freedom (FarmerJoe) was disassembled to study, nothing copied."
 upstream_mod_remotes: N/A      # no source mod: Big and Small, Gene Freedom and Animal Traits System gave the idea or the framework only, none of their code is used
@@ -18,6 +18,7 @@ workshop: 3837162966
 published: yes
 tested_on: "2026-11-07 French at 7965f0d (tickets d580 and 8554, acg-serum-bench-chain-fr and acg-serum-second-tint-refused-fr, proofs Evidence/playtests-replay-fr and playtests-replay-fr-2) and 2026-11-07 at 66f5590 (Pickle ticket 0691 green 8 of 8, English, acg-marking: acg-chest-patch-kuroneko, acg-coat-thrumbo, acg-coat-labrador, acg-coat-panther, acg-gene-tint-thrumbo, acg-serum-second-tint-refused, acg-serum-bench-recipe, acg-serum-bench-look; captures read: chest patch on Kuru1, thrumbo tinted; no ACG error in Player.log; Source/Mod unchanged since 2a3846c; proof in Tests/Pickle/Evidence/playtests-replay-en) and 2026-11-06 at 2a3846c (automated: unit tests AtsRules pass, build SAME 0 warnings, Check-Translations PASS, Check-Steps clean, Test-Mod.ps1 6 of 6). Pickle last green 2026-11-02 at 4616d5f (tickets 6184, 7f31, 6146, 6c3b, ba7f, 0f31, 989d, 8805, 6352, 0b9d) and 2026-11-06 gene-ui English and French (9615, c68d); Source changed since in 1c5278d (refusal reasons Keyed), replay due at playTests"
 remaining:
+  - "2026-11-10 (publish 1.1.0 DONE, run 42823241571 success, approved by Virginie): Steam upload ok for item 3837162966 (content, preview 461038 bytes, tags with 1.7), tag v1.1.0 on e053c77, PublishedFileId.txt unchanged. followUp[1.1.0]: subscribe-test the item on 1.6 and 1.7 (13.b), non-regression 14.a on the published build, 14.c cleanup, 14.e dormant. Check the Workshop page shows 1.6 and 1.7 tags."
   - "2026-11-10 (publish 1.1.0 dispatched): dry-run green run 42823051980 on e053c77 (version 1.1.0, update_preview, update_tags); publish run 42823241571 waits for Virginie approval of steam-production. After the upload: PublishedFileId.txt check (item 3837162966 unchanged), tag v1.1.0 created by CI, tags 1.6 and 1.7 on the item, followUp[1.1.0]."
   - "2026-11-10 (12.a code review, 1.1.0): git diff b6315b3..HEAD on Source and Mod shows no code change: Mod/ATTRIBUTION.md credits, About.xml (modVersion 1.1.0, supportedVersions 1.7, description credits already on Steam), Preview.png badge, two French colour names. Nothing to fix, code_review_sha set to 6b3cd20."
   - "2026-11-10 (publish[1.1.0], 12.h): compress-docs: nothing to compress (Docs/PROMPT_ACG.md and TESTING.md unchanged since v1.0.0, STATUS.md below-status parts unchanged). Pipeline options for this release: --preview (badge 1.7) and --tags (tag 1.7, minor); no --description, no --title. Order: dry-run on this SHA with the same options, then dispatch-publish, then Virginie approves steam-production."
@@ -60,7 +61,7 @@ echo_review_sha: 00ee1f97f488bf62f5a08bbae62c3887cd094360
 social_preview_sha256: 5b64210d4538b220a7a7bbb057140fd2abccea157b723103e83324faab058794
 tested_1_7: yes
 updated: 2026-11-10
-protocols_read_sha: 0144b169b4a42e227340a6e79109c2242d5c191c
+protocols_read_sha: 11b1468b1d5d4cc606be3f4b1341a8444edc1025
 ---
 
 # Animal Cosmetic Genes: status
