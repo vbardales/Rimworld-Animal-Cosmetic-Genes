@@ -151,8 +151,14 @@ One English line per story scene, burnt in with `../scripts/Add-Subtitle.ps1` fr
 | 5 | 5-bridge-dusk.jpg | Home at dusk, with a few new colours. |
 | 6 | 6-genepack-window.jpg | none (interface capture) |
 
-## Steam patch notes (1.0.0)
+## Release notes (the change note of each upload)
+
+The change note sent to Steam with an upload, under the heading of its version: the manual workflow reads the block under `### <version>` (`../PUBLISHING.md`, "Publier par la CI"), and the `## [<version>]` section of `CHANGELOG.md` goes into the GitHub release. The first line carries the version in BBCode. Limit 8000 bytes.
+
+### 1.0.0
 
 ```
-1.0.0: first release. Coat tint traits from the colour genes of the game, a serum bench, serums applied to animals, and a white chest patch for Kuru of Let's Have a Cat! Continued.
+[b]1.0.0[/b]
+
+First release. Coat tint traits from the colour genes of the game, a serum bench, serums applied to animals, and a white chest patch for Kuru of Let's Have a Cat! Continued.
 ```
