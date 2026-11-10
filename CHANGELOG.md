@@ -7,7 +7,7 @@ This file serves the repository and the writing of Steam patch notes; RimWorld d
 
 ### Added
 
-- RimWorld 1.7 declared in `supportedVersions` after a green 1.7 test pass (English). No change to the defs or to the code.
+- RimWorld 1.7 declared in `supportedVersions` after a successful English-language test pass. No change to the defs or to the code.
 
 ## [1.0.0] - 2026-11-10
 

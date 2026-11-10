@@ -186,7 +186,7 @@ The change note sent to Steam with an upload, under the heading of its version: 
 ```
 [b]1.1.0[/b]
 
-RimWorld 1.7 support declared after a test pass on 1.7. Nothing else changes.
+RimWorld 1.7 support declared after an English-language test pass on 1.7. Nothing else changes.
 ```
 
 ### 1.0.0
