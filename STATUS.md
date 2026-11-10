@@ -5,7 +5,7 @@ repo: Rimworld-Animal-Cosmetic-Genes
 remote: https://github.com/vbardales/Rimworld-Animal-Cosmetic-Genes.git
 visibility: public             # original creation, nothing taken from another mod (PUBLISHING.md, "Nommage")
 detached: yes
-workflow_stage: prepareRelease[1.0.0]
+workflow_stage: publish[1.0.0]
 licence: original
 licence_at: "2026-10-31: original work, MIT (LICENSE and Mod/LICENSE). No third-party code: Animal Traits System (Luved) is a dependency only, Gene Freedom (FarmerJoe) was disassembled to study, nothing copied."
 upstream_mod_remotes: N/A      # no source mod: Big and Small, Gene Freedom and Animal Traits System gave the idea or the framework only, none of their code is used
@@ -18,6 +18,7 @@ workshop: none
 published: no
 tested_on: "2026-11-07 French at 7965f0d (tickets d580 and 8554, acg-serum-bench-chain-fr and acg-serum-second-tint-refused-fr, proofs Evidence/playtests-replay-fr and playtests-replay-fr-2) and 2026-11-07 at 66f5590 (Pickle ticket 0691 green 8 of 8, English, acg-marking: acg-chest-patch-kuroneko, acg-coat-thrumbo, acg-coat-labrador, acg-coat-panther, acg-gene-tint-thrumbo, acg-serum-second-tint-refused, acg-serum-bench-recipe, acg-serum-bench-look; captures read: chest patch on Kuru1, thrumbo tinted; no ACG error in Player.log; Source/Mod unchanged since 2a3846c; proof in Tests/Pickle/Evidence/playtests-replay-en) and 2026-11-06 at 2a3846c (automated: unit tests AtsRules pass, build SAME 0 warnings, Check-Translations PASS, Check-Steps clean, Test-Mod.ps1 6 of 6). Pickle last green 2026-11-02 at 4616d5f (tickets 6184, 7f31, 6146, 6c3b, ba7f, 0f31, 989d, 8805, 6352, 0b9d) and 2026-11-06 gene-ui English and French (9615, c68d); Source changed since in 1c5278d (refusal reasons Keyed), replay due at playTests"
 remaining:
+  - "2026-11-10 (12.h, stage publish before the final dry-run, a STATUS commit changes the SHA): CI generated at 317fa63 (workshop-id 3837162966, build and script tests green), dry-runs green at b6315b3 (runs 42756054211 plain, 42756143405 with update_preview, update_description, update_title, update_tags: preview eeb3cb8d, title Animal Cosmetic Genes, tags Mod and 1.6; the runner DLL differs from the committed one, the committed one ships). Item 3837162966 is blank (0 B, no title), so the first publish needs all four options and --tags. Remaining: final dry-run on the SHA of this commit, Virginie runs scripts/steam-secrets-codespace.sh vbardales/Rimworld-Animal-Cosmetic-Genes (environments and secrets, refresh token), dispatch-publish.sh with the green SHA and --tags, her approval of steam-production, then record run ids, manifest, tags seen on the public page, PublishedFileId unchanged."
   - "2026-11-10 (Virginie, dev mode was the cause: Upload to Steam Workshop hidden without it): private item created by the in-game upload, id 3837162966 (read on the Steam page: hidden, 0 B, no title yet, created 2026-11-10 5h24 by nelim17; the content is sent by the CI at first publication). Mod/About/PublishedFileId.txt committed and pushed (11615e0), <ID> placeholders of PUBLICATION.md replaced. Next: id to CI/CD (generate-publish-workflow.sh), Virginie runs steam-secrets-codespace.sh, then 12.d to 12.h. Reminder for Virginie: dev mode can be switched off, ModsConfig.xml backup is ModsConfig.xml.bak-before-acg-upload."
   - "2026-11-10 (prepareRelease, publication blocked on the Workshop item): CI/CD refused to generate .github without an item id (no Mod/About/PublishedFileId.txt, CI cannot create the item). Windows setup done for the in-game upload: junction RimWorld\Mods\AnimalCosmeticGenes to Mod\, ModsConfig.xml reduced to Harmony, Core, Biotech, Animal Traits System, this mod (backup ModsConfig.xml.bak-before-acg-upload next to it). Virginie uploads tomorrow (private item, Upload to Steam Workshop). Then: read and commit Mod/About/PublishedFileId.txt at once, replace the <ID> placeholders of PUBLICATION.md, send the id to CI/CD (via TM) for generate-publish-workflow.sh, Virginie runs scripts/steam-secrets-codespace.sh vbardales/Rimworld-Animal-Cosmetic-Genes (environments release-dry-run and steam-production, secrets), then 12.d to 12.h (date the [Unreleased] section, dry-run, stage publish)."
   - "2026-11-10 (closing pass step 8): code_review_sha moved to d1bfb57. Reviewed 1ac9ba5..d1bfb57: Source/ unchanged (DLL unchanged, unit tests unaffected); Mod/ changes are text only (About.xml description generated from PUBLICATION.md, ATTRIBUTION, French and English descriptions of the tint traits and the chest patch, generated Hediffs_GeneTints.xml where only label and description lines differ, 482 of them) and the Preview.png render. No code commit, no reopening. STATUS.md journal folded into Docs/runs (55 KB to 20 KB)."
@@ -36,7 +37,7 @@ echo_review_sha: c616f1cdc2ae6091930ff2faf9c4e33f7270c854
 publication_changelog_review_sha: 57ede13f5d56931e0d0bb9612416a3a08ffe25a3
 social_preview_sha256: eeb3cb8d9b61a233a69f398ab18e0eb9eca0037d66580cbe1ab33c20774e882f
 updated: 2026-11-07
-protocols_read_sha: 66123291e6c03a942d619b5d33eb0f0c6347a91d
+protocols_read_sha: 3d22a80b3773cd6ab06442038b31ec3a00393483
 ---
 
 # Animal Cosmetic Genes: status
