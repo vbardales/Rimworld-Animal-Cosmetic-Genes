@@ -1,6 +1,6 @@
 # Animal Cosmetic Genes: publication
 
-This is the record of everything the Workshop page requires and that the repository stores nowhere else. The mod is not published yet (`STATUS.md`: `published: no`, version 1.0.0, public repository, mode: the CI, `PUBLISHING.md`, "Deux modes de publication").
+This is the record of everything the Workshop page requires and that the repository stores nowhere else. The mod is published (`STATUS.md`: `published: yes`, 1.0.0 live, 1.1.0 in preparation, public repository, mode: the CI, `PUBLISHING.md`, "Deux modes de publication").
 
 ## Steam description
 
@@ -131,7 +131,7 @@ The serums carry your hair gene names as they are, so the bench list reads like 
 Seren, from Stardust:
 
 ```
-Teal and twilight are in there too: every colour gene Seren adds can be tinted on an animal. Thanks OdysseyLotus and Lucius :) [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3837162966]Animal Cosmetic Genes[/url]
+Teal and twilight are in there too: every colour gene Seren adds can tint an animal's coat. Thanks OdysseyLotus and Lucius :) [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3837162966]Animal Cosmetic Genes[/url]
 ```
 
 Cookie Genes (Skin and Hair Colors):
