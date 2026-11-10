@@ -14,6 +14,7 @@ localization: complete
 translation_en: complete
 translation_fr: complete
 dependencies: done
+workshop_required_items: done, 2026-11-10
 workshop: 3837162966
 published: yes
 tested_on: "2026-11-07 French at 7965f0d (tickets d580 and 8554, acg-serum-bench-chain-fr and acg-serum-second-tint-refused-fr, proofs Evidence/playtests-replay-fr and playtests-replay-fr-2) and 2026-11-07 at 66f5590 (Pickle ticket 0691 green 8 of 8, English, acg-marking: acg-chest-patch-kuroneko, acg-coat-thrumbo, acg-coat-labrador, acg-coat-panther, acg-gene-tint-thrumbo, acg-serum-second-tint-refused, acg-serum-bench-recipe, acg-serum-bench-look; captures read: chest patch on Kuru1, thrumbo tinted; no ACG error in Player.log; Source/Mod unchanged since 2a3846c; proof in Tests/Pickle/Evidence/playtests-replay-en) and 2026-11-06 at 2a3846c (automated: unit tests AtsRules pass, build SAME 0 warnings, Check-Translations PASS, Check-Steps clean, Test-Mod.ps1 6 of 6). Pickle last green 2026-11-02 at 4616d5f (tickets 6184, 7f31, 6146, 6c3b, ba7f, 0f31, 989d, 8805, 6352, 0b9d) and 2026-11-06 gene-ui English and French (9615, c68d); Source changed since in 1c5278d (refusal reasons Keyed), replay due at playTests"
