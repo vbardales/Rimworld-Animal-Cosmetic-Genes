@@ -3,6 +3,12 @@
 Format inspired by [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 This file serves the repository and the writing of Steam patch notes; RimWorld does not display it in game.
 
+## [1.1.0] - 2026-11-10
+
+### Added
+
+- RimWorld 1.7 declared in `supportedVersions` after a green 1.7 test pass (English). No change to the defs or to the code.
+
 ## [1.0.0] - 2026-11-10
 
 ### Added

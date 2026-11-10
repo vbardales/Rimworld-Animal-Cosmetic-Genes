@@ -181,6 +181,14 @@ One English line per story scene, burnt in with `../scripts/Add-Subtitle.ps1` fr
 
 The change note sent to Steam with an upload, under the heading of its version: the manual workflow reads the block under `### <version>` (`../PUBLISHING.md`, "Publier par la CI"), and the `## [<version>]` section of `CHANGELOG.md` goes into the GitHub release. The first line carries the version in BBCode. Limit 8000 bytes.
 
+### 1.1.0
+
+```
+[b]1.1.0[/b]
+
+RimWorld 1.7 support declared after a test pass on 1.7. Nothing else changes.
+```
+
 ### 1.0.0
 
 ```
