@@ -166,6 +166,68 @@ Gene Freedom:
 Reading how Gene Freedom turns the render node on is what made me think coats on ordinary animals could work. I went another way (serums, no sapience), but yours came first. Thanks FarmerJoe :) [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3837162966]Animal Cosmetic Genes[/url]
 ```
 
+Gallery map mods, drafts (2026-11-10, registry rows drafted in `../docs/WORKSHOP_COMMENTS.md`; Virginie posts them, and removes the ones whose content does not show in a shot: to confirm at the shot review). Ponpeco Pajamas shares the closed comments of Ponpeco Accessories, no draft. The utility mods (Facial Animation performance patch, init and load fixes, Hat Hair Control, Vanilla Expanded Framework, SimpleCameraSetting) get the credit line only.
+
+UnderWhere:
+
+```
+UnderWhere is loaded under every outfit of my gallery pictures, so my researcher is properly dressed under the shirt xD Thanks Malistaticy and Dhyne! [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3837162966]Animal Cosmetic Genes[/url]
+```
+
+Vanilla Apparel Expanded:
+
+```
+Vanilla Apparel Expanded is in the wardrobe I draw from for the screenshots of my animal colours mod, so thanks to the three of you :) [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3837162966]Animal Cosmetic Genes[/url]
+```
+
+Fairycore - Apparel 2:
+
+```
+The fairycore clothes were part of my wardrobe pick for the gallery pictures of my animal colours mod. Thanks Faeris :) [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3837162966]Animal Cosmetic Genes[/url]
+```
+
+FashionRIMsta (Continued):
+
+```
+FashionRIMsta was loaded for the gallery pictures of my animal colours mod, so a thank you to the one who continues it and to the one who made it :) [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3837162966]Animal Cosmetic Genes[/url]
+```
+
+[LTS] Raiments:
+
+```
+Raiments is in my wardrobe for the gallery pictures of my animal colours mod. Thanks LimeTreeSnake xD [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3837162966]Animal Cosmetic Genes[/url]
+```
+
+Swimwear:
+
+```
+Swimwear was in the wardrobe for the gallery pictures of my animal colours mod, summer shots need it :) Thanks kaitorisenkou! [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3837162966]Animal Cosmetic Genes[/url]
+```
+
+Cinderella Dress:
+
+```
+The Cinderella dress was in the wardrobe for the gallery pictures of my animal colours mod. Thanks Aqued :) [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3837162966]Animal Cosmetic Genes[/url]
+```
+
+[VK]FacialAnimation add closed eyes:
+
+```
+Closed eyes for Facial Animation were part of the face setup of my gallery pictures. Thanks Vi and Kirisaki :) [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3837162966]Animal Cosmetic Genes[/url]
+```
+
+Visual beauty for Facial Animation:
+
+```
+Visual beauty is part of the face setup of my gallery pictures, my researcher smirks properly thanks to it xD Thanks SleepyFrieren! [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3837162966]Animal Cosmetic Genes[/url]
+```
+
+Cuter Kids for Facial Animation:
+
+```
+Cuter Kids was loaded with the Facial Animation set for my gallery pictures. Thanks ria :) [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3837162966]Animal Cosmetic Genes[/url]
+```
+
 ## Gallery subtitles
 
 One English line per story scene, burnt in with `../scripts/Add-Subtitle.ps1` from the clean originals in `Art/Gallery-clean/` to `Art/Gallery/`. The interface capture (6) gets no subtitle.
