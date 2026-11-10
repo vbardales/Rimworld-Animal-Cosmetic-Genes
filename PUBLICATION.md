@@ -1,6 +1,6 @@
 # Animal Cosmetic Genes: publication
 
-This is the record of everything the Workshop page requires and that the repository stores nowhere else. The mod is published (`STATUS.md`: `published: yes`, 1.0.0 live, 1.1.0 in preparation, public repository, mode: the CI, `PUBLISHING.md`, "Deux modes de publication").
+This is the record of everything the Workshop page requires and that the repository stores nowhere else. The mod is published (`STATUS.md`: `published: yes`, 1.0.0 live, 1.1.0 in preparation, public repository, published through the CI, `PUBLISHING.md`, "Deux modes de publication").
 
 ## Steam description
 
@@ -58,7 +58,7 @@ Full attribution: [ATTRIBUTION.md](https://github.com/vbardales/Rimworld-Animal-
 
 ## Gallery order
 
-Upload in this order (the files of `Art/Gallery/`, subtitles burnt in before the review of Virginie, GALLERY.md, 2026-11-09). The interface capture (6) has no subtitle. `0-preview.png` is a byte copy of `Mod/About/Preview.png`, not uploaded to the gallery.
+Upload in this order (the files of `Art/Gallery/`, subtitles burnt in before Virginie's review, GALLERY.md, 2026-11-09). The interface capture (6) has no subtitle. `0-preview.png` is a byte copy of `Mod/About/Preview.png`, not uploaded to the gallery.
 
 | index | file | what it shows | line |
 |---|---|---|---|

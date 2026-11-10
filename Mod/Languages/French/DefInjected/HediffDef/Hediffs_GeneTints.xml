@@ -717,8 +717,8 @@
   <AnimalTrait_OL_HairBerry.label>pelage baie</AnimalTrait_OL_HairBerry.label>
   <AnimalTrait_OL_HairBerry.description>Le pelage de cet animal est teinté en baie.</AnimalTrait_OL_HairBerry.description>
 
-  <AnimalTrait_OL_HairWine.label>pelage vin</AnimalTrait_OL_HairWine.label>
-  <AnimalTrait_OL_HairWine.description>Le pelage de cet animal est teinté en vin.</AnimalTrait_OL_HairWine.description>
+  <AnimalTrait_OL_HairWine.label>pelage lie-de-vin</AnimalTrait_OL_HairWine.label>
+  <AnimalTrait_OL_HairWine.description>Le pelage de cet animal est teinté en lie-de-vin.</AnimalTrait_OL_HairWine.description>
 
   <AnimalTrait_OL_HairAmaranth.label>pelage amarante</AnimalTrait_OL_HairAmaranth.label>
   <AnimalTrait_OL_HairAmaranth.description>Le pelage de cet animal est teinté en amarante.</AnimalTrait_OL_HairAmaranth.description>
