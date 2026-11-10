@@ -17,6 +17,26 @@ copied or used, and it has no licence file.
 
 **Let's Have a Cat! Continued** (akairo, Bernau31, 3682940618): the chest patch targets its cat `akaNEKO_kuroneko` by name. No file of it is copied and it is not a dependency.
 
-**Gallery captures.** The mods loaded for the gallery captures (not part of the mod, not dependencies, nothing copied): Bodies and apparel: DanZinagri and tiagocc0, [Female Body Variants Continued](https://steamcommunity.com/sharedfiles/filedetails/?id=3798082132) and [Female Apparel Variants Continued](https://steamcommunity.com/sharedfiles/filedetails/?id=3799726535); Windonsi and Starkz, [WDI's Realistic Bodies](https://steamcommunity.com/sharedfiles/filedetails/?id=3527486510); Malistaticy and Dhyne, [UnderWhere](https://steamcommunity.com/sharedfiles/filedetails/?id=1870010563); aedbia, [AB's Visible Pants](https://steamcommunity.com/sharedfiles/filedetails/?id=2986402536). Wardrobe: Oskar Potocki, Trunken and Sarg Bjornson, [Vanilla Apparel Expanded](https://steamcommunity.com/sharedfiles/filedetails/?id=1814987817) and [Vanilla Expanded Framework](https://steamcommunity.com/sharedfiles/filedetails/?id=2023507013); Faeris, [Fairycore - Apparel 2](https://steamcommunity.com/sharedfiles/filedetails/?id=3812924898); Nackblad and spoonshortage, [FashionRIMsta (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=3592569869); LimeTreeSnake, [[LTS] Raiments](https://steamcommunity.com/sharedfiles/filedetails/?id=3751997843); ponpeco, [Ponpeco Pajamas](https://steamcommunity.com/sharedfiles/filedetails/?id=3482959515); kaitorisenkou, [Swimwear](https://steamcommunity.com/sharedfiles/filedetails/?id=2840348927); Aqued, [Cinderella Dress](https://steamcommunity.com/sharedfiles/filedetails/?id=3627646170). Hair: lordfelix, [Hat Hair Control](https://steamcommunity.com/sharedfiles/filedetails/?id=3760821540). Camera: ray1203, [SimpleCameraSetting](https://steamcommunity.com/sharedfiles/filedetails/?id=3232415388). Faces: Nals, [[NL] Facial Animation - WIP](https://steamcommunity.com/sharedfiles/filedetails/?id=1635901197) and [Experimentals](https://steamcommunity.com/sharedfiles/filedetails/?id=2581693737); Oracle of Thessia, [Vanilla Textures Expanded - [NL] Facial Animation](https://steamcommunity.com/sharedfiles/filedetails/?id=2816938779); Newton Zephyr, [Akeron Extras - Facial Animations](https://steamcommunity.com/sharedfiles/filedetails/?id=2889716301); Lucius, [EyeGenes3](https://steamcommunity.com/sharedfiles/filedetails/?id=3745223213); astryl, [Facial Animation Performance Patch](https://steamcommunity.com/sharedfiles/filedetails/?id=3790129900); Vi and Kirisaki, [[VK]FacialAnimation add closed eyes](https://steamcommunity.com/sharedfiles/filedetails/?id=3694711465); SunshineyDays, [Vanilla Experimentals for Facial Animation](https://steamcommunity.com/sharedfiles/filedetails/?id=3753978140); SleepyFrieren, [Visual beauty for Facial Animation](https://steamcommunity.com/sharedfiles/filedetails/?id=3685072616); ria, [Cuter Kids for Facial Animation](https://steamcommunity.com/sharedfiles/filedetails/?id=3807706870); Moshii, [NL Facial Animation - Init Fix](https://steamcommunity.com/sharedfiles/filedetails/?id=3609895011); CCJ, [NL Facial Animation - Load Fix](https://steamcommunity.com/sharedfiles/filedetails/?id=3721489042).
+
+## Gallery set
+
+Mods loaded for the gallery captures of this mod and visible in them. Not part of the mod, not dependencies, nothing copied. One line each: name, author, Workshop id. The wardrobe, hair and lighting mods that carry the scenes are credited in the Steam description; the rest of the shared map is not credited here because the scenes of this mod do not use it.
+
+- Female Body Variants Continued, DanZinagri and tiagocc0, 3798082132
+- Female Apparel Variants Continued, DanZinagri and tiagocc0, 3799726535
+- WDI's Realistic Bodies, Windonsi and Starkz, 3527486510
+- SimpleCameraSetting, ray1203, 3232415388
+- [NL] Facial Animation - WIP, Nals, 1635901197
+- [NL] Facial Animation - Experimentals, Nals, 2581693737
+- Vanilla Textures Expanded - [NL] Facial Animation, Oracle of Thessia, 2816938779
+- Akeron Extras - Facial Animations, Newton Zephyr, 2889716301
+- EyeGenes3, Lucius, 3745223213
+- Facial Animation Performance Patch, astryl, 3790129900
+- [VK]FacialAnimation add closed eyes, Vi and Kirisaki, 3694711465
+- Vanilla Experimentals for Facial Animation, SunshineyDays, 3753978140
+- Visual beauty for Facial Animation, SleepyFrieren, 3685072616
+- Cuter Kids for Facial Animation, ria, 3807706870
+- NL Facial Animation - Init Fix, Moshii, 3609895011
+- NL Facial Animation - Load Fix, CCJ, 3721489042
 
 **Licence:** MIT (`LICENSE`).
