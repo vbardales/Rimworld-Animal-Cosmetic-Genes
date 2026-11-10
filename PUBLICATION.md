@@ -45,6 +45,8 @@ Lazy Friday Studio, for [Genes Expanded - Skin Colors](https://steamcommunity.co
 
 Dalrae, who made Stick Lantern, and Mlie, who continues it: [Stick Lantern (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=2024351846) lights the scenes of the gallery. It is not part of the mod and not a dependency.
 
+Hysteria82, for [Lisa's Work Apparel](https://steamcommunity.com/sharedfiles/filedetails/?id=3709891968), ponpeco, for [Ponpeco Accessories](https://steamcommunity.com/sharedfiles/filedetails/?id=3298397484), and Rooboid, with Qux who continues it, for [Roo's HD Hairstyles (continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=3559870636): the shirt, skirt, glasses, earrings and hairstyle that Nelim wears in the gallery. None of them is part of the mod or a dependency.
+
 Ludeon Studios, for Biotech and its genes.
 
 [Pickle](https://steamcommunity.com/sharedfiles/filedetails/?id=3791648678) and [Nelim's Pickle Tools](https://steamcommunity.com/sharedfiles/filedetails/?id=3806142401) were used for development and testing only; neither is a dependency of the distributed mod.
@@ -95,6 +97,9 @@ Registry: `../docs/WORKSHOP_COMMENTS.md`. Post only once the item is visible. Th
 | OdysseyLotus and Lucius, Seren, from Stardust | 3726565301 | drafted | registry row to add |
 | Lyn the Cookie, Cookie Genes (Skin and Hair Colors) | 2879072525 | drafted | id and author read on the Workshop page and in the local About.xml, 2026-11-09 |
 | Stick Lantern (Continued), Mlie after Dalrae | 2024351846 | posted (covered) | gallery props, already thanked on that page; ACG added to Covers, no new comment |
+| Hysteria82, Lisa's Work Apparel | 3709891968 | drafted | gallery apparel, not a dependency |
+| ponpeco, Ponpeco Accessories | 3298397484 | drafted | gallery accessory |
+| Rooboid and Qux, Roo's HD Hairstyles (continued) | 3559870636 | drafted | one message on the Continued page, both credited; the original's page is not_applicable |
 | Pickle | 3791648678 | posted | already covered, ACG added to `Covers` |
 | Nelim's Pickle Tools | 3806142401 | not_applicable | private page, no external recipient |
 | Ludeon Studios | none | not_applicable | no page to comment on |
@@ -133,6 +138,24 @@ Cookie Genes (Skin and Hair Colors):
 
 ```
 Jade, Sapphire, Rosey: your skin colours work on fur too, and they are all in the serum bench now. Thanks Lyn the Cookie xD [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3837162966]Animal Cosmetic Genes[/url]
+```
+
+Lisa's Work Apparel:
+
+```
+The buttoned shirt, the skirt and the horn-rimmed glasses of Lisa's Work Apparel are what my researcher wears in every screenshot. Thanks Hysteria82 :) [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3837162966]Animal Cosmetic Genes[/url]
+```
+
+Ponpeco Accessories:
+
+```
+Tiny earrings, but they are in every picture of my colonist, and they look good. Thanks ponpeco xD [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3837162966]Animal Cosmetic Genes[/url]
+```
+
+Roo's HD Hairstyles (continued):
+
+```
+The high ponytail in all my screenshots is yours: thank you Rooboid for the hairstyle and Qux for keeping it alive in 1.6 :) [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3837162966]Animal Cosmetic Genes[/url]
 ```
 
 Gene Freedom:
