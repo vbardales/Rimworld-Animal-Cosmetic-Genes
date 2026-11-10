@@ -1,0 +1,21 @@
+{
+  "templateStamp": "ed4669c0a5bf",
+  "workshopId": "3837162966",
+  "packageId": "nelim.animalcosmeticgenes",
+  "releaseTitle": "Animal Cosmetic Genes {version}",
+  "requirePaths": [
+    "Assemblies/AnimalCosmeticGenes.dll"
+  ],
+  "forbidPaths": [],
+  "previewFile": "About/Preview.png",
+  "galleryDir": "Art/Gallery",
+  "aboutFromDescription": true,
+  "build": {
+    "project": "Source/AnimalCosmeticGenes.csproj"
+  },
+  "description": {
+    "file": "PUBLICATION.md",
+    "format": "markdown",
+    "heading": "^## Steam description$"
+  }
+}
