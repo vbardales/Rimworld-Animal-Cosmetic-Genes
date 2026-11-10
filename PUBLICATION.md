@@ -99,43 +99,43 @@ Registry: `../docs/WORKSHOP_COMMENTS.md`. Post only once the item is visible. Th
 Animal Traits System:
 
 ```
-Your trait system did the heavy lifting: traits that get rolled, restricted by species and passed on to the young, so I never had to write any of it. I just taught it a few hundred coat colours :) [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3837162966]Animal Cosmetic Genes[/url]
+Animal Traits System did all the boring parts for me: rolling traits, species limits, passing them on to the pups. I only had to teach it a few hundred coat colours xD Thanks Luved! [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3837162966]Animal Cosmetic Genes[/url]
 ```
 
 Let's Have a Cat! Continued:
 
 ```
-Kuru, the tuxedo cat, was my test subject for a white chest bib: akairo for the cats, Bernau31 for keeping them alive in 1.6, thank you both! Serums are the way to get that bib in [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3837162966]Animal Cosmetic Genes[/url]
+Kuru, the tuxedo cat, was my guinea pig for the white chest bib. akairo for the cats, Bernau31 for keeping them alive in 1.6, thanks both :) [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3837162966]Animal Cosmetic Genes[/url]
 ```
 
 Genes Expanded - Skin Colors:
 
 ```
-Seventy-five skin colours were a gift for dye-happy me: a few of them now end up in a vial and then on a pony's coat :) Thank you, Lazy Friday Studio! [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3837162966]Animal Cosmetic Genes[/url]
+Your skin colours turned out to be good coat colours too. A few of them now end up in a vial and then on a pony, hope that's ok :) Thanks Lazy Friday Studio! [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3837162966]Animal Cosmetic Genes[/url]
 ```
 
 Genes Expanded - Hair:
 
 ```
-Your seventy-six hair colours have good names, and the serum bench lists them as they are, "Blue Marlin" and all. Thanks for the palette, Lazy Friday Studio! [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3837162966]Animal Cosmetic Genes[/url]
+The serums carry your hair gene names as they are, so the bench list reads like your palette. Thanks Lazy Friday Studio! [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3837162966]Animal Cosmetic Genes[/url]
 ```
 
 Seren, from Stardust:
 
 ```
-Seren's teals and twilights were the first colours I wanted to see on an animal, so thank you OdysseyLotus and Lucius :) A serum carries them over in [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3837162966]Animal Cosmetic Genes[/url]
+Teal and twilight are in there too: every colour gene Seren adds can be tinted on an animal. Thanks OdysseyLotus and Lucius :) [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3837162966]Animal Cosmetic Genes[/url]
 ```
 
 Cookie Genes (Skin and Hair Colors):
 
 ```
-Jade, Sapphire, Rosey: your skin colours read well on fur too, which I did not expect. Thanks Lyn the Cookie, they are all in the serum bench of [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3837162966]Animal Cosmetic Genes[/url] xD
+Jade, Sapphire, Rosey: your skin colours work on fur too, and they are all in the serum bench now. Thanks Lyn the Cookie xD [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3837162966]Animal Cosmetic Genes[/url]
 ```
 
 Gene Freedom:
 
 ```
-Reading how Gene Freedom switches the render node on was what told me coats on ordinary animals could work at all. Mine goes through serums instead, but the idea started with yours, thanks xD [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3837162966]Animal Cosmetic Genes[/url]
+Reading how Gene Freedom turns the render node on is what made me think coats on ordinary animals could work. I went another way (serums, no sapience), but yours came first. Thanks FarmerJoe :) [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3837162966]Animal Cosmetic Genes[/url]
 ```
 
 ## Gallery subtitles
