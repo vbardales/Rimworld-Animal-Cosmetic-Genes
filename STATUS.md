@@ -90,7 +90,7 @@ Rules said back (owner, 2026-11-05 and 2026-11-07): everything in NSB is free (p
 
 Places read: 2026-11-09 (VALIDE and SANCTUAIRE-LIEUX diffs of 1677380; previously 2026-11-08, VALIDE diff to 5d2663e, SANCTUAIRE-LIEUX unchanged since 2026-11-07, workshop row)
 Tribe read: 2026-11-09 (docs diffs since 2026-11-08 read, no roster, appearance or animal change; previously 2026-11-08, VALIDE.md diffs since 2026-11-07: places only, no animal or colonist row changed; roster, appearances, animals catalogue unchanged in git; sheets of Kuru, Atticus, Shogun, Tama last opened 2026-11-07)
-Steps read: 2026-11-09 (PickleTools docs/steps.md log since 2026-11-08; previously 2026-11-08, PickleTools docs/steps.md log since 2026-11-07)
+Steps read: 2026-11-10 (steps used by the ACG gallery scenarios all still in docs/steps.md, none renamed or removed; new 2026-11-10 steps are for other mods and the apparel and looks catalogue rows only gained Workshop ids; previously 2026-11-09, PickleTools docs/steps.md log since 2026-11-08; previously 2026-11-08, PickleTools docs/steps.md log since 2026-11-07)
 
 | Place | Shots | Changes made for the gallery | Last read |
 |---|---|---|---|
