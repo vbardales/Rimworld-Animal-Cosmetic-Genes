@@ -89,17 +89,17 @@ Registry: `../docs/WORKSHOP_COMMENTS.md`. Post only once the item is visible. Th
 
 | recipient | id | status | note |
 |---|---|---|---|
-| Luved, Animal Traits System | 3652630316 | drafted | new row in the registry |
-| akairo and Bernau31, Let's Have a Cat! Continued | 3682940618 | drafted | one message on the Continued page, both credited; no row for the original page |
-| FarmerJoe, Gene Freedom | 3825033251 | drafted | new row in the registry |
-| Lazy Friday Studio, Genes Expanded - Skin Colors | 3214172563 | drafted | optional integration, tinted genes; registry row to add |
-| Lazy Friday Studio, Genes Expanded - Hair | 3221946756 | drafted | same author, own page, own comment |
-| OdysseyLotus and Lucius, Seren, from Stardust | 3726565301 | drafted | registry row to add |
-| Lyn the Cookie, Cookie Genes (Skin and Hair Colors) | 2879072525 | drafted | id and author read on the Workshop page and in the local About.xml, 2026-11-09 |
+| Luved, Animal Traits System | 3652630316 | posted 2026-11-10 | new row in the registry |
+| akairo and Bernau31, Let's Have a Cat! Continued | 3682940618 | posted 2026-11-10 | one message on the Continued page, both credited; no row for the original page |
+| FarmerJoe, Gene Freedom | 3825033251 | posted 2026-11-10 | new row in the registry |
+| Lazy Friday Studio, Genes Expanded - Skin Colors | 3214172563 | posted 2026-11-10 | optional integration, tinted genes; registry row to add |
+| Lazy Friday Studio, Genes Expanded - Hair | 3221946756 | posted 2026-11-10 | same author, own page, own comment |
+| OdysseyLotus and Lucius, Seren, from Stardust | 3726565301 | posted 2026-11-10 | registry row to add |
+| Lyn the Cookie, Cookie Genes (Skin and Hair Colors) | 2879072525 | posted 2026-11-10 | id and author read on the Workshop page and in the local About.xml, 2026-11-09 |
 | Stick Lantern (Continued), Mlie after Dalrae | 2024351846 | posted (covered) | gallery props, already thanked on that page; ACG added to Covers, no new comment |
-| Hysteria82, Lisa's Work Apparel | 3709891968 | drafted | gallery apparel, not a dependency |
-| ponpeco, Ponpeco Accessories | 3298397484 | drafted | gallery accessory |
-| Rooboid and Qux, Roo's HD Hairstyles (continued) | 3559870636 | drafted | one message on the Continued page, both credited; the original's page is not_applicable |
+| Hysteria82, Lisa's Work Apparel | 3709891968 | posted 2026-11-10 | gallery apparel, not a dependency |
+| ponpeco, Ponpeco Accessories | 3298397484 | not_applicable | comments closed on the page, credited in the Thanks only |
+| Rooboid and Qux, Roo's HD Hairstyles (continued) | 3559870636 | posted 2026-11-10 | one message on the Continued page, both credited; the original's page is not_applicable |
 | Pickle | 3791648678 | posted | already covered, ACG added to `Covers` |
 | Nelim's Pickle Tools | 3806142401 | not_applicable | private page, no external recipient |
 | Ludeon Studios | none | not_applicable | no page to comment on |
