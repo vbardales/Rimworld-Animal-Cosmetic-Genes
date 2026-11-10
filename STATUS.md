@@ -5,7 +5,7 @@ repo: Rimworld-Animal-Cosmetic-Genes
 remote: https://github.com/vbardales/Rimworld-Animal-Cosmetic-Genes.git
 visibility: public             # original creation, nothing taken from another mod (PUBLISHING.md, "Nommage")
 detached: yes
-workflow_stage: followUp[1.0.0]
+workflow_stage: playTests[1.0.0]
 licence: original
 licence_at: "2026-10-31: original work, MIT (LICENSE and Mod/LICENSE). No third-party code: Animal Traits System (Luved) is a dependency only, Gene Freedom (FarmerJoe) was disassembled to study, nothing copied."
 upstream_mod_remotes: N/A      # no source mod: Big and Small, Gene Freedom and Animal Traits System gave the idea or the framework only, none of their code is used
@@ -18,6 +18,7 @@ workshop: 3837162966
 published: yes
 tested_on: "2026-11-07 French at 7965f0d (tickets d580 and 8554, acg-serum-bench-chain-fr and acg-serum-second-tint-refused-fr, proofs Evidence/playtests-replay-fr and playtests-replay-fr-2) and 2026-11-07 at 66f5590 (Pickle ticket 0691 green 8 of 8, English, acg-marking: acg-chest-patch-kuroneko, acg-coat-thrumbo, acg-coat-labrador, acg-coat-panther, acg-gene-tint-thrumbo, acg-serum-second-tint-refused, acg-serum-bench-recipe, acg-serum-bench-look; captures read: chest patch on Kuru1, thrumbo tinted; no ACG error in Player.log; Source/Mod unchanged since 2a3846c; proof in Tests/Pickle/Evidence/playtests-replay-en) and 2026-11-06 at 2a3846c (automated: unit tests AtsRules pass, build SAME 0 warnings, Check-Translations PASS, Check-Steps clean, Test-Mod.ps1 6 of 6). Pickle last green 2026-11-02 at 4616d5f (tickets 6184, 7f31, 6146, 6c3b, ba7f, 0f31, 989d, 8805, 6352, 0b9d) and 2026-11-06 gene-ui English and French (9615, c68d); Source changed since in 1c5278d (refusal reasons Keyed), replay due at playTests"
 remaining:
+  - "2026-11-10 (Virginie: no longer in followUp): the 1.7 diagnostic is a variant of playTests (AUDIT.md, Passe 1.7), so the stage is playTests[1.0.0] while ticket db26 runs, like the other mods on a 1.7 pass. 1.0.0 stays published (item 3837162966 public, tag v1.0.0); followUp[1.0.0] resumes when the 1.7 result is in (tested_1_7 recorded). Open under followUp: author replies to the thank-you comments, 14.a non-regression on the published build, 14.c cleanup, 14.e dormant."
   - "2026-11-10 (Virginie: 1.7 go, reset the state): game config reset (game closed): ModsConfig.xml restored from ModsConfig.xml.bak-before-acg-upload (142 mods), the minimal list kept as ModsConfig.xml.bak-acg-minimal, devMode back to False (Prefs.xml, copy Prefs.xml.bak-acg-devmode), the junction Mods\AnimalCosmeticGenes removed (the Workshop item is now the copy, a local one with the same packageId would clash). 1.7 diagnostic ticket 20261110-062216-770-db26 filed (Tests/Pickle/Inbox/diag-17, wsl-deps.acg-marking.map, -Game /home/nelim/rimworld17, English only, filter acg-coat, acg-gene-tint, acg-serum, acg-chest without the -fr ones; current net472 DLL first; gallery and French scenarios left out). tested_1_7 stays unset until the result; no <li>1.7</li> in supportedVersions before a green run (a later publication gesture, new version). At RUN_DONE: read summary.json and junit.xml, tested_1_7 yes or no (log error in Docs/runs), Audit told."
   - "2026-11-10 (thank-you comments, Virginie): nine posted on 2026-11-10 (Animal Traits System, Lets Have a Cat Continued, Gene Freedom, Genes Expanded Skin and Hair, Seren, Cookie Genes, Lisa Work Apparel, Roo HD Hairstyles continued); Ponpeco Accessories has comments closed, credited in the Thanks only (not_applicable); Stick Lantern and Pickle already covered. Registry docs/WORKSHOP_COMMENTS.md and the table of PUBLICATION.md updated (5b2e5bf, c6448bc). Left: replies of authors to follow under the same entries, tested_1_7 (1.7 diagnostic ticket on request), ModsConfig.xml restore."
   - "2026-11-10 (description updated by hand on Steam, Virginie, after 1.0.0): credits added (Stick Lantern by Dalrae and Mlie, Lisa Work Apparel by Hysteria82, Ponpeco Accessories, Roo HD Hairstyles continued by Rooboid and Qux), AI-generated line names DALL-E (OpenAI) for the preview image. The CI refuses a publish on a version whose tag exists, so no 1.0.1: BBCode made from the PUBLICATION.md block (5141 bytes) and pasted by her; page read with Chrome: the description matches PUBLICATION.md and About.xml (commit 26923e6), no change to Mod/ content. Thank-you comments: ten drafts in PUBLICATION.md (ATS, LHAC Continued, Gene Freedom, Genes Expanded Skin and Hair, Seren, Cookie Genes, Lisa Work Apparel, Ponpeco, Roo HD continued), registry rows drafted in docs/WORKSHOP_COMMENTS.md, Stick Lantern and Pickle already covered. Virginie posts them, at most three a day, then the session marks the rows posted."
@@ -46,7 +47,7 @@ publication_changelog_review_sha: 57ede13f5d56931e0d0bb9612416a3a08ffe25a3
 echo_review_sha: a53fb7db35efa8918c6432520597131dd59d0467
 social_preview_sha256: ba25c178b574d4c424c49adf0bdfe73a28b79f39c946643772cb995fb86e0a0b
 updated: 2026-11-07
-protocols_read_sha: d4d50edc8aa6bde503de8b2ab898b17f12223644
+protocols_read_sha: 854462626491e244351f3d19c57b47dca9b3162c
 ---
 
 # Animal Cosmetic Genes: status
