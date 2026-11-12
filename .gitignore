@@ -27,6 +27,8 @@ desktop.ini
 *.DDS
 
 # Evidence of Pickle runs: on disk, never in git.
+Tests/Pickle/Inbox/
+Tests/Pickle/Parked/
 Tests/Pickle/evidence/
 Tests/Pickle/Evidence/
 *.webm
