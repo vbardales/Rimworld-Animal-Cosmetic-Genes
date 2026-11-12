@@ -18,7 +18,7 @@ workshop_required_items: done, 2026-11-10
 workshop: 3837162966
 published: yes
 tested_on: "2026-11-07 French at 7965f0d (tickets d580 and 8554, acg-serum-bench-chain-fr and acg-serum-second-tint-refused-fr, proofs Evidence/playtests-replay-fr and playtests-replay-fr-2) and 2026-11-07 at 66f5590 (Pickle ticket 0691 green 8 of 8, English, acg-marking: acg-chest-patch-kuroneko, acg-coat-thrumbo, acg-coat-labrador, acg-coat-panther, acg-gene-tint-thrumbo, acg-serum-second-tint-refused, acg-serum-bench-recipe, acg-serum-bench-look; captures read: chest patch on Kuru1, thrumbo tinted; no ACG error in Player.log; Source/Mod unchanged since 2a3846c; proof in Tests/Pickle/Evidence/playtests-replay-en) and 2026-11-06 at 2a3846c (automated: unit tests AtsRules pass, build SAME 0 warnings, Check-Translations PASS, Check-Steps clean, Test-Mod.ps1 6 of 6). Pickle last green 2026-11-02 at 4616d5f (tickets 6184, 7f31, 6146, 6c3b, ba7f, 0f31, 989d, 8805, 6352, 0b9d) and 2026-11-06 gene-ui English and French (9615, c68d); Source changed since in 1c5278d (refusal reasons Keyed), replay due at playTests"
-  - "2026-11-10 (14.a non-regression of the published 1.1.0, filed at 6bba711 tree, 1.6): ticket c6b2 English (acg-load-clean, chest-patch-kuroneko, coat-thrumbo, coat-labrador, coat-panther, gene-tint-thrumbo, serum-apply, serum-bench-recipe, serum-bench-look) and ticket d5d0 French (acg-serum-bench-chain-fr, acg-serum-second-tint-refused-fr), both acg-marking map, evidence Tests/Pickle/Inbox/nonreg-110-en and nonreg-110-fr. Mod/ changed since the last green run only in About.xml, ATTRIBUTION and two French colour names, no code. Waiting for RUN_DONE; no Monitor or loop."
+  - "2026-11-12 (14.a non-regression of the published 1.1.0 DONE, green, 1.6, read summary.json each): ticket c6b2 English 9 of 9 (acg-load-clean, chest-patch-kuroneko, coat-thrumbo, coat-labrador, coat-panther, gene-tint-thrumbo, serum-apply, serum-bench-recipe, serum-bench-look) and ticket d5d0 French 2 of 2 (acg-serum-second-tint-refused-fr, acg-serum-bench-chain-fr), both exit passed, no ACG error in Player.log. Evidence moved from Inbox to Tests/Pickle/Evidence/nonreg-110-en and nonreg-110-fr (Prune-Evidence -Apply); Evidence at 3.3 MB, over the 2 MB target: 14.c triage of the older folders still to do. Left in followUp[1.1.0]: 14.c cleanup, 14.e dormant, subscribe-test 13.b on 1.6 and 1.7, Workshop tags check, collection RimWorld through Nelim eyes (AUDIT.md 13.c, 13.f: not recorded for 1.0.0, ask Virginie)."
 remaining:
   - "2026-11-10 (Steam page set by Virginie, by her word): Animal Traits System 3652630316 added as Required item, DLC field, content descriptors and the 1.6 and 1.7 tags checked/set. Details beyond \"fait\" not reported (not read live). Open: Audit to write the Required items rule in the protocols."
   - "2026-11-10 (Virginie answered Lucius on the Workshop page, by her word): thanks given, Required items and Vanilla Ranching Expanded noted. Raised to Audit (protocol gap: Required items not in AUDIT.md or PUBLISHING.md). Still to do by Virginie: set Animal Traits System 3652630316 as Required item on the item page, check the 1.6 and 1.7 tags."
@@ -66,7 +66,7 @@ echo_review_sha: 00ee1f97f488bf62f5a08bbae62c3887cd094360
 social_preview_sha256: 5b64210d4538b220a7a7bbb057140fd2abccea157b723103e83324faab058794
 tested_1_7: yes
 updated: 2026-11-10
-protocols_read_sha: 11b1468b1d5d4cc606be3f4b1341a8444edc1025
+protocols_read_sha: 4d927dc2aa9751f05097b29be19a1b9e3ba15a52
 ---
 
 # Animal Cosmetic Genes: status
