@@ -60,6 +60,7 @@ Moved to `makeSources` on 2026-10-31. Repository skeleton created on 2026-10-31 
 - Review (2026-11-02, revision 4248e05): ChatGPT review in three passes, corrections applied (tint sentence without agreement, adjective colours agreeing with couleur, "ses genes qui donnent" then "a raison d'un serum pour chaque gene conferant", graphisme, chestnut and rosy); third pass: no correction. Virginie validated the French on 2026-11-02 (reviewer: Virginie, review validated as is, no correction asked).
 
 - Review 2026-11-06 (revision 771efea): six refusal keys ACG_Refuse* added, ChatGPT review passes 4 (applied: blanc pur, Gulf Stream, albacore, two CHANGELOG wordings; kept plastron blanc), last pass no correction. Virginie validated the review on 2026-11-06 (reviewer: Virginie, validated as is, no further correction asked).
+- Review 2026-11-12 (revision 9b21b96): ChatGPT review of the texts, three passes (3 applied: beeswax and goldfish spelling, PUBLICATION line 3; 1 rejected, logged in Docs/review-refusals.md; last two passes no correction). Virginie validated the review on 2026-11-12 (reviewer: Virginie, validated as is, no further correction asked).
 
 ## NSB
 
