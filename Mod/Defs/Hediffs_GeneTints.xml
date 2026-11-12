@@ -376,8 +376,8 @@
 
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GES_Skin_GoldFish</defName>
-    <label>gold fish coat</label>
-    <description>A gold fish tint runs through this animal's coat.</description>
+    <label>goldfish coat</label>
+    <description>A goldfish tint runs through this animal's coat.</description>
     <skinColorTint>(0.973, 0.596, 0.114, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -901,8 +901,8 @@
 
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GES_Skin_BeesWax</defName>
-    <label>bees wax coat</label>
-    <description>A bees wax tint runs through this animal's coat.</description>
+    <label>beeswax coat</label>
+    <description>A beeswax tint runs through this animal's coat.</description>
     <skinColorTint>(0.784, 0.549, 0.071, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -2251,8 +2251,8 @@
 
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GEH_Hair_GoldFish</defName>
-    <label>gold fish coat</label>
-    <description>A gold fish tint runs through this animal's coat.</description>
+    <label>goldfish coat</label>
+    <description>A goldfish tint runs through this animal's coat.</description>
     <skinColorTint>(0.973, 0.596, 0.114, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">
@@ -2776,8 +2776,8 @@
 
   <HediffDef ParentName="ACG_GeneTintBase">
     <defName>AnimalTrait_GEH_Hair_BeesWax</defName>
-    <label>bees wax coat</label>
-    <description>A bees wax tint runs through this animal's coat.</description>
+    <label>beeswax coat</label>
+    <description>A beeswax tint runs through this animal's coat.</description>
     <skinColorTint>(0.784, 0.549, 0.071, 1)</skinColorTint>
     <modExtensions>
       <li Class="AnimalTraitExtension.AnimalTraitExtension">

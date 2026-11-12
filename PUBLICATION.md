@@ -1,6 +1,6 @@
 # Animal Cosmetic Genes: publication
 
-This is the record of everything the Workshop page requires and that the repository stores nowhere else. The mod is published (`STATUS.md`: `published: yes`, 1.0.0 live, 1.1.0 in preparation, public repository, published through the CI, `PUBLISHING.md`, "Deux modes de publication").
+This is the record of everything the Workshop page requires and that the repository stores nowhere else. The mod is published (`STATUS.md`: `published: yes`, 1.1.0 live, public repository, published through the CI, `PUBLISHING.md`, "Deux modes de publication").
 
 ## Steam description
 

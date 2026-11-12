@@ -9,7 +9,7 @@
   "amethyst": "améthyste",
   "azure": "azur",
   "banana split": "banana split",
-  "bees wax": "cire d'abeille",
+  "beeswax": "cire d'abeille",
   "berry": "baie",
   "black": "noir",
   "blonde": "blond",
@@ -66,7 +66,7 @@
   "forged steel": "acier forgé",
   "fuchsia": "fuchsia",
   "ghost grey": "gris fantôme",
-  "gold fish": "poisson rouge",
+  "goldfish": "poisson rouge",
   "golden": {
     "m": "doré",
     "f": "dorée"
@@ -93,7 +93,7 @@
   "light teal": "sarcelle clair",
   "lilac": "lilas",
   "magenta": "magenta",
-  "maroon": "marron",
+  "maroon": "bordeaux",
   "mars red": "rouge de Mars",
   "maui surf": "écume de Maui",
   "mauve": "mauve",
@@ -180,7 +180,7 @@
   "violet": "violet",
   "white": "blanc",
   "wild blueberry": "myrtille sauvage",
-  "wine": "vin",
+  "wine": "lie-de-vin",
   "wisteria": "glycine",
   "yellowfin": "albacore"
 }

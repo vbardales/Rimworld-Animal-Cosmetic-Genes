@@ -41,7 +41,7 @@ function Get-ColourName([string]$defName) {
   $s = ($s -creplace '([a-z])([A-Z])', '$1 $2') -creplace '([A-Za-z])([0-9])', '$1 $2'
   $s = $s.Replace('_', ' ').ToLowerInvariant().Trim()
   # Misspellings in the other mods' gene names, corrected in the displayed name only
-  $s -replace 'chesnut', 'chestnut' -replace 'rosey', 'rosy' -replace '^sky$', 'sky-blue'
+  $s -replace 'chesnut', 'chestnut' -replace 'rosey', 'rosy' -replace '^sky$', 'sky-blue' -replace '^bees wax$', 'beeswax' -replace '^gold fish$', 'goldfish'
 }
 
 if (-not (Test-Path $Catalogue)) { throw "Catalogue not found: $Catalogue" }
