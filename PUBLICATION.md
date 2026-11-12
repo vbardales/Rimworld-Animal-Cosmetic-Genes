@@ -83,8 +83,7 @@ The table matches the gallery table of `STATUS.md` (all six accepted by Virginie
 
 For Virginie, to add to the collection [RimWorld through Nelim's eyes](https://steamcommunity.com/sharedfiles/filedetails/?id=3815982565) (AUDIT.md 13.c):
 
-- The mod: [Animal Cosmetic Genes](https://steamcommunity.com/sharedfiles/filedetails/?id=3837162966).
-- Its dependency: [Animal Traits System](https://steamcommunity.com/sharedfiles/filedetails/?id=3652630316).
+- The mod: [Animal Cosmetic Genes](https://steamcommunity.com/sharedfiles/filedetails/?id=3837162966). Only the mod: its dependency Animal Traits System is not by Nelim, so it does not go in the collection (Virginie, 2026-11-12).
 - The DLC it requires: Biotech (a DLC, not a Workshop item: it cannot be added to a collection, listed for the record).
 - Its descriptors (Workshop tags of the item): Mod, 1.6, 1.7.
 - No `OptionalCompat.xml`: no optional compatibility to add.
