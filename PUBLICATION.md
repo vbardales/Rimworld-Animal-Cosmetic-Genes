@@ -79,6 +79,16 @@ The table matches the gallery table of `STATUS.md` (all six accepted by Virginie
 - Optional gene mods, not declared (their genes are looked up by name): Genes Expanded - Skin Colors 3214172563, Genes Expanded - Hair 3221946756, Seren, from Stardust 3726565301, Cookie Genes (Skin and Hair Colors) 2879072525.
 - Supported version: the latest RimWorld version only.
 
+## Collection
+
+For Virginie, to add to the collection [RimWorld through Nelim's eyes](https://steamcommunity.com/sharedfiles/filedetails/?id=3815982565) (AUDIT.md 13.c):
+
+- The mod: [Animal Cosmetic Genes](https://steamcommunity.com/sharedfiles/filedetails/?id=3837162966).
+- Its dependency: [Animal Traits System](https://steamcommunity.com/sharedfiles/filedetails/?id=3652630316).
+- The DLC it requires: Biotech (a DLC, not a Workshop item: it cannot be added to a collection, listed for the record).
+- Its descriptors (Workshop tags of the item): Mod, 1.6, 1.7.
+- No `OptionalCompat.xml`: no optional compatibility to add.
+
 ## Adult content
 
 Answer to the content boxes: **no adult content**. The six gallery images and the preview show animals, one colonist in everyday clothes and a workbench; no nudity, gore or sexual content.
