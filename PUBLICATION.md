@@ -197,11 +197,3 @@ The change note sent to Steam with an upload, under the heading of its version: 
 
 Support for the latest RimWorld version declared after an English-language test pass. Nothing else changes.
 ```
-
-### 1.0.0
-
-```
-[b]1.0.0[/b]
-
-First release. Coat tint traits from the colour genes of the game, a serum bench, serums applied to animals, and a white chest patch for Kuru of Let's Have a Cat! Continued.
-```

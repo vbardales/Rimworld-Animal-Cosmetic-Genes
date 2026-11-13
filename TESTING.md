@@ -16,22 +16,15 @@ One scenario per promised behaviour. Pickle scenarios in `Tests/Pickle/Mod/Pickl
 | Second coat tint refused, French menu | acg-serum-second-tint-refused-fr (acg-serum-apply) | French copy, step matches French float menu label |
 | Chest patch drawn on cat Kuru | acg-chest-patch-kuroneko (acg-chest-patch) | white patch on chest, south, east and west, paws free |
 
-## Automated checks, replayed 2026-11-06 at 2a3846c (Source last changed 1c5278d)
+## Automated checks, current revision (published 1.1.0, Source and Mod last changed fa88ffe, replayed 2026-11-13)
 
-- Unit tests (`Run-UnitTests.ps1`): AtsRules, all passed, 0 warnings (refusal reasons are Keyed keys: tests check key and clash).
-- Build (`Build-Mod.ps1 -Check`): 0 warnings, 0 errors, DLL same as sources.
-- XML: every file of `Mod/` parses; `Check-DefRefs.ps1` resolves every ParentName; `Check-XmlFields.ps1` reports only Animal Traits System fields (known noise, its DLL not loaded by checker).
-- `Check-Translations.ps1`: PASS (503 source texts, 6 Keyed calls). `Check-ModBasics.ps1`: 0 errors, one WARN (About description must end with GitHub source link, `writeDocs`).
-- `Tests/Test-Mod.ps1` (shared checks, then `Tests/Rule-OwnValues.ps1`, 9 rules): 6 of 6 pass.
-- `Check-Steps.ps1`: 6 feature files parse (19 scenarios), 376 step lines resolve, none declared twice. Every suite carries its `@requires` tags.
+- Unit tests (`Run-UnitTests.ps1`): AtsRules, all passed.
+- `Check-Translations.ps1`: PASS (503 source texts plus 1 nested, 6 Keyed calls). `Check-ModBasics.ps1`: 19 XML files, 254 defs, PASS, one WARN (About description must end with the GitHub source link).
+- `Tests/Test-Mod.ps1` (shared checks, then `Tests/Rule-OwnValues.ps1`): 6 of 6 pass.
+- `Check-Steps.ps1`: 7 feature files parse (26 scenario blocks), 661 step lines resolve, none declared twice.
+- Pickle non-regression of the published 1.1.0 (2026-11-12, 1.6): English 9 of 9 (ticket c6b2), French 2 of 2 (ticket d5d0), proofs in `Tests/Pickle/Evidence/nonreg-110-en` and `nonreg-110-fr`.
 
 ## Not applicable
 
 - Settings: mod has none (`settings_audit: not_applicable`, STATUS.md).
-- Cat mods other than Let's Have a Cat! Continued: chest patch for Kuru only in 1.0.0 (backlog).
-
-## Not tested
-
-- Scenarios older than last Source change (1c5278d) need small replay at playTests: acg-serum-bench-recipe, acg-serum-second-tint-refused, acg-coat-thrumbo, acg-coat-labrador, acg-coat-panther, acg-gene-tint-thrumbo, acg-chest-patch-kuroneko, acg-serum-bench-look.
-- Refusal texts in French (float menu, message) in game: playTests.
-- Raw keys and clipped text in French: playTests.
+- Cat mods other than Let's Have a Cat! Continued: chest patch for Kuru only (backlog).
