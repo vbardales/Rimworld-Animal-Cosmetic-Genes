@@ -37,7 +37,7 @@ echo_review_sha: 00ee1f97f488bf62f5a08bbae62c3887cd094360
 social_preview_sha256: 5b64210d4538b220a7a7bbb057140fd2abccea157b723103e83324faab058794
 tested_1_7: yes
 updated: 2026-11-13
-protocols_read_sha: 8122e571e4c69e80c782410acc374e68ceffbaf1
+protocols_read_sha: f841c5f9ab05bf74ec74aceca3b341b57479875b
 ---
 
 # Animal Cosmetic Genes: status
