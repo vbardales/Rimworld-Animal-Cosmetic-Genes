@@ -36,6 +36,8 @@
 #                     at (132, 121) lit. Subtitle: "Home at dusk, with a few new colours."
 #                     Instant: the walk home has just begun over the bridge. Foreground the pale-red labrador and Shogun, background the grazing horse and the lit lantern, low golden light from the west.
 #   6. genepack-window interface window (not rated), window-backdrop-for-height, cropped, no subtitle: genepack at (90, 140), ITab_Genes, "Chest patch".
+#   7. three-vials-7   preindustrial-workshop 16h (centre 222, 237) close, root size 2 centred (222, 236). 2026-11-13 added on Virginie's word (1.2.0: the serum liquid takes the colour of its gene). ACG_SerumBench at (222, 236), three serums on the cells north of it: Skin_Blue (221, 235), Skin_Orange (222, 235), Skin_Purple (223, 235). Nelim at (222, 237) facing south, own face (smirk, brows), same outfit, Shogun at (221, 237) facing east. Decor of shot 1 (torches, stool, daylily pots, sculptures, shelves, GeneBank). Subtitle: "Three genes, three colours."
+#                     Instant: the three serums are lined up on the bench, she is about to pick one. Foreground the three vials, background the torches and the shelves, late afternoon light.
 # Mods for the -DepMap: wsl-deps.acg-gallery.map (NSB wsl-deps.sanctuary-nelim.map + luved.animaltraits + akairo.LetsHaveaCat + Mlie.StickLantern 2024351846).
 # Director remarks kept: vial close cut, Kuru shot is the close shot, Tama dropped, mid-action instants, unnatural tints, no brazier or bed in the barn,
 # Kuru dropped from the bridge. Not taken: asking validation for Kuru (his chest patch is NSB canon, rule 3 covers colonist properties only).
@@ -331,3 +333,57 @@ Feature: ACG gallery
     Then Nelim's Pickle Tools: the "ITab_Genes" inspect tab is open
     When Nelim's Pickle Tools: I let 5 frames pass
     Then I take a screenshot "acggallery-6-genepack-window"
+
+  Scenario: acg-gallery-7-three-vials
+    Given the save "Nelims-tribe" is loaded
+    And I set the hour to 16
+    And Nelim's Sanctuary: the animals are removed from the sanctuary "preindustrial-workshop"
+    And Nelim's Sanctuary: the sanctuary "preindustrial-workshop" is emptied
+    And Nelim's Sanctuary: I am at the sanctuary "preindustrial-workshop"
+    And Nelim's Pickle Tools: the temperature of the map is 20 degrees
+    And Nelim's Pickle Tools: studio presentation mode is enabled
+    And Nelim's Pickle Tools: the colonist bar is hidden
+    And Nelim's Pickle Tools: the learning helper is hidden
+    And Nelim's Pickle Tools: the tooltips are hidden
+    And Nelim's Pickle Tools: the resource readout is hidden
+    And Nelim's Pickle Tools: the selection brackets are hidden
+    And Nelim's Pickle Tools: I move the mouse to (10, 10)
+    And Nelim's Pickle Tools: "Nelim" hairstyle is "Roo_HD_Hair_Highpony"
+    And Nelim's Pickle Tools: the colonist "Nelim" follows an apparel policy that allows everything
+    And Nelim's Pickle Tools: "Nelim" is undressed
+    And Nelim's Pickle Tools: "Nelim" wears "LisaWork_ApparelShirtButtoned" made of "Cloth"
+    And Nelim's Pickle Tools: the "LisaWork_ApparelShirtButtoned" worn by "Nelim" is dyed rgb (222, 203, 164)
+    And Nelim's Pickle Tools: "Nelim" wears "LisaWork_ApparelSkirt" made of "Cloth"
+    And Nelim's Pickle Tools: the "LisaWork_ApparelSkirt" worn by "Nelim" is dyed rgb (31, 58, 95)
+    And Nelim's Pickle Tools: "Nelim" wears "Apparel_PAESmallEarrings" made of "Gold"
+    And Nelim's Pickle Tools: "Nelim" wears "LisaWork_ApparelHornRimmedGlasses" made of "Gold"
+    And Nelim's Pickle Tools: I place the decor "TorchLamp" at (221, 239)
+    And Nelim's Pickle Tools: I place the decor "TorchLamp" at (226, 239)
+    And Nelim's Pickle Tools: the decor "TorchLamp" at (221, 239) is lit
+    And Nelim's Pickle Tools: the decor "TorchLamp" at (226, 239) is lit
+    And Nelim's Pickle Tools: I place the decor "Stool" near (224, 236)
+    And Nelim's Pickle Tools: I place the decor "PlantPot" holding "Plant_Daylily" fully grown at (227, 238)
+    And Nelim's Pickle Tools: I place the decor "SculptureSmall" near (220, 239)
+    And Nelim's Pickle Tools: a decor that finds no cell is skipped and logged
+    And Nelim's Pickle Tools: I place the decor "Shelf" near (220, 234)
+    And Nelim's Pickle Tools: I place the decor "Table1x2c" near (226, 234)
+    And Nelim's Pickle Tools: I place the decor "Shelf" near (225, 233)
+    And Nelim's Pickle Tools: I place the decor "PlantPot" holding "Plant_Daylily" fully grown at (220, 235)
+    And Nelim's Pickle Tools: I place the decor "SculptureSmall" near (224, 239)
+    And Nelim's Pickle Tools: I place the decor "Stool" near (221, 233)
+    And Nelim's Pickle Tools: I place the decor "GeneBank" near (225, 238)
+    And Nelim's Pickle Tools: the building "ACG_SerumBench" is spawned at (222, 236)
+    And game speed is paused
+    And Nelim's Pickle Tools: the animal "Shogun" stands at (221, 237)
+    And Nelim's Pickle Tools: the animal "Shogun" faces east
+    And Nelim's Pickle Tools: "Nelim" stands at (222, 237) facing South
+    And Nelim's Pickle Tools: the item "ACG_AnimalTraitSerum" is spawned at (221, 235) with the field "gene" set to the def "Skin_Blue"
+    And Nelim's Pickle Tools: the item "ACG_AnimalTraitSerum" is spawned at (222, 235) with the field "gene" set to the def "Skin_Orange"
+    And Nelim's Pickle Tools: the item "ACG_AnimalTraitSerum" is spawned at (223, 235) with the field "gene" set to the def "Skin_Purple"
+    And Nelim's Sanctuary: Nelim has her own face
+    And Nelim's Pickle Tools: I frame the area centred on (222, 236) at root size 2
+    And Nelim's Pickle Tools: the camera orthographic size is held at 2
+    When Nelim's Pickle Tools: I let 5 frames pass
+    Then I take a screenshot "acggallery-7-three-vials"
+    And Nelim's Pickle Tools: the decor is removed
+

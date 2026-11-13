@@ -68,8 +68,9 @@ Upload in this order (the files of `Art/Gallery/`, subtitles burnt in before Vir
 | 4 | 4-horse.jpg | the barn horse and a tinted alpaca | Next in line: the barn horse. |
 | 5 | 5-bridge-dusk.jpg | tinted animals at the bridge at dusk | Home at dusk, with a few new colours. |
 | 6 | 6-genepack-window.jpg | the genepack window with the chest patch gene | none (interface capture) |
+| 7 | 7-three-vials.jpg | three serums on the bench, blue, orange and purple liquids | Three genes, three colours. |
 
-The table matches the gallery table of `STATUS.md` (all six accepted by Virginie, 2026-11-09).
+The table matches the gallery table of `STATUS.md` (six accepted by Virginie, 2026-11-09; shot 7 added 2026-11-13 on her word, awaiting capture).
 
 ## Dependencies and DLC
 
@@ -185,6 +186,7 @@ One English line per story scene, burnt in with `../scripts/Add-Subtitle.ps1` fr
 | 4 | 4-horse.jpg | Next in line: the barn horse. |
 | 5 | 5-bridge-dusk.jpg | Home at dusk, with a few new colours. |
 | 6 | 6-genepack-window.jpg | none (interface capture) |
+| 7 | 7-three-vials.jpg | Three genes, three colours. |
 
 ## Release notes (the change note of each upload)
 
