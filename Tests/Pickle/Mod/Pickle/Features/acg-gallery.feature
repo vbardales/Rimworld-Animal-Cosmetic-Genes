@@ -24,7 +24,7 @@
 #                     AnimalTrait_Skin_PaleRed (tints multiply the coat: blue on yellow read grey in runs 5ea8 and be78), both facing south toward the camera. Nelim at (153, 109) facing west walks to (152, 109), paused mid-stride (8 ticks). Plant_Daylily
 #                     at (153, 111) and (156, 111), DR_StickLantern at (152, 111) lit (the flower pot is dropped: its rim under the plant read as a smiley in run 54eb). Subtitle: "Same breed, two coats."
 #                     Instant: Nelim has just walked off after the tint, the two dogs hold their pose. Foreground the two labradors, background the daylilies and the lantern, dogs off-centre, midday light.
-#   4. horse-4-serum   barn 14h (centre 197, 237) medium, root size 3 (run gallery-s: hay field bare, decoration 3.5; two stools, shelf, sculpture, two daylilies added), Nelim re-placed at (195, 237), more Hay at (195, 240) (198, 235) (200, 241), TorchLamp near (192, 239) and (202, 238) (run 9852 at root size 4 cut the alpaca and lanterns off). Nelim at (195, 237) faces the horse "Mare1" at (198, 237) (the serum lies at (196, 237) between her and the horse, gene Skin_Blue, 2026-11-13: blue not orange so the 1.2.0 liquid tint contrasts with the hay at 268 px; the NPT step "holds in hand" draws nothing in her hand, run 09ef)
+#   4. horse-4-serum   barn 14h (centre 197, 237) medium, root size 2 centred (196, 237) since 2026-11-13 (vial 33 px at 268 px, was 18 at root 3, unreadable); earlier root size 3 (run gallery-s: hay field bare, decoration 3.5; two stools, shelf, sculpture, two daylilies added), Nelim re-placed at (195, 237), more Hay at (195, 240) (198, 235) (200, 241), TorchLamp near (192, 239) and (202, 238) (run 9852 at root size 4 cut the alpaca and lanterns off). Nelim at (195, 237) faces the horse "Mare1" at (198, 237) (the serum lies at (196, 237) between her and the horse, gene Skin_Blue, 2026-11-13: blue not orange so the 1.2.0 liquid tint contrasts with the hay at 268 px; the NPT step "holds in hand" draws nothing in her hand, run 09ef)
 #                     the apply not yet done (60 ticks pass before the placement so she is drawn, test T1 of NPT). Alpaca "Alpa1" at (197, 236) south of the horse (run gallery-t: at 239 it sat at the top, background) with AnimalTrait_Skin_Purple in the foreground (run 54eb: cut off at the top, a cow and a piglet at the west edge: frame moved east, root size 4). Hay at (194, 239),
 #                     DR_StickLantern at (195, 238) and (200, 238) lit, two more Hay at (196, 236) and (199, 239). Animals kept out of cells (190, 231) to (204, 234) so the brown chicken of run ba18 stays out of the bottom edge. Subtitle: "Next in line: the barn horse."
 #                     [2026-11-09 recompose after run ff28: shot 2 hold 0.9; shot 4 alpaca and lanterns moved inside the frame; shot 5 frame on the bridge planks, animals re-placed after the pause]
@@ -256,8 +256,8 @@ Feature: ACG gallery
     And Nelim's Pickle Tools: the animal "Alpa1" faces south
     And Nelim's Pickle Tools: "Nelim" stands at (195, 237) facing South
     And Nelim's Pickle Tools: the item "ACG_AnimalTraitSerum" is spawned at (196, 237) with the field "gene" set to the def "Skin_Blue"
-    And Nelim's Pickle Tools: I frame the area centred on (197, 237) at root size 3
-    And Nelim's Pickle Tools: the camera orthographic size is held at 3
+    And Nelim's Pickle Tools: I frame the area centred on (196, 237) at root size 2
+    And Nelim's Pickle Tools: the camera orthographic size is held at 2
     When Nelim's Pickle Tools: I let 5 frames pass
     Then I take a screenshot "acggallery-4-horse"
     And Nelim's Pickle Tools: the decor is removed
