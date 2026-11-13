@@ -46,3 +46,23 @@ Feature: ACG serum chain
     Then Nelim's Pickle Tools: "Nelim" cannot pick the float menu option "Appliquer peau orange à Spike1" on "Spike1"
     And Nelim's Pickle Tools: "Spike1" does not hold the hediff "AnimalTrait_Skin_Orange"
     And Nelim's Pickle Tools: no error was logged since the error log was marked
+
+  # 2026-11-13 (1.2.0): the liquid of a serum takes the colour of the tint its gene gives. Three serums side by side on the bench cell:
+  # Skin_Blue, Skin_Orange and ACG_ChestPatch (a marking, no colour of its own: turquoise fallback). Read the capture: three vials, three liquids.
+  @review @timeout:300 @requires:nelim.pickletools.screenshotstudio @requires:nelim.pickletools.camerazoom
+  Scenario: acg-serum-tint-look
+    Given the save "Nelims-tribe" is loaded
+    And Nelim's Pickle Tools: the error log is marked
+    And Nelim's Pickle Tools: the item and name labels are hidden
+    And Nelim's Pickle Tools: the tooltips are hidden
+    And Nelim's Pickle Tools: the colonist bar is hidden
+    And Nelim's Pickle Tools: the learning helper is hidden
+    And Nelim's Pickle Tools: all humans but "Nelim" are removed
+    And Nelim's Pickle Tools: the item "ACG_AnimalTraitSerum" is spawned at (176, 121) with the field "gene" set to the def "Skin_Blue"
+    And Nelim's Pickle Tools: the item "ACG_AnimalTraitSerum" is spawned at (177, 121) with the field "gene" set to the def "Skin_Orange"
+    And Nelim's Pickle Tools: the item "ACG_AnimalTraitSerum" is spawned at (178, 121) with the field "gene" set to the def "ACG_ChestPatch"
+    And game speed is paused
+    And Nelim's Pickle Tools: I frame the area centred on (177, 121) at root size 4
+    When Nelim's Pickle Tools: I let 5 frames pass
+    Then I take a screenshot "acgserum-tint-three-vials"
+    And Nelim's Pickle Tools: no error was logged since the error log was marked
