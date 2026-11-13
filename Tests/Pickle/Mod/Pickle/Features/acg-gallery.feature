@@ -256,6 +256,7 @@ Feature: ACG gallery
     And Nelim's Pickle Tools: the animal "Alpa1" faces south
     And Nelim's Pickle Tools: "Nelim" stands at (195, 237) facing South
     And Nelim's Pickle Tools: the item "ACG_AnimalTraitSerum" is spawned at (196, 237) with the field "gene" set to the def "Skin_Blue"
+    And Nelim's Sanctuary: Nelim has her own face
     And Nelim's Pickle Tools: I frame the area centred on (196, 237) at root size 2
     And Nelim's Pickle Tools: the camera orthographic size is held at 2
     When Nelim's Pickle Tools: I let 5 frames pass
