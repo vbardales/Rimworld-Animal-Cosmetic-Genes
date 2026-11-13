@@ -196,7 +196,7 @@ Feature: ACG gallery
     And Nelim's Pickle Tools: "Nelim" faces South
     And Nelim's Sanctuary: Nelim has her own face
     And Nelim's Pickle Tools: the loose things within 10 cells of "Nelim" are removed
-    And Nelim's Pickle Tools: I frame the area centred on (155, 110) at root size 2.2
+    And Nelim's Pickle Tools: I frame the area centred on (154, 109) at root size 2.2
     And Nelim's Pickle Tools: the camera orthographic size is held at 1.8
     When Nelim's Pickle Tools: I let 10 frames pass
     Then Nelim's Pickle Tools: the camera orthographic size is 1.8
