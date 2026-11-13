@@ -3,6 +3,12 @@
 Format inspired by [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 This file serves the repository and the writing of Steam patch notes; RimWorld does not display it in game.
 
+## [Unreleased]
+
+### Changed
+
+- The liquid of the animal trait serum takes the colour of the coat tint its gene gives (it was one turquoise vial for every trait). A gene without a colour of its own, such as a marking, keeps the turquoise vial.
+
 ## [1.1.0] - 2026-11-10
 
 ### Added

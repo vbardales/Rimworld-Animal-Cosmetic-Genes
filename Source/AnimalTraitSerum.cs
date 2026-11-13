@@ -1,4 +1,5 @@
 using RimWorld;
+using UnityEngine;
 using Verse;
 
 namespace AnimalCosmeticGenes
@@ -14,11 +15,51 @@ namespace AnimalCosmeticGenes
 
         public GeneDef Gene => gene;
 
+        // The vial liquid is the colour of the coat tint the gene gives (the texture liquid is grey, masked by ACG_Serum_m,
+        // tinted through DrawColor). A gene with no colour of its own (a marking) keeps the original turquoise.
+        private static readonly Color DefaultLiquid = new Color(0.25f, 0.70f, 0.67f, 1f);
+
+        private Graphic tintedGraphic;
+
+        public override Color DrawColor
+        {
+            get
+            {
+                HediffDef trait = AnimalTraitGrant.TraitFor(gene);
+                if (trait != null)
+                {
+                    if (trait.skinColorTint.HasValue)
+                    {
+                        return trait.skinColorTint.Value;
+                    }
+                    if (trait.skinColorOverride.HasValue)
+                    {
+                        return trait.skinColorOverride.Value;
+                    }
+                }
+                return DefaultLiquid;
+            }
+        }
+
+        // Thing caches its graphic at first use, before Initialize or ExposeData has set the gene: keep our own, rebuilt on gene change.
+        public override Graphic Graphic
+        {
+            get
+            {
+                if (tintedGraphic == null)
+                {
+                    tintedGraphic = def.graphicData.GraphicColoredFor(this);
+                }
+                return tintedGraphic;
+            }
+        }
+
         public override string LabelNoCount => gene != null ? gene.label : base.LabelNoCount;
 
         public void Initialize(GeneDef gene)
         {
             this.gene = gene;
+            tintedGraphic = null;
         }
 
         public override string GetInspectString()
@@ -36,6 +77,10 @@ namespace AnimalCosmeticGenes
         {
             base.ExposeData();
             Scribe_Defs.Look(ref gene, "gene");
+            if (Scribe.mode == LoadSaveMode.PostLoadInit)
+            {
+                tintedGraphic = null;
+            }
         }
     }
 }
