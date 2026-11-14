@@ -26,7 +26,7 @@
 #                     Instant: Nelim has just walked off after the tint, the two dogs hold their pose. Foreground the two labradors, background the daylilies and the lantern, dogs off-centre, midday light.
 #   4. horse-4-serum   barn 14h (centre 197, 237) medium, root size 2 centred (196, 237) since 2026-11-13 (vial 33 px at 268 px, was 18 at root 3, unreadable); earlier root size 3 (run gallery-s: hay field bare, decoration 3.5; two stools, shelf, sculpture, two daylilies added), Nelim re-placed at (195, 237), more Hay at (195, 240) (198, 235) (200, 241), TorchLamp near (192, 239) and (202, 238) (run 9852 at root size 4 cut the alpaca and lanterns off). Nelim at (195, 237) faces the horse "Mare1" at (198, 237) (the serum lies at (196, 237) between her and the horse, gene Skin_Blue, 2026-11-13: blue not orange so the 1.2.0 liquid tint contrasts with the hay at 268 px; the NPT step "holds in hand" draws nothing in her hand, run 09ef)
 #                     the apply not yet done (60 ticks pass before the placement so she is drawn, test T1 of NPT). Alpaca "Alpa1" at (197, 236) south of the horse (run gallery-t: at 239 it sat at the top, background) with AnimalTrait_Skin_Purple in the foreground (run 54eb: cut off at the top, a cow and a piglet at the west edge: frame moved east, root size 4). Hay at (194, 239),
-#                     DR_StickLantern at (195, 238) and (200, 238) lit, two more Hay at (196, 236) and (199, 239). Animals kept out of cells (190, 231) to (204, 234) so the brown chicken of run ba18 stays out of the bottom edge. Subtitle: "Next in line: the barn horse."
+#                     DR_StickLantern at (195, 238) and (199, 238) lit, two more Hay at (196, 236) and (199, 239). Animals kept out of cells (190, 231) to (204, 234) so the brown chicken of run ba18 stays out of the bottom edge. Subtitle: "Next in line: the barn horse."
 #                     [2026-11-09 recompose after run ff28: shot 2 hold 0.9; shot 4 alpaca and lanterns moved inside the frame; shot 5 frame on the bridge planks, animals re-placed after the pause]
 #                     [2026-11-09 shot 2 recompose after run 6e7d: decoration 3.5 (torch flame and lamp cut at the edges): hour 10 (warm), run 8be5 at hold 0.85: bib about 14 px, torch flame still cut at the bottom edge (torches stood on rows 72 and 74), lanterns cut at the right edge. Recompose: two lit TorchLamp on the pair row, one at each side of the pair, serum spawned one cell further west, hold 1.0 (frame about 3.5 x 2 cells), bib expected about 12 px at 268 px, to measure; z3 save not used (needs Audit/NSB word)]
 #                     Sculpture near (196, 239): the sculpture placed on the bottom row was the brown coil cut at the bottom edge in run 1428.
@@ -230,8 +230,8 @@ Feature: ACG gallery
     And Nelim's Pickle Tools: I place the decor "Hay" at (194, 239)
     And Nelim's Pickle Tools: I place the decor "DR_StickLantern" at (195, 238)
     And Nelim's Pickle Tools: the decor "DR_StickLantern" at (195, 238) is lit
-    And Nelim's Pickle Tools: I place the decor "DR_StickLantern" at (200, 238)
-    And Nelim's Pickle Tools: the decor "DR_StickLantern" at (200, 238) is lit
+    And Nelim's Pickle Tools: I place the decor "DR_StickLantern" at (199, 238)
+    And Nelim's Pickle Tools: the decor "DR_StickLantern" at (199, 238) is lit
     And Nelim's Pickle Tools: I place the decor "Hay" at (196, 236)
     And Nelim's Pickle Tools: I place the decor "Hay" at (199, 239)
     And Nelim's Pickle Tools: I place the decor "Hay" at (195, 240)
@@ -257,9 +257,10 @@ Feature: ACG gallery
     And Nelim's Pickle Tools: the animal "Mare1" stands at (198, 237)
     And Nelim's Pickle Tools: the animal "Alpa1" stands at (197, 236)
     And Nelim's Pickle Tools: the animal "Alpa1" faces south
-    And Nelim's Pickle Tools: "Nelim" stands at (195, 237) facing South
+    And Nelim's Pickle Tools: "Nelim" stands at (195, 237) facing East
     And Nelim's Pickle Tools: the item "ACG_AnimalTraitSerum" is spawned at (196, 237) with the field "gene" set to the def "Skin_Blue"
     And Nelim's Sanctuary: Nelim has her own face
+    And Nelim's Pickle Tools: "Nelim" face skin is "SkinNormal"
     And Nelim's Pickle Tools: I frame the area centred on (196, 237) at root size 2
     And Nelim's Pickle Tools: the camera orthographic size is held at 2
     When Nelim's Pickle Tools: I let 5 frames pass
