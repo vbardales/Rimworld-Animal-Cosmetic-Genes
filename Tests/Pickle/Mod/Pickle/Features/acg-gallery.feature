@@ -262,6 +262,7 @@ Feature: ACG gallery
     And Nelim's Sanctuary: Nelim has her own face
     And Nelim's Pickle Tools: "Nelim" face skin is "SkinNormal"
     And Nelim's Pickle Tools: the Beauty2 mouth offset is 0.035
+    And Nelim's Pickle Tools: the Beauty2 mouth vertical offset is 0.015
     And Nelim's Pickle Tools: I frame the area centred on (196, 237) at root size 2
     And Nelim's Pickle Tools: the camera orthographic size is held at 2
     When Nelim's Pickle Tools: I let 5 frames pass
