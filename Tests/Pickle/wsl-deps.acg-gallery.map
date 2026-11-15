@@ -81,3 +81,5 @@ luved.animaltraits 3652630316
 akairo.LetsHaveaCat 3682940618
 Mlie.StickLantern 2024351846
 nelim.pickletools.inspecttabs path:PickleTools/InspectTabs/Mod
+# Beauty2 mouth pull-back fix (Harmony postfix hosted by the Backlot, step "the Beauty2 mouth offset is", NPT answer 2026-11-15, shot 4 East profile).
+nelim.sanctuarybacklot path:SanctuaryBacklot/Mod
