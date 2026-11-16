@@ -91,7 +91,7 @@ For Virginie, to add to the collection [RimWorld through Nelim's eyes](https://s
 
 ## Adult content
 
-Answer to the content boxes: **no adult content**. The six gallery images and the preview show animals, one colonist in everyday clothes and a workbench; no nudity, gore or sexual content.
+Answer to the content boxes: **no adult content**. The seven gallery images and the preview show animals, one colonist in everyday clothes and a workbench; no nudity, gore or sexual content.
 
 ## Thank-you comments
 
