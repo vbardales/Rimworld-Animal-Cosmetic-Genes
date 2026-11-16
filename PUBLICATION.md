@@ -203,31 +203,3 @@ The change note sent to Steam with an upload, under the heading of its version: 
 
 Full list of changes: [url=https://github.com/vbardales/Rimworld-Animal-Cosmetic-Genes/blob/main/CHANGELOG.md]CHANGELOG.md[/url]
 ```
-
-### 1.1.0
-
-```
-[b]1.1.0[/b]
-
-[list]
-[*] Support for the latest RimWorld version, declared after an English-language test pass. No change to the defs or to the code.
-[/list]
-
-Full list of changes: [url=https://github.com/vbardales/Rimworld-Animal-Cosmetic-Genes/blob/main/CHANGELOG.md]CHANGELOG.md[/url]
-```
-
-### 1.0.0
-
-```
-[b]1.0.0[/b]
-
-[list]
-[*] Cosmetic animal traits for Animal Traits System: one trait per colour gene (241 coat tints). Each tints the coat with the gene colour, is never drawn at random, and is inherited by offspring.
-[*] Serum bench: a bill destroys a genepack and makes one serum for each gene that gives a coat trait.
-[*] Serum use: a colonist right-clicks an animal and applies the serum; the trait is added if the species and the exclusivity rules allow it, then the serum is used up.
-[*] Chest patch: a white tuxedo bib for Kuru, the black cat of Let's Have a Cat! Continued.
-[*] Genes of other mods (Genes Expanded, Seren, Cookie Genes) are mapped without manual work.
-[/list]
-
-Full list of changes: [url=https://github.com/vbardales/Rimworld-Animal-Cosmetic-Genes/blob/main/CHANGELOG.md]CHANGELOG.md[/url]
-```
