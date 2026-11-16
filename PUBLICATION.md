@@ -70,7 +70,7 @@ Upload in this order (the files of `Art/Gallery/`, subtitles burnt in before Vir
 | 6 | 6-genepack-window.jpg | the genepack window with the chest patch gene | none (interface capture) |
 | 7 | 7-three-vials.jpg | three serums on the bench, blue, orange and purple liquids | Three genes, three colours. |
 
-The table matches the gallery table of `STATUS.md` (six accepted by Virginie, 2026-11-09; shot 7 added 2026-11-13 on her word, awaiting capture).
+The table matches the gallery table of `STATUS.md` (all seven images validated by Virginie, 2026-11-16).
 
 ## Dependencies and DLC
 
@@ -191,6 +191,18 @@ One English line per story scene, burnt in with `../scripts/Add-Subtitle.ps1` fr
 ## Release notes (the change note of each upload)
 
 The change note sent to Steam with an upload, under the heading of its version: the manual workflow reads the block under `### <version>` (`../PUBLISHING.md`, "Publier par la CI"), and the `## [<version>]` section of `CHANGELOG.md` goes into the GitHub release. The first line carries the version in BBCode. Limit 8000 bytes.
+
+### 1.2.0
+
+```
+[b]1.2.0[/b]
+
+[list]
+[*] The liquid of a serum now takes the colour of the coat tint its gene gives, instead of one turquoise vial for every trait. A gene without a colour of its own, such as the chest patch, keeps the turquoise vial.
+[/list]
+
+Full list of changes: [url=https://github.com/vbardales/Rimworld-Animal-Cosmetic-Genes/blob/main/CHANGELOG.md]CHANGELOG.md[/url]
+```
 
 ### 1.1.0
 
