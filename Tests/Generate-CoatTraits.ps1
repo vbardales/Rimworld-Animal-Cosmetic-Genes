@@ -36,6 +36,11 @@ $inv = [Globalization.CultureInfo]::InvariantCulture
 function Format-Channel([int]$byte) { ($byte / 255.0).ToString('0.###', $inv) }
 
 # "GES_Skin_BananaSplit" -> "banana split", "Skin_Melanin3" -> "melanin 3", "OL_HairSky" -> "sky"
+# Proper names kept capitalised in the displayed English text (review 2026-11-16: Midas, Mars, Maui, Gulf Stream); keys of ColourNames.fr.json stay lower case
+function Format-DisplayName([string]$n) {
+  $n -creplace '^gulfstream$', 'Gulf Stream' -creplace '^midas ', 'Midas ' -creplace '^mars ', 'Mars ' -creplace '^maui ', 'Maui '
+}
+
 function Get-ColourName([string]$defName) {
   $s = $defName -replace '^(GES|GEH|LYN|OL)_', '' -replace '^(Skin|Hair)_?', ''
   $s = ($s -creplace '([a-z])([A-Z])', '$1 $2') -creplace '([A-Za-z])([0-9])', '$1 $2'
@@ -94,10 +99,11 @@ foreach ($g in $genes) {
   [void]$t.AppendLine('')
   [void]$t.AppendLine('  <HediffDef ParentName="ACG_GeneTintBase">')
   [void]$t.AppendLine("    <defName>AnimalTrait_$($g.Name)</defName>")
-  [void]$t.AppendLine("    <label>$($g.Name2) coat</label>")
+  $disp = Format-DisplayName $g.Name2
+  [void]$t.AppendLine("    <label>$disp coat</label>")
   # The colour name is an adjective ("pale", "golden") or a noun ("apricot"): "A <name> tint" reads right for both
   $article = if ($g.Name2 -match '^[aeiou]') { 'An' } else { 'A' }
-  [void]$t.AppendLine("    <description>$article $($g.Name2) tint runs through this animal's coat.</description>")
+  [void]$t.AppendLine("    <description>$article $disp tint runs through this animal's coat.</description>")
   [void]$t.AppendLine("    <skinColorTint>$tint</skinColorTint>")
   [void]$t.AppendLine('    <modExtensions>')
   [void]$t.AppendLine('      <li Class="AnimalTraitExtension.AnimalTraitExtension">')
