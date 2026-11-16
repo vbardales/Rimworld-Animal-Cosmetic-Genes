@@ -1,5 +1,6 @@
 {
   "panel": {
+    "panelBare": true,
     "title": "Animal Cosmetic Genes",
     "titleParts": [
       { "text": "Animal Cosmetic Genes" }
