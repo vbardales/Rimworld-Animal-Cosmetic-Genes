@@ -106,17 +106,16 @@ Steps read: 2026-11-16 (NPT steps since 2026-11-12: Beauty2 mouth vertical offse
 
 ## Shotlist
 
-2026-11-07, plan in `Tests/Pickle/Mod/Pickle/Features/acg-gallery.feature` header (director pass: Opus sub-agent). Story: one clear day, Nelim (researcher outfit) gives colour to the animals. Plan rating (rate-gallery, plan only, no capture) 2026-11-07 after the director fixes (foreground, background, instant per shot; bench shot at root size 4 for criterion j): 5 on shots 1 to 5, k ok on the series (opening 1, closing 5, wide, medium, close). Gate 1 passed, scenarios written (6 incl. the genepack window), Check-ShotlistVsScenario OK, Check-Steps OK. Cells are place centres, unconfirmed on a photo: a bad cell fails the first run and is fixed then.
+Plan in the header of `Tests/Pickle/Mod/Pickle/Features/acg-gallery.feature` (director pass 2026-11-07, recomposed since; Check-ShotlistVsScenario OK 2026-11-16). Story: one clear day at the Sanctuary, Nelim (researcher outfit) gives colour to the animals. Plan rated 5 on shots 1 to 5 (2026-11-07), k ok on the series (opening 1, closing 5, wide, medium, close); shots 6 (interface window, not rated) and 7 (three vials, added 2026-11-13 on Virginie's word) follow the same story. Gallery state 2026-11-16, files in `Art/Gallery/` (subtitled) and `Art/Gallery-clean/`:
 
-| Shot | a time frame | b decor | c living | d pawns | e action (instant) | f composition | g subject | j mod | plan |
-|---|---|---|---|---|---|---|---|---|---|
-| 1 bench-1-dawn | preindustrial-workshop 07:00 clear | torches, stool, daylily pot, sculpture, genepack container (cells to confirm) | Shogun sits, head up | Nelim researcher outfit, smirk | DoBill paused tick ~2000, vial about to come out | wide-medium, opening | a serum is nearly done | bench + genepack | 5 |
-| 2 kuru-2-patch | hut 09:00 | table, cushions, andon, lantern | Kuru facing camera | same outfit | just after ApplySerum | close, zoom 2.5 | Kuru gets his patch | chest patch | 5 |
-| 3 labradors-3-coats | flower-garden 11:00 | daylilies, beds | tinted labrador, Shogun | same | labrador stands up, Nelim mid-stride | medium | same breed, two coats | teal tint | 5 |
-| 4 horse-4-serum | barn 14:00 | hay, lantern, trough | horse, alpaca violet | same | Nelim near the horse with serum | medium | next in line | serum, tint | 5 |
-| 5 bridge-5-dusk | river-bridge 17:30 | lantern, bridge | Shogun, labrador, horse | same | walking home mid-stride | wide, closing | home at dusk | tinted coats | 5 |
-k (series): one story day, opening 1, closing 5, wide/medium/close present: ok. Main risks: cells unconfirmed, tinted anonymous labrador/horse/alpaca must exist in the save (ask NPT), pause mid-stride needs a goto job.
+| Shot | File | Place and hour | Subject | State |
+|---|---|---|---|---|
+| 1 | 1-bench-dawn.jpg | preindustrial-workshop 07:00 | serum comes out of the bench | validated by Virginie |
+| 2 | 2-kuru-patch.jpg | hut 10:00, macro | Kuru gets his chest patch | validated by Virginie |
+| 3 | 3-labradors.jpg | flower-garden 11:00 | same breed, two coats | validated by Virginie |
+| 4 | 4-horse-serum.jpg | barn 14:00 | next in line: the horse, tinted alpaca | candidate a81f (mouth offset D 0.035, DY 0.015), awaits her sixth verdict |
+| 5 | 5-bridge-dusk.jpg | river-bridge 17:00 | home at dusk | validated by Virginie |
+| 6 | 6-genepack-window.jpg | interface window | genepack genes tab, no subtitle | validated by Virginie |
+| 7 | 7-three-vials.jpg | preindustrial-workshop 16:00 | three genes, three colours | validated by Virginie |
 
-Gallery tickets filed 2026-11-07 at 365e402 (map wsl-deps.acg-gallery.map): 20261107-225248-553-1a93 (shots 1 to 3, Tests/Pickle/Inbox/gallery-1) and 20261107-225254-077-b107 (shots 4 to 6, Tests/Pickle/Inbox/gallery-2). Keep Source/ and Mod/ and the feature frozen until RUN_DONE. At RUN_DONE: read summary.json and junit.xml, open every capture, rate-gallery for REDO or candidate.
-
-Subtitles (review-gallery step 10): PUBLICATION.md does not exist yet (writeDocs), so the five lines live in the header of acg-gallery.feature and move to PUBLICATION.md "Gallery subtitles" when it is written. Shot 6 (genepack window) gets none.
+Order (9.c): the bench opens (it shows what the mod does), the patch and the labradors show the two kinds of result, the horse and the vials carry the 1.2.0 serum colours, the bridge closes. Subtitle lines live in PUBLICATION.md "Gallery subtitles" (file names checked 2026-11-16, row 4 fixed to 4-horse-serum.jpg).

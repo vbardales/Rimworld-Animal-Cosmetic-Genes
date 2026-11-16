@@ -65,7 +65,7 @@ Upload in this order (the files of `Art/Gallery/`, subtitles burnt in before Vir
 | 1 | 1-bench-dawn.jpg | Nelim at the serum bench, vial ready, Shogun beside her | The serum is ready at the bench. |
 | 2 | 2-kuru-patch.jpg | Kuru, front view, with his white chest patch, Nelim holding the vial | Kuru gets his white chest patch. |
 | 3 | 3-labradors.jpg | two labradors, tan and pale red | Same breed, two coats. |
-| 4 | 4-horse.jpg | the barn horse and a tinted alpaca | Next in line: the barn horse. |
+| 4 | 4-horse-serum.jpg | the barn horse and a tinted alpaca | Next in line: the barn horse. |
 | 5 | 5-bridge-dusk.jpg | tinted animals at the bridge at dusk | Home at dusk, with a few new colours. |
 | 6 | 6-genepack-window.jpg | the genepack window with the chest patch gene | none (interface capture) |
 | 7 | 7-three-vials.jpg | three serums on the bench, blue, orange and purple liquids | Three genes, three colours. |
@@ -183,7 +183,7 @@ One English line per story scene, burnt in with `../scripts/Add-Subtitle.ps1` fr
 | 1 | 1-bench-dawn.jpg | The serum is ready at the bench. |
 | 2 | 2-kuru-patch.jpg | Kuru gets his white chest patch. |
 | 3 | 3-labradors.jpg | Same breed, two coats. |
-| 4 | 4-horse.jpg | Next in line: the barn horse. |
+| 4 | 4-horse-serum.jpg | Next in line: the barn horse. |
 | 5 | 5-bridge-dusk.jpg | Home at dusk, with a few new colours. |
 | 6 | 6-genepack-window.jpg | none (interface capture) |
 | 7 | 7-three-vials.jpg | Three genes, three colours. |
