@@ -17,7 +17,7 @@ dependencies: done
 workshop_required_items: done, 2026-11-10
 workshop: 3837162966
 published: yes
-tested_on: "2026-11-16/17 at d0346538 (published 1.2.0 = v1.2.0, 14.a non-regression green, 1.6): English 9 of 9 (ticket 13be), French 2 of 2 (1561), acg-serum-tint-look 1 of 1 (99fb), proofs Tests/Pickle/Evidence/nonreg-120-en, nonreg-120-fr, nonreg-120-tint. Earlier runs and older proofs: Docs/runs/2026-11-17-status-journal.md and git."
+tested_on: "2026-11-16/17 at d0346538 (published 1.2.0 = v1.2.0, 14.a non-regression green, 1.6): English 9 of 9 (ticket 13be), French 2 of 2 (1561), acg-serum-tint-look 1 of 1 (99fb), proofs Tests/Pickle/Evidence/nonreg-120-en, nonreg-120-fr, nonreg-120-tint. 13.b subscribe-test of published 1.2.0 OK 2026-11-17 (PiI: item 3837162966 on disk, About.xml modVersion 1.2.0, files identical to d0346538 Mod). Earlier runs and older proofs: Docs/runs/2026-11-17-status-journal.md and git."
 remaining:
   - "14.c cleanUp[1.2.0] DONE 2026-11-17, stage dormant[1.2.0] (WSL: PiI cleanup of 2026-11-13 stands, ACG wsl-deps unchanged since; no extra branch, only main): STATUS front matter condensed (old text in Docs/runs/2026-11-17-status-journal.md); TESTING.md and PUBLICATION.md done (old release notes 1.1.0, 1.0.0 moved to the journal), no other internal doc to trim; still to do: WSL cleanup (PiI did a first one 2026-11-13: ATS 3652630316 protected, unsubscribe links given to Virginie), 14.d branches (only main exists), then 14.e dormant[1.2.0]."
   - "Idea only (Lucius, Workshop, 2026-11-10): Vanilla Ranching Expanded adds an animal gene system, ACG might fit as an addon. Check the mod when out before any plan; not a dependency."
