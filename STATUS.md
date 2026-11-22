@@ -19,13 +19,14 @@ workshop: 3837162966
 published: yes
 tested_on: "2026-11-16/17 at d0346538 (published 1.2.0 = v1.2.0, 14.a non-regression green, 1.6): English 9 of 9 (ticket 13be), French 2 of 2 (1561), acg-serum-tint-look 1 of 1 (99fb), proofs Tests/Pickle/Evidence/nonreg-120-en, nonreg-120-fr, nonreg-120-tint. 13.b subscribe-test of published 1.2.0 OK 2026-11-17 (PiI: item 3837162966 on disk, About.xml modVersion 1.2.0, files identical to d0346538 Mod). Earlier runs and older proofs: Docs/runs/2026-11-17-status-journal.md and git."
 remaining:
-  - "9.f OPEN (replay 2026-11-22, range ecosystem..): gallery_validated_sha absent; needs Virginie oui on the 7 images of Art/Gallery (Get-GalleryHash.ps1 gives e3cb6a56...), then write the field. 10.a bis: preview_source_decision (keep|redo) absent, to ask after the gallery oui. Not replayed beyond 9: sections 10 to 14. Hygiene: Docs/runs holds journals other than pickle.md (AGENTS.md migration). Still to do from 14.c: WSL cleanup follow-up (PiI cleanup of 2026-11-13 stands); branches (only main exists)."
+  - "9.f done 2026-11-22 (gallery_validated_sha written after her oui). 10.a bis: preview_source_decision (keep|redo) absent, to ask after the gallery oui. Not replayed beyond 9: sections 10 to 14. Hygiene: Docs/runs holds journals other than pickle.md (AGENTS.md migration). Still to do from 14.c: WSL cleanup follow-up (PiI cleanup of 2026-11-13 stands); branches (only main exists)."
   - "Idea only (Lucius, Workshop, 2026-11-10): Vanilla Ranching Expanded adds an animal gene system, ACG might fit as an addon. Check the mod when out before any plan; not a dependency."
   - "BACKLOG (owner, 2026-11-02): chest patch for every cat mod, not only Kuru (akaNEKO_kuroneko): explicit XML list of animal defs extended by patches, marking drawn from the sprite silhouette; test on two cats at least. Kuru textures stay the reference."
 ecosystem_line: 1.2
 code_review_sha: f2f11d808602b05f2601d4103784b3113802b26c
 publication_changelog_review_sha: d0346538fd6b13e02384ceb165454c7efc2ccd03
 echo_review_sha: eba369d0159d8306314fbc1d5b0cc2845420c31a
+gallery_validated_sha: e3cb6a560a9cf9d9666ff4d96b35b1911a41b129  # 2026-11-22 oui de Virginie
 social_preview_sha256: 69c97fc3cd52d170f68991f0c71b6c2c8bc8343bdc4c1949cdfed87749bd45af
 tested_1_7: yes
 updated: 2026-11-22
