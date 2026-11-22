@@ -20,7 +20,7 @@ copied or used, and it has no licence file.
 
 ## Gallery set
 
-Mods loaded for the gallery captures of this mod and visible in them. Not part of the mod, not dependencies, nothing copied. One line each: name, author, Workshop id. The wardrobe, hair and lighting mods that carry the scenes are credited in the Steam description; the rest of the shared map is not credited here because the scenes of this mod do not use it.
+Mods loaded for the gallery captures of this mod and visible in them. Not part of the mod, not dependencies, nothing copied. One line each: name, author, Workshop id. The wardrobe, hair and lighting mods that carry the scenes are listed here and credited in the Steam description. The mods of the shared map that no scene of this mod uses are listed after them, one line each.
 
 - Female Body Variants Continued, DanZinagri and tiagocc0, 3798082132
 - Female Apparel Variants Continued, DanZinagri and tiagocc0, 3799726535
@@ -38,5 +38,21 @@ Mods loaded for the gallery captures of this mod and visible in them. Not part o
 - Cuter Kids for Facial Animation, ria, 3807706870
 - NL Facial Animation - Init Fix, Moshii, 3609895011
 - NL Facial Animation - Load Fix, CCJ, 3721489042
+- Lisa's Work Apparel, Hysteria82, 3709891968: the shirt, skirt and glasses Nelim wears in every capture
+- Ponpeco Accessories, ponpeco, 3298397484: the earrings Nelim wears
+- Roo's HD Hairstyles (continued), Rooboid and Qux, 3559870636: Nelim's hairstyle
+- Stick Lantern (Continued), Dalrae and Mlie, 2024351846: the lanterns that light the scenes
+
+Not used in the captures: 1870010563 (UnderWhere, underwear only, no scene of this mod shows it)
+Not used in the captures: 2986402536 (Visible Pants, Nelim wears a skirt in every shot)
+Not used in the captures: 3760821540 (Hat Hair Control, no hat is worn in any shot)
+Not used in the captures: 3812924898 (Fairycore Apparel 2, another outfit, not worn here)
+Not used in the captures: 2023507013 (Vanilla Factions Expanded - Core, framework of an apparel mod of the map, nothing of it is visible)
+Not used in the captures: 1814987817 (Vanilla Apparel Expanded - Preindustrial, a map apparel mod, not worn here)
+Not used in the captures: 3592569869 (FashionRIMsta, another outfit, not worn here)
+Not used in the captures: 3751997843 (Raiments, another outfit, not worn here)
+Not used in the captures: 3482959515 (Ponpeco Pajamas, a sleep outfit, not worn here)
+Not used in the captures: 2840348927 (Swimwear, not worn here)
+Not used in the captures: 3627646170 (Cinderella, a ball gown, not worn here)
 
 **Licence:** MIT (`LICENSE`).
