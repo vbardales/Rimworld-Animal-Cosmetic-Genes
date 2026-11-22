@@ -5,7 +5,7 @@ repo: Rimworld-Animal-Cosmetic-Genes
 remote: https://github.com/vbardales/Rimworld-Animal-Cosmetic-Genes.git
 visibility: public             # original creation, nothing taken from another mod (PUBLISHING.md, "Nommage")
 detached: yes
-workflow_stage: ecosystem[1.2.0]
+workflow_stage: shootGallery[1.2.0]
 licence: original
 licence_at: "2026-10-31: original work, MIT (LICENSE and Mod/LICENSE). No third-party code: Animal Traits System (Luved) is a dependency only, Gene Freedom (FarmerJoe) was disassembled to study, nothing copied."
 upstream_mod_remotes: N/A      # no source mod: Big and Small, Gene Freedom and Animal Traits System gave the idea or the framework only, none of their code is used
@@ -19,7 +19,7 @@ workshop: 3837162966
 published: yes
 tested_on: "2026-11-16/17 at d0346538 (published 1.2.0 = v1.2.0, 14.a non-regression green, 1.6): English 9 of 9 (ticket 13be), French 2 of 2 (1561), acg-serum-tint-look 1 of 1 (99fb), proofs Tests/Pickle/Evidence/nonreg-120-en, nonreg-120-fr, nonreg-120-tint. 13.b subscribe-test of published 1.2.0 OK 2026-11-17 (PiI: item 3837162966 on disk, About.xml modVersion 1.2.0, files identical to d0346538 Mod). Earlier runs and older proofs: Docs/runs/2026-11-17-status-journal.md and git."
 remaining:
-  - "Later holds seen by the replay (not replayed yet): 9.f gallery_validated_sha absent (needs Virginie oui on the 7 images, Get-GalleryHash.ps1); 10.a bis preview_source_decision absent (needs her keep|redo answer); Docs/runs holds journals other than pickle.md (migration of AGENTS.md, Repository hygiene); TESTING.md header still says published 1.1.0. Still to do from 14.c: WSL cleanup follow-up (PiI cleanup of 2026-11-13 stands), branches (only main exists)."
+  - "9.f OPEN (replay 2026-11-22, range ecosystem..): gallery_validated_sha absent; needs Virginie oui on the 7 images of Art/Gallery (Get-GalleryHash.ps1 gives e3cb6a56...), then write the field. 10.a bis: preview_source_decision (keep|redo) absent, to ask after the gallery oui. Not replayed beyond 9: sections 10 to 14. Hygiene: Docs/runs holds journals other than pickle.md (AGENTS.md migration). Still to do from 14.c: WSL cleanup follow-up (PiI cleanup of 2026-11-13 stands); branches (only main exists)."
   - "Idea only (Lucius, Workshop, 2026-11-10): Vanilla Ranching Expanded adds an animal gene system, ACG might fit as an addon. Check the mod when out before any plan; not a dependency."
   - "BACKLOG (owner, 2026-11-02): chest patch for every cat mod, not only Kuru (akaNEKO_kuroneko): explicit XML list of animal defs extended by patches, marking drawn from the sprite silhouette; test on two cats at least. Kuru textures stay the reference."
 ecosystem_line: 1.2
@@ -29,7 +29,7 @@ echo_review_sha: eba369d0159d8306314fbc1d5b0cc2845420c31a
 social_preview_sha256: 69c97fc3cd52d170f68991f0c71b6c2c8bc8343bdc4c1949cdfed87749bd45af
 tested_1_7: yes
 updated: 2026-11-22
-protocols_read_sha: 6eb4ec54dc40c1ef5e560f0070416572eee5f3b6
+protocols_read_sha: da9d9779ffdb51fb7b3c88e8184b34a32781deb6
 ---
 
 # Animal Cosmetic Genes: status
