@@ -5,7 +5,7 @@ repo: Rimworld-Animal-Cosmetic-Genes
 remote: https://github.com/vbardales/Rimworld-Animal-Cosmetic-Genes.git
 visibility: public             # original creation, nothing taken from another mod (PUBLISHING.md, "Nommage")
 detached: yes
-workflow_stage: dormant[1.2.0]
+workflow_stage: ecosystem[1.2.0]
 licence: original
 licence_at: "2026-10-31: original work, MIT (LICENSE and Mod/LICENSE). No third-party code: Animal Traits System (Luved) is a dependency only, Gene Freedom (FarmerJoe) was disassembled to study, nothing copied."
 upstream_mod_remotes: N/A      # no source mod: Big and Small, Gene Freedom and Animal Traits System gave the idea or the framework only, none of their code is used
@@ -19,7 +19,8 @@ workshop: 3837162966
 published: yes
 tested_on: "2026-11-16/17 at d0346538 (published 1.2.0 = v1.2.0, 14.a non-regression green, 1.6): English 9 of 9 (ticket 13be), French 2 of 2 (1561), acg-serum-tint-look 1 of 1 (99fb), proofs Tests/Pickle/Evidence/nonreg-120-en, nonreg-120-fr, nonreg-120-tint. 13.b subscribe-test of published 1.2.0 OK 2026-11-17 (PiI: item 3837162966 on disk, About.xml modVersion 1.2.0, files identical to d0346538 Mod). Earlier runs and older proofs: Docs/runs/2026-11-17-status-journal.md and git."
 remaining:
-  - "14.c cleanUp[1.2.0] DONE 2026-11-17, stage dormant[1.2.0] (WSL: PiI cleanup of 2026-11-13 stands, ACG wsl-deps unchanged since; no extra branch, only main): STATUS front matter condensed (old text in Docs/runs/2026-11-17-status-journal.md); TESTING.md and PUBLICATION.md done (old release notes 1.1.0, 1.0.0 moved to the journal), no other internal doc to trim; still to do: WSL cleanup (PiI did a first one 2026-11-13: ATS 3652630316 protected, unsubscribe links given to Virginie), 14.d branches (only main exists), then 14.e dormant[1.2.0]."
+  - "2.h ecosystem[1.2.0] OPEN (replay 2026-11-22): ecosystem_line absent from the front matter; last report docs/inventory/ecosystem-steam/AnimalCosmeticGenes.md dated 2026-11-13. Ask PiI for the short delta (ECOSYSTEM? AnimalCosmeticGenes | DELTA depuis 2026-11-13), then write ecosystem_line: 1.2."
+  - "Later holds seen by the replay (not replayed yet): 9.f gallery_validated_sha absent (needs Virginie oui on the 7 images, Get-GalleryHash.ps1); 10.a bis preview_source_decision absent (needs her keep|redo answer); Docs/runs holds journals other than pickle.md (migration of AGENTS.md, Repository hygiene); TESTING.md header still says published 1.1.0. Still to do from 14.c: WSL cleanup follow-up (PiI cleanup of 2026-11-13 stands), branches (only main exists)."
   - "Idea only (Lucius, Workshop, 2026-11-10): Vanilla Ranching Expanded adds an animal gene system, ACG might fit as an addon. Check the mod when out before any plan; not a dependency."
   - "BACKLOG (owner, 2026-11-02): chest patch for every cat mod, not only Kuru (akaNEKO_kuroneko): explicit XML list of animal defs extended by patches, marking drawn from the sprite silhouette; test on two cats at least. Kuru textures stay the reference."
 code_review_sha: f2f11d808602b05f2601d4103784b3113802b26c
@@ -27,8 +28,8 @@ publication_changelog_review_sha: d0346538fd6b13e02384ceb165454c7efc2ccd03
 echo_review_sha: eba369d0159d8306314fbc1d5b0cc2845420c31a
 social_preview_sha256: 69c97fc3cd52d170f68991f0c71b6c2c8bc8343bdc4c1949cdfed87749bd45af
 tested_1_7: yes
-updated: 2026-11-17
-protocols_read_sha: e931f102ddf5e23e17f1a608d417b542778b4b72
+updated: 2026-11-22
+protocols_read_sha: 6eb4ec54dc40c1ef5e560f0070416572eee5f3b6
 ---
 
 # Animal Cosmetic Genes: status
