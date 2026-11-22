@@ -19,7 +19,7 @@ workshop: 3837162966
 published: yes
 tested_on: "2026-11-16/17 at d0346538 (published 1.2.0 = v1.2.0, 14.a non-regression green, 1.6): English 9 of 9 (ticket 13be), French 2 of 2 (1561), acg-serum-tint-look 1 of 1 (99fb), proofs Tests/Pickle/Evidence/nonreg-120-en, nonreg-120-fr, nonreg-120-tint. 13.b subscribe-test of published 1.2.0 OK 2026-11-17 (PiI: item 3837162966 on disk, About.xml modVersion 1.2.0, files identical to d0346538 Mod). Earlier runs and older proofs: Docs/runs/2026-11-17-status-journal.md and git."
 remaining:
-  - "10.a bis OPEN (replay 2026-11-22, range shootGallery.., Virginie typed it): preview_source_decision (keep|redo) absent; ask her keep or redo of Art/Preview-source.png (separate from the echo), then write the field. 9.f done (gallery_validated_sha written after her oui). Sections 11 to 14 not replayed. Hygiene: Docs/runs holds journals other than pickle.md (AGENTS.md migration), Docs/PROMPT_ACG.md is stale. Still to do from 14.c: WSL cleanup follow-up (PiI cleanup of 2026-11-13 stands); branches (only main exists)."
+  - "Replay 2026-11-22 (range shootGallery..): 10.a bis done (preview_source_decision keep). First open now 11.h (thanks_drafted_line absent, gallery mods not in the thank-you table) and 11.j (gallery-credits: 15 gallery pass mods missing from ATTRIBUTION.md Gallery set, or a Not used in the captures line each). Proposed stage writeReleaseDocs[1.2.0], waits for Virginie's oui. Sections 12 to 14 not replayed. Hygiene: Docs/runs holds journals other than pickle.md (AGENTS.md migration), Docs/PROMPT_ACG.md is stale. Still to do from 14.c: WSL cleanup follow-up (PiI cleanup of 2026-11-13 stands); branches (only main exists)."
   - "Idea only (Lucius, Workshop, 2026-11-10): Vanilla Ranching Expanded adds an animal gene system, ACG might fit as an addon. Check the mod when out before any plan; not a dependency."
   - "BACKLOG (owner, 2026-11-02): chest patch for every cat mod, not only Kuru (akaNEKO_kuroneko): explicit XML list of animal defs extended by patches, marking drawn from the sprite silhouette; test on two cats at least. Kuru textures stay the reference."
 ecosystem_line: 1.2
@@ -27,6 +27,7 @@ code_review_sha: f2f11d808602b05f2601d4103784b3113802b26c
 publication_changelog_review_sha: d0346538fd6b13e02384ceb165454c7efc2ccd03
 echo_review_sha: eba369d0159d8306314fbc1d5b0cc2845420c31a
 gallery_validated_sha: e3cb6a560a9cf9d9666ff4d96b35b1911a41b129  # 2026-11-22 oui de Virginie
+preview_source_decision: keep, 2026-11-22  # Virginie: on garde preview
 social_preview_sha256: 69c97fc3cd52d170f68991f0c71b6c2c8bc8343bdc4c1949cdfed87749bd45af
 tested_1_7: yes
 updated: 2026-11-22
