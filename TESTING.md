@@ -17,13 +17,13 @@ One scenario per promised behaviour. Pickle scenarios in `Tests/Pickle/Mod/Pickl
 | Second coat tint refused, French menu | acg-serum-second-tint-refused-fr (acg-serum-apply) | French copy, step matches French float menu label |
 | Chest patch drawn on cat Kuru | acg-chest-patch-kuroneko (acg-chest-patch) | white patch on chest, south, east and west, paws free |
 
-## Automated checks, current revision (published 1.1.0, Source and Mod last changed fa88ffe, replayed 2026-11-13)
+## Automated checks, current revision (published 1.2.0, Source and Mod last changed f2f11d8, replayed 2026-11-22)
 
 - Unit tests (`Run-UnitTests.ps1`): AtsRules, all passed.
 - `Check-Translations.ps1`: PASS (503 source texts plus 1 nested, 6 Keyed calls). `Check-ModBasics.ps1`: 19 XML files, 254 defs, PASS, one WARN (About description must end with the GitHub source link).
 - `Tests/Test-Mod.ps1` (shared checks, then `Tests/Rule-OwnValues.ps1`): 6 of 6 pass.
 - `Check-Steps.ps1`: 7 feature files parse (26 scenario blocks), 661 step lines resolve, none declared twice.
-- Pickle non-regression of the published 1.1.0 (2026-11-12, 1.6): English 9 of 9 (ticket c6b2), French 2 of 2 (ticket d5d0), proofs in `Tests/Pickle/Evidence/nonreg-110-en` and `nonreg-110-fr`.
+- Pickle non-regression of the published 1.2.0 (2026-11-16/17, 1.6): English 9 of 9 (ticket 13be), French 2 of 2 (ticket 1561), acg-serum-tint-look 1 of 1 (ticket 99fb), proofs in `Tests/Pickle/Evidence/nonreg-120-en`, `nonreg-120-fr` and `nonreg-120-tint`.
 
 ## Not applicable
 
