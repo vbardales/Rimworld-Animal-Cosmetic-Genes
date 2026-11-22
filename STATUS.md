@@ -31,7 +31,7 @@ preview_source_decision: keep, 2026-11-22  # Virginie: on garde preview
 social_preview_sha256: 69c97fc3cd52d170f68991f0c71b6c2c8bc8343bdc4c1949cdfed87749bd45af
 tested_1_7: yes
 updated: 2026-11-22
-protocols_read_sha: 9ab67bbe5cef96f01ec08a3967f60f36f78e0406
+protocols_read_sha: 8b89a5e1d68ec95f555da89f47eb7c1ac0ae1ec5
 ---
 
 # Animal Cosmetic Genes: status
